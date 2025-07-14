@@ -95,7 +95,7 @@ jobs:
             date
             echo "sketching complete! removing extra files"
             rm -rf ${ge}_${sp}_${id}.fasta ncbi_dataset/ ncbi_dataset.zip README.md md5sum.txt
-          done < split_ids/x${{ github.event.inputs.chunk }}.txt
+          done < ../split_ids/x${{ github.event.inputs.chunk }}.txt
 
           rm -rf tmp
 
