@@ -52,6 +52,9 @@ jobs:
             if [ ! -n "$ge" ] ; then ge="unknown" ; fi
             sp=$(echo $line | awk '{print $3}')
             if [ ! -n "$sp" ] ; then sp="unknown" ; fi
+
+            wc -l ../split_ids/x${{ github.event.inputs.chunk }}.txt
+            grep -n $line ../split_ids/x${{ github.event.inputs.chunk }}.txt
             
             j=0
             while [ $j -lt 1 ]
