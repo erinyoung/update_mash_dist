@@ -37,7 +37,7 @@ jobs:
       - name: remove old files
         run: |
           mkdir -p split_msh
-          rm -rf split_mash/*
+          rm -rf split_msh/${{ github.event.inputs.chunk }}.msh
 
       - name: work some magic
         run: |
