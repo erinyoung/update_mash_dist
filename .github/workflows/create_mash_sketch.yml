@@ -100,12 +100,11 @@ jobs:
             rm -rf ${ge}_${sp}_${id}.fasta ncbi_dataset/ ncbi_dataset.zip README.md md5sum.txt
           done < ../split_ids/x${{ github.event.inputs.chunk }}.txt
 
-          rm -rf tmp
-
       - name: add new files
         run: | 
-          mv final.msh split_msh/${{ github.event.inputs.chunk }}.msh
+          mv tmp/final.msh split_msh/${{ github.event.inputs.chunk }}.msh
           ls split_msh
+          rm -rf tmp
           
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
