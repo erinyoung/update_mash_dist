@@ -54,7 +54,7 @@ jobs:
             if [ ! -n "$sp" ] ; then sp="unknown" ; fi
 
             wc -l ../split_ids/x${{ github.event.inputs.chunk }}.txt
-            grep -n $line ../split_ids/x${{ github.event.inputs.chunk }}.txt
+            grep -n $id ../split_ids/x${{ github.event.inputs.chunk }}.txt
             
             j=0
             while [ $j -lt 1 ]
