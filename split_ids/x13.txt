@@ -1,0 +1,1068 @@
+GCF_900176535.1	Pedobacter africanus
+GCF_026275365.1	Pedobacter agri
+GCF_036324255.1	Pedobacter albus
+GCF_003664035.1	Pedobacter alluvionis
+GCF_042684645.1	Pedobacter alpinus
+GCF_037482965.1	Pedobacter anseongensis
+GCF_900103515.1	Pedobacter antarcticus
+GCF_008195825.1	Pedobacter aquae
+GCF_030409415.1	Pedobacter aquatilis
+GCF_000302595.1	Pedobacter arcticus A12
+GCF_000708285.2	Pedobacter borealis DSM 19626
+GCF_042675945.1	Pedobacter boryungensis
+GCF_900129215.1	Pedobacter caeni
+GCF_004354365.1	Pedobacter changchengzhani
+GCF_003339865.1	Pedobacter chinensis
+GCF_004025525.1	Pedobacter chitinilyticus
+GCF_003259615.1	Pedobacter cryoconitis
+GCF_005116455.1	Pedobacter cryophilus
+GCF_005116475.1	Pedobacter cryotolerans
+GCF_024436415.1	Pedobacter deserti
+GCF_004362245.1	Pedobacter duraquae
+GCF_015679185.1	Pedobacter endophyticus
+GCF_030182585.1	Pedobacter faecalis
+GCF_014306625.1	Pedobacter fastidiosus
+GCF_036324285.1	Pedobacter flavus
+GCF_044501175.1	Pedobacter foliorum
+GCF_004331675.1	Pedobacter frigidisoli
+GCF_004331645.1	Pedobacter frigiditerrae
+GCF_005116445.1	Pedobacter frigoris
+GCF_014172405.1	Pedobacter gandavensis
+GCF_903166585.1	Pedobacter ghigonis
+GCF_030244015.1	Pedobacter ginsengisoli
+GCF_039537385.1	Pedobacter ginsengiterrae
+GCF_001442625.1	Pedobacter ginsenosidimutans
+GCF_000425145.1	Pedobacter glucosidilyticus DSM 23534
+GCF_900107535.1	Pedobacter hartonius
+GCF_005925325.2	Pedobacter helvus
+GCF_000023825.1	Pedobacter heparinus DSM 2366
+GCF_005144565.1	Pedobacter hiemivivus
+GCF_037482985.1	Pedobacter immunditicola
+GCF_900113525.1	Pedobacter insulae
+GCF_042650905.1	Pedobacter jamesrossensis
+GCF_003725795.1	Pedobacter jejuensis
+GCF_039538295.1	Pedobacter jeongneungensis
+GCF_004310665.1	Pedobacter kyonggii
+GCF_000812965.1	Pedobacter kyungheensis
+GCF_042650845.1	Pedobacter lithocola
+GCF_040026395.1	Pedobacter lusitanus
+GCF_042683465.1	Pedobacter mendelii
+GCF_004362715.1	Pedobacter metabolipauper
+GCF_003315595.1	Pedobacter miscanthi
+GCF_022809115.1	Pedobacter montanisoli
+GCF_022200785.1	Pedobacter mucosus
+GCF_003313325.1	Pedobacter namyangjuensis
+GCF_003313505.1	Pedobacter nanyangensis
+GCF_004335085.1	Pedobacter nototheniae
+GCF_003208655.1	Pedobacter nutrimenti
+GCF_900176505.1	Pedobacter nyackensis
+GCF_003173575.1	Pedobacter paludis
+GCF_013204795.1	Pedobacter panaciterrae
+GCF_042683545.1	Pedobacter petrophilus
+GCF_014172375.1	Pedobacter planticolens
+GCF_005116505.1	Pedobacter polaris
+GCF_019802255.1	Pedobacter polysacchareus
+GCF_004331735.1	Pedobacter psychrodurus
+GCF_001652725.1	Pedobacter psychrophilus
+GCF_004331695.1	Pedobacter psychroterrae
+GCF_004340665.1	Pedobacter psychrotolerans
+GCF_027213715.1	Pedobacter punctiformis
+GCF_009674685.1	Pedobacter puniceum
+GCF_014642175.1	Pedobacter quisquiliarum
+GCF_900111155.1	Pedobacter rhizosphaerae
+GCF_027213645.1	Pedobacter rhodius
+GCF_014692875.1	Pedobacter riviphilus
+GCF_014395225.1	Pedobacter roseus
+GCF_026240095.1	Pedobacter sandarakinus
+GCF_900564155.1	Pedobacter schmidteae
+GCF_016623585.1	Pedobacter segetis
+GCF_900101435.1	Pedobacter soli
+GCF_900103665.1	Pedobacter steynii
+GCF_037622515.1	Pedobacter superstes
+GCF_007833675.1	Pedobacter suwonensis
+GCF_900100705.1	Pedobacter terrae
+GCF_005925345.2	Pedobacter ureilyticus
+GCF_042684385.1	Pedobacter vanadiisoli
+GCF_900182595.1	Pedobacter westerhofensis
+GCF_900215335.1	Pedobacter xixiisoli
+GCF_003173595.1	Pedobacter yonginense
+GCF_003029735.1	Pedobacter yulinensis
+GCF_014641575.1	Pedobacter zeae
+GCF_039532215.1	Pedococcus aerophilus
+GCF_013408925.1	Pedococcus badiiscoriae
+GCF_039531795.1	Pedococcus bigeumensis
+GCF_900111375.1	Pedococcus cremeus
+GCF_900104525.1	Pedococcus dokdonensis
+GCF_039544395.1	Pedococcus ginsenosidimutans
+GCF_022569295.1	Pedomonas mirosovicensis
+GCF_000172555.1	Pedosphaera parvula Ellin514
+GCF_030504955.1	Peiella sedimenti
+GCF_003581645.1	Pelagerythrobacter aerophilus
+GCF_001028625.1	Pelagerythrobacter marensis
+GCF_034375205.1	Pelagerythrobacter marinus
+GCF_004135625.1	Pelagerythrobacter rhizovicinus
+GCF_025854335.1	Pelagibacterium flavum
+GCF_013004005.1	Pelagibacterium halotolerans
+GCF_003345525.1	Pelagibacterium lacus
+GCF_014643755.1	Pelagibacterium lentulum
+GCF_015694405.1	Pelagibacterium limicola
+GCF_900100665.1	Pelagibacterium luteolum
+GCF_003992665.1	Pelagibacterium montanilacus
+GCF_037044555.1	Pelagibacterium nitratireducens
+GCF_003390885.1	Pelagibacterium sediminicola
+GCF_021166475.1	Pelagibacterium xiamenense
+GCF_003097315.1	Pelagibaculum spongiae
+GCF_011683915.1	Pelagibius litoralis
+GCF_014925385.1	Pelagibius marinus
+GCF_014230145.1	Pelagicoccus albus
+GCF_014803405.1	Pelagicoccus enzymogenes
+GCF_016595505.1	Pelagicoccus mobilis
+GCF_009371985.2	Pelagihabitans pacificus
+GCF_004364805.1	Pelagimonas phthalicica
+GCF_003208435.1	Pelagimonas varians
+GCF_900096905.1	Pelagirhabdus alkalitolerans
+GCF_003072125.1	Pelagivirga sediminicola
+GCF_016134045.1	Pelagovum pacificum
+GCF_013133775.1	Pelistega europaea
+GCF_000506865.1	Pelistega indica
+GCF_009833965.1	Pelistega ratti
+GCF_013133795.1	Pelistega suis
+GCF_000015045.1	Pelobacter propionicus DSM 2379
+GCF_000711225.1	Pelobacter seleniigenes DSM 18267
+GCF_003609575.1	Pelobium manganitolerans
+GCF_000012485.1	Pelodictyon luteolum DSM 273
+GCF_000020645.1	Pelodictyon phaeoclathratiforme BU-1
+GCF_003966975.1	Pelolinea submarina
+GCF_008014345.1	Pelomicrobium methylotrophicum
+GCF_029532055.1	Pelomonas aquatica
+GCF_043555935.1	Pelomonas baiyunensis
+GCF_043555985.1	Pelomonas candidula
+GCF_021353235.1	Pelomonas caseinilytica
+GCF_021353265.1	Pelomonas cellulosilytica
+GCF_043555865.1	Pelomonas dachongensis
+GCF_043555885.1	Pelomonas lactea
+GCF_043555875.1	Pelomonas margarita
+GCF_043555975.1	Pelomonas nitida
+GCF_043555835.1	Pelomonas parva
+GCF_030012175.1	Peloplasma aerotolerans
+GCF_018835585.1	Pelorhabdus rhamnosifermentans
+GCF_020819555.1	Pelosinus baikalensis
+GCF_000271485.2	Pelosinus fermentans DSM 17108
+GCF_900114615.1	Pelosinus propionicus DSM 13327
+GCF_018531195.1	Pelotalea chapellei
+GCF_029478095.1	Pelotomaculum isophthalicicum JI
+GCF_004369225.1	Pelotomaculum propionicicum
+GCF_004369205.1	Pelotomaculum schinkii
+GCF_022410535.1	Pelotomaculum terephthalicicum JT
+GCF_014773365.1	Pelovirga terrestris
+GCF_016464625.1	Penaeicola halotolerans
+GCF_037157815.1	Pendulispora albinea
+GCF_037157775.1	Pendulispora brunnea
+GCF_037157805.1	Pendulispora rubella
+GCF_004168625.1	Pengzhenrongella frigida
+GCF_045689905.1	Pengzhenrongella phosphoraccumulans
+GCF_017569225.1	Pengzhenrongella sicca
+GCF_008151785.1	Peptacetobacter hiranonis
+GCF_006861675.1	Peptacetobacter hominis
+GCF_001652275.1	Peptidiphaga gingivicola
+GCF_000238115.1	Peptoanaerobacter stomatis
+GCF_000597865.1	Peptoclostridium acidaminophilum DSM 3953
+GCF_000699585.2	Peptoclostridium litorale DSM 5388
+GCF_900101835.1	Peptococcus niger
+GCF_046097595.1	Peptococcus simiae
+GCF_016791605.1	Peptoniphilus asaccharolyticus
+GCF_901447155.2	Peptoniphilus catoniae
+GCF_000146345.1	Peptoniphilus duerdenii ATCC BAA-1640
+GCF_027921445.1	Peptoniphilus equinus
+GCF_012976305.1	Peptoniphilus faecalis
+GCF_023614525.1	Peptoniphilus genitalis
+GCF_016908115.1	Peptoniphilus gorbachii
+GCF_000311825.1	Peptoniphilus grossensis ph5
+GCF_016726485.1	Peptoniphilus harei
+GCF_040096015.1	Peptoniphilus hominis (ex Hitch et al. 2025)
+GCF_900454665.1	Peptoniphilus indolicus
+GCF_030812875.1	Peptoniphilus koenoeneniae
+GCF_900454715.1	Peptoniphilus lacrimalis
+GCF_900106515.1	Peptoniphilus lacydonensis
+GCF_000468535.1	Peptoniphilus mikwangii
+GCF_000311865.1	Peptoniphilus obesi ph1
+GCF_040545475.1	Peptoniphilus olsenii
+GCF_018919265.1	Peptoniphilus ovalis
+GCF_001517665.2	Peptoniphilus phoceensis
+GCF_001940285.1	Peptoniphilus porci
+GCF_943169845.1	Peptoniphilus rachelemmaiella
+GCF_900099555.1	Peptoniphilus raoultii
+GCF_000246925.1	Peptoniphilus rhinitidis 1-13
+GCF_000321025.1	Peptoniphilus senegalensis JC140
+GCF_017874395.1	Peptoniphilus stercorisuis
+GCF_000312025.1	Peptoniphilus timonensis JC401
+GCF_900176605.1	Peptoniphilus vaginalis
+GCF_000178095.1	Peptostreptococcus anaerobius 653-L
+GCF_017874285.1	Peptostreptococcus canis
+GCF_027125355.1	Peptostreptococcus equinus
+GCF_900240845.1	Peptostreptococcus faecalis
+GCF_009695815.1	Peptostreptococcus porci
+GCF_003012055.1	Peptostreptococcus russellii
+GCF_000147675.1	Peptostreptococcus stomatis DSM 17678
+GCF_034259205.1	Peredibacter starrii
+GCF_003073175.1	Peribacillus acanthi
+GCF_010882125.1	Peribacillus alkalitolerans
+GCF_025175645.1	Peribacillus aracenensis
+GCF_003570725.1	Peribacillus asahii
+GCF_001273755.1	Peribacillus butanolivorans
+GCF_021012855.1	Peribacillus castrilensis
+GCF_003989135.1	Peribacillus cavernae
+GCF_016909175.1	Peribacillus deserti
+GCF_014712675.1	Peribacillus faecalis
+GCF_022394675.1	Peribacillus frigoritolerans
+GCF_003429105.1	Peribacillus glennii
+GCF_014138605.1	Peribacillus huizhouensis
+GCF_000430765.1	Peribacillus kribbensis DSM 17871
+GCF_001183985.1	Peribacillus loiseleuriae
+GCF_045159795.1	Peribacillus muralis
+GCF_016724865.1	Peribacillus psychrosaccharolyticus
+GCF_003429095.1	Peribacillus saganii
+GCF_002243645.1	Peribacillus simplex NBRC 15720 = DSM 1321
+GCF_009466385.1	Peribacillus tepidiphilus
+GCF_004138335.1	Peristeroidobacter agariperforans
+GCF_004138485.1	Peristeroidobacter soli
+GCF_023701865.1	Periweissella beninensis
+GCF_004358325.1	Periweissella cryptocerci
+GCF_012396505.1	Periweissella fabalis
+GCF_918814575.1	Periweissella fabaria
+GCF_918814755.1	Periweissella ghanensis
+GCF_011174675.1	Perlabentimonas gracilis
+GCF_001676655.1	Perlucidibaca aquatica
+GCF_000420045.1	Perlucidibaca piscinae DSM 21586
+GCF_009756665.1	Permianibacter aggregans
+GCF_013179735.1	Permianibacter fluminis
+GCF_016617615.1	Persephonella atlantica
+GCF_900215515.1	Persephonella hydrogeniphila
+GCF_000021565.1	Persephonella marina EX-H1
+GCF_007993775.1	Persicimonas caeni
+GCF_016595495.1	Persicirhabdus sediminis
+GCF_014651615.1	Persicitalea jodogahamensis
+GCF_036244895.1	Persicobacter diffluens
+GCF_036492425.1	Persicobacter psychrovividus
+GCF_025660475.1	Perspicuibacillus lycopersici
+GCF_003258605.2	Peterkaempfera bronchialis
+GCF_001418575.1	Peterkaempfera griseoplana
+GCF_042466665.1	Peterkaempfera podocarpi
+GCF_030814435.1	Peteryoungia aggregata LMG 23059
+GCF_030369675.1	Peteryoungia algae
+GCF_005860795.2	Peteryoungia desertarenae
+GCF_004912165.1	Peteryoungia ipomoeae
+GCF_009939295.1	Petrachloros mirabilis ULC683
+GCF_004793545.1	Petralouisia muris
+GCF_900095795.1	Petrimonas mucosa
+GCF_051201015.1	Petrimonas sulfuriphila
+GCF_900538275.1	Petrocella atlantisensis
+GCF_002252565.1	Petroclostridium xylanilyticum
+GCF_013408985.1	Petropleomorpha daqingensis
+GCF_002924615.1	Petrotoga halophila DSM 16923
+GCF_002895565.1	Petrotoga mexicana DSM 14811
+GCF_002895605.1	Petrotoga miotherma DSM 10691
+GCF_000018605.1	Petrotoga mobilis SJ95
+GCF_002895525.1	Petrotoga olearia DSM 13574
+GCF_002924625.1	Petrotoga sibirica DSM 13575
+GCF_000744815.1	Phaeacidiphilus oryzae TH49
+GCF_000511385.1	Phaeobacter gallaeciensis DSM 26640
+GCF_002892185.1	Phaeobacter inhibens
+GCF_019801785.1	Phaeobacter italicus
+GCF_007923355.1	Phaeobacter marinintestinus
+GCF_000826835.2	Phaeobacter piscinae
+GCF_001888185.1	Phaeobacter porticola
+GCF_008933115.1	Phaeocystidibacter luteus
+GCF_008933165.1	Phaeocystidibacter marisrubri
+GCF_007993045.1	Phaeodactylibacter luteus
+GCF_000759025.1	Phaeodactylibacter xiamenensis
+GCF_042683125.1	Phaeospirillum tilakii
+GCF_014861485.1	Phaeovibrio sulfidiphilus
+GCF_004363195.1	Phaeovulum veldkampii DSM 11550
+GCF_900217755.1	Phaeovulum vinaykumarii
+GCF_003945365.1	Phascolarctobacterium faecium
+GCF_023497905.1	Phascolarctobacterium succinatutens
+GCF_022695515.1	Phenylobacterium aquaticum
+GCF_042679085.1	Phenylobacterium conjunctum
+GCF_003254705.1	Phenylobacterium deserti
+GCF_042714595.1	Phenylobacterium ferrooxidans
+GCF_016772415.1	Phenylobacterium glaciei
+GCF_014196295.1	Phenylobacterium haematophilum
+GCF_003254505.1	Phenylobacterium hankyongense
+GCF_001375595.1	Phenylobacterium immobile (ATCC 35973)
+GCF_040545335.1	Phenylobacterium koreense
+GCF_003254525.1	Phenylobacterium kunshanense
+GCF_018135625.1	Phenylobacterium montanum
+GCF_003150835.1	Phenylobacterium parvum
+GCF_003254475.1	Phenylobacterium soli
+GCF_042681205.1	Phenylobacterium terrae
+GCF_000017265.1	Phenylobacterium zucineum HLK1
+GCF_027923585.1	Philodulcilactobacillus myokoensis
+GCF_009740285.1	Phnomibacter ginsenosidimutans
+GCF_000312445.1	Phocaeicola abscessus CCUG 55929
+GCF_027529745.1	Phocaeicola acetigenes
+GCF_000374585.1	Phocaeicola barnesiae DSM 18169 = JCM 13652
+GCF_027688575.1	Phocaeicola coprocola
+GCF_016888945.1	Phocaeicola coprophilus
+GCF_013009555.1	Phocaeicola dorei
+GCF_021730445.1	Phocaeicola faecalis
+GCF_013618865.1	Phocaeicola faecicola
+GCF_014837055.1	Phocaeicola faecium
+GCF_025567125.1	Phocaeicola fibrisolvens
+GCF_014837065.1	Phocaeicola intestinalis
+GCF_000382445.1	Phocaeicola massiliensis B84634 = Timone 84634 = DSM 17679 = JCM 13223
+GCF_021295095.1	Phocaeicola oris
+GCF_036840555.1	Phocaeicola paurosaccharolyticus
+GCF_000187895.1	Phocaeicola plebeius DSM 17135
+GCF_000190575.1	Phocaeicola salanitronis DSM 18170
+GCF_013358205.1	Phocaeicola sartorii
+GCF_000012825.1	Phocaeicola vulgatus ATCC 8482
+GCF_903994035.1	Phocicoccus pinnipedialis
+GCF_014635565.1	Phocicoccus schoeneichii
+GCF_030764225.1	Phocoenobacter atlanticus subsp. atlanticus
+GCF_013377295.1	Phocoenobacter skyensis
+GCF_900454895.1	Phocoenobacter uteri
+GCF_900169485.1	Phoenicibacter congonensis
+GCF_004339575.1	Phorcysia thermohydrogeniphila
+GCF_003003695.1	Phormidesmis priestleyi ULC007
+GCF_017313335.1	Phormidium pseudopriestleyi FRX01
+GCF_001904775.1	Phormidium tenue NIES-30
+GCF_023983615.1	Phormidium yuhuli AB48
+GCF_019008365.1	Phosphitispora fastidiosa
+GCF_009910675.1	Photobacterium alginatilyticum
+GCF_900185625.1	Photobacterium andalusiense
+GCF_003026895.1	Photobacterium angustum
+GCF_001029435.1	Photobacterium aphoticum
+GCF_001029445.1	Photobacterium aquae
+GCF_002954455.1	Photobacterium aquimaris
+GCF_014841115.1	Photobacterium arenosum
+GCF_024380015.1	Photobacterium atrarenae
+GCF_021236965.1	Photobacterium carnosum
+GCF_004104355.1	Photobacterium chitinilyticum
+GCF_038086725.1	Photobacterium damselae subsp. damselae
+GCF_003025615.1	Photobacterium frigidiphilum
+GCF_003025515.1	Photobacterium gaetbulicola
+GCF_023653475.1	Photobacterium galatheae
+GCF_017329545.1	Photobacterium ganghwense
+GCF_000425165.1	Photobacterium halotolerans DSM 18316
+GCF_003026395.1	Photobacterium iliopiscarium
+GCF_003026215.1	Photobacterium indicum
+GCF_050337005.1	Photobacterium japonica
+GCF_003025495.1	Photobacterium jeanii
+GCF_050337045.1	Photobacterium kagoshimensis
+GCF_050336885.1	Photobacterium kasasachensis
+GCF_000613045.3	Photobacterium kishitanii
+GCF_048537465.1	Photobacterium leiognathi subsp. mandapamensis
+GCF_003026475.1	Photobacterium lipolyticum
+GCF_009873615.1	Photobacterium lucens
+GCF_003025555.1	Photobacterium lutimaris
+GCF_050336715.1	Photobacterium makurazakiensis
+GCF_900185615.1	Photobacterium malacitanum
+GCF_000331515.1	Photobacterium marinum
+GCF_050336695.1	Photobacterium minamisatsumaniensis
+GCF_050336815.1	Photobacterium nomapromontoriensis
+GCF_026191635.1	Photobacterium obscurum
+GCF_024357955.1	Photobacterium pectinilyticum
+GCF_002954725.1	Photobacterium phosphoreum
+GCF_046058925.1	Photobacterium piscicola
+GCF_000153425.1	Photobacterium profundum 3TCK
+GCF_001939735.1	Photobacterium proteolyticum
+GCF_003026455.1	Photobacterium rosenbergii
+GCF_050337085.1	Photobacterium sagamiensis
+GCF_003614885.1	Photobacterium salinisoli
+GCF_003026495.1	Photobacterium sanctipauli
+GCF_024346675.1	Photobacterium sanguinicancri
+GCF_050336935.1	Photobacterium satsumensis
+GCF_024346715.1	Photobacterium swingsii
+GCF_024529955.1	Photobacterium toruni
+GCF_026153155.1	Photorhabdus aballayi
+GCF_000612035.1	Photorhabdus aegyptia
+GCF_035181445.1	Photorhabdus africana
+GCF_019090985.1	Photorhabdus akhurstii
+GCF_020387775.1	Photorhabdus antumapuensis
+GCF_000196475.1	Photorhabdus asymbiotica
+GCF_000711895.1	Photorhabdus australis DSM 17609
+GCF_003287735.1	Photorhabdus bodei
+GCF_018448885.1	Photorhabdus caribbeanensis
+GCF_011189575.1	Photorhabdus cinerea
+GCF_018448965.1	Photorhabdus hainanensis
+GCF_001280945.1	Photorhabdus heterorhabditis
+GCF_002968995.1	Photorhabdus hindustanensis
+GCF_025384895.1	Photorhabdus kayaii
+GCF_000517265.1	Photorhabdus khanii NC19
+GCF_025384885.1	Photorhabdus kleinii
+GCF_003343245.1	Photorhabdus laumondii subsp. laumondii
+GCF_001083805.1	Photorhabdus luminescens subsp. luminescens
+GCF_001684335.1	Photorhabdus namnaonensis
+GCF_023108895.1	Photorhabdus noenieputensis
+GCF_011189495.1	Photorhabdus stackebrandtii
+GCF_011189505.1	Photorhabdus tasmaniensis
+GCF_025384845.1	Photorhabdus temperata
+GCF_001010285.1	Photorhabdus thracensis
+GCF_040256935.1	Photorhabdus viridis
+GCF_015500095.1	Phototrophicus methaneseepsis
+GCF_005780165.1	Phragmitibacter flavus
+GCF_005160265.1	Phreatobacter aquaticus
+GCF_003008515.1	Phreatobacter cathodiphilus
+GCF_003046185.1	Phreatobacter oligotrophus
+GCF_005144885.1	Phreatobacter stygius
+GCF_018139485.1	Phycicoccus avicenniae
+GCF_002846495.1	Phycicoccus duodecadis
+GCF_000367525.1	Phycicoccus elongatus Lp2
+GCF_011326735.1	Phycicoccus endophyticus
+GCF_004025965.2	Phycicoccus flavus
+GCF_044797865.1	Phycicoccus jejuensis
+GCF_018729305.1	Phycicoccus mangrovi
+GCF_016887965.1	Phycicoccus sonneratiae
+GCF_000284115.1	Phycisphaera mikurensis NBRC 102666
+GCF_014884385.1	Phycobacter azelaicus
+GCF_003337575.1	Phyllobacterium bourgognense
+GCF_003010955.1	Phyllobacterium brassicacearum
+GCF_019991125.1	Phyllobacterium calauticae
+GCF_003010935.1	Phyllobacterium endophyticum
+GCF_030817885.1	Phyllobacterium ifriqiyense
+GCF_003217235.1	Phyllobacterium leguminum
+GCF_004217385.1	Phyllobacterium myrsinacearum
+GCF_013327855.1	Phyllobacterium pellucidum
+GCF_002980495.1	Phyllobacterium phragmitis
+GCF_003335045.1	Phyllobacterium salinisoli
+GCF_003010965.1	Phyllobacterium sophorae
+GCF_014192095.1	Phyllobacterium trifolii
+GCF_002764115.1	Phyllobacterium zundukense
+GCF_010550695.1	Phytoactinopolyspora alkaliphila
+GCF_004138495.1	Phytoactinopolyspora endophytica
+GCF_003287285.1	Phytoactinopolyspora halophila
+GCF_010550675.1	Phytoactinopolyspora halotolerans
+GCF_011320225.1	Phytoactinopolyspora limicola
+GCF_010122465.1	Phytoactinopolyspora mesophila
+GCF_000321045.1	Phytobacter massiliensis JC163
+GCF_039409775.1	Phytobacter palmae
+GCF_001022135.1	Phytobacter ursingii
+GCF_027923225.1	Phytohabitans aurantiacus
+GCF_039537485.1	Phytohabitans flavus
+GCF_039541615.1	Phytohabitans houttuyneae
+GCF_042433955.1	Phytohabitans kaempferiae
+GCF_031085175.1	Phytohabitans maris
+GCF_039543085.1	Phytohabitans rumicis
+GCF_011764565.1	Phytohabitans suffuscus
+GCF_003012345.1	Phytohalomonas tamaricis
+GCF_016862855.1	Phytomonospora endophytica
+GCF_900113905.1	Phytopseudomonas argentinensis
+GCF_004327275.1	Phytopseudomonas daroniae
+GCF_004327355.1	Phytopseudomonas dryadis
+GCF_900142655.1	Phytopseudomonas punonensis
+GCF_900102335.1	Phytopseudomonas seleniipraecipitans
+GCF_900112645.1	Phytopseudomonas straminea
+GCF_009792895.1	Pigmentibacter ruber
+GCF_008119665.1	Pigmentiphaga aceris
+GCF_039523035.1	Pigmentiphaga daeguensis
+GCF_900606115.1	Pigmentiphaga humi
+GCF_004216695.1	Pigmentiphaga kullae
+GCF_014651835.1	Pigmentiphaga litoralis
+GCF_039541095.1	Pigmentiphaga soli
+GCF_011044155.1	Pikeienuella piscinae
+GCF_900167335.1	Pilibacter termitis
+GCF_014647895.1	Pilimelia anulata
+GCF_039532605.1	Pilimelia columellifera subsp. columellifera
+GCF_014647915.1	Pilimelia terevasa
+GCF_032490495.1	Pilosibacter fragilis
+GCF_000785495.1	Pimelobacter simplex
+GCF_019130065.1	Pinibacter aurantiacus
+GCF_029961145.1	Pinibacter soli
+GCF_015905305.1	Pinirhizobacter soli
+GCF_019160155.1	Pinisolibacter aquiterrae
+GCF_007750855.1	Pirellulimonas nuda
+GCF_900110685.1	Piscibacillus halophilus
+GCF_042685285.1	Piscibacillus salipiscarius
+GCF_001515525.1	Piscicoccus intestinalis NBRC 104926
+GCF_900113675.1	Pisciglobus halotolerans
+GCF_004011805.1	Piscinibacter defluvii
+GCF_002762215.1	Piscinibacter gummiphilus
+GCF_013366375.1	Piscinibacter koreensis
+GCF_048320135.1	Piscinibacter sakaiensis
+GCF_003852895.1	Piscinibacter terrae
+GCF_047549485.1	Piscinibacterium candidicorallinum
+GCF_001720395.1	Piscirickettsia litoralis
+GCF_009708955.1	Piscirickettsia salmonis
+GCF_007954585.1	Pistricoccus aurantiacus
+GCF_030622045.1	Planctellipticum variicoloris
+GCF_020687805.1	Planctobacterium marinum
+GCF_900113665.1	Planctomicrobium piriforme
+GCF_003067705.1	Planctomonas deserti
+GCF_008642235.1	Planctomonas psychrotolerans
+GCF_007752345.1	Planctopirus ephydatiae
+GCF_001707835.1	Planctopirus hydrillae
+GCF_000092105.1	Planctopirus limnophila DSM 3776
+GCF_003001905.1	Planifilum fimeticola
+GCF_900113175.1	Planifilum fulgidum
+GCF_030827785.1	Planktomarina temperata
+GCF_014640155.1	Planktosalinus lacus
+GCF_002105285.1	Planktotalea arctica
+GCF_001890925.1	Planktotalea frisia
+GCF_040564635.1	Planktothricoides raciborskii GIHE-MW2
+GCF_904830935.1	Planktothrix agardhii
+GCF_015207485.1	Planktothrix mougeotii LEGE 06226
+GCF_900009265.2	Planktothrix paucivesiculata PCC 9631
+GCF_900010725.2	Planktothrix serta PCC 8927
+GCF_904830955.1	Planktothrix tepida
+GCF_015354315.1	Planobacterium oryzisoli
+GCF_016863135.1	Planobispora longispora
+GCF_014648175.1	Planobispora rosea
+GCF_016863175.1	Planobispora siamensis
+GCF_016863195.1	Planobispora takensis
+GCF_001687565.2	Planococcus antarcticus DSM 14505
+GCF_016820495.1	Planococcus beigongshangi
+GCF_016820615.1	Planococcus beijingensis
+GCF_042681545.1	Planococcus chinensis
+GCF_003664125.1	Planococcus citreus
+GCF_042654465.1	Planococcus dechangensis
+GCF_001687665.2	Planococcus donghaensis
+GCF_002009235.1	Planococcus faecalis
+GCF_013368775.1	Planococcus glaciei
+GCF_001687585.2	Planococcus halocryophilus
+GCF_003289955.1	Planococcus halotolerans
+GCF_001465835.2	Planococcus kocurii
+GCF_014202615.1	Planococcus koreensis
+GCF_001999905.1	Planococcus lenghuensis
+GCF_030413595.1	Planococcus liqunii
+GCF_003289925.1	Planococcus maitriensis
+GCF_001687625.2	Planococcus maritimus
+GCF_000821325.1	Planococcus massiliensis
+GCF_030407825.1	Planococcus notacanthi
+GCF_001687605.2	Planococcus plakortidis
+GCF_001465795.2	Planococcus rifietoensis
+GCF_022819085.1	Planococcus ruber
+GCF_003428865.1	Planococcus salinarum
+GCF_003719725.1	Planococcus salinus
+GCF_030481865.1	Planococcus shenhongbingii
+GCF_030481725.1	Planococcus shixiaomingii
+GCF_007004635.1	Planococcus soli
+GCF_001186155.3	Planococcus versutus
+GCF_014836985.1	Planococcus wigleyi
+GCF_900176575.1	Planomicrobium okeanokoites
+GCF_003014655.1	Planomicrobium soli
+GCF_030814955.1	Planomicrobium stackebrandtii
+GCF_039534085.1	Planomonospora alba
+GCF_042650625.1	Planomonospora corallina
+GCF_016863215.1	Planomonospora parontospora subsp. parontospora
+GCF_001653075.1	Planomonospora sphaerica
+GCF_014203605.1	Planomonospora venezuelensis
+GCF_016862875.1	Planosporangium flavigriseum
+GCF_016863255.1	Planosporangium mesophilum
+GCF_049999945.1	Planosporangium spinosum
+GCF_011947195.1	Planosporangium thailandense
+GCF_016862895.1	Planotetraspora kaengkrachanensis
+GCF_016863275.1	Planotetraspora mira
+GCF_016863295.1	Planotetraspora phitsanulokensis
+GCF_016863315.1	Planotetraspora silvatica
+GCF_016863335.1	Planotetraspora thailandica
+GCF_015690345.1	Plantactinospora alkalitolerans
+GCF_016862915.1	Plantactinospora endophytica
+GCF_016862935.1	Plantactinospora mayteni
+GCF_042434095.1	Plantactinospora siamensis
+GCF_042658085.1	Plantactinospora solaniradicis
+GCF_036422035.1	Plantactinospora sonchi
+GCF_014874095.1	Plantactinospora soyae
+GCF_036421995.1	Plantactinospora veratri
+GCF_050587365.1	Plantibacter auratus
+GCF_003755125.1	Plantibacter flavus
+GCF_008802405.1	Plantimonas leprariae
+GCF_003182095.1	Plasticicumulans acidivorans
+GCF_004341245.1	Plasticicumulans lactativorans
+GCF_042666235.1	Plastorhodobacter daqingensis
+GCF_018128965.1	Plastoroseomonas arctica
+GCF_018129085.1	Plastoroseomonas hellenica
+GCF_026013615.1	Plebeiibacterium marinum
+GCF_026013605.1	Plebeiibacterium sediminum
+GCF_025753815.1	Plectonema radiosum NIES-515
+GCF_031198435.1	Pleionea litopenaei
+GCF_003148745.1	Pleionea mediterranea
+GCF_007570825.1	Pleionea sediminis
+GCF_002770725.1	Pleomorphomonas carboxyditropha
+GCF_900114935.1	Pleomorphomonas diazotrophica
+GCF_000425185.1	Pleomorphomonas koreensis DSM 23070
+GCF_000422965.1	Pleomorphomonas oryzae DSM 16300
+GCF_003347495.1	Pleomorphovibrio marinus
+GCF_000170895.1	Plesiocystis pacifica SIR-1
+GCF_020991025.1	Plesiomonas shigelloides
+GCF_003019925.1	Pluralibacter gergoviae
+GCF_046844695.1	Pokkaliibacter plantistimulans
+GCF_005885675.1	Polaribacter aestuariivivens
+GCF_003129485.1	Polaribacter aquimarinus
+GCF_038023995.1	Polaribacter atrinae
+GCF_017498485.1	Polaribacter batillariae
+GCF_038024105.1	Polaribacter butkevichii
+GCF_017569185.1	Polaribacter cellanae
+GCF_024362345.1	Polaribacter dokdonensis
+GCF_002943715.1	Polaribacter filamentus
+GCF_038024125.1	Polaribacter gangjinensis
+GCF_002954665.1	Polaribacter glomeratus
+GCF_014784055.1	Polaribacter haliotis
+GCF_030444335.1	Polaribacter huanghezhanensis
+GCF_000153225.1	Polaribacter irgensii 23-P
+GCF_019968605.1	Polaribacter litorisediminis
+GCF_038019025.1	Polaribacter marinaquae
+GCF_042651285.1	Polaribacter marinivivus
+GCF_022662535.1	Polaribacter marinus
+GCF_038024035.1	Polaribacter pacificus
+GCF_014352875.1	Polaribacter pectinis
+GCF_026191475.2	Polaribacter ponticola
+GCF_002954685.1	Polaribacter porphyrae
+GCF_001975665.1	Polaribacter reichenbachii
+GCF_021991835.1	Polaribacter sargassicola
+GCF_024918935.1	Polaribacter sejongensis
+GCF_009832745.1	Polaribacter septentrionalilitoris
+GCF_038024045.1	Polaribacter staleyi
+GCF_038024095.1	Polaribacter tangerinus
+GCF_039748955.1	Polaribacter uvawellassae
+GCF_001761365.1	Polaribacter vadi
+GCF_042659145.1	Polaromonas aquatica
+GCF_014641715.1	Polaromonas eurypsychrophila
+GCF_000709345.1	Polaromonas glacialis
+GCF_040105105.1	Polaromonas hydrogenivorans
+GCF_001598235.1	Polaromonas jejuensis NBRC 106434
+GCF_000015505.1	Polaromonas naphthalenivorans CJ2
+GCF_012584515.1	Polaromonas vacuolata
+GCF_029269725.1	Pollutibacter soli
+GCF_027854065.1	Polluticaenibacter yanchengensis
+GCF_029269745.1	Polluticoccus soli
+GCF_900129885.1	Pollutimonas bauzanensis
+GCF_004153685.1	Pollutimonas harenae
+GCF_002849615.1	Pollutimonas nitritireducens
+GCF_002849655.1	Pollutimonas subterranea
+GCF_004022565.1	Pollutimonas thiosulfatoxidans
+GCF_005144635.2	Polyangium aurulentum
+GCF_005144585.1	Polyangium fumosum
+GCF_028435365.1	Polyangium jinanense
+GCF_028369105.1	Polyangium mundeleinium
+GCF_029946465.1	Polyangium sorediatum
+GCF_009649845.1	Polyangium spumosum
+GCF_001561995.1	Polycladidibacter hongkongensis
+GCF_001562055.1	Polycladidibacter stylochi
+GCF_018326425.1	Polycladomyces abyssicola
+GCF_030433435.1	Polycladomyces subterraneus
+GCF_016938855.1	Polycladomyces zharkentensis
+GCF_014773435.2	Polycladospora coralii
+GCF_000711245.1	Polycyclovorans algicola TG408
+GCF_004681125.1	Polymorphobacter arshaanensis
+GCF_009372075.1	Polymorphobacter fuscus
+GCF_014643455.1	Polymorphobacter glacialis
+GCF_018982885.2	Polymorphobacter megasporae
+GCF_014205635.1	Polymorphobacter multimanifer
+GCF_042237075.1	Polymorphospora lycopeni
+GCF_018324255.1	Polymorphospora rubra
+GCF_000192745.1	Polymorphum gilvum SL003B-26A1
+GCF_003065385.1	Polynucleobacter acidiphobus
+GCF_002206635.1	Polynucleobacter aenigmaticus
+GCF_018881545.1	Polynucleobacter alcilacus
+GCF_013307245.1	Polynucleobacter antarcticus
+GCF_013307205.1	Polynucleobacter arcticus
+GCF_000016345.1	Polynucleobacter asymbioticus QLW-P1DMWA-1
+GCF_018882205.1	Polynucleobacter bastaniensis
+GCF_002797575.1	Polynucleobacter brandtiae
+GCF_002206625.1	Polynucleobacter campilacus
+GCF_018688255.1	Polynucleobacter corsicus
+GCF_002224225.1	Polynucleobacter cosmopolitanus
+GCF_003065365.1	Polynucleobacter difficilis
+GCF_000973625.1	Polynucleobacter duraquae
+GCF_018881755.1	Polynucleobacter finlandensis
+GCF_018881835.1	Polynucleobacter hallstattensis
+GCF_002192535.1	Polynucleobacter hirudinilacicola
+GCF_018687955.1	Polynucleobacter ibericus
+GCF_900176405.1	Polynucleobacter kasalickyi
+GCF_900205755.1	Polynucleobacter meluiroseus
+GCF_900096765.1	Polynucleobacter necessarius
+GCF_018882155.1	Polynucleobacter nymphae
+GCF_018687595.1	Polynucleobacter paludilacus
+GCF_018685455.1	Polynucleobacter paneuropaeus
+GCF_018881715.1	Polynucleobacter parvulilacunae
+GCF_003072505.1	Polynucleobacter rarus
+GCF_001595985.1	Polynucleobacter sinensis
+GCF_029892205.1	Polynucleobacter sphagniphilus
+GCF_013307225.1	Polynucleobacter tropicus
+GCF_900187875.1	Polynucleobacter victoriensis
+GCF_001659725.1	Polynucleobacter wuianus
+GCF_027924165.1	Polynucleobacter yangtzensis
+GCF_007750395.1	Polystyrenella longa
+GCF_900156525.1	Pontibaca methylaminivorans
+GCF_016307205.1	Pontibaca salina
+GCF_000770675.1	Pontibacillus chungwhensis BH030062
+GCF_000775595.1	Pontibacillus halophilus JSM 076056 = DSM 19796
+GCF_000775615.1	Pontibacillus litoralis JSM 072002
+GCF_000775605.1	Pontibacillus marinus BH030004 = DSM 16465
+GCF_042434395.1	Pontibacillus salicampi
+GCF_014642405.1	Pontibacillus salipaludis
+GCF_000770635.1	Pontibacillus yanchengensis Y32
+GCF_003585765.1	Pontibacter actiniarum
+GCF_001611675.1	Pontibacter akesuensis
+GCF_014638845.1	Pontibacter amylolyticus
+GCF_026241195.1	Pontibacter anaerobius
+GCF_014773225.1	Pontibacter aquaedesilientis
+GCF_003284895.1	Pontibacter arcticus
+GCF_019443125.1	Pontibacter aydingkolensis
+GCF_014332515.1	Pontibacter beigongshangensis
+GCF_010686685.1	Pontibacter burrus
+GCF_014306105.1	Pontibacter cellulosilyticus
+GCF_900113285.1	Pontibacter chinhatensis
+GCF_039748935.1	Pontibacter chitinilyticus
+GCF_030546575.1	Pontibacter coccineus
+GCF_023630255.1	Pontibacter deserti
+GCF_003367245.1	Pontibacter diazotrophicus
+GCF_010119545.1	Pontibacter fetidus
+GCF_001907195.1	Pontibacter flavimaris
+GCF_020907245.1	Pontibacter harenae
+GCF_016427525.1	Pontibacter humidus
+GCF_900156345.1	Pontibacter indicus
+GCF_026278245.1	Pontibacter kalidii
+GCF_000973725.1	Pontibacter korlensis
+GCF_022758235.1	Pontibacter liquoris
+GCF_029360645.1	Pontibacter litorisediminis
+GCF_042684605.1	Pontibacter locisalis
+GCF_900156415.1	Pontibacter lucknowensis
+GCF_006385705.1	Pontibacter mangrovi
+GCF_003054055.1	Pontibacter mucosus
+GCF_003576375.1	Pontibacter oryzae
+GCF_010015475.1	Pontibacter pamirensis
+GCF_040278685.1	Pontibacter populi
+GCF_010092985.1	Pontibacter pudoricolor
+GCF_008017455.1	Pontibacter qinzhouensis
+GCF_002846395.1	Pontibacter ramchanderi
+GCF_000373265.1	Pontibacter roseus DSM 17521
+GCF_023630205.1	Pontibacter ruber
+GCF_015694705.1	Pontibacter rufus
+GCF_042678745.1	Pontibacter rugosus
+GCF_009931655.1	Pontibacter russatus
+GCF_039541895.1	Pontibacter saemangeumensis
+GCF_020907275.1	Pontibacter silvestris
+GCF_042686245.1	Pontibacter toksunensis
+GCF_900188175.1	Pontibacter ummariensis
+GCF_003096355.1	Pontibacter virosus
+GCF_022758145.1	Pontibacter vulgaris
+GCF_029961155.1	Pontibacterium granulatum
+GCF_015209595.1	Pontibacterium sinense
+GCF_000420665.1	Ponticaulis koreensis DSM 19734
+GCF_042659465.1	Ponticaulis profundi
+GCF_016806125.1	Ponticoccus alexandrii
+GCF_039769985.1	Ponticoccus litoralis
+GCF_034531395.1	Pontiella agarivorans
+GCF_900890425.1	Pontiella desulfatans
+GCF_900890705.1	Pontiella sulfatireligans
+GCF_005047595.1	Pontimicrobium aquaticum
+GCF_002950575.1	Pontimonas salivibrio
+GCF_046507575.1	Pontitalea aquivivens
+GCF_900302495.1	Pontivivens insulae
+GCF_900231835.1	Pontivivens marinum
+GCF_011290545.1	Pontivivens nitratireducens
+GCF_015679265.1	Pontivivens ytuae
+GCF_009827455.1	Pontixanthobacter aestiaquae
+GCF_009827395.1	Pontixanthobacter aquaemixtae
+GCF_009827545.1	Pontixanthobacter gangjinensis
+GCF_947494915.1	Pontixanthobacter luteolus
+GCF_012972675.1	Pontixanthobacter rizhaonensis
+GCF_042683685.1	Populibacterium corticicola
+GCF_009696445.1	Porcincola intestinalis
+GCF_025567485.1	Porcipelethomonas ammoniilytica
+GCF_030506305.1	Porifericola rhodea
+GCF_007747445.1	Poriferisphaera corsica
+GCF_009901585.1	Poritiphilus flavus
+GCF_000212375.1	Porphyromonas asaccharolytica DSM 20707
+GCF_000375645.1	Porphyromonas bennonis DSM 23058 = JCM 16335
+GCF_943169685.1	Porphyromonas bobii
+GCF_900638305.1	Porphyromonas cangingivalis
+GCF_000765975.1	Porphyromonas canoris
+GCF_000565015.1	Porphyromonas catoniae ATCC 51270
+GCF_900167105.1	Porphyromonas circumdentaria
+GCF_900476255.1	Porphyromonas crevioricanis
+GCF_020097375.1	Porphyromonas endodontalis
+GCF_000010505.1	Porphyromonas gingivalis ATCC 33277
+GCF_000769135.1	Porphyromonas gingivicanis
+GCF_000765945.1	Porphyromonas gulae
+GCF_018206105.1	Porphyromonas levii
+GCF_003096695.1	Porphyromonas loveana
+GCF_000379945.1	Porphyromonas macacae DSM 20710 = JCM 13914
+GCF_045865415.1	Porphyromonas miyakawae
+GCF_014647755.1	Porphyromonas pasteri
+GCF_036320655.1	Porphyromonas pogonae
+GCF_022845615.1	Porphyromonas somerae
+GCF_000482365.1	Porphyromonas uenonis DSM 23387 = JCM 13868
+GCF_958301595.1	Porphyromonas vaginalis
+GCF_030160415.1	Portibacter lacus
+GCF_021533195.1	Portibacter marinus
+GCF_000744735.1	Porticoccus hydrocarbonoclasticus MCTG13d
+GCF_030676955.1	Porticoccus litoralis
+GCF_003667345.1	Poseidonibacter antarcticus
+GCF_013283835.1	Poseidonibacter lekithochrous
+GCF_009208055.1	Poseidonibacter ostreae
+GCF_001956695.1	Poseidonibacter parvus
+GCF_900111875.1	Poseidonocella pacifica
+GCF_900116005.1	Poseidonocella sedimentorum
+GCF_007859765.1	Posidoniimonas corsicana
+GCF_007859935.1	Posidoniimonas polymericola
+GCF_039538365.1	Postechiella marina
+GCF_014202975.1	Povalibacter uvarum
+GCF_002946355.1	Pradoshia eiseniae
+GCF_900638655.1	Pragia fontium
+GCF_024171865.1	Prauserella aidingensis
+GCF_024171735.1	Prauserella alba
+GCF_016595675.1	Prauserella cavernicola
+GCF_005146945.1	Prauserella endophytica
+GCF_024648865.1	Prauserella flava
+GCF_003202235.1	Prauserella flavalba
+GCF_024171895.1	Prauserella halophila
+GCF_014191605.1	Prauserella isguenensis
+GCF_002240355.1	Prauserella marina
+GCF_003202285.1	Prauserella muralis
+GCF_042685745.1	Prauserella oleivorans
+GCF_007829565.1	Prauserella rugosa
+GCF_024648885.1	Prauserella salsuginis
+GCF_014195435.1	Prauserella sediminis
+GCF_003001955.1	Prauserella shujinwangii
+GCF_004011865.1	Prescottella agglutinans
+GCF_000738775.1	Prescottella defluvii
+GCF_003013675.1	Prescottella equi
+GCF_040024445.1	Prescottella soli
+GCF_005434945.1	Prescottella subtropica
+GCF_000177355.1	Prevotella amnii CRIS 21A-A
+GCF_015262605.1	Prevotella aurantiaca
+GCF_000262545.1	Prevotella bivia DSM 20514
+GCF_008016795.1	Prevotella brunnea
+GCF_022024115.1	Prevotella communis
+GCF_000312305.1	Prevotella conceptionensis 9403948
+GCF_000430525.1	Prevotella corporis DSM 18810 = JCM 8529
+GCF_000242335.1	Prevotella dentalis DSM 3688
+GCF_000614065.1	Prevotella dentasini JCM 15908
+GCF_018128205.1	Prevotella denticola
+GCF_900454955.1	Prevotella disiens
+GCF_000613945.1	Prevotella falsenii DSM 22864 = JCM 15124
+GCF_001262015.1	Prevotella fusca JCM 17724
+GCF_017347605.1	Prevotella herbatica
+GCF_018128125.1	Prevotella histicola
+GCF_900155655.1	Prevotella ihumii
+GCF_017426725.1	Prevotella illustrans
+GCF_001953955.1	Prevotella intermedia ATCC 25611 = DSM 20706
+GCF_002849795.1	Prevotella jejuni
+GCF_003977605.1	Prevotella koreensis
+GCF_019973475.1	Prevotella lacticifex
+GCF_900625065.1	Prevotella marseillensis
+GCF_000144405.1	Prevotella melaninogenica ATCC 25845
+GCF_900290275.1	Prevotella merdae
+GCF_000243035.1	Prevotella micans F0438
+GCF_018127985.1	Prevotella multiformis
+GCF_018127825.1	Prevotella nigrescens
+GCF_900454935.1	Prevotella pallens
+GCF_041323955.1	Prevotella pectinovora
+GCF_900065875.1	Prevotella phocaeensis
+GCF_900607215.1	Prevotella rectalis
+GCF_018127785.1	Prevotella scopos JCM 17725
+GCF_018127765.1	Prevotella veroralis
+GCF_009728485.1	Prevotella vespertina
+GCF_900106785.1	Prevotellamassilia timonensis
+GCF_900101815.1	Pricia antarctica
+GCF_032248455.1	Pricia mediterranea
+GCF_002019595.1	Priestia abyssalis
+GCF_002688605.1	Priestia aryabhattai
+GCF_900115845.1	Priestia endophytica DSM 13796
+GCF_002237735.1	Priestia filamentosa
+GCF_021441905.1	Priestia flexa
+GCF_016909075.1	Priestia iocasae
+GCF_001274935.1	Priestia koreensis
+GCF_006094495.1	Priestia megaterium NBRC 15308 = ATCC 14581
+GCF_014638355.1	Priestia taiwanensis
+GCF_001457055.1	Priestia veravalensis
+GCF_028023675.1	Primorskyibacter aestuariivivens
+GCF_014638275.1	Primorskyibacter flagellatus
+GCF_003313245.1	Primorskyibacter marinus
+GCF_004342065.1	Primorskyibacter sedentarius
+GCF_000015665.1	Prochlorococcus marinus str. MIT 9515
+GCF_000332315.1	Prochlorothrix hollandica PCC 9006 = CALU 1027
+GCF_000463345.2	Prodigiosinella confusarubida
+GCF_003544895.1	Profundibacter amoris
+GCF_009835145.1	Profundibacterium mesophilum KAUST100406-0324
+GCF_029664245.1	Profundicola chukchiensis
+GCF_009617915.1	Prolixibacter bellariivorans
+GCF_009617855.1	Prolixibacter denitrificans
+GCF_042682255.1	Promicromonospora aerolata
+GCF_042654905.1	Promicromonospora alba
+GCF_042660925.1	Promicromonospora citrea
+GCF_031458275.1	Promicromonospora iranensis
+GCF_044389675.1	Promicromonospora kroppenstedtii
+GCF_900608595.1	Promicromonospora panici
+GCF_014653785.1	Promicromonospora soli
+GCF_014137995.1	Promicromonospora sukumoe
+GCF_024171955.1	Promicromonospora thailandica
+GCF_024171995.1	Promicromonospora umidemergens
+GCF_042685865.1	Promicromonospora vindobonensis
+GCF_003798325.1	Propionibacterium acidifaciens
+GCF_900637915.1	Propionibacterium australiense
+GCF_900111365.1	Propionibacterium cyclohexanicum
+GCF_900087655.1	Propionibacterium freudenreichii
+GCF_900289195.1	Propionibacterium ruminifibrarum
+GCF_000423465.1	Propionicicella superfundia DSM 22317
+GCF_011393335.1	Propioniciclava coleopterorum
+GCF_004126535.1	Propioniciclava flava
+GCF_004324755.1	Propioniciclava sinopodophylli
+GCF_038502305.1	Propioniciclava soli
+GCF_900182665.1	Propioniciclava tarda
+GCF_002563675.1	Propionicimonas paludicola
+GCF_006716235.1	Propioniferax innocua
+GCF_027925155.1	Propionigenium maris DSM 9537
+GCF_000423485.1	Propionimicrobium lymphophilum DSM 4903
+GCF_900109225.1	Propionispira arboris
+GCF_000381065.1	Propionispira raffinosivorans DSM 20765
+GCF_900141835.1	Propionispora hippei DSM 15287
+GCF_900110485.1	Propionispora vibrioides
+GCF_900099695.1	Propionivibrio dicarboxylicus
+GCF_009469695.1	Propionivibrio limicola
+GCF_025770765.1	Propionivibrio soli
+GCF_009866965.1	Propylenella binzhouense
+GCF_039542385.1	Prosthecobacter algae
+GCF_900167535.1	Prosthecobacter debontii
+GCF_014203045.1	Prosthecobacter dejongeii
+GCF_042655725.1	Prosthecobacter fluviatilis
+GCF_004364345.1	Prosthecobacter fusiformis
+GCF_014203095.1	Prosthecobacter vanneervenii
+GCF_000020625.1	Prosthecochloris aestuarii DSM 271
+GCF_013357945.1	Prosthecochloris ethylica
+GCF_003182595.1	Prosthecochloris marina
+GCF_006265245.1	Prosthecochloris vibrioformis
+GCF_001305515.1	Prosthecodimorpha hirschii
+GCF_018729455.1	Prosthecodimorpha staleyi
+GCF_014199915.1	Prosthecomicrobium pneumaticum
+GCF_003627075.1	Protaetiibacter intestinalis
+GCF_008365275.1	Protaetiibacter larvae
+GCF_024752305.1	Protaetiibacter mangrovi
+GCF_900107485.1	Proteiniborus ethanoligenes
+GCF_017368455.1	Proteiniclasticum aestuarii
+GCF_000701905.1	Proteiniclasticum ruminis DSM 24773
+GCF_018128025.1	Proteiniclasticum sediminis
+GCF_000380985.1	Proteiniphilum acetatigenes DSM 18083
+GCF_022267555.1	Proteiniphilum propionicum
+GCF_900095135.1	Proteiniphilum saccharofermentans
+GCF_040515995.1	Proteinivorax hydrogeniformans
+GCF_040267685.1	Proteinivorax tanatarense
+GCF_000423525.1	Proteocatella sphenisci DSM 23131
+GCF_002607735.1	Proteus alimentorum
+GCF_030271835.1	Proteus appendicitidis
+GCF_003144405.1	Proteus cibi
+GCF_002777965.1	Proteus columbae
+GCF_030286765.1	Proteus faecis
+GCF_004116975.1	Proteus hauseri
+GCF_000069965.1	Proteus mirabilis HI4320
+GCF_001654855.1	Proteus myxofaciens ATCC 19692
+GCF_022369495.1	Proteus penneri
+GCF_011045835.1	Proteus terrae subsp. cibarius
+GCF_025200655.1	Proteus vulgaris
+GCF_001017755.1	Protofrankia coriariae
+GCF_900169495.1	Provencibacterium massiliense
+GCF_002393505.1	Providencia alcalifaciens
+GCF_000314855.2	Providencia burhodogranariea DSM 19968
+GCF_029193595.2	Providencia hangzhouensis
+GCF_900475855.1	Providencia heimbachae
+GCF_030580945.1	Providencia huashanensis
+GCF_036898185.1	Providencia huaxiensis
+GCF_016618195.1	Providencia manganoxydans
+GCF_046487885.1	Providencia pseudovermicola
+GCF_019048105.1	Providencia rettgeri
+GCF_900637755.1	Providencia rustigianii
+GCF_000314895.2	Providencia sneebia DSM 19967
+GCF_035747985.1	Providencia stuartii
+GCF_020381325.1	Providencia vermicola
+GCF_041953405.1	Providencia xihuensis
+GCF_041953975.1	Providencia zhejiangensis
+GCF_030315915.2	Providencia zhijiangensis
+GCF_000688455.1	Pseudacidobacterium ailaaui
+GCF_003350475.1	Pseudacidovorax intermedius
+GCF_009733815.1	Pseudactinotalea suaedae
+GCF_009733845.1	Pseudactinotalea terrae
+GCF_046254905.1	Pseudaeromonas aegiceratis
+GCF_039540575.1	Pseudaeromonas paramecii
+GCF_042649925.1	Pseudaeromonas sharmana
+GCF_001205715.1	Pseudaestuariivita atlantica
+GCF_017592335.1	Pseudaestuariivita rosea
+GCF_042676045.1	Pseudahrensia aquimaris
+GCF_001310225.1	Pseudalgibacter alginicilyticus
+GCF_021608225.1	Pseudalkalibacillus berkeleyi
+GCF_024609785.1	Pseudalkalibacillus decolorationis
+GCF_021646685.1	Pseudalkalibacillus salsuginis
+GCF_003148475.1	Pseudaminobacter salicylatoxidans
+GCF_000332215.1	Pseudanabaena biceps PCC 7429
+GCF_029602415.1	Pseudanabaena catenata USMAC16
+GCF_014696345.1	Pseudanabaena cinerea FACHB-1277
+GCF_029910235.1	Pseudanabaena galeata CCNP1313
+GCF_051131155.1	Pseudanabaena minima str. Chao 2107
+GCF_030323025.1	Pseudanabaena mucicola str. Chao 1806
+GCF_012863495.1	Pseudanabaena yagii GIHE-NHR1
+GCF_038066595.1	Pseudaquabacterium inlustre
+GCF_005403045.1	Pseudaquabacterium pictum
+GCF_038066575.1	Pseudaquabacterium rugosum
+GCF_013266755.1	Pseudaquabacterium terrae
+GCF_019455445.1	Pseudaquidulcibacter saccharophilus
+GCF_042681385.1	Pseudarcicella hirudinis
+GCF_018224015.1	Pseudarthrobacter albicanus
+GCF_000022025.1	Pseudarthrobacter chlorophenolicus A6
+GCF_030812535.1	Pseudarthrobacter defluvii
+GCF_001457025.1	Pseudarthrobacter enclensis
+GCF_900105535.1	Pseudarthrobacter equi
+GCF_024294965.1	Pseudarthrobacter humi
+GCF_029076445.1	Pseudarthrobacter naphthalenicus
+GCF_030812615.1	Pseudarthrobacter niigatensis
+GCF_031455825.1	Pseudarthrobacter oxydans
+GCF_006494475.1	Pseudarthrobacter phenanthrenivorans
+GCF_039535255.1	Pseudarthrobacter polychromogenes
+GCF_045291495.1	Pseudarthrobacter quantipunctorum
+GCF_014644515.1	Pseudarthrobacter scleromae
+GCF_001046895.1	Pseudarthrobacter siccitolerans
+GCF_014712225.1	Pseudarthrobacter sulfonivorans
+GCF_002872475.1	Pseudazoarcus pumilus
+GCF_028869115.1	Pseudemcibacter aquimaris
+GCF_900021175.1	Pseudenterobacter timonensis
+GCF_902164725.1	Pseudescherichia vulneris
+GCF_003987355.1	Pseudidiomarina aestuarii
+GCF_031624335.1	Pseudidiomarina andamanensis
+GCF_003987395.1	Pseudidiomarina aquimaris
+GCF_000753735.1	Pseudidiomarina atlantica
+GCF_003987405.1	Pseudidiomarina donghaiensis
+GCF_032227045.1	Pseudidiomarina fusca
+GCF_004025325.1	Pseudidiomarina gelatinasegens
+GCF_003987215.1	Pseudidiomarina halophila
+GCF_003987225.1	Pseudidiomarina homiensis
+GCF_900104245.1	Pseudidiomarina indica
+GCF_003987065.1	Pseudidiomarina insulisalsae
+GCF_003999375.1	Pseudidiomarina mangrovi
+GCF_003987045.1	Pseudidiomarina marina
+GCF_900115255.1	Pseudidiomarina maritima
+GCF_902806985.1	Pseudidiomarina piscicola
+GCF_900177775.1	Pseudidiomarina planktonica
+GCF_003987105.1	Pseudidiomarina salinarum
+GCF_000423165.1	Pseudidiomarina sediminum DSM 21906
+GCF_004214835.1	Pseudidiomarina tainanensis
+GCF_003987435.1	Pseudidiomarina taiwanensis
+GCF_030466375.1	Pseudidiomarina terrestris
+GCF_001418345.1	Pseudidiomarina woesei
+GCF_024518735.1	Pseudoalteromonas agarivorans
+GCF_001999225.1	Pseudoalteromonas aliena
+GCF_001854605.1	Pseudoalteromonas amylolytica
+GCF_030297135.1	Pseudoalteromonas apostichopi
+GCF_001550155.1	Pseudoalteromonas arabiensis
+GCF_000238395.3	Pseudoalteromonas arctica A 37-1-2
+GCF_030125445.1	Pseudoalteromonas ardens
+GCF_007988745.1	Pseudoalteromonas atlantica
+GCF_014858725.1	Pseudoalteromonas aurantia 208
+GCF_001854475.1	Pseudoalteromonas byunsanensis
+GCF_013140855.1	Pseudoalteromonas caenipelagi
+GCF_900239935.1	Pseudoalteromonas carrageenovora IAM 12662
+GCF_000238375.3	Pseudoalteromonas citrea
+GCF_900112265.1	Pseudoalteromonas denitrificans DSM 6059
+GCF_005877035.1	Pseudoalteromonas distincta
+GCF_002221525.1	Pseudoalteromonas espejiana DSM 9414
+GCF_042643375.1	Pseudoalteromonas fenneropenaei
+GCF_000690055.1	Pseudoalteromonas fuliginea
+GCF_005886105.2	Pseudoalteromonas galatheae
+GCF_001641615.1	Pseudoalteromonas gelatinilytica
+GCF_945859885.1	Pseudoalteromonas haloplanktis
+GCF_945859825.1	Pseudoalteromonas holothuriae
+GCF_002310795.1	Pseudoalteromonas issachenkonii
+GCF_003515105.1	Pseudoalteromonas lipolytica
+GCF_006704145.1	Pseudoalteromonas luteoviolacea
+GCF_024746855.1	Pseudoalteromonas maricaloris
+GCF_900141965.1	Pseudoalteromonas marina

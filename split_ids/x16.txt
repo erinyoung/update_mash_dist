@@ -1,0 +1,1060 @@
+GCF_008919445.1	Serinicoccus kebangsaanensis
+GCF_000421245.1	Serinicoccus marinus DSM 15273
+GCF_000224715.1	Serinicoccus profundi MCCC 1A05965
+GCF_004153545.1	Serinicoccus sediminis
+GCF_014836765.1	Serpens gallinarum
+GCF_018141405.1	Serpentinicella alkaliphila
+GCF_000696225.1	Serpentinimonas barnesii
+GCF_000828915.1	Serpentinimonas maccroryi
+GCF_000828895.1	Serpentinimonas raichei
+GCF_044865145.1	Serratia aquatilis
+GCF_029907835.1	Serratia bockelmannii
+GCF_021462285.1	Serratia entomophila
+GCF_900187015.1	Serratia ficaria
+GCF_001006005.1	Serratia fonticola
+GCF_900186025.1	Serratia grimesii
+GCF_003591175.1	Serratia inhibens
+GCF_000422085.1	Serratia liquefaciens ATCC 27592
+GCF_030291735.1	Serratia marcescens
+GCF_004011885.1	Serratia microhaemolytica
+GCF_020858655.1	Serratia montpellierensis
+GCF_004768745.1	Serratia nematodiphila
+GCF_037948395.1	Serratia nevei
+GCF_041448735.1	Serratia odorifera
+GCF_001976145.1	Serratia oryzae
+GCF_000214235.1	Serratia plymuthica AS9
+GCF_949794035.1	Serratia proteamaculans
+GCF_900638135.1	Serratia quinivorans
+GCF_009817885.1	Serratia rhizosphaerae
+GCF_016026735.1	Serratia rubidaea
+GCF_035749905.1	Serratia sarumanii
+GCF_023282985.1	Serratia silvae
+GCF_001642805.2	Serratia surfactantfaciens
+GCF_000821185.2	Serratia symbiotica
+GCF_017309605.1	Serratia ureilytica
+GCF_021290925.1	Sessilibacter corallicola
+GCF_000702165.1	Sharpea azabuensis DSM 18934
+GCF_009695655.1	Sharpea porci
+GCF_010499255.1	Sheuella amnicola
+GCF_023284025.1	Shewanella abyssi
+GCF_019457475.1	Shewanella acanthi
+GCF_019457495.1	Shewanella aegiceratis
+GCF_014647215.1	Shewanella aestuarii
+GCF_009183365.2	Shewanella algae
+GCF_014648035.1	Shewanella algicola
+GCF_900380485.1	Shewanella algidipiscicola
+GCF_019457575.1	Shewanella alkalitolerans
+GCF_000015245.1	Shewanella amazonensis SB2B
+GCF_023349185.1	Shewanella aquimarina
+GCF_003966265.1	Shewanella atlantica
+GCF_017354945.1	Shewanella avicenniae
+GCF_000178875.2	Shewanella baltica OS678
+GCF_023283885.1	Shewanella basaltis
+GCF_015069875.1	Shewanella benthica
+GCF_003966225.1	Shewanella canadensis
+GCF_019670705.1	Shewanella carassii
+GCF_037953065.1	Shewanella chilikensis
+GCF_001735525.1	Shewanella colwelliana
+GCF_023349125.1	Shewanella corallii
+GCF_022410515.1	Shewanella cutis
+GCF_017354985.1	Shewanella cyperi
+GCF_004354305.1	Shewanella decolorationis
+GCF_000013765.1	Shewanella denitrificans OS217
+GCF_023283565.1	Shewanella dokdonensis
+GCF_007567505.1	Shewanella donghaensis
+GCF_022321485.1	Shewanella electrica
+GCF_023283985.1	Shewanella electrodiphila
+GCF_007004545.3	Shewanella eurypsychrophilus
+GCF_000518605.1	Shewanella fidelis ATCC BAA-318
+GCF_023349145.1	Shewanella fodinae
+GCF_000014705.1	Shewanella frigidimarina NCIMB 400
+GCF_023284065.1	Shewanella gaetbuli
+GCF_014647855.1	Shewanella gelidii
+GCF_023283945.1	Shewanella gelidimarina
+GCF_020511155.1	Shewanella glacialimarina
+GCF_023283485.1	Shewanella glacialipiscicola
+GCF_030252245.1	Shewanella goraebulensis
+GCF_019655335.1	Shewanella hafniensis
+GCF_000019185.1	Shewanella halifaxensis HAW-EB4
+GCF_019457535.1	Shewanella halotolerans
+GCF_007197645.1	Shewanella hanedai
+GCF_025370255.1	Shewanella holmiensis
+GCF_033842865.1	Shewanella indica
+GCF_009831655.1	Shewanella insulae
+GCF_018221465.1	Shewanella intestini
+GCF_019931735.1	Shewanella inventionis
+GCF_002075795.1	Shewanella japonica
+GCF_018596335.1	Shewanella jiangmenensis
+GCF_023284045.1	Shewanella kaireitica
+GCF_003957745.1	Shewanella khirikhana
+GCF_014648335.1	Shewanella litoralis
+GCF_016834455.1	Shewanella litorisediminis
+GCF_003855395.1	Shewanella livingstonensis
+GCF_000016065.1	Shewanella loihica PV-4
+GCF_000753795.1	Shewanella mangrovi
+GCF_019457635.1	Shewanella mangrovisoli
+GCF_000614975.1	Shewanella marina JCM 15074
+GCF_023283845.1	Shewanella marinintestina
+GCF_002215585.1	Shewanella marisflavi
+GCF_004295345.1	Shewanella maritima
+GCF_019457515.1	Shewanella mesophila
+GCF_028750675.1	Shewanella metallivivens
+GCF_003028295.1	Shewanella morhuae
+GCF_019457885.1	Shewanella nanhaiensis
+GCF_023283825.1	Shewanella olleyana
+GCF_030848765.1	Shewanella oncorhynchi
+GCF_000146165.2	Shewanella oneidensis MR-1
+GCF_000018285.1	Shewanella pealeana ATCC 700345
+GCF_025398315.1	Shewanella phaeophyticola
+GCF_000014885.1	Shewanella piezotolerans WP3
+GCF_023283895.1	Shewanella pneumatophori
+GCF_006385555.1	Shewanella polaris
+GCF_023283765.1	Shewanella profunda
+GCF_003855155.1	Shewanella psychromarinicola
+GCF_002005305.1	Shewanella psychrophila
+GCF_007197555.1	Shewanella psychropiezotolerans
+GCF_019457595.1	Shewanella psychrotolerans
+GCF_016406325.1	Shewanella putrefaciens
+GCF_019457655.1	Shewanella rhizosphaerae
+GCF_019655015.1	Shewanella sairae
+GCF_012911865.1	Shewanella salipaludis
+GCF_014648295.1	Shewanella saliphila
+GCF_031932065.1	Shewanella scandinavica
+GCF_016765635.1	Shewanella schlegeliana
+GCF_017354965.1	Shewanella sedimentimangrovi
+GCF_000018025.1	Shewanella sediminis HAW-EB3
+GCF_023283775.1	Shewanella seohaensis
+GCF_025370265.1	Shewanella septentrionalis
+GCF_019457555.1	Shewanella spartinae
+GCF_025971955.1	Shewanella subflava
+GCF_042646185.1	Shewanella submarina
+GCF_023284005.1	Shewanella surugensis
+GCF_014648315.1	Shewanella ulleungensis
+GCF_031932135.1	Shewanella vaxholmensis
+GCF_009994065.1	Shewanella vesiculosa
+GCF_000091325.1	Shewanella violacea DSS12
+GCF_000518805.1	Shewanella waksmanii ATCC BAA-643
+GCF_000019525.1	Shewanella woodyi ATCC 51908
+GCF_024971755.1	Shewanella xiamenensis
+GCF_033180165.1	Shewanella youngdeokensis
+GCF_018223345.1	Shewanella yunxiaonensis
+GCF_019457615.1	Shewanella zhangzhouensis
+GCF_022484835.1	Shewanella zhuhaiensis
+GCF_030412945.1	Shiella aurantiaca
+GCF_002290485.1	Shigella boydii
+GCF_022354085.1	Shigella dysenteriae
+GCF_000006925.2	Shigella flexneri 2a str. 301
+GCF_002950395.1	Shigella sonnei
+GCF_009831235.1	Shimazuella alba
+GCF_000428065.1	Shimazuella kribbensis DSM 45090
+GCF_022511585.1	Shimazuella soli
+GCF_003014475.1	Shimia abyssi
+GCF_900114635.1	Shimia aestuarii
+GCF_016888515.1	Shimia biformata
+GCF_900142085.1	Shimia gijangensis
+GCF_900114415.1	Shimia haliotis
+GCF_004346865.1	Shimia isoporae
+GCF_005518135.1	Shimia litoralis
+GCF_900112745.1	Shimia marina
+GCF_007995215.1	Shimia ponticola
+GCF_900182745.1	Shimia sagamensis
+GCF_003990645.1	Shimia sediminis
+GCF_001458215.1	Shimia thalassica
+GCF_000262305.1	Shimwellia blattae DSM 4481 = NBRC 105725
+GCF_016415625.1	Shimwellia pseudoproteus
+GCF_022899935.1	Shinella curvata
+GCF_024281235.1	Shinella daejeonensis
+GCF_014203155.1	Shinella fusca
+GCF_004341885.1	Shinella granuli
+GCF_009827055.1	Shinella kummerowiae
+GCF_010994755.1	Shinella lacus
+GCF_023038235.1	Shinella oryzae
+GCF_024609765.1	Shinella pollutisoli
+GCF_022601905.1	Shinella sedimenti
+GCF_030733865.1	Shinella sumterensis
+GCF_025656855.1	Shinella yambaruensis
+GCF_020883495.1	Shinella zoogloeoides
+GCF_042683085.1	Shivajiella indica
+GCF_034479305.1	Shouchella clausii
+GCF_028735875.1	Shouchella hunanensis
+GCF_004375095.1	Shouchella lehensis
+GCF_900096965.1	Shouchella lonarensis
+GCF_007725405.1	Shouchella miscanthi
+GCF_002019765.1	Shouchella oshimensis
+GCF_002019705.1	Shouchella patagoniensis
+GCF_036700015.1	Shouchella rhizosphaerae
+GCF_001484965.1	Shouchella shacheensis
+GCF_025770735.1	Shouchella tritolerans
+GCF_016907895.1	Shouchella xiaoxiensis
+GCF_026163695.1	Shumkonia mesophila
+GCF_000160115.1	Shuttleworthella satelles DSM 14600
+GCF_000941055.1	Siansivirga zeaxanthinifaciens CC-SAMT-1
+GCF_025914095.1	Siccibacter colletis
+GCF_004168465.1	Siccibacter turicensis
+GCF_014283215.1	Siccirubricoccus deserti
+GCF_008360935.1	Siccirubricoccus phaeus
+GCF_024102615.1	Siccirubricoccus soli
+GCF_004328075.1	Siculibacillus lacustris
+GCF_021654335.1	Sideroxyarcus emersonii
+GCF_000025705.1	Sideroxydans lithotrophicus ES-1
+GCF_000429065.1	Silanimonas lenta DSM 16282
+GCF_003970735.1	Silicimonas algicola
+GCF_025564085.1	Silvania confinis
+GCF_025564065.1	Silvania hatchlandensis
+GCF_001907975.1	Silvanigrella aquatica
+GCF_009208775.1	Silvanigrella paludirubra
+GCF_001006305.1	Silvibacterium bohemicum
+GCF_004123295.1	Silvibacterium dinghuense
+GCF_014645555.1	Silvimonas amylolytica
+GCF_014645535.1	Silvimonas iriomotensis
+GCF_030035605.1	Silvimonas soli
+GCF_014202765.1	Silvimonas terrae
+GCF_014337175.1	Simiaoa sunii
+GCF_014192475.1	Simiduia aestuariiviva
+GCF_000420285.1	Simiduia agarivorans SA1 = DSM 21679
+GCF_030409605.1	Simiduia curdlanivorans
+GCF_042853465.1	Simiduia litorea
+GCF_003605385.1	Siminovitchia acidinfaciens
+GCF_000374565.1	Siminovitchia fordii DSM 16014 = CIP 108821
+GCF_007681465.1	Siminovitchia fortis
+GCF_042680885.1	Siminovitchia sediminis
+GCF_003605405.2	Siminovitchia terrae
+GCF_016909185.1	Siminovitchia thermophila
+GCF_000237205.1	Simkania negevensis Z
+GCF_002951835.1	Simonsiella muelleri ATCC 29453
+GCF_003570885.1	Simplicispira hankyongi
+GCF_003604195.1	Simplicispira lacusdiani
+GCF_003568725.2	Simplicispira metamorpha
+GCF_000688255.1	Simplicispira psychrophila DSM 11588
+GCF_022760965.1	Simplicispira sedimenti
+GCF_003008595.1	Simplicispira suum
+GCF_018128545.1	Sinanaerobacter chloroacetimidivorans
+GCF_000242455.2	Singulisphaera acidiphila DSM 18658
+GCF_003201205.1	Sinimarinibacterium flocculans
+GCF_040327995.1	Sinimarinibacterium thermocellulolyticum
+GCF_027923545.1	Sinisalibacter aestuarii
+GCF_014640115.1	Sinisalibacter lacisalsi
+GCF_003610495.1	Sinobaca qinghaiensis
+GCF_003752585.1	Sinobacterium caligoides
+GCF_923077115.1	Sinobacterium norvegicum
+GCF_021183825.1	Sinomicrobium kalidii
+GCF_900119185.1	Sinomicrobium oceani
+GCF_003725735.1	Sinomicrobium pectinilyticum
+GCF_018863395.1	Sinomicrobium weinanense
+GCF_004919045.1	Sinomonas albida
+GCF_001577305.1	Sinomonas atrocyanea
+GCF_016735455.1	Sinomonas cellulolyticus
+GCF_020886775.1	Sinomonas cyclohexanicum
+GCF_039531875.1	Sinomonas flava
+GCF_005876955.1	Sinomonas gamaensis
+GCF_039615075.1	Sinomonas halotolerans
+GCF_000802235.1	Sinomonas humi
+GCF_001999765.1	Sinomonas mesophila
+GCF_021554725.1	Sinomonas notoginsengisoli
+GCF_041022165.1	Sinomonas puerhi
+GCF_005877005.1	Sinomonas susongensis
+GCF_022539255.1	Sinomonas terrae
+GCF_034931225.1	Sinomonas terricola
+GCF_008932245.1	Sinorhizobium alkalisoli
+GCF_001889105.1	Sinorhizobium americanum
+GCF_000427465.1	Sinorhizobium arboris LMG 14919
+GCF_036488675.1	Sinorhizobium chiapasense
+GCF_003177055.1	Sinorhizobium fredii CCBAU 25509
+GCF_029892065.1	Sinorhizobium garamanticum
+GCF_001651865.1	Sinorhizobium glycinis
+GCF_017874595.1	Sinorhizobium kostiense
+GCF_030064585.1	Sinorhizobium kummerowiae
+GCF_007827695.1	Sinorhizobium medicae
+GCF_037023865.1	Sinorhizobium meliloti
+GCF_013488225.1	Sinorhizobium mexicanum
+GCF_029892045.1	Sinorhizobium numidicum
+GCF_013283645.1	Sinorhizobium psoraleae
+GCF_001651875.1	Sinorhizobium saheli
+GCF_002288525.1	Sinorhizobium sojae CCBAU 05684
+GCF_029714365.1	Sinorhizobium terangae
+GCF_900100605.1	Sinosporangium album
+GCF_016863435.1	Sinosporangium siamense
+GCF_900103285.1	Siphonobacter aquaeclarae
+GCF_002943425.1	Siphonobacter curvatus
+GCF_000936425.1	Skermanella aerolata KACC 11604
+GCF_016653635.2	Skermanella cutis
+GCF_016765655.2	Skermanella mucosa
+GCF_008843145.1	Skermanella pratensis
+GCF_016806835.2	Skermanella rosea
+GCF_000576635.1	Skermanella stibiiresistens SB22
+GCF_019285775.1	Skermania pinensis
+GCF_003725995.1	Slackia equolifaciens
+GCF_900450505.1	Slackia exigua
+GCF_003725295.1	Slackia faecicanis
+GCF_900637575.1	Slackia heliotrinireducens
+GCF_014192995.1	Slackia isoflavoniconvertens
+GCF_000296445.1	Slackia piriformis YIT 12062
+GCF_000380645.1	Smaragdicoccus niigatensis DSM 44881 = NBRC 103563
+GCF_947254785.1	Sneathia sanguinegens
+GCF_000973085.1	Sneathia vaginalis
+GCF_026409565.1	Sneathiella aquimaris
+GCF_030159835.1	Sneathiella chinensis
+GCF_009882935.1	Sneathiella chungangensis
+GCF_000616095.1	Sneathiella glossodoripedis JCM 23214
+GCF_012932565.1	Sneathiella limimaris
+GCF_009882915.1	Sneathiella litorea
+GCF_023746535.1	Sneathiella marina
+GCF_017313765.1	Sneathiella sedimenti
+GCF_000600005.1	Snodgrassella alvi wkB2
+GCF_914768045.1	Snodgrassella communis
+GCF_914768025.1	Snodgrassella gandavensis
+GCF_039539345.1	Snuella lapsa
+GCF_016428595.1	Snuella sedimenti
+GCF_009846485.1	Sodalinema gerasimenkoae IPPAS B-353
+GCF_009676955.1	Sodaliphilus pleomorphus
+GCF_900161835.1	Sodalis endosymbiont_of_Henestaris halophilus
+GCF_000010085.1	Sodalis glossinidius str. morsitans
+GCF_004346745.1	Sodalis ligni
+GCF_039646275.1	Sodalis praecaptivus subsp. spalangiae
+GCF_001602625.1	Sodalis-like endosymbiont_of_Proechinophthirus fluctus
+GCF_964059955.1	Sodalis-like secondary symbiont of Drepanosiphum platanoidis
+GCF_004684055.1	Soehngenia longivitae
+GCF_002021095.1	Solemya elarraichensis gill symbiont
+GCF_002020875.1	Solemya pervernicosa gill symbiont
+GCF_002020805.1	Solemya velesiana gill symbiont
+GCF_002020255.1	Solemya velum gill symbiont
+GCF_050272495.1	Solibacillus cecembensis
+GCF_028747805.1	Solibacillus daqui
+GCF_014836905.1	Solibacillus faecavium
+GCF_037027585.1	Solibacillus ferritrahens
+GCF_000298255.1	Solibacillus isronensis B3W22
+GCF_002174535.1	Solibacillus kalamii
+GCF_014836935.1	Solibacillus merdavium
+GCF_022549215.1	Solibacillus palustris
+GCF_040096205.1	Solibaculum intestinale
+GCF_015140235.1	Solibaculum mannosilyticum
+GCF_025790165.1	Solicola gregarius
+GCF_009856865.1	Solidesulfovibrio aerotolerans
+GCF_000702665.1	Solidesulfovibrio alcoholivorans DSM 5433
+GCF_004135975.1	Solidesulfovibrio carbinolicus
+GCF_000177215.2	Solidesulfovibrio carbinoliphilus subsp. oakridgensis
+GCF_000179555.1	Solidesulfovibrio fructosivorans JJ
+GCF_000010665.1	Solidesulfovibrio magneticus RS-1
+GCF_008386585.1	Solihabitans fulvus
+GCF_003293695.1	Solilutibacter oculi
+GCF_003697345.1	Solilutibacter pythonis
+GCF_002895945.1	Solilutibacter silvestris
+GCF_900155935.1	Solilutibacter tolerans
+GCF_002976435.1	Solimicrobium silvestre
+GCF_900111015.1	Solimonas aquatica
+GCF_000426685.1	Solimonas flava DSM 18980
+GCF_002930645.1	Solimonas fluminis
+GCF_012241385.1	Solimonas marina
+GCF_000474945.1	Solimonas soli DSM 21787
+GCF_011067135.1	Solimonas terrae
+GCF_000382285.1	Solimonas variicoloris DSM 15731
+GCF_004010155.1	Solirhodobacter olei
+GCF_027587175.1	Solirubrobacter deserti
+GCF_027587205.1	Solirubrobacter ginsenosidimutans
+GCF_003633755.1	Solirubrobacter pauli
+GCF_027587195.1	Solirubrobacter phytolaccae
+GCF_000423665.1	Solirubrobacter soli DSM 22325
+GCF_001483135.1	Solirubrum puertoriconensis
+GCF_023914155.1	Solitalea agri
+GCF_000242635.2	Solitalea canadensis DSM 3403
+GCF_900182575.1	Solitalea koreensis
+GCF_022014595.1	Solitalea lacus
+GCF_002920915.1	Solitalea longa
+GCF_036323475.1	Solobacterium moorei
+GCF_900167905.1	Soonwooa buanensis
+GCF_028368935.1	Sorangium atrum
+GCF_000067165.1	Sorangium cellulosum So ce56
+GCF_036452135.1	Sorlinia euscelidii
+GCF_026309355.1	Spartinivicinus marinus
+GCF_028858535.1	Spartinivicinus poritis
+GCF_011009015.1	Spartinivicinus ruber
+GCF_003946885.1	Specibacter cremeus
+GCF_031846305.1	Spectribacter acetivorans
+GCF_031846275.1	Spectribacter hydrogenoxidans
+GCF_013409065.1	Spelaeicoccus albus
+GCF_029589495.1	Speluncibacter jeojiensis
+GCF_042435035.1	Sphaerimonospora cavernae
+GCF_016863115.1	Sphaerimonospora thailandensis
+GCF_003323745.1	Sphaerisporangium album
+GCF_042658925.1	Sphaerisporangium aureirubrum
+GCF_025506355.1	Sphaerisporangium corydalis
+GCF_042654065.1	Sphaerisporangium dianthi
+GCF_039537005.1	Sphaerisporangium flaviroseum
+GCF_018531465.1	Sphaerisporangium fuscum
+GCF_016863355.1	Sphaerisporangium krabiense
+GCF_016863375.1	Sphaerisporangium melleum
+GCF_023276435.1	Sphaerisporangium perillae
+GCF_042665155.1	Sphaerisporangium rhizosphaerae
+GCF_014207705.1	Sphaerisporangium rubeum
+GCF_016863395.1	Sphaerisporangium rufum
+GCF_014205275.1	Sphaerisporangium siamense
+GCF_049674955.1	Sphaerisporangium viridialbum
+GCF_000024985.1	Sphaerobacter thermophilus DSM 20745
+GCF_022869165.1	Sphaerochaeta associata
+GCF_000190435.1	Sphaerochaeta globosa str. Buddy
+GCF_003429665.1	Sphaerochaeta halotolerans
+GCF_000236685.1	Sphaerochaeta pleomorpha str. Grapes
+GCF_015207835.1	Sphaerospermopsis aphanizomenoides LEGE 00250
+GCF_028329225.1	Sphaerospermopsis kisseleviana CS-549
+GCF_005402885.1	Sphaerospermopsis reniformis
+GCF_019598945.1	Sphaerospermopsis torques-reginae ITEP-024
+GCF_030405905.1	Sphaerothrix gracilis Ecp01
+GCF_003201595.1	Sphaerotilus hippei
+GCF_023734135.1	Sphaerotilus microaerophilus
+GCF_004216565.1	Sphaerotilus mobilis
+GCF_013410775.1	Sphaerotilus montanus
+GCF_900156335.1	Sphaerotilus natans
+GCF_008329925.1	Sphaerotilus sulfidivorans
+GCF_013294065.1	Sphaerotilus uruguayifluvii
+GCF_042648405.1	Sphingoaurantiacus capsulatus
+GCF_004342685.1	Sphingobacterium alimentarium
+GCF_005049105.1	Sphingobacterium alkalisoli
+GCF_008124885.1	Sphingobacterium allocomposti
+GCF_042686355.1	Sphingobacterium anhuiense
+GCF_014692505.1	Sphingobacterium arenae
+GCF_003071065.1	Sphingobacterium athyrii
+GCF_033955345.1	Sphingobacterium bambusae
+GCF_009829085.1	Sphingobacterium bovisgrunnientis
+GCF_020295405.1	Sphingobacterium bovistauri
+GCF_008520265.1	Sphingobacterium cavernae
+GCF_043187465.1	Sphingobacterium cellulitidis
+GCF_011316935.1	Sphingobacterium chungjuense
+GCF_014692525.1	Sphingobacterium chuzhouense
+GCF_009829075.1	Sphingobacterium composti
+GCF_003076635.1	Sphingobacterium corticibacter
+GCF_004208525.1	Sphingobacterium corticibacterium
+GCF_042684745.1	Sphingobacterium corticis
+GCF_042678525.1	Sphingobacterium daejeonense
+GCF_000757725.1	Sphingobacterium deserti
+GCF_003610355.1	Sphingobacterium detergens
+GCF_009733535.1	Sphingobacterium endophyticum
+GCF_016746095.1	Sphingobacterium faecale
+GCF_003054045.1	Sphingobacterium faecium
+GCF_039536865.1	Sphingobacterium ginsenosidimutans
+GCF_002980575.1	Sphingobacterium gobiense
+GCF_014653155.1	Sphingobacterium griseoflavum
+GCF_002980525.1	Sphingobacterium haloxyli
+GCF_008274825.1	Sphingobacterium hotanense
+GCF_009768885.1	Sphingobacterium humi
+GCF_015210005.1	Sphingobacterium hungaricum
+GCF_039536825.1	Sphingobacterium kyonggiense
+GCF_011046555.1	Sphingobacterium lactis
+GCF_014692495.1	Sphingobacterium litopenaei
+GCF_006476045.1	Sphingobacterium lumbrici
+GCF_011007385.1	Sphingobacterium luzhongxinii
+GCF_014692515.1	Sphingobacterium micropteri
+GCF_900187125.1	Sphingobacterium mizutaii
+GCF_016894225.1	Sphingobacterium multivorum
+GCF_900168125.1	Sphingobacterium nematocida
+GCF_005048855.1	Sphingobacterium olei
+GCF_028736175.1	Sphingobacterium oryzagri
+GCF_004364125.1	Sphingobacterium paludis
+GCF_014109745.1	Sphingobacterium paramultivorum
+GCF_000416985.1	Sphingobacterium paucimobilis HER1398
+GCF_015209965.1	Sphingobacterium pedocola
+GCF_008180195.1	Sphingobacterium phlebotomi
+GCF_042684825.1	Sphingobacterium populi
+GCF_013167215.1	Sphingobacterium prati
+GCF_004421025.1	Sphingobacterium psychroaquaticum
+GCF_003627955.1	Sphingobacterium puteale
+GCF_022627575.1	Sphingobacterium rhinopitheci
+GCF_013179575.1	Sphingobacterium shayense
+GCF_023277505.1	Sphingobacterium siyangense
+GCF_016725645.1	Sphingobacterium spiritivorum
+GCF_042684625.1	Sphingobacterium suaedae
+GCF_017908035.1	Sphingobacterium tabacisoli
+GCF_037126265.1	Sphingobacterium tenebrionis
+GCF_901482695.1	Sphingobacterium thalpophilum
+GCF_039541675.1	Sphingobacterium thermophilum
+GCF_900116225.1	Sphingobacterium wenxiniae
+GCF_004363245.1	Sphingobacterium yanglingense
+GCF_042647425.1	Sphingobacterium zeae
+GCF_009557615.1	Sphingobacterium zhuxiongii
+GCF_001598335.1	Sphingobium abikonense NBRC 16140
+GCF_023051225.1	Sphingobium agri
+GCF_004005485.1	Sphingobium algorifonticola
+GCF_003967075.1	Sphingobium amiense
+GCF_037154135.1	Sphingobium aquiterrae
+GCF_037154075.1	Sphingobium aromaticiconvertens
+GCF_037154195.1	Sphingobium aromaticivastans
+GCF_029167225.1	Sphingobium arseniciresistens
+GCF_001046655.1	Sphingobium baderi LL03
+GCF_000412635.1	Sphingobium bisphenolivorans
+GCF_014199215.1	Sphingobium boeckii
+GCF_000722875.1	Sphingobium chlorophenolicum
+GCF_001005725.1	Sphingobium chungbukense
+GCF_002355855.1	Sphingobium cloacae
+GCF_001046645.1	Sphingobium cupriresistens LL01
+GCF_030580935.1	Sphingobium cyanobacteriorum
+GCF_008692605.1	Sphingobium estronivorans
+GCF_004122115.1	Sphingobium fluviale
+GCF_014196635.1	Sphingobium fontiphilum
+GCF_015074805.1	Sphingobium fuliginis
+GCF_001598535.1	Sphingobium herbicidovorans NBRC 16415
+GCF_000091125.1	Sphingobium indicum UT26S
+GCF_014196495.1	Sphingobium jiangsuense
+GCF_000445105.1	Sphingobium lactosutens DS20
+GCF_014203955.1	Sphingobium lignivorans
+GCF_008710165.1	Sphingobium limneticum
+GCF_037860795.1	Sphingobium mellinum
+GCF_043589935.1	Sphingobium naphthae
+GCF_018603885.1	Sphingobium nicotianae
+GCF_042678845.1	Sphingobium olei
+GCF_018286635.1	Sphingobium phenoxybenzoativorans
+GCF_012927105.1	Sphingobium psychrophilum
+GCF_000445065.1	Sphingobium quisquiliarum P25
+GCF_042647625.1	Sphingobium rhizovicinum
+GCF_014197035.1	Sphingobium scionense
+GCF_020782245.1	Sphingobium soli
+GCF_014199435.1	Sphingobium subterraneum
+GCF_021403115.1	Sphingobium sufflavum
+GCF_003591655.1	Sphingobium terrigena
+GCF_042654265.1	Sphingobium tyrosinilyticum
+GCF_000447205.1	Sphingobium ummariense RL-3
+GCF_011762025.1	Sphingobium vermicomposti
+GCF_007830065.1	Sphingobium wenxiniae
+GCF_019737615.1	Sphingobium xanthum
+GCF_002288285.1	Sphingobium xenophagum
+GCF_002504085.1	Sphingobium yanoikuyae
+GCF_024721585.1	Sphingomicrobium aestuariivivum
+GCF_039655735.1	Sphingomicrobium aquimarinum
+GCF_026157085.1	Sphingomicrobium arenosum
+GCF_026157155.1	Sphingomicrobium astaxanthinifaciens
+GCF_019264355.1	Sphingomicrobium clamense
+GCF_024721605.1	Sphingomicrobium flavum
+GCF_026157185.1	Sphingomicrobium lutaoense
+GCF_026157105.1	Sphingomicrobium marinum
+GCF_039555325.1	Sphingomicrobium maritimum
+GCF_026157035.1	Sphingomicrobium nitratireducens
+GCF_023805295.1	Sphingomicrobium sediminis
+GCF_014199625.1	Sphingomonas abaci
+GCF_027625475.1	Sphingomonas abietis
+GCF_002374855.1	Sphingomonas adhaesiva
+GCF_023935825.1	Sphingomonas aerolata
+GCF_014199305.1	Sphingomonas aerophila
+GCF_032911445.1	Sphingomonas agrestis
+GCF_038148795.1	Sphingomonas agri
+GCF_023516555.1	Sphingomonas alba
+GCF_044501755.1	Sphingomonas albertensis
+GCF_016743815.1	Sphingomonas aliaeris
+GCF_025370095.1	Sphingomonas alpina
+GCF_023516495.1	Sphingomonas anseongensis
+GCF_965137005.1	Sphingomonas antarctica
+GCF_037173185.1	Sphingomonas aquatica
+GCF_036480755.1	Sphingomonas aquatilis
+GCF_003345355.1	Sphingomonas aracearum
+GCF_042682045.1	Sphingomonas arantia
+GCF_016924655.1	Sphingomonas arenae
+GCF_026013565.1	Sphingomonas arvum
+GCF_001598355.1	Sphingomonas asaccharolytica NBRC 15499
+GCF_000711715.1	Sphingomonas astaxanthinifaciens DSM 22298
+GCF_003050705.1	Sphingomonas aurantiaca
+GCF_030678875.1	Sphingomonas aurea
+GCF_002091475.1	Sphingomonas azotifigens NBRC 15497
+GCF_005144715.1	Sphingomonas baiyangensis
+GCF_016820445.1	Sphingomonas beigongshangi
+GCF_024349785.1	Sphingomonas bisphenolicum
+GCF_023516505.1	Sphingomonas brevis
+GCF_026013415.1	Sphingomonas caeni
+GCF_026013525.1	Sphingomonas canadensis
+GCF_021391395.1	Sphingomonas cannabina
+GCF_047223455.1	Sphingomonas carotinifaciens
+GCF_023516455.1	Sphingomonas caseinilyticus
+GCF_003590775.1	Sphingomonas cavernae
+GCF_000974765.1	Sphingomonas changbaiensis NBRC 104936
+GCF_009913435.1	Sphingomonas changnyeongensis
+GCF_013778325.1	Sphingomonas chungangi
+GCF_019429485.1	Sphingomonas citri
+GCF_019429535.1	Sphingomonas citricola
+GCF_019880585.1	Sphingomonas colocasiae
+GCF_012035195.1	Sphingomonas corticis
+GCF_021502585.1	Sphingomonas cremea
+GCF_004005865.1	Sphingomonas crocodyli
+GCF_003391115.1	Sphingomonas crusticola
+GCF_039537815.1	Sphingomonas cynarae
+GCF_039543105.1	Sphingomonas daechungensis
+GCF_004135605.1	Sphingomonas desiccabilis
+GCF_002197685.1	Sphingomonas dokdonensis
+GCF_023674425.1	Sphingomonas donggukensis
+GCF_033842725.1	Sphingomonas echinoides
+GCF_003583725.1	Sphingomonas edaphi
+GCF_000226955.1	Sphingomonas elodea ATCC 31461
+GCF_025231525.1	Sphingomonas endolithica
+GCF_039537525.1	Sphingomonas endophytica
+GCF_003053745.1	Sphingomonas faeni
+GCF_004796535.1	Sphingomonas flavalba
+GCF_030866745.1	Sphingomonas flavescens
+GCF_042681125.1	Sphingomonas floccifaciens
+GCF_019429525.1	Sphingomonas folli
+GCF_034659795.1	Sphingomonas fuzhouensis
+GCF_004792685.1	Sphingomonas gei
+GCF_900110035.1	Sphingomonas gellani
+GCF_003515075.1	Sphingomonas gilva
+GCF_003970925.1	Sphingomonas ginkgonis
+GCF_009363895.1	Sphingomonas ginsengisoli (ex An et al. 2013)
+GCF_002374835.1	Sphingomonas ginsenosidimutans
+GCF_007995065.1	Sphingomonas ginsenosidivorax
+GCF_014653575.1	Sphingomonas glacialis
+GCF_023380025.1	Sphingomonas glaciei
+GCF_900199185.1	Sphingomonas guangdongensis
+GCF_022664465.1	Sphingomonas hankookensis
+GCF_023516575.1	Sphingomonas hankyongi
+GCF_000935025.1	Sphingomonas hengshuiensis
+GCF_013328205.1	Sphingomonas hominis
+GCF_009753715.1	Sphingomonas horti
+GCF_039536725.1	Sphingomonas humi
+GCF_025370105.1	Sphingomonas hylomeconis
+GCF_030580995.1	Sphingomonas immobilis
+GCF_010450875.1	Sphingomonas insulae
+GCF_011762085.1	Sphingomonas japonica
+GCF_000585415.1	Sphingomonas jaspsi DSM 18422
+GCF_900113315.1	Sphingomonas jatrophae
+GCF_001981525.1	Sphingomonas jeddahensis
+GCF_011927695.1	Sphingomonas jejuensis
+GCF_014197105.1	Sphingomonas jinjuensis
+GCF_011927725.1	Sphingomonas kaistensis
+GCF_001922385.1	Sphingomonas koreensis
+GCF_014196745.1	Sphingomonas kyeonggiensis
+GCF_037120395.1	Sphingomonas kyungheensis
+GCF_012979535.1	Sphingomonas lacunae
+GCF_022664395.1	Sphingomonas lacusdianchii
+GCF_011761945.1	Sphingomonas leidyi
+GCF_002288825.1	Sphingomonas lenta
+GCF_039537965.1	Sphingomonas limnosediminicola
+GCF_024211255.1	Sphingomonas liriopis
+GCF_016892685.1	Sphingomonas longa
+GCF_021497585.1	Sphingomonas lutea
+GCF_026130605.1	Sphingomonas lycopersici
+GCF_001598415.1	Sphingomonas mali NBRC 15500
+GCF_000379045.1	Sphingomonas melonis DAPP-PG 224
+GCF_003499275.1	Sphingomonas mesophila
+GCF_014641735.1	Sphingomonas metalli
+GCF_016427505.1	Sphingomonas mollis
+GCF_039522995.1	Sphingomonas molluscorum
+GCF_001956315.1	Sphingomonas montana
+GCF_008274695.1	Sphingomonas montanisoli
+GCF_023822065.1	Sphingomonas morindae
+GCF_002197665.1	Sphingomonas mucosissima
+GCF_004792695.1	Sphingomonas naasensis
+GCF_028607085.1	Sphingomonas naphthae
+GCF_030546695.1	Sphingomonas natans
+GCF_019930585.1	Sphingomonas nostoxanthinifaciens
+GCF_003050615.1	Sphingomonas oleivorans
+GCF_011762195.1	Sphingomonas oligoaromativorans
+GCF_039522915.1	Sphingomonas oligophenolica
+GCF_029906645.1	Sphingomonas oryzagri
+GCF_003660165.1	Sphingomonas paeninsulae
+GCF_900109565.1	Sphingomonas palmae
+GCF_001717955.1	Sphingomonas panacis
+GCF_007859635.1	Sphingomonas panacisoli
+GCF_036890205.1	Sphingomonas panaciterrae
+GCF_022664435.1	Sphingomonas panni
+GCF_000787715.1	Sphingomonas parapaucimobilis NBRC 15100
+GCF_004564275.1	Sphingomonas parva
+GCF_016027095.1	Sphingomonas paucimobilis
+GCF_000427645.1	Sphingomonas phyllosphaerae FA2
+GCF_011300455.1	Sphingomonas piscis
+GCF_001598435.1	Sphingomonas pituitosa NBRC 102491
+GCF_046000505.1	Sphingomonas plantiphila
+GCF_003096275.1	Sphingomonas pokkalii
+GCF_029167165.1	Sphingomonas pollutisoli
+GCF_004208535.1	Sphingomonas populi
+GCF_009755805.1	Sphingomonas prati
+GCF_001598455.1	Sphingomonas pruni NBRC 15498
+GCF_017052355.1	Sphingomonas pseudosanguinis
+GCF_014636175.1	Sphingomonas psychrolutea
+GCF_002796605.1	Sphingomonas psychrotolerans
+GCF_039614825.1	Sphingomonas qilianensis
+GCF_024496245.1	Sphingomonas qomolangmaensis
+GCF_018863195.1	Sphingomonas quercus
+GCF_020866845.1	Sphingomonas radiodurans
+GCF_014396585.1	Sphingomonas rhizophila
+GCF_039538065.1	Sphingomonas rosea
+GCF_900115745.1	Sphingomonas rubra
+GCF_039652585.1	Sphingomonas rustica
+GCF_014352855.1	Sphingomonas sabuli
+GCF_001591005.1	Sphingomonas sanguinis NBRC 13937
+GCF_000512205.2	Sphingomonas sanxanigenens DSM 19645 = NX02
+GCF_014489515.1	Sphingomonas sediminicola
+GCF_009720245.1	Sphingomonas segetis
+GCF_040049155.1	Sphingomonas silueang
+GCF_011302055.1	Sphingomonas sinipercae
+GCF_001591025.1	Sphingomonas soli NBRC 100801
+GCF_002351485.1	Sphingomonas spermidinifaciens
+GCF_007833215.1	Sphingomonas suaedae
+GCF_039538045.1	Sphingomonas swuensis
+GCF_042678385.1	Sphingomonas tabacisoli
+GCF_024211275.1	Sphingomonas tagetis
+GCF_000764535.1	Sphingomonas taxi
+GCF_022568775.1	Sphingomonas telluris
+GCF_011927635.1	Sphingomonas trueperi
+GCF_001721295.1	Sphingomonas turrisvirgatae
+GCF_013607875.1	Sphingomonas ursincola
+GCF_011761305.1	Sphingomonas vulcanisoli
+GCF_007998985.1	Sphingomonas xanthus
+GCF_014199255.1	Sphingomonas xinjiangensis
+GCF_017052455.1	Sphingomonas yabuuchiae
+GCF_014199325.1	Sphingomonas yantingensis
+GCF_019898765.1	Sphingomonas yunnanensis
+GCF_014197135.1	Sphingomonas zeae
+GCF_050433225.1	Sphingomonas zeicaulis
+GCF_000013985.1	Sphingopyxis alaskensis RB2256
+GCF_002205675.1	Sphingopyxis bauzanensis
+GCF_035930445.1	Sphingopyxis chilensis
+GCF_900168005.1	Sphingopyxis flava
+GCF_000803645.1	Sphingopyxis fribergensis
+GCF_001559015.1	Sphingopyxis granuli
+GCF_032879645.1	Sphingopyxis indica
+GCF_011926545.1	Sphingopyxis italica
+GCF_016734905.1	Sphingopyxis jiangsuensis
+GCF_036687315.1	Sphingopyxis kveilinensis
+GCF_002993885.1	Sphingopyxis lindanitolerans
+GCF_001314325.1	Sphingopyxis macrogoltabida
+GCF_012274265.1	Sphingopyxis microcysteis
+GCF_011762125.1	Sphingopyxis panaciterrae
+GCF_014199295.1	Sphingopyxis panaciterrulae
+GCF_039523375.1	Sphingopyxis soli
+GCF_015475875.1	Sphingopyxis solisilvae
+GCF_002374275.1	Sphingopyxis terrae subsp. ummariensis
+GCF_002205635.1	Sphingopyxis witflariensis
+GCF_020687785.1	Sphingopyxis yananensis
+GCF_042651485.1	Sphingorhabdus arenilitoris
+GCF_042680825.1	Sphingorhabdus buctiana
+GCF_007280415.1	Sphingorhabdus contaminans
+GCF_009768975.1	Sphingorhabdus lacus
+GCF_001889025.1	Sphingorhabdus lutea
+GCF_009769755.1	Sphingorhabdus profundilacus
+GCF_003367235.1	Sphingorhabdus pulchriflava
+GCF_014196595.1	Sphingorhabdus rigui
+GCF_003933235.1	Sphingorhabdus wooponensis
+GCF_003634215.1	Sphingosinicella microcystinivorans
+GCF_032378825.1	Sphingosinicella rhizophila
+GCF_014199685.1	Sphingosinicella soli
+GCF_003347635.1	Sphingosinicella terrae
+GCF_042676985.1	Sphingosinicella xenopeptidilytica
+GCF_003171655.1	Sphingosinithalassobacter portus
+GCF_011057975.1	Sphingosinithalassobacter tenebrarum
+GCF_013408795.1	Spinactinospora alkalitolerans
+GCF_014885015.1	Spirabiliibacterium falconis
+GCF_014884965.1	Spirabiliibacterium mucosae
+GCF_014884995.1	Spirabiliibacterium pneumoniae
+GCF_018437505.1	Spiractinospora alimapuensis
+GCF_007625215.1	Spiribacter aquaticus
+GCF_000485905.1	Spiribacter curvatus
+GCF_020883455.1	Spiribacter halobius
+GCF_040838345.1	Spiribacter insolitus
+GCF_040838425.1	Spiribacter onubensis
+GCF_040838495.1	Spiribacter pallidus
+GCF_002813635.1	Spiribacter roseus
+GCF_009649225.1	Spiribacter salilacus
+GCF_000319575.2	Spiribacter salinus M19-40
+GCF_007625165.1	Spiribacter vilamensis
+GCF_030811375.1	Spirilliplanes yamanashiensis
+GCF_000718255.1	Spirillospora albida
+GCF_037081835.1	Spirobacillus cienkowskii
+GCF_000242595.2	Spirochaeta africana DSM 8902
+GCF_000426705.1	Spirochaeta cellobiosiphila DSM 17781
+GCF_014207565.1	Spirochaeta isovalerica
+GCF_000758165.1	Spirochaeta lutea
+GCF_000184345.1	Spirochaeta thermophila DSM 6578
+GCF_003363775.1	Spiroplasma alleghenense
+GCF_000500935.1	Spiroplasma apis B31
+GCF_001281045.1	Spiroplasma cantharicola
+GCF_008086545.1	Spiroplasma chinense
+GCF_000400935.1	Spiroplasma chrysopicola DF-1
+GCF_001886855.1	Spiroplasma citri
+GCF_002795265.1	Spiroplasma clarkii
+GCF_002237575.1	Spiroplasma corruscae
+GCF_000565175.1	Spiroplasma culicicola AES-1
+GCF_000439455.1	Spiroplasma diminutum CUAS-1
+GCF_018831625.1	Spiroplasma endosymbiont_of_Nebria riversi
+GCF_964031275.1	Spiroplasma endosymbiont_of_Acasis viretata
+GCF_964019485.1	Spiroplasma endosymbiont_of_Agriotes lineatus
+GCF_964031135.1	Spiroplasma endosymbiont_of_Aleiodes alternator
+GCF_964020965.1	Spiroplasma endosymbiont_of_Ammophila pubescens
+GCF_964030645.1	Spiroplasma endosymbiont_of_Amphibalanus improvisus
+GCF_964030965.1	Spiroplasma endosymbiont_of_Amphimallon solstitiale
+GCF_964019575.1	Spiroplasma endosymbiont_of_Andrena trimmerana
+GCF_042465095.1	Spiroplasma endosymbiont_of_Anurida maritima
+GCF_964020205.1	Spiroplasma endosymbiont_of_Apeira syringaria
+GCF_964031085.1	Spiroplasma endosymbiont_of_Asaphidion curtum
+GCF_964031045.1	Spiroplasma endosymbiont_of_Aspidapion aeneum
+GCF_964020005.1	Spiroplasma endosymbiont_of_Atherix ibis
+GCF_964035735.1	Spiroplasma endosymbiont_of_Calodromius spilotus
+GCF_964030855.1	Spiroplasma endosymbiont_of_Cantharis lateralis
+GCF_964019925.1	Spiroplasma endosymbiont_of_Cantharis nigra
+GCF_964019665.1	Spiroplasma endosymbiont_of_Cantharis rufa
+GCF_964273375.1	Spiroplasma endosymbiont_of_Cleonymus obscurus
+GCF_964031115.1	Spiroplasma endosymbiont_of_Clivina fossor
+GCF_964020095.1	Spiroplasma endosymbiont_of_Colias croceus
+GCF_964020035.1	Spiroplasma endosymbiont_of_Crioceris asparagi
+GCF_902809815.1	Spiroplasma endosymbiont_of_Danaus chrysippus
+GCF_964019495.1	Spiroplasma endosymbiont_of_Dasysyrphus albostriatus
+GCF_964030685.1	Spiroplasma endosymbiont_of_Dilophus febrilis
+GCF_964030865.1	Spiroplasma endosymbiont_of_Dioctria linearis
+GCF_964019625.1	Spiroplasma endosymbiont_of_Diplazon laetatorius
+GCF_964031155.1	Spiroplasma endosymbiont_of_Dromius quadrimaculatus
+GCF_964019525.1	Spiroplasma endosymbiont_of_Eupeodes luniger
+GCF_049669535.1	Spiroplasma endosymbiont_of_Glossina fuscipes fuscipes
+GCF_964019845.1	Spiroplasma endosymbiont_of_Labia minor
+GCF_023846195.1	Spiroplasma endosymbiont_of_Lariophagus distinguendus
+GCF_964020065.1	Spiroplasma endosymbiont_of_Lasioglossum malachurum
+GCF_964020195.1	Spiroplasma endosymbiont_of_Lasioglossum villosulum
+GCF_964019715.1	Spiroplasma endosymbiont_of_Lonchoptera lutea
+GCF_003987485.1	Spiroplasma endosymbiont_of_Megaselia nigra
+GCF_964031175.1	Spiroplasma endosymbiont_of_Melieria omissa
+GCF_964019975.1	Spiroplasma endosymbiont_of_Monopis laevigella
+GCF_964030895.1	Spiroplasma endosymbiont_of_Nebria brevicollis
+GCF_964030835.1	Spiroplasma endosymbiont_of_Nephrotoma flavescens
+GCF_964030795.1	Spiroplasma endosymbiont_of_Nomada ruficornis
+GCF_964277355.1	Spiroplasma endosymbiont_of_Nomada rufipes
+GCF_964030985.1	Spiroplasma endosymbiont_of_Notiophilus biguttatus
+GCF_964019505.1	Spiroplasma endosymbiont_of_Othius punctulatus
+GCF_964019765.1	Spiroplasma endosymbiont_of_Panorpa germanica
+GCF_964019705.1	Spiroplasma endosymbiont_of_Panzeria rudis
+GCF_964031195.1	Spiroplasma endosymbiont_of_Phycita roborella
+GCF_918697755.1	Spiroplasma endosymbiont_of_Phyllotreta cruciferae
+GCF_964030655.1	Spiroplasma endosymbiont_of_Poecilobothrus nobilitatus
+GCF_964019755.1	Spiroplasma endosymbiont_of_Polydrusus cervinus
+GCF_964263245.1	Spiroplasma endosymbiont_of_Polydrusus formosus
+GCF_964030825.1	Spiroplasma endosymbiont_of_Polydrusus pterygomalis
+GCF_964019595.1	Spiroplasma endosymbiont_of_Sarcophaga carnaria
+GCF_965178695.1	Spiroplasma endosymbiont_of_Sarcophaga variegata
+GCF_964020235.1	Spiroplasma endosymbiont_of_Seladonia tumulorum
+GCF_964031205.1	Spiroplasma endosymbiont_of_Stenodema calcarata
+GCF_964019735.1	Spiroplasma endosymbiont_of_Thecophora atra
+GCF_964020225.1	Spiroplasma endosymbiont_of_Tiphia femorata
+GCF_964264785.1	Spiroplasma endosymbiont_of_Tipula paludosa
+GCF_964019535.1	Spiroplasma endosymbiont_of_Tricholauxania praeusta
+GCF_964030925.1	Spiroplasma endosymbiont_of_Villa modesta
+GCF_964264745.1	Spiroplasma endosymbiont_of_Virgichneumon dumeticola
+GCF_964030805.1	Spiroplasma endosymbiont_of_Zeiraphera isertana
+GCF_001029265.1	Spiroplasma eriocheiris
+GCF_002813555.1	Spiroplasma floricola 23-6
+GCF_004379335.1	Spiroplasma gladiatoris
+GCF_001715535.1	Spiroplasma helicoides
+GCF_030316605.1	Spiroplasma ixodetis Y32
+GCF_001274875.1	Spiroplasma kunkelii CR2-3x
+GCF_001267155.1	Spiroplasma litorale
+GCF_000236085.2	Spiroplasma melliferum KC3
+GCF_001029245.1	Spiroplasma mirum
+GCF_002865545.1	Spiroplasma monobiae MQ-1
+GCF_003339775.1	Spiroplasma phoeniceum P40
+GCF_021496725.1	Spiroplasma platyhelix PALS-1
+GCF_009866525.1	Spiroplasma poulsonii
+GCF_000565215.1	Spiroplasma sabaudiense Ar-1343
+GCF_000400955.1	Spiroplasma syrphidicola EA-1
+GCF_009730595.1	Spiroplasma tabanidicola
+GCF_000439435.1	Spiroplasma taiwanense CT-1
+GCF_001262715.1	Spiroplasma turonicum
+GCF_002056795.1	Spirosoma aerolatum
+GCF_010747415.1	Spirosoma agri
+GCF_009754945.1	Spirosoma arboris
+GCF_011604685.1	Spirosoma aureum
+GCF_010233585.1	Spirosoma endbachense
+GCF_900112365.1	Spirosoma endophyticum
+GCF_042686045.1	Spirosoma flavum
+GCF_900230225.1	Spirosoma fluviale
+GCF_014117325.1	Spirosoma foliorum
+GCF_005870035.1	Spirosoma lacussanchae
+GCF_000024525.1	Spirosoma linguale DSM 74
+GCF_023196085.1	Spirosoma liriopis
+GCF_000374065.1	Spirosoma luteum DSM 19990
+GCF_001988955.1	Spirosoma montaniterrae
+GCF_003002825.1	Spirosoma oryzae
+GCF_021233055.1	Spirosoma oryzicola
+GCF_000374025.1	Spirosoma panaciterrae DSM 21099
+GCF_002831565.1	Spirosoma pollinicola
+GCF_014699005.1	Spirosoma profusum
+GCF_000974425.1	Spirosoma radiotolerans
+GCF_012849055.1	Spirosoma rhododendri
+GCF_002067135.1	Spirosoma rigui
+GCF_042684525.1	Spirosoma soli
+GCF_004138325.1	Spirosoma sordidisoli
+GCF_000374085.1	Spirosoma spitsbergense DSM 19989
+GCF_013127955.1	Spirosoma taeanense
+GCF_003259005.1	Spirosoma telluris
+GCF_010435915.1	Spirosoma terrae
+GCF_014282275.1	Spirosoma utsteinense
+GCF_014699035.1	Spirosoma validum
+GCF_001890765.1	Spirulina major PCC 6313
+GCF_000314005.1	Spirulina subsalsa PCC 9445
+GCF_030442035.1	Splendidivirga corallicola
+GCF_003236385.1	Spongiactinospora gelatinilytica
+GCF_003315795.1	Spongiactinospora rosea
+GCF_016906995.1	Spongiibacter marinus
+GCF_016132545.1	Spongiibacter nanhainus
+GCF_014705705.1	Spongiibacter pelagi
+GCF_023702635.1	Spongiibacter taiwanensis
+GCF_012272835.1	Spongiibacter thalassae
+GCF_000420325.1	Spongiibacter tropicus DSM 19543
+GCF_043678055.1	Spongiimicrobium salis
+GCF_010671565.1	Spongiivirga citrea
+GCF_044465595.1	Spongisporangium articulatum
+GCF_900130025.1	Sporanaerobacter acetigenes DSM 13106
+GCF_002735925.1	Sporanaerobium hydrogeniformans
+GCF_039525035.1	Sporichthya brevicatena
+GCF_000384115.1	Sporichthya polymorpha DSM 43042
+GCF_900130065.1	Sporobacter termitidis DSM 10068
+GCF_000426725.1	Sporocytophaga myxococcoides DSM 11118
+GCF_009830285.1	Sporofaciens musculi
+GCF_016908635.1	Sporohalobacter salinus
+GCF_006539285.1	Sporolactobacillus inulinus
+GCF_042660205.1	Sporolactobacillus kofuensis
+GCF_000497245.1	Sporolactobacillus laevolacticus DSM 442
+GCF_023336505.1	Sporolactobacillus mangiferae
+GCF_900113325.1	Sporolactobacillus nakayamae
+GCF_002802965.1	Sporolactobacillus pectinivorans
+GCF_014647035.1	Sporolactobacillus putidus
+GCF_004684935.1	Sporolactobacillus shoreae
+GCF_024125445.1	Sporolactobacillus shoreicorticis
+GCF_016908935.1	Sporolactobacillus spathodeae
+GCF_019930545.1	Sporolactobacillus terrae
+GCF_000246965.1	Sporolactobacillus vineae DSM 21990 = SL153
+GCF_900102435.1	Sporolituus thermophilus DSM 23256
+GCF_002257695.2	Sporomusa acidovorans DSM 3132
+GCF_041428895.1	Sporomusa aerivorans
+GCF_041428575.1	Sporomusa carbonis
+GCF_041428715.1	Sporomusa malonica
+GCF_000445445.2	Sporomusa ovata DSM 2662
+GCF_041428605.1	Sporomusa paucivorans
+GCF_041428845.1	Sporomusa rhizae
+GCF_002257705.2	Sporomusa silvacetica DSM 10669
+GCF_001941975.2	Sporomusa sphaeroides DSM 2875
+GCF_007641255.1	Sporomusa termitida
+GCF_016765695.1	Sporosalibacterium faouarense
+GCF_019748715.1	Sporosarcina aquimarina
+GCF_033485195.1	Sporosarcina beigongshangi
+GCF_009650995.1	Sporosarcina cascadiensis
+GCF_042679045.1	Sporosarcina contaminans
+GCF_022048975.1	Sporosarcina cyprini
+GCF_014836415.1	Sporosarcina gallistercoris
+GCF_001274725.1	Sporosarcina globispora
+GCF_030433715.1	Sporosarcina highlanderae
+GCF_033304595.1	Sporosarcina jeotgali
+GCF_013184495.1	Sporosarcina jiandibaonis
+GCF_042655825.1	Sporosarcina koreensis
+GCF_014873855.1	Sporosarcina limicola
+GCF_007991495.1	Sporosarcina luteola
+GCF_900167515.1	Sporosarcina newyorkensis
+GCF_009651005.1	Sporosarcina obsidiansis
+GCF_033304615.1	Sporosarcina oncorhynchi
+GCF_041295575.1	Sporosarcina pasteurii
+GCF_001590685.1	Sporosarcina psychrophila
+GCF_014836615.1	Sporosarcina quadrami
+GCF_033253735.1	Sporosarcina saromensis
+GCF_042681925.1	Sporosarcina siberiensis
+GCF_042655805.1	Sporosarcina soli
+GCF_042658975.1	Sporosarcina thermotolerans
+GCF_030406775.1	Sporosarcina trichiuri
+GCF_002081995.1	Sporosarcina ureae
+GCF_001753205.1	Sporosarcina ureilytica
+GCF_009932395.1	Sporotomaculum syntrophicum
+GCF_007994225.1	Stackebrandtia albiflava
+GCF_006716355.1	Stackebrandtia endophytica
+GCF_000024545.1	Stackebrandtia nassauensis DSM 44728
+GCF_965137155.1	Stackebrandtia soli
+GCF_009925085.1	Stagnihabitans tardus
+GCF_003730135.1	Stagnimonas aquatica
+GCF_019351405.1	Stakelama flava
+GCF_018122655.1	Stakelama marina
+GCF_004361835.1	Stakelama pacifica
+GCF_032229225.1	Stakelama saccharophila
+GCF_014199335.1	Stakelama sediminis
+GCF_000317575.1	Stanieria cyanosphaera PCC 7437
+GCF_011466855.1	Staphylococcus agnetis
+GCF_024814435.1	Staphylococcus americanisciuri
+GCF_002902305.1	Staphylococcus argensis
+GCF_000236925.1	Staphylococcus argenteus
+GCF_025560845.1	Staphylococcus arlettae
+GCF_000013425.1	Staphylococcus aureus subsp. aureus NCTC 8325
+GCF_016028295.1	Staphylococcus auricularis
+GCF_001224225.1	Staphylococcus borealis
+GCF_900097965.1	Staphylococcus caeli
+GCF_016238465.1	Staphylococcus caledonicus
+GCF_016238445.1	Staphylococcus canis
+GCF_040739365.1	Staphylococcus capitis subsp. urealyticus
+GCF_003966625.1	Staphylococcus caprae
+GCF_016028275.1	Staphylococcus carnosus
+GCF_030294405.1	Staphylococcus casei
+GCF_007814525.1	Staphylococcus chromogenes
+GCF_022557135.1	Staphylococcus coagulans
+GCF_900458255.1	Staphylococcus cohnii
+GCF_900637235.1	Staphylococcus condimenti
+GCF_900183575.1	Staphylococcus cornubiensis
+GCF_004684875.1	Staphylococcus croceilyticus
+GCF_003718735.1	Staphylococcus debuckii
+GCF_025558825.1	Staphylococcus delphini
+GCF_900458355.1	Staphylococcus devriesei
+GCF_015594545.1	Staphylococcus durrellii
+GCF_002614725.1	Staphylococcus edaphicus
+GCF_006094375.1	Staphylococcus epidermidis
+GCF_016127455.1	Staphylococcus equorum
+GCF_003012915.1	Staphylococcus felis
+GCF_029774255.1	Staphylococcus gallinarum
+GCF_006094395.1	Staphylococcus haemolyticus
+GCF_003812505.1	Staphylococcus hominis
+GCF_038789205.1	Staphylococcus hsinchuensis
+GCF_000816085.1	Staphylococcus hyicus
+GCF_900458545.1	Staphylococcus intermedius NCTC 11048
+GCF_003019255.1	Staphylococcus kloosii
+GCF_015775975.1	Staphylococcus lloydii
+GCF_001558775.1	Staphylococcus lugdunensis
+GCF_002101335.1	Staphylococcus lutrae
+GCF_025519785.1	Staphylococcus marylandisciuri
+GCF_043186315.1	Staphylococcus massiliensis
+GCF_900458705.1	Staphylococcus microti
+GCF_900187005.1	Staphylococcus muscae
+GCF_002442935.1	Staphylococcus nepalensis
+GCF_016599795.1	Staphylococcus pasteuri
+GCF_900458665.1	Staphylococcus petrasii
+GCF_002208805.2	Staphylococcus pettenkoferi
+GCF_900186985.1	Staphylococcus piscifermentans
+GCF_004785665.1	Staphylococcus pragensis
+GCF_016026635.1	Staphylococcus pseudintermedius
+GCF_044794325.1	Staphylococcus pseudoxylosus
+GCF_020883535.1	Staphylococcus ratti
+GCF_031297465.1	Staphylococcus rostri
+GCF_016127715.1	Staphylococcus saccharolyticus
+GCF_000010125.1	Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305 = NCTC 7292
+GCF_025558325.1	Staphylococcus schleiferi
+GCF_900636685.1	Staphylococcus schweitzeri
+GCF_017583065.1	Staphylococcus shinii
+GCF_900187055.1	Staphylococcus simiae
+GCF_025561465.1	Staphylococcus simulans
+GCF_029024945.1	Staphylococcus succinus
+GCF_025558845.1	Staphylococcus ureilyticus
+GCF_003571725.1	Staphylococcus warneri
+GCF_000709415.1	Staphylococcus xylosus
+GCF_003856495.1	Staphylospora marina
+GCF_014050225.1	Stappia albiluteola
+GCF_009789575.1	Stappia indica
+GCF_009826895.1	Stappia sediminis
+GCF_000423705.1	Stappia stellulata DSM 5886
+GCF_014635285.1	Stappia taiwanensis
+GCF_902703545.1	Starkeya nomas
+GCF_009696165.1	Stecheria intestinalis
+GCF_006738645.1	Stella humosa
+GCF_963877135.1	Stenomitos frigidus ULC18
+GCF_003052265.1	Stenotrophobium rhamnosiphilum
+GCF_014109845.1	Stenotrophomonas acidaminiphila
+GCF_031834615.1	Stenotrophomonas aracearum
+GCF_013185915.1	Stenotrophomonas bentonitica
+GCF_001431665.1	Stenotrophomonas beteli
+GCF_034961085.1	Stenotrophomonas capsici
+GCF_032054965.1	Stenotrophomonas chelatiphaga
+GCF_008710035.1	Stenotrophomonas cyclobalanopsidis
+GCF_001431505.1	Stenotrophomonas daejeonensis
+GCF_028752115.1	Stenotrophomonas forensis
+GCF_034508895.1	Stenotrophomonas geniculata
+GCF_001431485.1	Stenotrophomonas ginsengisoli
+GCF_001431415.1	Stenotrophomonas humi
+GCF_004551575.1	Stenotrophomonas indicatrix
+GCF_001431525.1	Stenotrophomonas koreensis
+GCF_041956365.1	Stenotrophomonas lactitubi
+GCF_014836545.1	Stenotrophomonas lacuserhaii
+GCF_900186865.1	Stenotrophomonas maltophilia
+GCF_000382065.1	Stenotrophomonas maltophilia ATCC 19867
+GCF_023556335.1	Stenotrophomonas mori
+GCF_024621935.1	Stenotrophomonas muris
+GCF_009467805.1	Stenotrophomonas nematodicola
