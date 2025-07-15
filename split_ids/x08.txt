@@ -1,7 +1,3 @@
-GCF_040801915.1	Jeotgalibacillus marinus
-GCF_002926065.1	Jeotgalibacillus proteolyticus
-GCF_004405125.1	Jeotgalibacillus salarius
-GCF_000829435.1	Jeotgalibacillus soli
 GCF_016908195.1	Jeotgalibacillus terrae
 GCF_903994055.1	Jeotgalicoccus aerolatus
 GCF_903994065.1	Jeotgalicoccus coquinae
@@ -680,6 +676,7 @@ GCF_001468135.1	Legionella santicrucis
 GCF_001465875.1	Legionella saoudiensis
 GCF_003989745.1	Legionella septentrionalis
 GCF_001468025.1	Legionella shakespearei DSM 23087
+GCF_026191355.1	Legionella sheltonii
 GCF_900186965.1	Legionella spiritensis
 GCF_001468005.1	Legionella steelei
 GCF_900452835.1	Legionella steigerwaltii
@@ -980,6 +977,7 @@ GCF_000379805.1	Lewinella cohaerens DSM 23179
 GCF_900079775.1	Leyella lascolaii
 GCF_000235885.1	Leyella stercorea DSM 18206
 GCF_001543305.1	Liberibacter crescens
+GCF_043951795.1	Liberiplasma polymorphum
 GCF_021730615.1	Lichenibacterium dinghuense
 GCF_004137685.1	Lichenibacterium minor
 GCF_004137085.1	Lichenibacterium ramalinae
@@ -1073,3 +1071,6 @@ GCF_947381495.1	Limosilactobacillus galli
 GCF_001434365.1	Limosilactobacillus gastricus DSM 16045
 GCF_001293735.1	Limosilactobacillus gorillae
 GCF_000312405.1	Limosilactobacillus ingluviei str. Autruche 4
+GCF_026413145.1	Limosilactobacillus kribbianus
+GCF_013423865.1	Limosilactobacillus mucosae
+GCF_025311495.1	Limosilactobacillus oris

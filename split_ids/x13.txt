@@ -1,7 +1,3 @@
-GCF_900176535.1	Pedobacter africanus
-GCF_026275365.1	Pedobacter agri
-GCF_036324255.1	Pedobacter albus
-GCF_003664035.1	Pedobacter alluvionis
 GCF_042684645.1	Pedobacter alpinus
 GCF_037482965.1	Pedobacter anseongensis
 GCF_900103515.1	Pedobacter antarcticus
@@ -881,6 +877,7 @@ GCF_009835145.1	Profundibacterium mesophilum KAUST100406-0324
 GCF_029664245.1	Profundicola chukchiensis
 GCF_009617915.1	Prolixibacter bellariivorans
 GCF_009617855.1	Prolixibacter denitrificans
+GCF_021191695.1	Proluteimonas luteida
 GCF_042682255.1	Promicromonospora aerolata
 GCF_042654905.1	Promicromonospora alba
 GCF_042660925.1	Promicromonospora citrea
@@ -1066,3 +1063,6 @@ GCF_003515105.1	Pseudoalteromonas lipolytica
 GCF_006704145.1	Pseudoalteromonas luteoviolacea
 GCF_024746855.1	Pseudoalteromonas maricaloris
 GCF_900141965.1	Pseudoalteromonas marina
+GCF_021613355.1	Pseudoalteromonas mariniglutinosa NCIMB 1770
+GCF_001653135.1	Pseudoalteromonas neustonica
+GCF_002221505.1	Pseudoalteromonas nigrifaciens

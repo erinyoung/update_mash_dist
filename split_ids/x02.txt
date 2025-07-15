@@ -1,4 +1,3 @@
-GCF_017183135.1	Aurantimonas marina
 GCF_009742705.1	Auraticoccus cholistanensis
 GCF_900101785.1	Auraticoccus monumenti
 GCF_004363045.1	Aureibacillus halotolerans
@@ -603,7 +602,6 @@ GCF_033096465.1	Blautia luti
 GCF_900258535.1	Blautia marasmi
 GCF_025147765.1	Blautia obeum ATCC 29174
 GCF_020215665.1	Blautia parvula
-GCF_034355335.1	Blautia producta
 GCF_010669205.1	Blautia producta ATCC 27340 = DSM 2950
 GCF_001689125.2	Blautia pseudococcoides
 GCF_013304825.1	Blautia schinkii
@@ -1091,3 +1089,5 @@ GCF_902500225.1	Buttiauxella massiliensis
 GCF_000737905.1	Buttiauxella noackiae
 GCF_031432975.1	Buttiauxella selenatireducens
 GCF_003818135.1	Buttiauxella warmboldiae
+GCF_001414325.1	Butyribacter intestini
+GCF_014648015.1	Butyricicoccus faecihominis

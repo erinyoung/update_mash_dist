@@ -1,6 +1,3 @@
-GCF_021613355.1	Pseudoalteromonas mariniglutinosa NCIMB 1770
-GCF_001653135.1	Pseudoalteromonas neustonica
-GCF_002221505.1	Pseudoalteromonas nigrifaciens
 GCF_030135505.1	Pseudoalteromonas obscura
 GCF_029023665.1	Pseudoalteromonas ostreae
 GCF_007989895.1	Pseudoalteromonas peptidolytica
@@ -1076,3 +1073,8 @@ GCF_003240565.2	Rhizobium tumorigenes
 GCF_003985155.1	Rhizobium vallis
 GCF_014873945.1	Rhizobium viscosum
 GCF_014201355.1	Rhizobium wenxiniae
+GCF_003205195.1	Rhizobium wuzhouense
+GCF_016862955.1	Rhizocola hellebori
+GCF_025996515.1	Rhizohabitans arisaemae
+GCF_011762045.1	Rhizomicrobium electricum
+GCF_011761565.1	Rhizomicrobium palustre

@@ -1,7 +1,3 @@
-GCF_024199005.1	Opacimonas viscosa
-GCF_000019965.1	Opitutus terrae PB90-1
-GCF_003634275.1	Orbus hercynius
-GCF_036251205.1	Orbus mooreae
 GCF_039542345.1	Orbus sasakiae
 GCF_036251875.1	Orbus sturtevantii
 GCF_036251935.1	Orbus wheelerorum
@@ -974,6 +970,7 @@ GCF_023502345.1	Parendozoicomonas callyspongiae
 GCF_900174585.1	Parendozoicomonas haliclonae
 GCF_002250565.1	Parenemella sanctibonifatiensis
 GCF_030140925.1	Parerythrobacter aestuarii
+GCF_045291475.1	Parerythrobacter aurantius
 GCF_009827995.1	Parerythrobacter jejuensis
 GCF_024626475.1	Parerythrobacter lacustris
 GCF_005434975.1	Parerythrobacter lutipelagi
@@ -1067,3 +1064,7 @@ GCF_964063155.1	Pediococcus parvulus
 GCF_000014505.1	Pediococcus pentosaceus ATCC 25745
 GCF_047220215.1	Pediococcus siamensis
 GCF_001437075.1	Pediococcus stilesii
+GCF_900176535.1	Pedobacter africanus
+GCF_026275365.1	Pedobacter agri
+GCF_036324255.1	Pedobacter albus
+GCF_003664035.1	Pedobacter alluvionis

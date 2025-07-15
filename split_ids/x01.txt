@@ -1,4 +1,3 @@
-GCF_007743815.1	Alienimonas californiensis
 GCF_013036045.1	Alienimonas chondri
 GCF_027853235.1	Aliibacillus thermotolerans
 GCF_900110815.1	Aliicoccus persicus
@@ -272,6 +271,7 @@ GCF_003363135.1	Alteriqipengyuania lutimaris
 GCF_009739515.1	Alterirhizorhabdus profundi
 GCF_007785815.1	Alterirhizorhabdus solaris
 GCF_032852305.1	Alterisphingorhabdus coralli
+GCF_021191595.1	Alterluteimonas muca
 GCF_001953635.1	Alteromonas abrolhosensis
 GCF_003367475.1	Alteromonas aestuariivivens
 GCF_002993365.1	Alteromonas alba
@@ -1062,3 +1062,4 @@ GCF_000421645.1	Aurantimonas coralicida DSM 14790
 GCF_024105745.1	Aurantimonas endophytica
 GCF_000153465.1	Aurantimonas manganoxydans SI85-9A1
 GCF_024195285.1	Aurantimonas marianensis
+GCF_017183135.1	Aurantimonas marina
