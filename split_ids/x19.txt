@@ -919,4 +919,3 @@ GCF_030410395.1	Zwartia panacis
 GCF_030410375.1	Zwartia vadi
 GCF_003610015.1	Zymobacter palmae
 GCF_000498655.1	Zymomonas mobilis subsp. mobilis str. CP4 = NRRL B-14023
-	 
