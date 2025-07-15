@@ -63,4 +63,4 @@ jobs:
   
               [1]: https://github.com/peter-evans/create-pull-request
             branch: update-mash
-            base: split_ids
+            base: main
