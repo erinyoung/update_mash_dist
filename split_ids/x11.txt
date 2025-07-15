@@ -1,7 +1,3 @@
-GCF_000686585.1	Mycoplasmopsis lipofaciens ATCC 35015
-GCF_045276895.1	Mycoplasmopsis lipophila
-GCF_900660665.1	Mycoplasmopsis maculosa
-GCF_900660695.1	Mycoplasmopsis meleagridis
 GCF_006546935.1	Mycoplasmopsis mucosicanis
 GCF_004365095.1	Mycoplasmopsis mustelae
 GCF_000712185.1	Mycoplasmopsis opalescens ATCC 27921
@@ -707,6 +703,7 @@ GCF_014201115.1	Nocardiopsis metallicus
 GCF_014201195.1	Nocardiopsis mwathae
 GCF_000341105.1	Nocardiopsis potens DSM 45234
 GCF_000341265.1	Nocardiopsis prasina DSM 43845
+GCF_045446685.1	Nocardiopsis protaetiae
 GCF_008638365.1	Nocardiopsis quinghaiensis
 GCF_039530945.1	Nocardiopsis rhodophaea
 GCF_000341025.1	Nocardiopsis salina YIM 90010
@@ -1099,3 +1096,7 @@ GCF_900155635.1	Olsenella urininfantis
 GCF_004798965.1	Onishia niordana
 GCF_900100755.1	Onishia taeanensis
 GCF_048282545.1	Opacimonas immobilis
+GCF_024199005.1	Opacimonas viscosa
+GCF_000019965.1	Opitutus terrae PB90-1
+GCF_003634275.1	Orbus hercynius
+GCF_036251205.1	Orbus mooreae

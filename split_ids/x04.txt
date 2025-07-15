@@ -1,4 +1,3 @@
-GCF_000006985.1	Chlorobaculum tepidum TLS
 GCF_006265165.1	Chlorobaculum thiosulfatiphilum
 GCF_000168715.1	Chlorobium ferrooxidans DSM 13031
 GCF_000020465.1	Chlorobium limicola DSM 245
@@ -182,6 +181,7 @@ GCF_900129385.1	Chryseobacterium takakiae
 GCF_900187185.1	Chryseobacterium taklimakanense
 GCF_046000455.1	Chryseobacterium terrae
 GCF_900078205.2	Chryseobacterium timonianum
+GCF_041224435.1	Chryseobacterium tongliaoense
 GCF_042649085.1	Chryseobacterium tructae
 GCF_021010565.1	Chryseobacterium turcicum
 GCF_900156735.1	Chryseobacterium ureilyticum
@@ -1038,3 +1038,4 @@ GCF_010994275.1	Cyclobacterium jeungdonense
 GCF_900143075.1	Cyclobacterium lianum
 GCF_000222485.1	Cyclobacterium marinum DSM 745
 GCF_011290685.1	Cyclobacterium plantarum
+GCF_007991695.1	Cyclobacterium qasimii

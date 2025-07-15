@@ -1,3 +1,4 @@
+GCF_014879975.1	Vibrio bathopelagicus
 GCF_001399455.2	Vibrio bivalvicida
 GCF_000189255.1	Vibrio brasiliensis LMG 20546
 GCF_024346795.1	Vibrio breoganii

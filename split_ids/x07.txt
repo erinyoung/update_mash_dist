@@ -1,8 +1,3 @@
-GCF_007744675.1	Gimesia alba
-GCF_007746795.1	Gimesia algae
-GCF_007748195.1	Gimesia aquarii
-GCF_009720525.1	Gimesia benthica
-GCF_008329715.1	Gimesia chilikensis
 GCF_007754425.1	Gimesia fumaroli
 GCF_008298035.1	Gimesia maris
 GCF_007748155.1	Gimesia panareensis
@@ -1084,3 +1079,7 @@ GCF_000829445.1	Jeotgalibacillus alimentarius
 GCF_020595125.1	Jeotgalibacillus aurantiacus
 GCF_000829515.1	Jeotgalibacillus campisalis
 GCF_034427455.1	Jeotgalibacillus haloalkalitolerans
+GCF_040801915.1	Jeotgalibacillus marinus
+GCF_002926065.1	Jeotgalibacillus proteolyticus
+GCF_004405125.1	Jeotgalibacillus salarius
+GCF_000829435.1	Jeotgalibacillus soli

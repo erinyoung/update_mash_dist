@@ -1,3 +1,5 @@
+GCF_003144315.1	Sulfoacidibacillus thermotolerans
+GCF_012933365.1	Sulfobacillus harzensis
 GCF_900176145.1	Sulfobacillus thermosulfidooxidans DSM 9293
 GCF_039623705.1	Sulfobacillus thermotolerans
 GCF_016097415.1	sulfur-oxidizing endosymbiont_of_Gigantopelta aegis
@@ -1061,4 +1063,3 @@ GCF_024347315.1	Vibrio atlanticus
 GCF_009811315.1	Vibrio atypicus
 GCF_002849855.1	Vibrio azureus
 GCF_001639065.2	Vibrio barjaei
-GCF_014879975.1	Vibrio bathopelagicus

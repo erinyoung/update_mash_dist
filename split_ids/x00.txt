@@ -1075,3 +1075,4 @@ GCF_017329615.1	Alicyclobacillus suci
 GCF_030803925.1	Alicyclobacillus tengchongensis
 GCF_021739485.1	Alicyclobacillus tolerans
 GCF_900156755.1	Alicyclobacillus vulcanalis
+GCF_007743815.1	Alienimonas californiensis

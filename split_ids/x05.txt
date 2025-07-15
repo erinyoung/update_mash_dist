@@ -1,4 +1,3 @@
-GCF_007991695.1	Cyclobacterium qasimii
 GCF_010119225.1	Cyclobacterium roseum
 GCF_010119245.1	Cyclobacterium salsum
 GCF_900109255.1	Cyclobacterium xiamenense
@@ -180,6 +179,7 @@ GCF_040267515.1	Delftia lacustris
 GCF_029215875.1	Delftia tsuruhatensis
 GCF_030127605.1	Dellaglioa algida
 GCF_026948345.1	Dellaglioa carnosa
+GCF_046115505.1	Dellaglioa kimchii
 GCF_016862815.1	Demequina activiva
 GCF_000975095.1	Demequina aestuarii
 GCF_000975135.1	Demequina aurantiaca
@@ -1059,3 +1059,4 @@ GCF_002155425.1	Erythrobacter donghaensis
 GCF_028595285.1	Erythrobacter fulvus
 GCF_007004095.1	Erythrobacter insulae
 GCF_001719165.1	Erythrobacter litoralis
+GCF_000715015.1	Erythrobacter longus

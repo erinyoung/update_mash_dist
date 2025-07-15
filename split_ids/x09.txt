@@ -1,6 +1,3 @@
-GCF_026413145.1	Limosilactobacillus kribbianus
-GCF_013423865.1	Limosilactobacillus mucosae
-GCF_025311495.1	Limosilactobacillus oris
 GCF_001435935.1	Limosilactobacillus panis DSM 6035
 GCF_009428965.1	Limosilactobacillus pontis
 GCF_028607025.1	Limosilactobacillus portuensis
@@ -871,6 +868,7 @@ GCF_000702725.1	Mesoplasma photuris ATCC 49581
 GCF_000518725.1	Mesoplasma seiffertii ATCC 49495
 GCF_002843565.1	Mesoplasma syrphidae
 GCF_002804025.1	Mesoplasma tabanidae
+GCF_023566145.1	Mesoplasma whartonense
 GCF_020539505.1	Mesopusillimonas faecipullorum
 GCF_033977445.1	Mesorhizobium abyssinicae
 GCF_033977205.1	Mesorhizobium album
@@ -1079,3 +1077,6 @@ GCF_003173755.1	Methylobacterium terrae
 GCF_006151805.1	Methylobacterium terricola
 GCF_022179645.1	Methylobacterium thuringiense
 GCF_022179685.1	Methylobacterium trifolii
+GCF_001043975.1	Methylobacterium variabile
+GCF_015904235.1	Methylobrevis albus
+GCF_001720135.1	Methylobrevis pamukkalensis

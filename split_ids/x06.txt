@@ -1,4 +1,3 @@
-GCF_000715015.1	Erythrobacter longus
 GCF_013260645.1	Erythrobacter mangrovi
 GCF_001663175.1	Erythrobacter neustonensis
 GCF_030271515.1	Erythrobacter oryzae
@@ -673,6 +672,7 @@ GCF_009208585.1	Fluviispira multicolorata
 GCF_004295685.1	Fluviispira sanaruensis
 GCF_014281055.1	Fluviispira vulneris
 GCF_039541575.1	Fodinibacter luteus
+GCF_038594945.1	Fodinibius alkaliphilus
 GCF_011059105.1	Fodinibius halophilus
 GCF_900129315.1	Fodinibius roseus
 GCF_039545095.1	Fodinibius salicampi
@@ -999,9 +999,7 @@ GCF_018919395.1	Geomonas azotofigens
 GCF_018919385.1	Geomonas diazotrophica
 GCF_004917075.1	Geomonas edaphica
 GCF_004917065.1	Geomonas ferrireducens
-GCF_020179575.1	Geomonas fuzhouensis
 GCF_014193675.1	Geomonas limicola
-GCF_019063885.1	Geomonas nitrogeniifigens
 GCF_004117875.1	Geomonas oryzae
 GCF_018986915.1	Geomonas oryzisoli
 GCF_023221575.1	Geomonas paludis
@@ -1078,3 +1076,8 @@ GCF_042847215.1	Gilvimarinus japonicus
 GCF_001187555.1	Gilvimarinus polysaccharolyticus
 GCF_024195295.1	Gilvimarinus xylanilyticus
 GCF_040117515.1	Gilvirhabdus luticola
+GCF_007744675.1	Gimesia alba
+GCF_007746795.1	Gimesia algae
+GCF_007748195.1	Gimesia aquarii
+GCF_009720525.1	Gimesia benthica
+GCF_008329715.1	Gimesia chilikensis

@@ -1,6 +1,3 @@
-GCF_008919445.1	Serinicoccus kebangsaanensis
-GCF_000421245.1	Serinicoccus marinus DSM 15273
-GCF_000224715.1	Serinicoccus profundi MCCC 1A05965
 GCF_004153545.1	Serinicoccus sediminis
 GCF_014836765.1	Serpens gallinarum
 GCF_018141405.1	Serpentinicella alkaliphila
@@ -759,6 +756,7 @@ GCF_000758165.1	Spirochaeta lutea
 GCF_000184345.1	Spirochaeta thermophila DSM 6578
 GCF_003363775.1	Spiroplasma alleghenense
 GCF_000500935.1	Spiroplasma apis B31
+GCF_023509825.1	Spiroplasma attinicola
 GCF_001281045.1	Spiroplasma cantharicola
 GCF_008086545.1	Spiroplasma chinense
 GCF_000400935.1	Spiroplasma chrysopicola DF-1
@@ -1038,6 +1036,7 @@ GCF_006738645.1	Stella humosa
 GCF_963877135.1	Stenomitos frigidus ULC18
 GCF_003052265.1	Stenotrophobium rhamnosiphilum
 GCF_014109845.1	Stenotrophomonas acidaminiphila
+GCF_013004645.1	Stenotrophomonas africana
 GCF_031834615.1	Stenotrophomonas aracearum
 GCF_013185915.1	Stenotrophomonas bentonitica
 GCF_001431665.1	Stenotrophomonas beteli
@@ -1058,3 +1057,5 @@ GCF_000382065.1	Stenotrophomonas maltophilia ATCC 19867
 GCF_023556335.1	Stenotrophomonas mori
 GCF_024621935.1	Stenotrophomonas muris
 GCF_009467805.1	Stenotrophomonas nematodicola
+GCF_017304535.1	Stenotrophomonas nitritireducens
+GCF_031834595.1	Stenotrophomonas oahuensis

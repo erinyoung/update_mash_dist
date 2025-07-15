@@ -1,5 +1,3 @@
-GCF_017304535.1	Stenotrophomonas nitritireducens
-GCF_031834595.1	Stenotrophomonas oahuensis
 GCF_003046775.1	Stenotrophomonas panacihumi
 GCF_900101175.1	Stenotrophomonas pavanii
 GCF_001431585.1	Stenotrophomonas pictorum JCM 9942
@@ -100,12 +98,14 @@ GCF_003627155.1	Streptococcus gwangjuensis
 GCF_019774635.1	Streptococcus halichoeri
 GCF_003143695.2	Streptococcus halitosis
 GCF_001598035.1	Streptococcus halotolerans
+GCF_040984445.1	Streptococcus handemini
 GCF_000376985.1	Streptococcus henryi DSM 19005
 GCF_043656315.1	Streptococcus hepaticus
 GCF_041081565.1	Streptococcus hillyeri
 GCF_001708305.1	Streptococcus himalayensis
 GCF_020089495.2	Streptococcus hohhotensis
 GCF_014287335.1	Streptococcus hominis
+GCF_040930515.1	Streptococcus huangxiaojuni
 GCF_019448275.1	Streptococcus humanilactis
 GCF_050314295.1	Streptococcus hyointestinalis
 GCF_000420785.1	Streptococcus hyovaginalis DSM 12219
@@ -116,6 +116,7 @@ GCF_016127275.1	Streptococcus infantarius
 GCF_000187465.1	Streptococcus infantis ATCC 700779
 GCF_000831485.1	Streptococcus iniae
 GCF_900475975.1	Streptococcus intermedius
+GCF_040225085.1	Streptococcus jiangjianxini
 GCF_040888325.1	Streptococcus jiangnanensis
 GCF_003627135.1	Streptococcus koreensis
 GCF_018127725.1	Streptococcus lactarius
@@ -178,6 +179,7 @@ GCF_003172995.1	Streptococcus sobrinus
 GCF_000026745.1	Streptococcus suis BM407
 GCF_032594915.1	Streptococcus suivaginalis
 GCF_006385165.1	Streptococcus symci
+GCF_011038795.1	Streptococcus tangpeifui
 GCF_029948085.1	Streptococcus taonis
 GCF_903645285.1	Streptococcus thalassemiae
 GCF_903886475.1	Streptococcus thermophilus
@@ -922,6 +924,7 @@ GCF_048500665.1	Streptomyces tritici
 GCF_008868685.1	Streptomyces triticiradicis
 GCF_003696235.1	Streptomyces triticirhizae
 GCF_003270085.1	Streptomyces triticisoli
+GCF_049310105.1	Streptomyces tritrimontium
 GCF_029269835.1	Streptomyces tropicalis
 GCF_003932715.1	Streptomyces tsukubensis
 GCF_022699385.1	Streptomyces tubbatahanensis
@@ -1067,5 +1070,3 @@ GCF_010667575.1	Sulfitobacter sediminilitoris
 GCF_040811725.1	Sulfitobacter sediminis
 GCF_014196805.1	Sulfitobacter undariae
 GCF_022606465.1	Sulfoacidibacillus ferrooxidans
-GCF_003144315.1	Sulfoacidibacillus thermotolerans
-GCF_012933365.1	Sulfobacillus harzensis

@@ -1,5 +1,3 @@
-GCF_001414325.1	Butyribacter intestini
-GCF_014648015.1	Butyricicoccus faecihominis
 GCF_018918345.1	Butyricicoccus intestinisimiae
 GCF_002157465.1	Butyricicoccus porcorum
 GCF_002160355.1	Butyricicoccus pullicaecorum
@@ -279,6 +277,7 @@ GCF_002464935.1	Candidatus Enterovibrio escicola
 GCF_030708075.1	Candidatus Epulonipiscium viviparus
 GCF_001756855.1	Candidatus Erwinia dacicola
 GCF_900698925.1	Candidatus Erwinia haradaeae
+GCF_051257895.1	Candidatus Ferrigenium straubiae
 GCF_030520105.1	Candidatus Fervidibacter sacchari
 GCF_004210305.1	Candidatus Finniella inopinata
 GCF_034359305.1	Candidatus Fokinia cryptica
@@ -933,6 +932,7 @@ GCF_000204255.1	Chlamydia psittaci 6BC
 GCF_900239945.1	Chlamydia serpentis
 GCF_900149385.2	Chlamydia suis
 GCF_000008725.1	Chlamydia trachomatis D/UW-3/CX
+GCF_964023145.2	Chlamydia vaughanii
 GCF_902807005.1	Chlamydiifrater phoenicopteri
 GCF_902806995.1	Chlamydiifrater volucris
 GCF_018304805.1	Chloracidobacterium sp. MS 40/45
@@ -940,3 +940,4 @@ GCF_000226295.1	Chloracidobacterium thermophilum B
 GCF_018304825.1	Chloracidobacterium validum
 GCF_001747405.1	Chlorobaculum limnaeum
 GCF_000020505.1	Chlorobaculum parvum NCIB 8327
+GCF_000006985.1	Chlorobaculum tepidum TLS
