@@ -1,9 +1,3 @@
-GCF_006265165.1	Chlorobaculum thiosulfatiphilum
-GCF_000168715.1	Chlorobium ferrooxidans DSM 13031
-GCF_000020465.1	Chlorobium limicola DSM 245
-GCF_000015125.1	Chlorobium phaeobacteroides DSM 266
-GCF_003968655.1	Chlorobium phaeovibrioides
-GCF_000021945.1	Chloroflexus aggregans DSM 9485
 GCF_000018865.1	Chloroflexus aurantiacus J-10-fl
 GCF_001650695.1	Chloroflexus islandicus
 GCF_000317285.1	Chlorogloeopsis fritschii PCC 6912
@@ -295,6 +289,7 @@ GCF_020911725.1	Clostridium cadaveris
 GCF_900290265.1	Clostridium cagae
 GCF_023806125.1	Clostridium caldaquaticum
 GCF_001038625.1	Clostridium carboxidivorans P7
+GCF_046127635.1	Clostridium caseinilyticum
 GCF_900141845.1	Clostridium cavendishii DSM 21758
 GCF_021412605.1	Clostridium celatum
 GCF_000145275.1	Clostridium cellulovorans 743B
@@ -616,6 +611,7 @@ GCF_003258355.1	Confluentibacter sediminis
 GCF_045689245.1	Congregibacter brevis
 GCF_000153125.2	Congregibacter litoralis KT71
 GCF_045689235.1	Congregibacter variabilis
+GCF_036323555.1	Congregicoccus parvus
 GCF_014384785.1	Congzhengia minquanensis
 GCF_002795425.1	Conservatibacter flavescens
 GCF_036541425.1	Consotaella aegiceratis
@@ -810,6 +806,7 @@ GCF_011038645.2	Corynebacterium qintianiae
 GCF_000767685.1	Corynebacterium ramonii
 GCF_900478035.1	Corynebacterium renale
 GCF_000177535.2	Corynebacterium resistens DSM 45100
+GCF_030227225.2	Corynebacterium rhinophilum
 GCF_001263755.1	Corynebacterium riegelii
 GCF_902702935.1	Corynebacterium rouxii
 GCF_007641235.1	Corynebacterium sanguinis
@@ -967,6 +964,9 @@ GCF_900143005.1	Cryptosporangium aurantiacum
 GCF_039524755.1	Cryptosporangium japonicum
 GCF_039536245.1	Cryptosporangium minutisporangium
 GCF_006912135.1	Cryptosporangium phraense
+GCF_002849715.1	Crystallibacter crystallopoietes
+GCF_012952295.1	Crystallibacter degradans
+GCF_025960875.1	Crystallibacter permensis
 GCF_000429865.1	Cucumibacter marinus DSM 18995
 GCF_005771635.1	Culicoidibacter larvae
 GCF_900091655.1	Culturomica massiliensis
@@ -996,6 +996,7 @@ GCF_019602855.1	Cupriavidus pinatubonensis
 GCF_905397285.1	Cupriavidus plantarum
 GCF_914271545.1	Cupriavidus respiraculi
 GCF_000069785.1	Cupriavidus taiwanensis LMG 19424
+GCF_033391875.1	Cupriavidus ulmosensis
 GCF_905397275.1	Cupriavidus yeoncheonensis
 GCF_024609215.1	Curtanaerobium respiraculi
 GCF_018885305.1	Curtobacterium aetherium
@@ -1005,9 +1006,11 @@ GCF_030363035.1	Curtobacterium caseinilyticum
 GCF_006715175.1	Curtobacterium citreum
 GCF_030362955.1	Curtobacterium citri
 GCF_024925425.1	Curtobacterium flaccumfaciens
+GCF_049341845.1	Curtobacterium guangdongense
 GCF_025000405.1	Curtobacterium herbarum
 GCF_016907595.1	Curtobacterium luteum
 GCF_040545555.1	Curtobacterium oceanosedimentum
+GCF_049341865.1	Curtobacterium phyllosphaerae
 GCF_047226435.1	Curtobacterium poinsettiae
 GCF_014138325.1	Curtobacterium pusillum
 GCF_011759505.1	Curtobacterium salicis
@@ -1039,3 +1042,7 @@ GCF_900143075.1	Cyclobacterium lianum
 GCF_000222485.1	Cyclobacterium marinum DSM 745
 GCF_011290685.1	Cyclobacterium plantarum
 GCF_007991695.1	Cyclobacterium qasimii
+GCF_010119225.1	Cyclobacterium roseum
+GCF_010119245.1	Cyclobacterium salsum
+GCF_900109255.1	Cyclobacterium xiamenense
+GCF_000384415.1	Cycloclasticus pugetii PS-1

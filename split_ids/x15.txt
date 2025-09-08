@@ -1,3 +1,5 @@
+GCF_011762045.1	Rhizomicrobium electricum
+GCF_011761565.1	Rhizomicrobium palustre
 GCF_018397995.1	Rhizomonospora bruguierae
 GCF_037861105.1	Rhizorhabdus argentea
 GCF_002355275.1	Rhizorhabdus dicambivorans
@@ -17,7 +19,6 @@ GCF_042657065.1	Rhodanobacter ginsengisoli
 GCF_050026815.1	Rhodanobacter ginsengiterrae
 GCF_042655685.1	Rhodanobacter ginsenosidimutans
 GCF_900114325.1	Rhodanobacter glycinis
-GCF_041107455.1	Rhodanobacter humi
 GCF_044904645.1	Rhodanobacter hydrolyticus
 GCF_004799035.1	Rhodanobacter lindaniclasticus
 GCF_040812335.1	Rhodanobacter lycopersici
@@ -241,6 +242,7 @@ GCF_003201855.1	Rivihabitans pingtungensis
 GCF_034047095.1	Robbsia andropogonis
 GCF_026624755.1	Robbsia betulipollinis
 GCF_020166495.1	Robertkochia aurantiaca
+GCF_020166515.1	Robertkochia flava
 GCF_004799345.1	Robertkochia marina
 GCF_016786255.1	Robertkochia sediminum
 GCF_007279655.1	Robertkochia solimangrovi
@@ -458,6 +460,8 @@ GCF_042430665.1	Roseovarius ramblicola
 GCF_032842945.2	Roseovarius rhodophyticola
 GCF_043355935.2	Roseovarius roseus
 GCF_002834145.1	Roseovarius salinarum
+GCF_026891095.1	Roseovarius salincola
+GCF_044472985.1	Roseovarius salis
 GCF_003651245.1	Roseovarius spongiae
 GCF_050896375.1	Roseovarius tibetensis
 GCF_028885395.1	Roseovarius tolerans
@@ -471,6 +475,7 @@ GCF_904424705.1	Rossellomorea arthrocnemi
 GCF_022170785.1	Rossellomorea marisflavi
 GCF_045897515.1	Rossellomorea oryzaecorticis
 GCF_016908495.1	Rossellomorea pakistanensis
+GCF_046237645.1	Rossellomorea sedimentorum
 GCF_000723905.1	Rossellomorea vietnamensis
 GCF_032337515.1	Rossellomorea yichunensis
 GCF_016726365.1	Rothia aeria
@@ -880,6 +885,8 @@ GCF_022014495.1	Sandaracinobacteroides sayramensis
 GCF_004005965.1	Sandaracinomonas limnophila
 GCF_000737325.1	Sandaracinus amylolyticus
 GCF_002251755.1	Sandarakinorhabdus cyanobacteriorum
+GCF_009372075.1	Sandarakinorhabdus fusca
+GCF_014643455.1	Sandarakinorhabdus glacialis
 GCF_000420765.1	Sandarakinorhabdus limnophila DSM 17366
 GCF_009733735.1	Sandarakinorhabdus oryzae
 GCF_010994245.1	Sandarakinorhabdus rubra
@@ -931,6 +938,7 @@ GCF_008694105.1	Schleiferilactobacillus harbinensis
 GCF_001435585.1	Schleiferilactobacillus perolens DSM 12744
 GCF_000469325.1	Schleiferilactobacillus shenzhenensis LY-73
 GCF_000255655.1	Schlesneria paludicola DSM 18645
+GCF_044336245.1	Schlesneria sphaerica
 GCF_013408685.1	Schumannella luteola
 GCF_006517435.1	Schumannella soli
 GCF_900129225.1	Schwartzia succinivorans DSM 10502
@@ -990,6 +998,7 @@ GCF_009939225.1	Sediminibacterium soli
 GCF_033547095.1	Sediminicoccus rosea
 GCF_040566695.1	Sediminicola arcticus
 GCF_002514735.1	Sediminicola luteus
+GCF_020883455.1	Sediminicurvatus halobius
 GCF_016863455.1	Sediminihabitans luteus
 GCF_014077625.1	Sediminihaliea albiluteola
 GCF_000423645.1	Sediminimonas qiaohouensis DSM 21189
@@ -1058,5 +1067,3 @@ GCF_002563925.1	Serinibacter salmoneus
 GCF_006337125.1	Serinicoccus chungangensis
 GCF_001685415.1	Serinicoccus hydrothermalis
 GCF_008919445.1	Serinicoccus kebangsaanensis
-GCF_000421245.1	Serinicoccus marinus DSM 15273
-GCF_000224715.1	Serinicoccus profundi MCCC 1A05965

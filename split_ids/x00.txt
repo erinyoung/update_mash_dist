@@ -52,8 +52,6 @@ GCF_037482225.1	Mycoplasma gypis
 GCF_003332325.1	Mycoplasma phocae
 GCF_022647505.1	Pantoea beijingensis
 GCF_001904725.1	Phormidium ambiguum IAM M-71
-GCF_046529185.1	Pseudomonas boreopolis
-GCF_029030725.1	Pseudomonas carboxydohydrogena
 GCF_900607225.1	Pseudopropionibacterium massiliense
 GCF_039542305.1	Roseibacterium beibuensis
 GCF_025152405.1	Ruminococcus lactaris ATCC 29176
@@ -620,6 +618,7 @@ GCF_004363075.1	Actinorugispora endophytica
 GCF_018139625.1	Actinospica acidithermotolerans
 GCF_018139695.1	Actinospica durhamensis
 GCF_000504285.1	Actinospica robiniae DSM 44927
+GCF_049103745.1	Actinospongicola halichondriae
 GCF_000023245.1	Actinosynnema mirum DSM 43827
 GCF_002354875.1	Actinosynnema pretiosum
 GCF_009733795.1	Actinotalea caeni
@@ -633,7 +632,6 @@ GCF_030230305.1	Actinotignum sanguinis
 GCF_000724605.1	Actinotignum schaalii
 GCF_002860685.3	Actinotignum timonense
 GCF_000420445.1	Actinotignum urinale DSM 15805
-GCF_013370205.1	Actirhodobacter atriluteus
 GCF_019679435.2	Actomonas aquatica
 GCF_034335085.1	Acutalibacter caecimuris
 GCF_034334985.1	Acutalibacter intestini
@@ -762,11 +760,13 @@ GCF_000819865.1	Aeromonas eucrenophila
 GCF_000764645.1	Aeromonas finlandensis
 GCF_000819885.1	Aeromonas fluvialis
 GCF_000014805.1	Aeromonas hydrophila subsp. hydrophila ATCC 7966
+GCF_046087985.1	Aeromonas ichthyocola
 GCF_016127195.1	Aeromonas jandaei
 GCF_000764665.1	Aeromonas lacus
 GCF_002812985.1	Aeromonas lusitana
 GCF_020423125.1	Aeromonas media
 GCF_000388115.1	Aeromonas molluscorum 848
+GCF_049665575.1	Aeromonas oralensis
 GCF_000820005.1	Aeromonas piscicola
 GCF_037818705.1	Aeromonas popoffii
 GCF_046079545.1	Aeromonas rivipollensis
@@ -811,6 +811,7 @@ GCF_000688515.1	Afifella pfennigii DSM 17143
 GCF_000308295.2	Afipia birgiae 34632
 GCF_000314675.2	Afipia broomeae ATCC 49717
 GCF_000218565.1	Afipia carboxidovorans OM5
+GCF_029030725.1	Afipia carboxydohydrogena
 GCF_000336555.1	Afipia clevelandensis ATCC 49720
 GCF_900445155.1	Afipia felis
 GCF_014203115.1	Afipia massiliensis
@@ -872,6 +873,7 @@ GCF_900114805.1	Agrococcus baldri
 GCF_030758955.1	Agrococcus beijingensis
 GCF_900104705.1	Agrococcus carbonis
 GCF_900163565.1	Agrococcus casei LMG 22410
+GCF_039880525.1	Agrococcus chionoecetis
 GCF_039527715.1	Agrococcus citreus
 GCF_900099705.1	Agrococcus jejuensis
 GCF_003752465.1	Agrococcus jenensis
@@ -893,6 +895,7 @@ GCF_042672355.1	Agromyces binzhouensis
 GCF_009709675.1	Agromyces bracchium
 GCF_021044935.1	Agromyces cavernae
 GCF_900142065.1	Agromyces cerinus subsp. cerinus
+GCF_040496035.1	Agromyces chitinivorans
 GCF_029167465.1	Agromyces chromiiresistens
 GCF_900104685.1	Agromyces flavus
 GCF_004134865.1	Agromyces fucosus
@@ -906,6 +909,7 @@ GCF_009674665.1	Agromyces kandeliae
 GCF_006337065.1	Agromyces laixinhei
 GCF_009749405.1	Agromyces lapidis
 GCF_022811705.1	Agromyces larvae
+GCF_040496015.1	Agromyces litoreus
 GCF_027922085.1	Agromyces luteolus
 GCF_030296695.1	Agromyces mangrovi
 GCF_008122505.1	Agromyces mariniharenae
@@ -923,6 +927,7 @@ GCF_000421565.1	Agromyces subbeticus DSM 16689
 GCF_003710805.1	Agromyces tardus
 GCF_009749465.1	Agromyces terreus
 GCF_039531345.1	Agromyces tropicus
+GCF_040496055.1	Agromyces zhanjiangensis
 GCF_003015185.1	Ahniella affigens
 GCF_000374465.1	Ahrensia kielensis DSM 5890
 GCF_001293565.1	Ahrensia marina
@@ -997,7 +1002,6 @@ GCF_002150685.1	Algoriphagus antarcticus
 GCF_003253485.1	Algoriphagus aquaeductus
 GCF_042657405.1	Algoriphagus aquatilis
 GCF_900112005.1	Algoriphagus aquimarinus
-GCF_004358035.1	Algoriphagus aquimaris
 GCF_035156405.1	Algoriphagus aurantiacus
 GCF_900108085.1	Algoriphagus boritolerans DSM 17298 = JCM 18970
 GCF_004362805.1	Algoriphagus boseongensis
@@ -1005,6 +1009,7 @@ GCF_003254055.1	Algoriphagus chordae
 GCF_036245625.1	Algoriphagus confluentis
 GCF_900101705.1	Algoriphagus faecimaris
 GCF_002807035.1	Algoriphagus formosus
+GCF_004358035.1	Algoriphagus formosus
 GCF_900129785.1	Algoriphagus halophilus
 GCF_026013705.1	Algoriphagus halophytocola
 GCF_900113375.1	Algoriphagus hitonicola
@@ -1050,6 +1055,7 @@ GCF_004214815.1	Aliarcobacter thereius LMG 24486
 GCF_003355515.1	Aliarcobacter trophiarum LMG 25534
 GCF_048320235.1	Aliarcobacter vitoriensis
 GCF_000204645.1	Alicycliphilus denitrificans K601
+GCF_040732315.1	Alicycliphilus soli
 GCF_001544355.1	Alicyclobacillus acidiphilus NBRC 100859
 GCF_000024285.1	Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446
 GCF_022674245.1	Alicyclobacillus acidoterrestris
@@ -1066,13 +1072,15 @@ GCF_027923525.1	Alicyclobacillus hesperidum subsp. aegles
 GCF_001552655.1	Alicyclobacillus kakegawensis NBRC 103104
 GCF_900116805.1	Alicyclobacillus macrosporangiidus
 GCF_017298635.1	Alicyclobacillus mengziensis
-GCF_900142255.1	Alicyclobacillus montanus
 GCF_000472905.1	Alicyclobacillus pomorum DSM 14955
 GCF_004366795.1	Alicyclobacillus sacchari
 GCF_001552675.1	Alicyclobacillus sendaiensis NBRC 100866
 GCF_001552255.1	Alicyclobacillus shizuokensis NBRC 103103
 GCF_017329615.1	Alicyclobacillus suci
-GCF_030803925.1	Alicyclobacillus tengchongensis
 GCF_021739485.1	Alicyclobacillus tolerans
 GCF_900156755.1	Alicyclobacillus vulcanalis
 GCF_007743815.1	Alienimonas californiensis
+GCF_013036045.1	Alienimonas chondri
+GCF_027853235.1	Aliibacillus thermotolerans
+GCF_900110815.1	Aliicoccus persicus
+GCF_003316875.1	Aliidiomarina celeris

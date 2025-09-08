@@ -1,4 +1,3 @@
-GCF_039542345.1	Orbus sasakiae
 GCF_036251875.1	Orbus sturtevantii
 GCF_036251935.1	Orbus wheelerorum
 GCF_000379025.1	Orenia marismortui DSM 5156
@@ -40,6 +39,7 @@ GCF_004526345.1	Ornithinimicrobium flavum
 GCF_006716885.1	Ornithinimicrobium humiphilum
 GCF_006519705.1	Ornithinimicrobium kibberense
 GCF_003352835.1	Ornithinimicrobium murale
+GCF_052073805.1	Ornithinimicrobium panacihumi
 GCF_000421185.1	Ornithinimicrobium pekingense DSM 21552
 GCF_008843165.1	Ornithinimicrobium pratense
 GCF_021272345.1	Ornithinimicrobium sediminis
@@ -51,6 +51,7 @@ GCF_900089455.2	Orrella dioscoreae
 GCF_003058465.1	Orrella marina
 GCF_021864535.1	Oryzibacter oryziterrae
 GCF_014534685.1	Oryzicola mucosus
+GCF_037199735.1	Oryzifoliimicrobium ureilyticus
 GCF_006716205.1	Oryzihumus leptocrescens
 GCF_900103645.1	Oryzisolibacter propanilivorax
 GCF_046764005.1	Oryzobacter faecalis
@@ -80,6 +81,7 @@ GCF_003008535.1	Ottowia oryzae
 GCF_042682405.1	Ottowia pentelensis
 GCF_017498525.1	Ottowia testudinis
 GCF_000422885.1	Ottowia thiooxydans DSM 14619
+GCF_032586175.1	Ovoidimarina sediminis
 GCF_045865535.1	Owariibacterium komagatae
 GCF_000236705.1	Owenweeksia hongkongensis DSM 17368
 GCF_014635705.1	Oxalicibacterium faecigallinarum
@@ -131,6 +133,7 @@ GCF_004344915.1	Paenibacillus albiflavus
 GCF_018333255.1	Paenibacillus albilobatus
 GCF_003952225.1	Paenibacillus albus
 GCF_005577435.1	Paenibacillus algicola
+GCF_013266765.1	Paenibacillus alginolyticus
 GCF_004000725.1	Paenibacillus alginolyticus DSM 5050 = NBRC 15375
 GCF_900112925.1	Paenibacillus algorifonticola
 GCF_021532375.1	Paenibacillus alkaliterrae
@@ -217,7 +220,6 @@ GCF_003217775.1	Paenibacillus flagellatus
 GCF_013141765.1	Paenibacillus foliorum
 GCF_000381905.1	Paenibacillus fonticola DSM 21315
 GCF_031954385.1	Paenibacillus forsythiae
-GCF_013266765.1	Paenibacillus frigoriresistens
 GCF_014836635.1	Paenibacillus gallinarum
 GCF_042684925.1	Paenibacillus gansuensis
 GCF_013141785.1	Paenibacillus germinis
@@ -240,6 +242,7 @@ GCF_006265175.1	Paenibacillus hemerocallicola
 GCF_002233675.1	Paenibacillus herberti
 GCF_021513275.1	Paenibacillus hexagrammi
 GCF_039536325.1	Paenibacillus hodogayensis
+GCF_032334105.1	Paenibacillus hubeiensis
 GCF_028826105.1	Paenibacillus humicola
 GCF_004000905.1	Paenibacillus humicus NBRC 102415
 GCF_034055775.1	Paenibacillus hunanensis
@@ -286,10 +289,12 @@ GCF_018403185.1	Paenibacillus montaniterrae
 GCF_009664975.1	Paenibacillus monticola
 GCF_039521865.1	Paenibacillus motobuensis
 GCF_000258535.2	Paenibacillus mucilaginosus K02
+GCF_046543445.1	Paenibacillus nanchangensis
 GCF_003583765.1	Paenibacillus nanensis
 GCF_001465255.1	Paenibacillus naphthalenovorans
 GCF_014641075.1	Paenibacillus nasutitermitis
 GCF_042681745.1	Paenibacillus nicotianae
+GCF_052056485.1	Paenibacillus nitricinens
 GCF_963311185.1	Paenibacillus nuruki
 GCF_014705615.1	Paenibacillus oceani
 GCF_000758725.1	Paenibacillus odorifer
@@ -486,6 +491,8 @@ GCF_001956985.1	Paludisphaera borealis
 GCF_029589435.1	Paludisphaera mucosa
 GCF_011065895.1	Paludisphaera rhizosphaerae
 GCF_011064595.1	Paludisphaera soli
+GCF_033971325.1	Pampinifervens diazotrophicum
+GCF_011006175.1	Pampinifervens florentissimum
 GCF_004364935.1	Panacagrimonas perspica
 GCF_007971225.1	Panacibacter ginsenosidivorans
 GCF_015831355.1	Panacibacter microcysteis
@@ -896,6 +903,7 @@ GCF_030296575.1	Paraoerskovia sediminicola
 GCF_900112315.1	Parapedobacter composti
 GCF_014642075.1	Parapedobacter defluvii
 GCF_042646065.1	Parapedobacter deserti
+GCF_035818675.1	Parapedobacter flavus
 GCF_002934635.1	Parapedobacter indicus
 GCF_900109365.1	Parapedobacter koreensis
 GCF_900168055.1	Parapedobacter luteus
@@ -903,6 +911,8 @@ GCF_024643285.1	Parapedobacter lycopersici
 GCF_014636865.1	Parapedobacter pyrenivorans
 GCF_025460835.1	Parapedobacter soli
 GCF_024643205.1	Parapedobacter tibetensis
+GCF_046237625.1	Paraperibacillus esterisolvens
+GCF_046237605.1	Paraperibacillus marinus
 GCF_003387535.1	Paraperlucidibaca baekdonensis
 GCF_042677145.1	Paraperlucidibaca wandonensis
 GCF_002216855.1	Paraphotobacterium marinum
@@ -998,7 +1008,6 @@ GCF_963693435.1	Pasteurella atlantica
 GCF_000262245.1	Pasteurella bettyae CCUG 2042
 GCF_020810675.1	Pasteurella canis
 GCF_900186835.1	Pasteurella dagmatis
-GCF_003096995.1	Pasteurella langaaensis DSM 22999
 GCF_002073255.2	Pasteurella multocida
 GCF_042681465.1	Pasteurella oralis
 GCF_900454705.1	Pasteurella testudinis
@@ -1065,6 +1074,3 @@ GCF_000014505.1	Pediococcus pentosaceus ATCC 25745
 GCF_047220215.1	Pediococcus siamensis
 GCF_001437075.1	Pediococcus stilesii
 GCF_900176535.1	Pedobacter africanus
-GCF_026275365.1	Pedobacter agri
-GCF_036324255.1	Pedobacter albus
-GCF_003664035.1	Pedobacter alluvionis
