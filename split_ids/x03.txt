@@ -1,16 +1,3 @@
-GCF_018918345.1	Butyricicoccus intestinisimiae
-GCF_002157465.1	Butyricicoccus porcorum
-GCF_002160355.1	Butyricicoccus pullicaecorum
-GCF_003991565.1	Butyricimonas faecalis
-GCF_032878895.1	Butyricimonas faecihominis
-GCF_014287455.1	Butyricimonas hominis
-GCF_032878955.1	Butyricimonas paravirosa
-GCF_000379665.1	Butyricimonas synergistica DSM 23225
-GCF_025148635.1	Butyricimonas virosa
-GCF_037113525.1	Butyrivibrio fibrisolvens
-GCF_001858005.1	Butyrivibrio hungatei
-GCF_000145035.1	Butyrivibrio proteoclasticus B316
-GCF_008065115.1	Bythopirellula goksoeyrii
 GCF_007860015.1	Bythopirellula polymerisocia
 GCF_900230245.1	Caballeronia arationis
 GCF_001544695.2	Caballeronia arvi
@@ -40,6 +27,7 @@ GCF_022879815.1	Caballeronia zhejiangensis
 GCF_019239235.1	Caecibacteroides pullorum
 GCF_002803295.2	Caedibacter taeniospiralis
 GCF_002003465.1	Caenibacillus caldisaponilyticus
+GCF_037154085.1	Caenibius fulvus
 GCF_003860345.1	Caenibius tardaugens NBRC 16725
 GCF_025943965.1	Caenicola nitritireducens
 GCF_015831345.1	Caenimonas aquaedulcis
@@ -128,6 +116,7 @@ GCF_041735015.1	Campylobacter bilis
 GCF_013201895.1	Campylobacter blaseri
 GCF_004803835.1	Campylobacter californiensis
 GCF_013177655.1	Campylobacter canadensis
+GCF_045504005.1	Campylobacter canis
 GCF_009730395.1	Campylobacter coli
 GCF_001298465.1	Campylobacter concisus
 GCF_013201645.1	Campylobacter corcagiensis
@@ -176,6 +165,7 @@ GCF_021057185.1	Candidatus Absconditicoccus praedator
 GCF_900089955.1	Candidatus Accumulibacter aalborgensis
 GCF_036625285.1	Candidatus Accumulibacter contiguus
 GCF_000024165.1	Candidatus Accumulibacter phosphatis
+GCF_052117205.1	Candidatus Agathobaculum pullicola
 GCF_900491745.1	Candidatus Amarolinea aalborgensis
 GCF_000020565.1	Candidatus Amoebophilus asiaticus 5a2
 GCF_003956045.1	Candidatus Annandia adelgestsuga
@@ -280,7 +270,7 @@ GCF_900698925.1	Candidatus Erwinia haradaeae
 GCF_051257895.1	Candidatus Ferrigenium straubiae
 GCF_030520105.1	Candidatus Fervidibacter sacchari
 GCF_004210305.1	Candidatus Finniella inopinata
-GCF_034359305.1	Candidatus Fokinia cryptica
+GCF_034359305.1	Candidatus Fokinia crypta
 GCF_003072485.1	Candidatus Fokinia solitaria
 GCF_002688585.1	Candidatus Fonsibacter ubiquis
 GCF_002777255.1	Candidatus Formimonas warabiya
@@ -290,7 +280,7 @@ GCF_902812705.1	Candidatus Frankia nodulisporulans
 GCF_964030615.1	Candidatus Fukatsuia endosymbiont_of_Drepanosiphum platanoidis
 GCF_964030845.1	Candidatus Fukatsuia endosymbiont_of_Tuberolachnus salignus
 GCF_035013225.1	Candidatus Fukatsuia symbiotica
-GCF_008830185.1	Candidatus Galacturonibacter soehngenii
+GCF_008830185.1	Candidatus Galacturonatibacter soehngenii
 GCF_000227585.1	Candidatus Glomeribacter gigasporarum BEG34
 GCF_021065005.1	Candidatus Gromoviella agglomerans
 GCF_900048035.1	Candidatus Gullanella endobia
@@ -306,7 +296,7 @@ GCF_021654655.1	Candidatus Hydrogenosomobacter endosymbioticus
 GCF_001460935.1	Candidatus Ichthyocystis hellenicum
 GCF_900078725.1	Candidatus Ichthyocystis sparus
 GCF_000828515.1	Candidatus Ishikawaella capsulata Mpkobe
-GCF_000815465.1	Candidatus Jidaibacter acanthamoeba
+GCF_000815465.1	Candidatus Jidaibacter acanthamoebae
 GCF_020084865.1	Candidatus Kaistella beijingensis
 GCF_001447915.1	Candidatus Karelsulcia muelleri
 GCF_000319245.1	Candidatus Kinetoplastidibacterium blastocrithidiae (ex Strigomonas culicis)
@@ -350,13 +340,14 @@ GCF_905250085.1	Candidatus Methylacidithermus pantelleriae
 GCF_902806695.1	Candidatus Methylobacter favarea
 GCF_003994235.2	Candidatus Methylobacter oryzae
 GCF_964023245.1	Candidatus Methylocalor cossyra
+GCF_016745425.1	Candidatus Methylomicrobium oryzae
 GCF_003044035.1	Candidatus Methylomirabilis limnetica
 GCF_006364455.1	Candidatus Methylopumilus planktonicus
 GCF_006364615.1	Candidatus Methylopumilus rimovensis
 GCF_000953015.1	Candidatus Methylopumilus turicensis
 GCF_006363895.1	Candidatus Methylopumilus universalis
 GCF_009498235.1	Candidatus Methylospira mobilis
-GCF_000469155.1	Candidatus Micropelagos thuwalensis
+GCF_000469155.1	Candidatus Micropelagius thuwalensis
 GCF_000219355.1	Candidatus Midichloria mitochondrii IricVA
 GCF_900048045.1	Candidatus Mikella endobia
 GCF_018866205.1	Candidatus Minimicrobia vallesae
@@ -372,16 +363,16 @@ GCF_025273655.1	Candidatus Mycosynbacter amalyticus
 GCF_004151455.1	Candidatus Nanogingivalis gingivitcus
 GCF_002288305.1	Candidatus Nanopelagicus abundans
 GCF_002288005.1	Candidatus Nanopelagicus hibericus
-GCF_002287885.2	Candidatus Nanopelagicus limnes
+GCF_002287885.2	Candidatus Nanopelagicus limnae
 GCF_004138445.1	Candidatus Nanoperiomorbus periodonticus
 GCF_005697565.1	Candidatus Nanosynbacter featherlites
 GCF_000803625.1	Candidatus Nanosynbacter lyticus
 GCF_004138395.1	Candidatus Nanosyncoccus alces
 GCF_004138405.1	Candidatus Nanosyncoccus nanoralicus
-GCF_024820135.1	Candidatus Nasuia deltocephalinicola
+GCF_024820135.1	Candidatus Nasuia deltocephalincola
 GCF_000964795.1	Candidatus Neoehrlichia procyonis str. RAC413
 GCF_000455525.1	Candidatus Neomicrothrix parvicella RN1
-GCF_015356785.1	Candidatus Neptunochlamydia vexilliferae
+GCF_015356785.1	Candidatus Neptunichlamydia vexilliferae
 GCF_960610765.1	Candidatus Nesciobacter abundans
 GCF_032191465.1	Candidatus Nitronereus thalassa
 GCF_902810445.1	Candidatus Nitrosacidococcus tergens
@@ -419,9 +410,9 @@ GCF_026230195.1	Candidatus Paraluminiphilus aquimaris
 GCF_012276695.1	Candidatus Pelagibacter giovannonii
 GCF_000012345.1	Candidatus Pelagibacter ubique HTCC1062
 GCF_014529625.1	Candidatus Pelagisphaera phototrophica
-GCF_000689395.1	Candidatus Phaeomarinobacter ectocarpi
+GCF_000689395.1	Candidatus Phaeomarinibacter ectocarpi
 GCF_000731785.2	Candidatus Photodesmus anomalopis
-GCF_000731795.2	Candidatus Photodesmus blepharus
+GCF_000731795.2	Candidatus Photodesmus blepharonis
 GCF_003015145.1	Candidatus Phycorickettsia trachydisci
 GCF_003112735.1	Candidatus Phycosocius bacilliformis
 GCF_030158815.1	Candidatus Phycosocius spiralis
@@ -447,7 +438,7 @@ GCF_013391955.1	Candidatus Phytoplasma pruni
 GCF_036924415.2	Candidatus Phytoplasma prunorum
 GCF_046600495.1	Candidatus Phytoplasma pyri
 GCF_026821955.1	Candidatus Phytoplasma rubi
-GCF_009268105.1	Candidatus Phytoplasma sacchari
+GCA_009268105.2	Candidatus Phytoplasma sacchari
 GCF_040126175.1	Candidatus Phytoplasma solani
 GCF_000495255.1	Candidatus Phytoplasma tritici
 GCF_003640545.1	Candidatus Phytoplasma ziziphi
@@ -620,10 +611,16 @@ GCF_000427565.1	Carboxydothermus ferrireducens DSM 11255
 GCF_000012865.1	Carboxydothermus hydrogenoformans Z-2901
 GCF_001950325.1	Carboxydothermus islandicus
 GCF_001950255.1	Carboxydothermus pertinax
+GCF_050589845.1	Carboxylicivirga agarovorans
+GCF_050589785.1	Carboxylicivirga caseinilyticus
+GCF_050589805.1	Carboxylicivirga fragile
 GCF_018271995.1	Carboxylicivirga linearis
+GCF_050589765.1	Carboxylicivirga litoralis
+GCF_050589825.1	Carboxylicivirga longa
 GCF_016612505.1	Carboxylicivirga marina
 GCF_018271975.1	Carboxylicivirga mesophila
 GCF_018156225.1	Carboxylicivirga sediminis
+GCF_051851475.1	Carboxylicivirga taeanensis
 GCF_000304455.1	Cardinium endosymbiont cEper1 of Encarsia pergandiella
 GCF_004300865.1	Cardinium endosymbiont_of_Bemisia tabaci
 GCF_004354815.1	Cardinium endosymbiont_of_Culicoides punctatus
@@ -635,6 +632,7 @@ GCF_003351905.1	Cardinium endosymbiont_of_Sogatella furcifera
 GCF_964020025.1	Cardinium endosymbiont_of_Tipula unca
 GCF_900637305.1	Cardiobacterium hominis
 GCF_900460955.1	Cardiobacterium valvarum
+GCF_051251145.1	Carnimonas bestiolae
 GCF_000526695.1	Carnimonas nigrificans ATCC BAA-78
 GCF_900143105.1	Carnobacterium alterfunditum
 GCF_042658365.1	Carnobacterium antarcticum
@@ -714,6 +712,7 @@ GCF_011808225.1	Cedecea colo
 GCF_044095835.1	Cedecea davisae
 GCF_900635955.1	Cedecea lapagei
 GCF_002393445.1	Cedecea neteri
+GCF_042138895.1	Cedecea selenatireducens
 GCF_016756775.1	Cedecea sulfonylureivorans
 GCF_039539485.1	Celeribacter arenosi
 GCF_900102315.1	Celeribacter baekdonensis
@@ -813,6 +812,7 @@ GCF_900207575.1	Cereibacter ovatus
 GCF_007668225.1	Cereibacter sediminicola
 GCF_000012905.2	Cereibacter sphaeroides 2.4.1
 GCF_022008415.1	Cerina litoralis
+GCF_051251085.1	Cernens ardua
 GCF_000348925.1	Cesiribacter andamanensis AMV16
 GCF_900167275.1	Cetobacterium ceti
 GCF_022430525.1	Cetobacterium somerae
@@ -941,3 +941,9 @@ GCF_018304825.1	Chloracidobacterium validum
 GCF_001747405.1	Chlorobaculum limnaeum
 GCF_000020505.1	Chlorobaculum parvum NCIB 8327
 GCF_000006985.1	Chlorobaculum tepidum TLS
+GCF_006265165.1	Chlorobaculum thiosulfatiphilum
+GCF_000168715.1	Chlorobium ferrooxidans DSM 13031
+GCF_000020465.1	Chlorobium limicola DSM 245
+GCF_000015125.1	Chlorobium phaeobacteroides DSM 266
+GCF_003968655.1	Chlorobium phaeovibrioides
+GCF_000021945.1	Chloroflexus aggregans DSM 9485

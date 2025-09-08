@@ -50,6 +50,7 @@ GCF_000024365.1	Nakamurella multipartita DSM 44233
 GCF_900104535.1	Nakamurella panacisegetis
 GCF_042679565.1	Namhaeicola litoreus
 GCF_014763015.1	Nanchangia anserum
+GCF_046557775.1	Nanhaiella sioensis
 GCF_028368995.1	Nannocystis bainbridge
 GCF_002343915.1	Nannocystis exedens
 GCF_026965555.1	Nannocystis punicea
@@ -154,6 +155,7 @@ GCF_943193175.1	Neobacillus muris
 GCF_048572935.1	Neobacillus niacini
 GCF_003515685.1	Neobacillus notoginsengisoli
 GCF_001636395.1	Neobacillus novalis
+GCF_046237595.1	Neobacillus oceani
 GCF_016765675.1	Neobacillus paridis
 GCF_003362805.1	Neobacillus piezotolerans
 GCF_018343535.1	Neobacillus rhizophilus
@@ -223,6 +225,7 @@ GCF_000943555.1	Neotamlana nanhaiensis
 GCF_020523965.1	Neotamlana sargassicola
 GCF_000943565.1	Neotamlana sedimentorum
 GCF_014270035.1	Neptunicella marina
+GCF_047922965.1	Neptunicella plasticusilytica
 GCF_014643735.1	Neptunicoccus cionae
 GCF_001719615.1	Neptunicoccus sediminis
 GCF_000153345.1	Neptuniibacter caesariensis
@@ -308,6 +311,7 @@ GCF_023380205.1	Nicoliella spurrieriana
 GCF_000826085.1	Nigerium massiliense
 GCF_004798935.1	Ningiella ruwaisensis
 GCF_050896395.1	Nioella aestuarii
+GCF_003428585.1	Nioella halotolerans
 GCF_001879715.1	Nioella nitratireducens
 GCF_004000255.1	Nioella ostreopsis
 GCF_001879695.1	Nioella sediminis
@@ -846,8 +850,10 @@ GCF_019802285.1	Novilysobacter antarcticus
 GCF_015209745.1	Novilysobacter avium
 GCF_015209725.1	Novilysobacter ciconiae
 GCF_036663935.1	Novilysobacter erysipheiresistens
+GCF_046600735.1	Novilysobacter longmucuonensis
 GCF_907164845.1	Novilysobacter luteus
 GCF_020026895.1	Novilysobacter selenitireducens
+GCF_046600715.1	Novilysobacter viscosus
 GCF_003112435.1	Novimethylophilus kurashikiensis
 GCF_007860135.1	Novipirellula artificiosorum
 GCF_007860185.1	Novipirellula aureliae
@@ -946,6 +952,7 @@ GCF_007625075.1	Oceanidesulfovibrio indonesiensis
 GCF_013085545.1	Oceanidesulfovibrio marinus
 GCF_016595575.1	Oceaniferula flava
 GCF_013391475.1	Oceaniferula marina
+GCF_042849255.1	Oceaniferula spumae
 GCF_003057885.1	Oceaniglobus ichthyenteri
 GCF_002751875.1	Oceaniglobus indicus
 GCF_002869745.1	Oceaniglobus roseus
@@ -1100,3 +1107,4 @@ GCF_024199005.1	Opacimonas viscosa
 GCF_000019965.1	Opitutus terrae PB90-1
 GCF_003634275.1	Orbus hercynius
 GCF_036251205.1	Orbus mooreae
+GCF_039542345.1	Orbus sasakiae

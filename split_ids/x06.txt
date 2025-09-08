@@ -1,9 +1,3 @@
-GCF_013260645.1	Erythrobacter mangrovi
-GCF_001663175.1	Erythrobacter neustonensis
-GCF_030271515.1	Erythrobacter oryzae
-GCF_014195675.1	Erythrobacter ramosus
-GCF_014705715.1	Erythrobacter rubeus
-GCF_900143235.1	Erythrobacter sanguineus
 GCF_002155695.1	Erythrobacter tepidarius
 GCF_039542285.1	Erythrobacter westpacificensis
 GCF_028622335.1	Escherichia albertii
@@ -33,6 +27,7 @@ GCF_900167115.1	Eubacterium uniforme
 GCF_003475105.1	Eubacterium ventriosum
 GCF_000518685.1	Eubacterium xylanophilum ATCC 35991
 GCF_000382125.1	Eudoraea adriatica DSM 19308
+GCF_050589645.1	Eudoraea algarum
 GCF_029360665.1	Eudoraea chungangensis
 GCF_007904085.1	Euhalothece natronophila Z-M001
 GCF_963930865.1	Eupransor demetentiae
@@ -49,7 +44,9 @@ GCF_002335745.1	Evansella halocellulosilytica
 GCF_019042215.1	Evansella tamaricis
 GCF_030813435.1	Evansella vedderi
 GCF_008121455.1	Evtepia gabavorous
+GCF_044430645.1	Ewingella allii
 GCF_008693045.1	Ewingella americana
+GCF_040419245.1	Ewingella docleensis
 GCF_029577735.1	Exercitatus varius
 GCF_015645365.1	Exiguobacterium abrahamii
 GCF_018604565.1	Exiguobacterium acetylicum
@@ -57,6 +54,7 @@ GCF_042663205.1	Exiguobacterium aestuarii
 GCF_018617875.1	Exiguobacterium algae
 GCF_018138125.1	Exiguobacterium alkaliphilum
 GCF_000685865.1	Exiguobacterium antarcticum DSM 14480
+GCF_000019905.1	Exiguobacterium artemiae 255-15
 GCF_000702585.1	Exiguobacterium aurantiacum DSM 6208
 GCF_000416965.1	Exiguobacterium chiriqhucha RW-2
 GCF_003344535.1	Exiguobacterium flavidum
@@ -67,7 +65,6 @@ GCF_025234795.1	Exiguobacterium mexicanum
 GCF_000702625.1	Exiguobacterium oxidotolerans JCM 12280
 GCF_042652865.1	Exiguobacterium profundum
 GCF_018617855.1	Exiguobacterium qingdaonense
-GCF_000019905.1	Exiguobacterium sibiricum 255-15
 GCF_000620805.1	Exiguobacterium undae DSM 14481
 GCF_007004655.1	Exilibacterium tricleocarpae
 GCF_005747095.1	Exobacillus caeni
@@ -174,6 +171,7 @@ GCF_000422665.1	Ferrimonas senticii DSM 18821
 GCF_000974685.2	Ferriphaselus amnicola
 GCF_900128965.1	Ferrithrix thermotolerans DSM 19514
 GCF_002027205.1	Ferroacidibacillus organovorans
+GCF_038404985.1	Ferrovibrio plantarum
 GCF_007197755.1	Ferrovibrio terrae
 GCF_042648965.1	Ferrovibrio xuzhouensis
 GCF_013181415.1	Ferrovum myxofaciens
@@ -196,8 +194,11 @@ GCF_000017545.1	Fervidobacterium nodosum Rt17-B1
 GCF_000235405.2	Fervidobacterium pennivorans DSM 9078
 GCF_001719065.1	Fervidobacterium thailandense
 GCF_000331105.1	Fibrella aestuarina BUZ 2
+GCF_041321135.1	Fibrella aquatica
 GCF_017353255.1	Fibrella aquatilis
+GCF_041321095.1	Fibrella arboris
 GCF_017353175.1	Fibrella forsythiae
+GCF_041321105.1	Fibrella musci
 GCF_017353185.1	Fibrella rubiginis
 GCF_000296815.2	Fibrisoma limi BUZ 3
 GCF_003583365.1	Fibrisoma montanum
@@ -239,6 +240,7 @@ GCF_019457905.1	Flagellimonas abyssi
 GCF_003584165.1	Flagellimonas aequoris
 GCF_040513375.1	Flagellimonas algarum
 GCF_005937185.1	Flagellimonas algicola
+GCF_042134605.1	Flagellimonas alginolytica
 GCF_004296335.1	Flagellimonas allohymeniacidonis
 GCF_004916895.1	Flagellimonas alvinocaridis
 GCF_003058265.1	Flagellimonas amoyensis
@@ -248,6 +250,7 @@ GCF_017313785.1	Flagellimonas aurea
 GCF_033441575.1	Flagellimonas baculiformis
 GCF_003992615.1	Flagellimonas beolgyonensis
 GCF_013376415.1	Flagellimonas chongwuensis
+GCF_042134615.1	Flagellimonas cixiensis
 GCF_033441595.1	Flagellimonas crocea
 GCF_001413955.1	Flagellimonas eckloniae
 GCF_900129665.1	Flagellimonas flava
@@ -313,6 +316,7 @@ GCF_002954265.1	Flavipsychrobacter stenotrophus
 GCF_039543205.1	Flaviramulus aquimarinus
 GCF_900114265.1	Flaviramulus basaltis
 GCF_021728415.1	Flaviramulus multivorans
+GCF_045446075.1	Flavisericum labens
 GCF_900129295.1	Flavisolibacter ginsengisoli DSM 18119
 GCF_007970805.1	Flavisolibacter ginsenosidimutans
 GCF_003628535.1	Flavisolibacter nicotianae
@@ -929,7 +933,6 @@ GCF_000695095.2	Gemmatimonas phototrophica
 GCF_000522985.1	Gemmatirosa kalamazoonensis
 GCF_900167555.1	Gemmiger formicilis
 GCF_014982805.1	Gemmiger gallinarum
-GCF_027689445.1	Gemmiger qucibialis
 GCF_007859075.1	Gemmobacter aquaticus
 GCF_900110025.1	Gemmobacter aquatilis
 GCF_003054195.1	Gemmobacter caeni
@@ -996,7 +999,7 @@ GCF_018476905.1	Geomobilimonas luticola
 GCF_020179605.1	Geomonas agri
 GCF_016458305.1	Geomonas anaerohicana
 GCF_018919395.1	Geomonas azotofigens
-GCF_018919385.1	Geomonas diazotrophica
+GCF_019063885.1	Geomonas diazotrophica
 GCF_004917075.1	Geomonas edaphica
 GCF_004917065.1	Geomonas ferrireducens
 GCF_014193675.1	Geomonas limicola
@@ -1067,6 +1070,7 @@ GCF_000243235.1	Gillisia limnaea DSM 15749
 GCF_021568705.1	Gillisia lutea
 GCF_000258765.1	Gillisia marina
 GCF_003634585.1	Gillisia mitskevichiae
+GCF_046298265.1	Gillisia xinjiangensis
 GCF_028561565.1	Gilvibacter sediminis
 GCF_000832015.1	Gilvimarinus agarilyticus
 GCF_030518215.1	Gilvimarinus algae
@@ -1081,3 +1085,8 @@ GCF_007746795.1	Gimesia algae
 GCF_007748195.1	Gimesia aquarii
 GCF_009720525.1	Gimesia benthica
 GCF_008329715.1	Gimesia chilikensis
+GCF_007754425.1	Gimesia fumaroli
+GCF_008298035.1	Gimesia maris
+GCF_007748155.1	Gimesia panareensis
+GCF_028463845.1	Gimibacter soli
+GCF_008710285.1	Ginsengibacter hankyongi

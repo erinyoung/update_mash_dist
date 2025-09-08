@@ -1,3 +1,4 @@
+GCF_000829435.1	Jeotgalibacillus soli
 GCF_016908195.1	Jeotgalibacillus terrae
 GCF_903994055.1	Jeotgalicoccus aerolatus
 GCF_903994065.1	Jeotgalicoccus coquinae
@@ -200,12 +201,16 @@ GCF_001682915.1	Kluyvera georgiana
 GCF_009649915.1	Kluyvera intermedia
 GCF_040930405.1	Kluyvera sichuanensis
 GCF_000768695.1	Knoellia aerolata DSM 18566
+GCF_042666355.1	Knoellia altitudinis
 GCF_014636255.1	Knoellia flava
 GCF_013041615.1	Knoellia koreensis
 GCF_007992835.1	Knoellia locipacati
+GCF_042666395.1	Knoellia pratensis
 GCF_003002895.1	Knoellia remsis
 GCF_000768705.1	Knoellia sinensis KCTC 19936
 GCF_000768685.1	Knoellia subterranea KCTC 19937
+GCF_048606435.1	Knoellia terrae
+GCF_048606415.1	Knoellia tibetensis
 GCF_039530085.1	Kocuria aegyptia
 GCF_042879215.1	Kocuria arenosa
 GCF_039531425.1	Kocuria atrinae
@@ -215,6 +220,7 @@ GCF_008831305.1	Kocuria coralli
 GCF_014636775.1	Kocuria dechangensis
 GCF_001482365.1	Kocuria flava
 GCF_039544365.1	Kocuria gwangalliensis
+GCF_044462225.1	Kocuria kalidii
 GCF_014652975.1	Kocuria marina
 GCF_900169715.1	Kocuria massiliensis
 GCF_042879195.1	Kocuria nitroreducens
@@ -222,6 +228,8 @@ GCF_029524215.1	Kocuria oceani
 GCF_040981195.1	Kocuria oxytropis
 GCF_016907795.1	Kocuria palustris
 GCF_035990065.1	Kocuria rhizophila
+GCF_044462265.1	Kocuria rhizosphaerae
+GCF_044462205.1	Kocuria rhizosphaericola
 GCF_004358895.1	Kocuria rosea
 GCF_042879235.1	Kocuria sabuli
 GCF_039532055.1	Kocuria salsicia
@@ -387,7 +395,7 @@ GCF_900107245.1	Lachnobacterium bovis DSM 14045
 GCF_900240245.1	Lachnoclostridium edouardi
 GCF_000018685.1	Lachnoclostridium phytofermentans ISDg
 GCF_000146185.1	Lachnospira eligens ATCC 27750
-GCF_040096395.1	Lachnospira intestinalis
+GCF_040095895.1	Lachnospira intestinalis
 GCF_000424105.1	Lachnospira multipara ATCC 19207
 GCF_900103815.1	Lachnospira pectinoschiza
 GCF_003201285.1	Lachnotalea glycerini
@@ -702,6 +710,7 @@ GCF_000470775.1	Leifsonia xyli subsp. cynodontis DSM 46306
 GCF_006740765.1	Leisingera aquaemixtae
 GCF_000473165.1	Leisingera aquimarina DSM 24565
 GCF_025139665.1	Leisingera caerulea
+GCF_049056525.1	Leisingera coralii
 GCF_000473145.1	Leisingera daeponensis DSM 23529
 GCF_000511355.1	Leisingera methylohalidivorans DSM 14336
 GCF_025857195.1	Leisingera thetidis
@@ -782,6 +791,7 @@ GCF_033949975.1	Lentzea sokolovensis
 GCF_003265345.1	Lentzea terrae
 GCF_007845675.1	Lentzea tibetensis
 GCF_900115955.1	Lentzea waywayandensis
+GCF_051094245.1	Lentzea xerophila
 GCF_900110955.1	Lentzea xinjiangensis
 GCF_004793975.1	Lepagella muris
 GCF_010671605.1	Leptobacterium flavescens
@@ -1071,6 +1081,3 @@ GCF_947381495.1	Limosilactobacillus galli
 GCF_001434365.1	Limosilactobacillus gastricus DSM 16045
 GCF_001293735.1	Limosilactobacillus gorillae
 GCF_000312405.1	Limosilactobacillus ingluviei str. Autruche 4
-GCF_026413145.1	Limosilactobacillus kribbianus
-GCF_013423865.1	Limosilactobacillus mucosae
-GCF_025311495.1	Limosilactobacillus oris

@@ -1,12 +1,9 @@
-GCF_007754425.1	Gimesia fumaroli
-GCF_008298035.1	Gimesia maris
-GCF_007748155.1	Gimesia panareensis
-GCF_028463845.1	Gimibacter soli
-GCF_008710285.1	Ginsengibacter hankyongi
 GCF_031846345.1	Glaciecola petra
 GCF_001756615.1	Glaciecola punicea
 GCF_042652645.1	Glaciecola siphonariae
+GCF_004681125.1	Glacieibacterium arshaanense
 GCF_007097155.1	Glacieibacterium frigidum
+GCF_018982885.2	Glacieibacterium megasporae
 GCF_013410665.1	Glaciibacter psychrotolerans
 GCF_000421145.1	Glaciibacter superstes DSM 21135
 GCF_004310685.1	Glaciihabitans arcticus
@@ -163,7 +160,7 @@ GCF_002156865.1	Gottfriedia luciferensis
 GCF_002128405.1	Gottfriedia solisilvae
 GCF_000299355.1	Gottschalkia acidurici 9a
 GCF_001190785.1	Gottschalkia purinilytica
-GCF_027920805.1	Govania unica
+GCF_027920805.1	Govanella unica
 GCF_016909015.1	Gracilibacillus alcaliphilus
 GCF_000521485.1	Gracilibacillus boraciitolerans JCM 21714
 GCF_022919115.1	Gracilibacillus caseinilyticus
@@ -239,9 +236,13 @@ GCF_030404055.1	Guptibacillus hwajinpoensis
 GCF_028610665.1	Guptibacillus sedimenti
 GCF_028610625.1	Guptibacillus spartinae
 GCF_034479635.1	Guyparkeria halophila
+GCF_044582145.1	Guyparkeria halopsychrophila
 GCF_023555375.1	Guyparkeria hydrothermalis
 GCF_019297855.1	Gymnodinialimonas ceratoperidinii
+GCF_040932485.1	Gymnodinialimonas hymeniacidonis
+GCF_037544085.1	Gymnodinialimonas mytili
 GCF_019195455.1	Gymnodinialimonas phycosphaerae
+GCF_037543845.1	Gymnodinialimonas ulvae
 GCF_000940805.1	Gynuella sunshinyii YC6258
 GCF_003991195.1	Gynurincola endophyticus
 GCF_004328555.1	Haematobacter massiliensis
@@ -614,9 +615,12 @@ GCF_024979295.1	Herbiconiux daphne
 GCF_027922025.1	Herbiconiux flava
 GCF_027568555.1	Herbiconiux gentiana
 GCF_900107435.1	Herbiconiux ginsengi
+GCF_041927335.1	Herbiconiux liangxiaofengii
+GCF_041927395.1	Herbiconiux liukaitaii
 GCF_024979255.1	Herbiconiux moechotypicola
 GCF_024979315.1	Herbiconiux oxytropis
 GCF_001571005.1	Herbiconiux solani NBRC 106740
+GCF_041927465.1	Herbiconiux wuyangfengii
 GCF_001570605.1	Herbidospora cretacea
 GCF_001570585.1	Herbidospora daliensis
 GCF_005233835.1	Herbidospora galbida
@@ -740,6 +744,8 @@ GCF_004851605.1	Hydrocarboniclastica marina
 GCF_900129825.1	Hydrocarboniphaga daqingensis
 GCF_000271305.1	Hydrocarboniphaga effusa AP103
 GCF_001904635.1	Hydrococcus rivularis NIES-593
+GCF_039645965.1	Hydrocurvibacter mobilis
+GCF_039645975.1	Hydrocurvibacter sulfurireducens
 GCF_001653195.1	Hydrogenibacillus schlegelii
 GCF_003268275.1	Hydrogeniiclostridium mannosilyticum
 GCF_030296055.1	Hydrogenimonas cancrithermarum
@@ -931,6 +937,7 @@ GCF_038066635.1	Ideonella margarita
 GCF_024055665.1	Ideonella oryzae
 GCF_018069865.1	Ideonella paludis
 GCF_019797805.1	Idiomarina abyssalis
+GCF_023155095.1	Idiomarina aminovorans
 GCF_003987185.1	Idiomarina aquatica
 GCF_000152885.1	Idiomarina baltica OS145
 GCF_003226255.1	Idiomarina fontislapidosi
@@ -1082,4 +1089,3 @@ GCF_034427455.1	Jeotgalibacillus haloalkalitolerans
 GCF_040801915.1	Jeotgalibacillus marinus
 GCF_002926065.1	Jeotgalibacillus proteolyticus
 GCF_004405125.1	Jeotgalibacillus salarius
-GCF_000829435.1	Jeotgalibacillus soli

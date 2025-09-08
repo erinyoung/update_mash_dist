@@ -1,3 +1,5 @@
+GCF_000421245.1	Serinicoccus marinus DSM 15273
+GCF_000224715.1	Serinicoccus profundi MCCC 1A05965
 GCF_004153545.1	Serinicoccus sediminis
 GCF_014836765.1	Serpens gallinarum
 GCF_018141405.1	Serpentinicella alkaliphila
@@ -97,6 +99,7 @@ GCF_004295345.1	Shewanella maritima
 GCF_019457515.1	Shewanella mesophila
 GCF_028750675.1	Shewanella metallivivens
 GCF_003028295.1	Shewanella morhuae
+GCF_046765975.1	Shewanella mytili
 GCF_019457885.1	Shewanella nanhaiensis
 GCF_023283825.1	Shewanella olleyana
 GCF_030848765.1	Shewanella oncorhynchi
@@ -323,6 +326,7 @@ GCF_000298255.1	Solibacillus isronensis B3W22
 GCF_002174535.1	Solibacillus kalamii
 GCF_014836935.1	Solibacillus merdavium
 GCF_022549215.1	Solibacillus palustris
+GCF_051967575.1	Solibacillus silvestris
 GCF_040096205.1	Solibaculum intestinale
 GCF_015140235.1	Solibaculum mannosilyticum
 GCF_025790165.1	Solicola gregarius
@@ -729,8 +733,6 @@ GCF_032378825.1	Sphingosinicella rhizophila
 GCF_014199685.1	Sphingosinicella soli
 GCF_003347635.1	Sphingosinicella terrae
 GCF_042676985.1	Sphingosinicella xenopeptidilytica
-GCF_003171655.1	Sphingosinithalassobacter portus
-GCF_011057975.1	Sphingosinithalassobacter tenebrarum
 GCF_013408795.1	Spinactinospora alkalitolerans
 GCF_014885015.1	Spirabiliibacterium falconis
 GCF_014884965.1	Spirabiliibacterium mucosae
@@ -738,7 +740,6 @@ GCF_014884995.1	Spirabiliibacterium pneumoniae
 GCF_018437505.1	Spiractinospora alimapuensis
 GCF_007625215.1	Spiribacter aquaticus
 GCF_000485905.1	Spiribacter curvatus
-GCF_020883455.1	Spiribacter halobius
 GCF_040838345.1	Spiribacter insolitus
 GCF_040838425.1	Spiribacter onubensis
 GCF_040838495.1	Spiribacter pallidus
@@ -753,7 +754,6 @@ GCF_000242595.2	Spirochaeta africana DSM 8902
 GCF_000426705.1	Spirochaeta cellobiosiphila DSM 17781
 GCF_014207565.1	Spirochaeta isovalerica
 GCF_000758165.1	Spirochaeta lutea
-GCF_000184345.1	Spirochaeta thermophila DSM 6578
 GCF_003363775.1	Spiroplasma alleghenense
 GCF_000500935.1	Spiroplasma apis B31
 GCF_023509825.1	Spiroplasma attinicola
@@ -957,8 +957,10 @@ GCF_003730135.1	Stagnimonas aquatica
 GCF_019351405.1	Stakelama flava
 GCF_018122655.1	Stakelama marina
 GCF_004361835.1	Stakelama pacifica
+GCF_003171655.1	Stakelama portus
 GCF_032229225.1	Stakelama saccharophila
 GCF_014199335.1	Stakelama sediminis
+GCF_011057975.1	Stakelama tenebrarum
 GCF_000317575.1	Stanieria cyanosphaera PCC 7437
 GCF_011466855.1	Staphylococcus agnetis
 GCF_024814435.1	Staphylococcus americanisciuri
@@ -1059,3 +1061,8 @@ GCF_024621935.1	Stenotrophomonas muris
 GCF_009467805.1	Stenotrophomonas nematodicola
 GCF_017304535.1	Stenotrophomonas nitritireducens
 GCF_031834595.1	Stenotrophomonas oahuensis
+GCF_003046775.1	Stenotrophomonas panacihumi
+GCF_900101175.1	Stenotrophomonas pavanii
+GCF_001431585.1	Stenotrophomonas pictorum JCM 9942
+GCF_030549615.1	Stenotrophomonas pigmentata
+GCF_000661955.1	Stenotrophomonas rhizophila

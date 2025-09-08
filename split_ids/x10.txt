@@ -1,3 +1,7 @@
+GCF_022179685.1	Methylobacterium trifolii
+GCF_001043975.1	Methylobacterium variabile
+GCF_015904235.1	Methylobrevis albus
+GCF_001720135.1	Methylobrevis pamukkalensis
 GCF_003584645.1	Methylocaldum marinum
 GCF_949769195.1	Methylocaldum szegediense
 GCF_000427445.1	Methylocapsa acidiphila B2
@@ -145,6 +149,7 @@ GCF_003387575.1	Microbacterium bovistercoris
 GCF_030315975.1	Microbacterium candidum
 GCF_008727755.1	Microbacterium caowuchunii
 GCF_030865425.1	Microbacterium capsulatum
+GCF_039905635.1	Microbacterium chionoecetis
 GCF_014836945.1	Microbacterium commune
 GCF_015277855.1	Microbacterium cremeum
 GCF_023091245.1	Microbacterium croceum
@@ -182,7 +187,6 @@ GCF_014725695.1	Microbacterium hominis
 GCF_029094505.1	Microbacterium horticulturae
 GCF_001552455.1	Microbacterium hydrocarbonoxydans NBRC 103074
 GCF_004854025.1	Microbacterium hydrothermale
-GCF_903645325.1	Microbacterium ihumii
 GCF_013409785.1	Microbacterium immunditiarum
 GCF_027921865.1	Microbacterium imperiale
 GCF_000422385.1	Microbacterium indicum DSM 19969
@@ -226,6 +230,7 @@ GCF_039529675.1	Microbacterium paludicola
 GCF_039541635.1	Microbacterium panaciterrae
 GCF_900105335.1	Microbacterium paraoxydans
 GCF_015707995.1	Microbacterium paulum
+GCF_049177115.1	Microbacterium phosphatis
 GCF_032464935.1	Microbacterium phycohabitans
 GCF_017876435.1	Microbacterium phyllosphaerae
 GCF_035231185.1	Microbacterium plantarum
@@ -257,6 +262,7 @@ GCF_003999995.1	Microbacterium sulfonylureivorans
 GCF_042655325.1	Microbacterium suwonense
 GCF_003651225.1	Microbacterium telephonicum
 GCF_020682665.1	Microbacterium tenebrionis
+GCF_903645325.1	Microbacterium tenebrionis
 GCF_017831975.1	Microbacterium terrae
 GCF_039534975.1	Microbacterium terregens
 GCF_025758395.1	Microbacterium terricola
@@ -370,14 +376,14 @@ GCF_000145235.1	Micromonospora aurantiaca ATCC 27029
 GCF_900089595.1	Micromonospora auratinigra
 GCF_900156065.1	Micromonospora avicenniae
 GCF_022230955.1	Micromonospora cabrerizensis
-GCF_013389765.1	Micromonospora carbonacea
+GCF_013389765.1	Micromonospora carbonacea subsp. aurantiaca
 GCF_028993575.1	Micromonospora cathayae
 GCF_900091435.1	Micromonospora chaiyaphumensis
 GCF_028768405.1	Micromonospora chalcea
 GCF_900091475.1	Micromonospora chersina
 GCF_900091505.1	Micromonospora chokoriensis
 GCF_900090315.1	Micromonospora citrea
-GCF_039541735.1	Micromonospora coerulea
+GCF_016598485.1	Micromonospora coerulea
 GCF_900091455.1	Micromonospora coriariae
 GCF_003626655.1	Micromonospora costi
 GCF_900090295.1	Micromonospora coxensis
@@ -468,7 +474,6 @@ GCF_012034245.1	Micromonospora thermarum
 GCF_022229005.1	Micromonospora trifolii
 GCF_900091605.1	Micromonospora tulbaghiae
 GCF_015751765.1	Micromonospora ureilytica
-GCF_016598485.1	Micromonospora veneta
 GCF_015751785.1	Micromonospora vinacea
 GCF_004217135.1	Micromonospora violae
 GCF_900091545.1	Micromonospora viridifaciens

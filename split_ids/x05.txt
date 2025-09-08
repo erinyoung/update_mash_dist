@@ -1,7 +1,3 @@
-GCF_010119225.1	Cyclobacterium roseum
-GCF_010119245.1	Cyclobacterium salsum
-GCF_900109255.1	Cyclobacterium xiamenense
-GCF_000384415.1	Cycloclasticus pugetii PS-1
 GCF_003353065.1	Cyclonatronum proteinivorum
 GCF_014489415.1	Cylindrospermopsis curvispora GIHE-G1
 GCF_003367075.2	Cylindrospermopsis raciborskii Cr2010
@@ -235,6 +231,7 @@ GCF_002105195.1	Derxia lacustris
 GCF_900115825.1	Desemzia incerta
 GCF_019039105.1	Desertibacillus haloalkaliphilus
 GCF_003576705.1	Desertibaculum subflavum
+GCF_001746915.2	Desertifilum tharense IPPAS B-1220
 GCF_003344635.1	Desertihabitans aurantiacus
 GCF_003327535.1	Desertihabitans brevis
 GCF_003426815.1	Desertimonas flava
@@ -263,6 +260,7 @@ GCF_000243155.2	Desulfitobacterium dehalogenans ATCC 51507
 GCF_000243135.2	Desulfitobacterium dichloroeliminans LMG P-21439
 GCF_000021925.1	Desulfitobacterium hafniense DCB-2
 GCF_000231405.2	Desulfitobacterium metallireducens DSM 15288
+GCF_049860565.1	Desulfitobacterium nosdiversum
 GCF_000195295.1	Desulfobacca acetoxidans DSM 11109
 GCF_000373985.1	Desulfobacter curvatus DSM 3379
 GCF_004319545.1	Desulfobacter hydrogenophilus
@@ -378,6 +376,7 @@ GCF_020595055.1	Desulfosporosinus shakirovi
 GCF_000244895.1	Desulfosporosinus youngiae DSM 17734
 GCF_000018405.1	Desulfosudis oleivorans Hxd3
 GCF_000025945.1	Desulfotalea psychrophila LSv54
+GCF_052073645.1	Desulfothermobacter acidiphilus
 GCF_000421285.1	Desulfotignum balticum DSM 7044
 GCF_000350545.1	Desulfotignum phosphitoxidans DSM 13687
 GCF_001655685.1	Desulfotomaculum copahuensis
@@ -461,6 +460,7 @@ GCF_030160115.1	Devosia nitrariae
 GCF_016698645.1	Devosia oryziradicis
 GCF_014837245.1	Devosia oryzisoli
 GCF_014652635.1	Devosia pacifica
+GCF_042181575.1	Devosia polycyclovorans
 GCF_900112505.1	Devosia psychrophila
 GCF_016698665.1	Devosia rhizoryzae
 GCF_030177755.1	Devosia rhizosphaerae
@@ -1060,3 +1060,9 @@ GCF_028595285.1	Erythrobacter fulvus
 GCF_007004095.1	Erythrobacter insulae
 GCF_001719165.1	Erythrobacter litoralis
 GCF_000715015.1	Erythrobacter longus
+GCF_013260645.1	Erythrobacter mangrovi
+GCF_001663175.1	Erythrobacter neustonensis
+GCF_030271515.1	Erythrobacter oryzae
+GCF_014195675.1	Erythrobacter ramosus
+GCF_014705715.1	Erythrobacter rubeus
+GCF_900143235.1	Erythrobacter sanguineus

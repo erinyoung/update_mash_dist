@@ -1,6 +1,9 @@
+GCF_001653135.1	Pseudoalteromonas neustonica
+GCF_002221505.1	Pseudoalteromonas nigrifaciens
 GCF_030135505.1	Pseudoalteromonas obscura
 GCF_029023665.1	Pseudoalteromonas ostreae
 GCF_007989895.1	Pseudoalteromonas peptidolytica
+GCF_039831865.1	Pseudoalteromonas pernae
 GCF_001444405.1	Pseudoalteromonas phenolica
 GCF_000788395.1	Pseudoalteromonas piratica
 GCF_019797925.1	Pseudoalteromonas piscicida
@@ -107,6 +110,7 @@ GCF_020539525.1	Pseudogemmobacter faecipullorum
 GCF_013155295.1	Pseudogemmobacter hezensis
 GCF_900609055.1	Pseudogemmobacter humi
 GCF_030848395.1	Pseudogemmobacter lacusdianii
+GCF_042762395.1	Pseudogemmobacter sonorensis
 GCF_031458175.1	Pseudoglutamicibacter albus
 GCF_016907775.1	Pseudoglutamicibacter cumminsii
 GCF_042682125.1	Pseudogracilibacillus auburnensis
@@ -158,6 +162,7 @@ GCF_027988105.1	Pseudomonas aestuarii
 GCF_001543125.1	Pseudomonas agarici
 GCF_025917275.1	Pseudomonas agronomica
 GCF_011355085.1	Pseudomonas akapageensis
+GCF_030580815.1	Pseudomonas alabamensis
 GCF_009755645.1	Pseudomonas alkylphenolica
 GCF_031588425.1	Pseudomonas allii
 GCF_017826695.1	Pseudomonas alliivorans
@@ -799,6 +804,7 @@ GCF_003234935.1	Putridiphycobacter roseus
 GCF_900199435.1	Pygmaiobacter massiliensis
 GCF_022846135.1	Pyramidobacter piscolens
 GCF_009695745.1	Pyramidobacter porci
+GCF_041538185.1	Pyranulibacter aquaticus
 GCF_000820845.2	Pyrinomonas methylaliphatogenes
 GCF_012848855.1	Pyruvatibacter mobilis
 GCF_010894405.1	Pyxidicoccus caerfyrddinensis
@@ -813,6 +819,7 @@ GCF_007855645.1	Qingshengfaniella alkalisoli
 GCF_019711535.1	Qipengyuania aestuarii
 GCF_009828025.1	Qipengyuania algicida
 GCF_009827445.1	Qipengyuania aquimaris
+GCF_013370205.1	Qipengyuania atrilutea
 GCF_019711375.1	Qipengyuania aurantiaca
 GCF_030717865.1	Qipengyuania benthica
 GCF_030815185.1	Qipengyuania citrea
@@ -860,6 +867,7 @@ GCF_018288855.1	Rahnella inusitata
 GCF_015644585.1	Rahnella laticis
 GCF_019049695.1	Rahnella perminowiae
 GCF_019049655.1	Rahnella rivi
+GCF_046449555.1	Rahnella selenatireducens
 GCF_002951615.1	Rahnella sikkimica
 GCF_003610915.1	Rahnella variigena
 GCF_021276285.1	Rahnella victoriana
@@ -959,6 +967,7 @@ GCF_014805525.1	Rhabdothermincola sediminis
 GCF_039523055.1	Rheinheimera aquimaris
 GCF_030731985.1	Rheinheimera baltica
 GCF_021290965.1	Rheinheimera faecalis
+GCF_039880655.1	Rheinheimera fenheensis
 GCF_022436675.1	Rheinheimera hassiensis
 GCF_013283795.1	Rheinheimera lutimaris
 GCF_003990335.1	Rheinheimera mangrovi
@@ -1076,5 +1085,3 @@ GCF_014201355.1	Rhizobium wenxiniae
 GCF_003205195.1	Rhizobium wuzhouense
 GCF_016862955.1	Rhizocola hellebori
 GCF_025996515.1	Rhizohabitans arisaemae
-GCF_011762045.1	Rhizomicrobium electricum
-GCF_011761565.1	Rhizomicrobium palustre

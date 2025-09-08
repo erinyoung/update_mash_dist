@@ -1,3 +1,6 @@
+GCF_009811315.1	Vibrio atypicus
+GCF_002849855.1	Vibrio azureus
+GCF_001639065.2	Vibrio barjaei
 GCF_014879975.1	Vibrio bathopelagicus
 GCF_001399455.2	Vibrio bivalvicida
 GCF_000189255.1	Vibrio brasiliensis LMG 20546
@@ -318,6 +321,7 @@ GCF_002803985.1	Williamsoniiplasma luminosum
 GCF_002804005.1	Williamsoniiplasma somnilux
 GCF_900096565.1	Williamwhitmania taraxaci
 GCF_000420405.1	Winkia neuii subsp. neuii DSM 8576
+GCF_000184345.1	Winmispira thermophila DSM 6578
 GCF_018332715.1	Winogradskya consettensis
 GCF_016862215.1	Winogradskya humida
 GCF_020166335.1	Winogradskyella alexanderae
@@ -630,6 +634,7 @@ GCF_001931755.2	Wolbachia endosymbiont_of_Folsomia candida
 GCF_029856955.1	Wolbachia endosymbiont_of_Frankliniella intonsa
 GCF_000689175.1	Wolbachia endosymbiont_of_Glossina morsitans morsitans
 GCF_025021925.1	Wolbachia endosymbiont_of_Howardula sp.
+GCF_051602725.1	Wolbachia endosymbiont_of_Kerria lacca
 GCF_016031645.1	Wolbachia endosymbiont_of_Kradibia gibbosae
 GCF_007115015.1	Wolbachia endosymbiont_of_Laodelphax striatellus
 GCF_006334525.1	Wolbachia endosymbiont_of_Leptopilina clavipes
@@ -699,6 +704,7 @@ GCF_009931595.1	Xanthomonas albilineans
 GCF_905367715.1	Xanthomonas arboricola pv. juglandis
 GCF_041519315.1	Xanthomonas axonopodis pv. maculifoliigardeniae
 GCF_014836395.1	Xanthomonas bonasiae
+GCF_046529185.1	Xanthomonas boreopolis
 GCF_900092025.1	Xanthomonas bromi
 GCF_041240605.1	Xanthomonas bundabergensis
 GCF_013388375.1	Xanthomonas campestris pv. raphani
@@ -871,6 +877,7 @@ GCF_904061905.1	Zestomonas carbonaria
 GCF_016901015.1	Zestomonas insulae
 GCF_004353525.1	Zhaonella formicivorans
 GCF_002727065.1	Zhengella mangrovi
+GCF_046506625.1	Zhengella sedimenti
 GCF_014384995.1	Zhenhengia yiwuensis
 GCF_014333425.1	Zhenpiania hominis
 GCF_039538765.1	Zhihengliuella alba
