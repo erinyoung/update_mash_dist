@@ -75,7 +75,7 @@ jobs:
             echo "download complete!"
             echo "copying file"
             unzip ncbi_dataset.zip
-            cp ncbi_dataset/data/*/*_genomic.fna ${ge}_${sp}_${id}.fasta
+            cp $(ls ncbi_dataset/data/*/*_genomic.fna | head -n 1) ${ge}_${sp}_${id}.fasta
 
             date
             if [ ! -f "final.msh" ]
