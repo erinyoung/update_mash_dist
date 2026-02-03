@@ -1,10 +1,3 @@
-GCF_022179685.1	Methylobacterium trifolii
-GCF_001043975.1	Methylobacterium variabile
-GCF_015904235.1	Methylobrevis albus
-GCF_001720135.1	Methylobrevis pamukkalensis
-GCF_003584645.1	Methylocaldum marinum
-GCF_949769195.1	Methylocaldum szegediense
-GCF_000427445.1	Methylocapsa acidiphila B2
 GCF_000746085.1	Methylocapsa aurea
 GCF_900114285.1	Methylocapsa palsarum
 GCF_045689225.1	Methylocapsa polymorpha
@@ -58,10 +51,11 @@ GCF_024360925.2	Methylomonas rapida
 GCF_008632455.1	Methylomonas rhizoryzae
 GCF_024505165.1	Methylomonas rivi
 GCF_024505055.1	Methylomonas rosea
+GCF_050154735.1	Methylomonas stagni
 GCF_024505185.1	Methylomonas subterranea
 GCF_003966895.1	Methylomusa anaerophila
 GCF_023195885.1	Methylonatrum kenyense
-GCF_000214595.1	Methylophaga aminisulfidivorans MP
+GCF_054657115.1	Methyloparacoccus murrellii
 GCF_000260965.1	Methylophaga frappieri
 GCF_000349205.1	Methylophaga lonarensis MPL
 GCF_030296755.1	Methylophaga marina
@@ -86,7 +80,7 @@ GCF_027922325.1	Methylopila turkensis
 GCF_002072955.1	Methyloprofundus sedimenti
 GCF_019703875.1	Methyloradius palustris
 GCF_040269895.1	Methyloraptor flagellatus
-GCF_022179725.1	Methylorubrum aminovorans
+GCF_977887775.1	Methylorubrum aminovorans
 GCF_000083545.1	Methylorubrum extorquens DM4
 GCF_040270385.1	Methylorubrum podarium
 GCF_000019945.1	Methylorubrum populi BJ001
@@ -98,13 +92,15 @@ GCF_022179765.1	Methylorubrum suomiense
 GCF_022179785.1	Methylorubrum thiocyanatum
 GCF_042660345.1	Methylorubrum zatmanii
 GCF_000372865.1	Methylosarcina fibrata AML-C10
-GCF_003113265.1	Methylosinus sporium
+GCF_051122735.1	Methylosinus sporium
 GCF_000178815.2	Methylosinus trichosporium OB3b
+GCF_054657615.1	Methylosoma difficile
 GCF_000023705.1	Methylotenera mobilis JLW8
 GCF_004661485.1	Methylotenera oryzisoli
 GCF_000093025.1	Methylotenera versatilis 301
 GCF_000934725.1	Methyloterricola oryzae
 GCF_006175985.1	Methylotetracoccus oryzae
+GCF_054656915.1	Methylothermus subterraneus
 GCF_000968535.2	Methylotuvimicrobium alcaliphilum 20Z
 GCF_005931095.1	Methylotuvimicrobium buryatense
 GCF_000527135.1	Methyloversatilis discipulorum
@@ -124,6 +120,7 @@ GCF_015277895.1	Microbacterium abyssi
 GCF_007988825.1	Microbacterium aerolatum
 GCF_030347395.1	Microbacterium albipurpureum
 GCF_014643695.1	Microbacterium album
+GCF_050408615.1	Microbacterium alcoholitolerans
 GCF_008868005.1	Microbacterium algeriense
 GCF_032464975.1	Microbacterium algihabitans
 GCF_044325405.1	Microbacterium alkaliflavum
@@ -137,6 +134,7 @@ GCF_030369635.1	Microbacterium arborescens
 GCF_033436825.1	Microbacterium arthrosphaerae
 GCF_015277815.1	Microbacterium atlanticum
 GCF_031625015.1	Microbacterium aurantiacum
+GCF_054780155.1	Microbacterium aureliae
 GCF_023101205.1	Microbacterium aurugineum
 GCF_001974985.1	Microbacterium aurum
 GCF_039536545.1	Microbacterium awajiense
@@ -146,6 +144,7 @@ GCF_031456315.1	Microbacterium barkeri
 GCF_032878875.1	Microbacterium betulae
 GCF_039532115.1	Microbacterium binotii
 GCF_003387575.1	Microbacterium bovistercoris
+GCF_047238045.1	Microbacterium canaveralium
 GCF_030315975.1	Microbacterium candidum
 GCF_008727755.1	Microbacterium caowuchunii
 GCF_030865425.1	Microbacterium capsulatum
@@ -153,6 +152,7 @@ GCF_039905635.1	Microbacterium chionoecetis
 GCF_014836945.1	Microbacterium commune
 GCF_015277855.1	Microbacterium cremeum
 GCF_023091245.1	Microbacterium croceum
+GCF_050408675.1	Microbacterium daqui
 GCF_030065535.1	Microbacterium dauci
 GCF_039530205.1	Microbacterium deminutum
 GCF_016907295.1	Microbacterium dextranolyticum
@@ -194,6 +194,7 @@ GCF_042677065.1	Microbacterium insulae
 GCF_023155715.1	Microbacterium invictum
 GCF_037204145.1	Microbacterium istanbulense
 GCF_039544225.1	Microbacterium jejuense
+GCF_047237905.1	Microbacterium jepli
 GCF_030246925.1	Microbacterium jiangjiandongii
 GCF_009745985.1	Microbacterium karelineae
 GCF_027921965.1	Microbacterium keratanolyticum
@@ -203,17 +204,19 @@ GCF_023155745.1	Microbacterium kunmingense
 GCF_006783905.1	Microbacterium kyungheense
 GCF_006716815.1	Microbacterium lacticum
 GCF_039531105.1	Microbacterium lacus
+GCF_054779895.1	Microbacterium lacusdiani
 GCF_016907555.1	Microbacterium laevaniformans
 GCF_003991875.1	Microbacterium lemovicicum
 GCF_036324365.1	Microbacterium limosum
 GCF_008727775.1	Microbacterium lushaniae
 GCF_039533965.1	Microbacterium luteolum
 GCF_015277875.1	Microbacterium luteum
+GCF_050408645.1	Microbacterium luticellae
 GCF_000422405.1	Microbacterium luticocti DSM 19459
 GCF_000802305.1	Microbacterium mangrovi
 GCF_039536565.1	Microbacterium marinilacus
 GCF_014204835.1	Microbacterium marinum
-GCF_024362265.1	Microbacterium maritypicum
+GCF_008868125.1	Microbacterium maritypicum
 GCF_037204165.1	Microbacterium marmarense
 GCF_046064585.1	Microbacterium mcarthurae
 GCF_025398275.1	Microbacterium memoriense
@@ -221,6 +224,7 @@ GCF_008017445.1	Microbacterium mitrae
 GCF_014635185.1	Microbacterium murale
 GCF_014646015.1	Microbacterium nanhaiense
 GCF_039527915.1	Microbacterium natoriense
+GCF_054782995.1	Microbacterium neimengense
 GCF_024971095.1	Microbacterium neungamense
 GCF_021044885.1	Microbacterium nymphoidis
 GCF_001975955.2	Microbacterium oleivorans
@@ -229,11 +233,14 @@ GCF_006540085.1	Microbacterium oxydans
 GCF_039529675.1	Microbacterium paludicola
 GCF_039541635.1	Microbacterium panaciterrae
 GCF_900105335.1	Microbacterium paraoxydans
-GCF_015707995.1	Microbacterium paulum
+GCF_965211115.1	Microbacterium paulum
+GCF_054782875.1	Microbacterium petrolearium
+GCF_047302325.1	Microbacterium phoenicis
 GCF_049177115.1	Microbacterium phosphatis
 GCF_032464935.1	Microbacterium phycohabitans
 GCF_017876435.1	Microbacterium phyllosphaerae
 GCF_035231185.1	Microbacterium plantarum
+GCF_047302165.1	Microbacterium pratiae
 GCF_000763375.1	Microbacterium profundi
 GCF_004135285.1	Microbacterium protaetiae
 GCF_014192415.1	Microbacterium proteolyticum
@@ -248,11 +255,13 @@ GCF_008710745.1	Microbacterium rhizomatis
 GCF_039605615.1	Microbacterium rhizophilus
 GCF_034120055.1	Microbacterium rhizosphaerae
 GCF_007992455.1	Microbacterium saccharophilum
+GCF_019720895.1	Microbacterium salitolerans
 GCF_012524205.1	Microbacterium salsuginis
 GCF_006716345.1	Microbacterium saperdae
 GCF_036543185.1	Microbacterium schleiferi
 GCF_039531125.1	Microbacterium sediminicola
 GCF_004564075.1	Microbacterium sediminis
+GCF_054779995.1	Microbacterium shaanxiense
 GCF_039539005.1	Microbacterium soli
 GCF_003327285.1	Microbacterium sorbitolivorans
 GCF_017592545.1	Microbacterium stercoris
@@ -262,7 +271,6 @@ GCF_003999995.1	Microbacterium sulfonylureivorans
 GCF_042655325.1	Microbacterium suwonense
 GCF_003651225.1	Microbacterium telephonicum
 GCF_020682665.1	Microbacterium tenebrionis
-GCF_903645325.1	Microbacterium tenebrionis
 GCF_017831975.1	Microbacterium terrae
 GCF_039534975.1	Microbacterium terregens
 GCF_025758395.1	Microbacterium terricola
@@ -272,11 +280,14 @@ GCF_014208045.1	Microbacterium thalassium
 GCF_028737325.1	Microbacterium thalli
 GCF_900292075.1	Microbacterium timonense
 GCF_000956465.1	Microbacterium trichothecenolyticum
+GCF_054780175.1	Microbacterium tumbae
 GCF_011759705.1	Microbacterium ulmi
 GCF_015278315.1	Microbacterium ureisolvens
 GCF_004564355.1	Microbacterium wangchenii
 GCF_030246945.1	Microbacterium wangruii
+GCF_034531355.1	Microbacterium xanthum
 GCF_024055635.1	Microbacterium yannicii
+GCF_051390635.1	Microbaculum mangrovi
 GCF_025397915.1	Microbaculum marinisediminis
 GCF_037855135.1	Microbaculum marinum
 GCF_016863015.1	Microbispora amethystogenes
@@ -296,6 +307,7 @@ GCF_001999945.1	Microbulbifer agarilyticus
 GCF_001750105.1	Microbulbifer aggregans
 GCF_029869925.1	Microbulbifer bruguierae
 GCF_020991125.1	Microbulbifer celer
+GCF_040742695.1	Microbulbifer discodermiae
 GCF_900129095.1	Microbulbifer donghaiensis
 GCF_041447225.1	Microbulbifer echini
 GCF_021165935.1	Microbulbifer elongatus
@@ -304,8 +316,9 @@ GCF_001641755.2	Microbulbifer flavimaris
 GCF_021729075.1	Microbulbifer guangxiensis
 GCF_014904735.1	Microbulbifer hainanensis
 GCF_026183675.1	Microbulbifer halophilus
-GCF_005771435.1	Microbulbifer harenosus
+GCF_049200395.1	Microbulbifer harenosus
 GCF_009931115.1	Microbulbifer hydrolyticus
+GCF_047289955.1	Microbulbifer jejuensis
 GCF_023634065.1	Microbulbifer litoralis
 GCF_035117725.1	Microbulbifer magnicolonia
 GCF_002009015.1	Microbulbifer mangrovi
@@ -319,6 +332,7 @@ GCF_030440425.1	Microbulbifer spongiae
 GCF_014904815.1	Microbulbifer taiwanensis
 GCF_001617625.1	Microbulbifer thermotolerans
 GCF_000380565.1	Microbulbifer variabilis ATCC 700307
+GCF_048323715.1	Microbulbifer weihaiensis
 GCF_900100355.1	Microbulbifer yueqingensis
 GCF_021729055.1	Microbulbifer zhoushanensis
 GCF_014137945.1	Microcella alkalica
@@ -344,6 +358,7 @@ GCF_900116905.1	Micrococcus terreus
 GCF_014138885.1	Micrococcus yunnanensis
 GCF_042465725.1	Microcoleus anatoxicus
 GCF_013179805.1	Microcoleus asticus IPMA8
+GCF_022701275.1	Microcoleus vaginatus PCC 9802
 GCF_031846265.1	Microcosmobacter mediterraneus
 GCF_001578075.1	Microcystis aeruginosa NIES-88
 GCF_014698375.1	Microcystis flos-aquae FACHB-1344
@@ -398,6 +413,7 @@ GCF_014203425.1	Micromonospora echinospora
 GCF_007994185.1	Micromonospora endolithica
 GCF_003581605.1	Micromonospora endophytica
 GCF_016774385.1	Micromonospora fiedleri
+GCF_050410825.1	Micromonospora fluostatini
 GCF_022229015.1	Micromonospora foliorum
 GCF_014648395.1	Micromonospora fulviviridis
 GCF_016863515.1	Micromonospora gifhornensis
@@ -417,14 +433,16 @@ GCF_900091415.1	Micromonospora inyonensis
 GCF_013410645.1	Micromonospora jinlongensis
 GCF_004217615.1	Micromonospora kangleipakensis
 GCF_900091425.1	Micromonospora krabiensis
+GCF_036902735.1	Micromonospora lacuserhaii
 GCF_000297395.2	Micromonospora lupini str. Lupac 08
 GCF_016863535.1	Micromonospora lutea
 GCF_016907275.1	Micromonospora luteifusca
 GCF_042650825.1	Micromonospora mangrovi
+GCF_047200535.1	Micromonospora mangrovicola
 GCF_900091565.1	Micromonospora marina
 GCF_000204155.1	Micromonospora maris AB-18-032
 GCF_039538865.1	Micromonospora maritima
-GCF_900091525.1	Micromonospora matsumotoense
+GCF_050951065.1	Micromonospora matsumotoense
 GCF_900091555.1	Micromonospora mirobrigensis
 GCF_003626545.1	Micromonospora musae
 GCF_900089605.1	Micromonospora narathiwatensis
@@ -447,6 +465,7 @@ GCF_003633685.1	Micromonospora pisi
 GCF_014203835.1	Micromonospora polyrhachis
 GCF_011927785.1	Micromonospora profundi
 GCF_050465265.1	Micromonospora provocatoris
+GCF_036902725.1	Micromonospora psammae
 GCF_900091515.1	Micromonospora purpureochromogenes
 GCF_016863555.1	Micromonospora qiuiae
 GCF_003583405.1	Micromonospora radicis
@@ -459,10 +478,12 @@ GCF_009908295.1	Micromonospora rubida
 GCF_900091575.1	Micromonospora saelicesensis
 GCF_014680085.1	Micromonospora sagamiensis
 GCF_022230905.1	Micromonospora salmantinae
+GCF_039566955.1	Micromonospora schwarzwaldensis
 GCF_900089585.1	Micromonospora sediminicola
 GCF_016863575.1	Micromonospora sediminimaris
 GCF_900090305.1	Micromonospora siamensis
 GCF_034427515.1	Micromonospora sicca
+GCF_052907465.1	Micromonospora soli
 GCF_003725545.1	Micromonospora solifontis
 GCF_014646235.1	Micromonospora sonchi
 GCF_042679305.1	Micromonospora sonneratiae
@@ -471,7 +492,7 @@ GCF_007830095.1	Micromonospora taraxaci
 GCF_016803395.1	Micromonospora tarensis
 GCF_009671205.1	Micromonospora terminaliae
 GCF_012034245.1	Micromonospora thermarum
-GCF_022229005.1	Micromonospora trifolii
+GCF_050516465.1	Micromonospora trifolii
 GCF_900091605.1	Micromonospora tulbaghiae
 GCF_015751765.1	Micromonospora ureilytica
 GCF_015751785.1	Micromonospora vinacea
@@ -493,7 +514,7 @@ GCF_002936985.1	Microterricola pindariensis
 GCF_900104895.1	Microterricola viridarii
 GCF_001570365.1	Microtetraspora fusca
 GCF_040656155.1	Microtetraspora glauca
-GCF_001528665.1	Microtetraspora malaysiensis
+GCF_050947145.1	Microtetraspora malaysiensis
 GCF_001570405.1	Microtetraspora niveoalba
 GCF_007993755.1	Microvenator marinus
 GCF_016743775.1	Microvirga aerilata
@@ -568,6 +589,8 @@ GCF_005930475.1	Modestobacter altitudinis
 GCF_000761485.1	Modestobacter caceresii
 GCF_005930495.1	Modestobacter excelsi
 GCF_000306785.1	Modestobacter italicus
+GCF_054177765.1	Modestobacter lacusdianchii
+GCF_054780755.1	Modestobacter lapidis
 GCF_014645755.1	Modestobacter marinus
 GCF_010682105.1	Modestobacter muralis
 GCF_007994135.1	Modestobacter roseus
@@ -576,6 +599,7 @@ GCF_004117855.1	Modicisalibacter coralii
 GCF_900128925.1	Modicisalibacter ilicicola DSM 19980
 GCF_000378505.1	Modicisalibacter luteus DSM 23508
 GCF_900102945.1	Modicisalibacter muralis
+GCF_900961225.1	Modicisalibacter radicis
 GCF_020148005.1	Modicisalibacter tunisiensis
 GCF_900113605.1	Modicisalibacter xianhensis
 GCF_022592395.1	Moellerella wisconsensis
@@ -607,7 +631,7 @@ GCF_900453175.1	Moraxella caviae
 GCF_900637105.1	Moraxella cuniculi
 GCF_900453335.1	Moraxella equi
 GCF_030177935.1	Moraxella haemolytica
-GCF_900453245.1	Moraxella lacunata
+GCF_029991695.1	Moraxella lacunata
 GCF_000320365.1	Moraxella macacae 0408225
 GCF_042219885.1	Moraxella marmotae
 GCF_029581575.1	Moraxella nasibovis
@@ -649,19 +673,23 @@ GCF_009755275.1	Mucilaginibacter aquatilis
 GCF_009754915.1	Mucilaginibacter arboris
 GCF_002797815.1	Mucilaginibacter auburnensis
 GCF_024055595.1	Mucilaginibacter aurantiaciroseus
+GCF_053514885.1	Mucilaginibacter aureus
 GCF_015221995.1	Mucilaginibacter boryungensis
 GCF_042676765.1	Mucilaginibacter calamicampi
 GCF_003576455.2	Mucilaginibacter celer
 GCF_003432115.1	Mucilaginibacter conchicola
 GCF_007558865.1	Mucilaginibacter corticis
+GCF_014205845.2	Mucilaginibacter cryoferens
 GCF_020783335.1	Mucilaginibacter daejeonensis
 GCF_039543225.1	Mucilaginibacter defluvii
 GCF_039536705.1	Mucilaginibacter dorajii
+GCF_024808665.2	Mucilaginibacter empetricola
 GCF_003351025.1	Mucilaginibacter endophyticus
 GCF_024055575.1	Mucilaginibacter flavidus
 GCF_030409315.1	Mucilaginibacter flavus
 GCF_007830615.1	Mucilaginibacter frigoritolerans
 GCF_014635825.1	Mucilaginibacter galii
+GCF_014200495.2	Mucilaginibacter geliditolerans
 GCF_004054195.1	Mucilaginibacter gilvus
 GCF_009754905.2	Mucilaginibacter ginkgonis
 GCF_007971025.1	Mucilaginibacter ginsenosidivorans
@@ -677,6 +705,7 @@ GCF_003324525.1	Mucilaginibacter hurinus
 GCF_011089895.1	Mucilaginibacter inviolabilis
 GCF_028596025.1	Mucilaginibacter jinjuensis
 GCF_003675385.1	Mucilaginibacter kameinonensis
+GCF_054783355.1	Mucilaginibacter koreensis
 GCF_009770985.1	Mucilaginibacter lacusdianchii
 GCF_900155965.1	Mucilaginibacter lappiensis
 GCF_004005815.1	Mucilaginibacter limnophilus
@@ -684,6 +713,7 @@ GCF_042676805.1	Mucilaginibacter litoreus
 GCF_042676625.1	Mucilaginibacter lutimaris
 GCF_013283875.1	Mucilaginibacter mali
 GCF_900105165.1	Mucilaginibacter mallensis
+GCF_003286435.2	Mucilaginibacter metallidurans
 GCF_030409405.1	Mucilaginibacter myungsuensis
 GCF_003148845.1	Mucilaginibacter oryzae
 GCF_007846085.1	Mucilaginibacter pallidiroseus
@@ -697,17 +727,21 @@ GCF_900101875.1	Mucilaginibacter pineti
 GCF_031456535.1	Mucilaginibacter pocheonensis
 GCF_001911425.1	Mucilaginibacter polytrichastri
 GCF_004519315.1	Mucilaginibacter psychrotolerans
+GCF_054783175.1	Mucilaginibacter puniceus
 GCF_014773275.1	Mucilaginibacter rigui
 GCF_019391655.1	Mucilaginibacter rivuli
 GCF_012849215.1	Mucilaginibacter robiniae
 GCF_021215455.1	Mucilaginibacter roseus
 GCF_014643835.1	Mucilaginibacter rubeus
+GCF_014200575.2	Mucilaginibacter saanensis
 GCF_034262375.1	Mucilaginibacter sabulilitoris
+GCF_051903035.1	Mucilaginibacter sediminis
 GCF_016522075.1	Mucilaginibacter segetis
 GCF_022953055.1	Mucilaginibacter straminoryzae
 GCF_042679325.1	Mucilaginibacter terrae
 GCF_003432065.1	Mucilaginibacter terrenus
 GCF_004168255.1	Mucilaginibacter terrigena
+GCF_013408825.2	Mucilaginibacter tundrae
 GCF_042686265.1	Mucilaginibacter ximonensis
 GCF_002257585.1	Mucilaginibacter xinganensis
 GCF_003050755.1	Mucilaginibacter yixingensis
@@ -716,10 +750,11 @@ GCF_000487995.2	Mucispirillum schaedleri ASF457
 GCF_002797495.1	Mumia flava
 GCF_041320275.1	Mumia qirimensis
 GCF_025506335.1	Mumia quercus
+GCF_050632745.1	Mumia spirodelae
 GCF_010994095.1	Mumia xiangluensis
-GCF_006151975.2	Mumia zhuanghuii
+GCF_042681565.1	Mumia zhuanghuii
 GCF_900059565.1	Murdochiella massiliensis
-GCF_900119705.1	Murdochiella vaginalis
+GCF_902381775.1	Murdochiella vaginalis
 GCF_004569585.1	Muribacter muris
 GCF_004801635.1	Muribaculum caecicola
 GCF_004803695.1	Muribaculum gordoncarteri
@@ -742,7 +777,9 @@ GCF_003014485.1	Murinocardiopsis flavida
 GCF_025567565.1	Muriventricola aceti
 GCF_014855505.1	Musicola keenii
 GCF_000023545.1	Musicola paradisiaca Ech703
+GCF_054777735.1	Myceligenerans cantabricum
 GCF_039529775.1	Myceligenerans crystallogenes
+GCF_054782975.1	Myceligenerans halotolerans
 GCF_016742955.1	Myceligenerans indicum
 GCF_014878135.1	Myceligenerans pegani
 GCF_017349295.1	Myceligenerans salitolerans
@@ -763,6 +800,7 @@ GCF_001644575.1	Mycobacterium adipatum
 GCF_900176255.2	Mycobacterium ahvazicum
 GCF_002086635.1	Mycobacterium alsense
 GCF_025822405.1	Mycobacterium angelicum
+GCF_030295745.1	Mycobacterium antarcticum
 GCF_002086485.1	Mycobacterium aquaticum
 GCF_002086125.1	Mycobacterium arosiense ATCC BAA-1401 = DSM 45069
 GCF_002086545.1	Mycobacterium asiaticum DSM 44297
@@ -775,6 +813,7 @@ GCF_010723305.1	Mycobacterium botniense
 GCF_002086165.1	Mycobacterium bouchedurhonense
 GCF_010723575.1	Mycobacterium bourgelatii
 GCF_010728725.1	Mycobacterium branderi
+GCF_017086405.1	Mycobacterium camsae
 GCF_000253375.1	Mycobacterium canettii CIPT 140010059
 GCF_002101595.1	Mycobacterium celatum
 GCF_000222105.3	Mycobacterium colombiense CECT 3035
@@ -792,6 +831,7 @@ GCF_000526915.1	Mycobacterium genavense ATCC 51234
 GCF_002101675.1	Mycobacterium gordonae
 GCF_025822555.1	Mycobacterium hackensackense
 GCF_000340435.2	Mycobacterium haemophilum DSM 44634
+GCF_041890355.1	Mycobacterium hainanense
 GCF_016861545.1	Mycobacterium heckeshornense
 GCF_010730745.1	Mycobacterium heidelbergense
 GCF_007714185.1	Mycobacterium helveticum
@@ -800,7 +840,7 @@ GCF_002838065.1	Mycobacterium hubeiense
 GCF_900566055.1	Mycobacterium innocens
 GCF_900078675.2	Mycobacterium interjectum
 GCF_025822065.1	Mycobacterium intermedium
-GCF_020736005.1	Mycobacterium intracellulare
+GCF_000277125.1	Mycobacterium intracellulare ATCC 13950
 GCF_000157895.3	Mycobacterium kansasii ATCC 12478
 GCF_026011875.1	Mycobacterium kiyosense
 GCF_014263315.1	Mycobacterium kubicae
@@ -824,7 +864,7 @@ GCF_010726505.1	Mycobacterium novum
 GCF_900157365.1	Mycobacterium numidiamassiliense
 GCF_021183725.1	Mycobacterium ostraviense
 GCF_002101785.1	Mycobacterium palustre
-GCF_002101815.1	Mycobacterium paraense
+GCF_025823385.1	Mycobacterium paraense
 GCF_025822865.1	Mycobacterium paraffinicum
 GCF_003614435.1	Mycobacterium paragordonae
 GCF_000276825.1	Mycobacterium paraintracellulare
@@ -836,6 +876,7 @@ GCF_002086915.1	Mycobacterium persicum
 GCF_026242035.1	Mycobacterium pinniadriaticum
 GCF_900566075.1	Mycobacterium pseudokansasii
 GCF_003584745.1	Mycobacterium pseudoshottsii JCM 15466
+GCF_031583025.2	Mycobacterium pumcae
 GCF_900157375.1	Mycobacterium rhizamassiliense
 GCF_963853645.1	Mycobacterium riyadhense
 GCF_010729105.1	Mycobacterium saskatchewanense
@@ -871,6 +912,7 @@ GCF_001853795.1	Mycobacteroides franklinii
 GCF_001605725.1	Mycobacteroides immunogenum
 GCF_004924335.1	Mycobacteroides salmoniphilum
 GCF_001456355.1	Mycobacteroides saopaulense
+GCF_002356335.1	Mycobacteroides stephanolepidis
 GCF_010731835.1	Mycolicibacillus koreensis
 GCF_022370835.2	Mycolicibacillus parakoreensis
 GCF_002102395.1	Mycolicibacillus trivialis
@@ -919,7 +961,6 @@ GCF_010728155.1	Mycolicibacterium doricum
 GCF_010726645.1	Mycolicibacterium duvalii
 GCF_001667535.1	Mycolicibacterium elephantis
 GCF_010726955.1	Mycolicibacterium fallax
-GCF_019739075.1	Mycolicibacterium farcinogenes
 GCF_025822705.1	Mycolicibacterium flavescens
 GCF_014295435.1	Mycolicibacterium fluoranthenivorans
 GCF_022179545.1	Mycolicibacterium fortuitum subsp. fortuitum
@@ -970,8 +1011,8 @@ GCF_900108565.1	Mycolicibacterium rutilum
 GCF_010731875.1	Mycolicibacterium sarraceniae
 GCF_010731735.1	Mycolicibacterium sediminis
 GCF_019645875.1	Mycolicibacterium senegalense
-GCF_016919345.1	Mycolicibacterium septicum
-GCF_000805375.1	Mycolicibacterium setense
+GCF_012396425.1	Mycolicibacterium septicum DSM 44393
+GCF_000805385.1	Mycolicibacterium setense
 GCF_022370415.1	Mycolicibacterium smegmatis
 GCF_002250655.1	Mycolicibacterium sphagni
 GCF_003719305.1	Mycolicibacterium stellerae
@@ -982,7 +1023,7 @@ GCF_001655245.1	Mycolicibacterium vaccae 95051
 GCF_000015305.1	Mycolicibacterium vanbaalenii PYR-1
 GCF_013404075.1	Mycolicibacterium vinylchloridicum
 GCF_002104765.1	Mycolicibacterium vulneris
-GCF_002101965.1	Mycolicibacterium wolinskyi
+GCF_049241375.1	Mycolicibacterium wolinskyi str. Jessa 2025
 GCF_019710635.1	Mycolicibacterium xanthum
 GCF_014196765.1	Mycoplana azooxidifex
 GCF_003046475.1	Mycoplana dimorpha
@@ -1026,7 +1067,7 @@ GCF_000179035.2	Mycoplasma suis str. Illinois
 GCF_016925555.1	Mycoplasma tauri
 GCF_004362335.1	Mycoplasma testudineum
 GCF_000687795.1	Mycoplasma testudinis ATCC 43263
-GCF_004335995.1	Mycoplasma todarodis
+GCF_965212735.1	Mycoplasma todarodis
 GCF_014068355.1	Mycoplasma tullyi
 GCF_000277795.1	Mycoplasma wenyonii str. Massachusetts
 GCF_000875755.1	Mycoplasma yeatsii GM274B
@@ -1060,15 +1101,7 @@ GCF_000328725.1	Mycoplasmopsis cynos C142
 GCF_900476105.1	Mycoplasmopsis edwardii
 GCF_024498255.1	Mycoplasmopsis equigenitalium
 GCF_000687775.1	Mycoplasmopsis felifaucium ATCC 43428
-GCF_034647275.2	Mycoplasmopsis felis
+GCF_034647055.2	Mycoplasmopsis felis
 GCF_000186005.1	Mycoplasmopsis fermentans M64
 GCF_900660495.1	Mycoplasmopsis gallinacea
 GCF_000621085.1	Mycoplasmopsis gallinarum DSM 19816
-GCF_900660635.1	Mycoplasmopsis gallopavonis
-GCF_900660605.1	Mycoplasmopsis glycophila
-GCF_045276885.1	Mycoplasmopsis hyopharyngis
-GCF_000701805.1	Mycoplasmopsis iners ATCC 19705
-GCF_000686585.1	Mycoplasmopsis lipofaciens ATCC 35015
-GCF_045276895.1	Mycoplasmopsis lipophila
-GCF_900660665.1	Mycoplasmopsis maculosa
-GCF_900660695.1	Mycoplasmopsis meleagridis

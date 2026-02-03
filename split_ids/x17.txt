@@ -1,6 +1,13 @@
+GCF_031834595.1	Stenotrophomonas oahuensis
+GCF_003046775.1	Stenotrophomonas panacihumi
+GCF_052605565.1	Stenotrophomonas pavanii
+GCF_001431585.1	Stenotrophomonas pictorum JCM 9942
+GCF_030549615.1	Stenotrophomonas pigmentata
+GCF_000661955.1	Stenotrophomonas rhizophila
 GCF_040256885.1	Stenotrophomonas riyadhensis
-GCF_041531565.1	Stenotrophomonas sepilia
+GCF_977007095.1	Stenotrophomonas sepilia
 GCF_001431465.1	Stenotrophomonas terrae
+GCF_001499715.1	Stenotrophomonas thermophila
 GCF_030549525.1	Stenotrophomonas tuberculopleuritidis
 GCF_014117215.1	Stenotrophomonas tumulicola
 GCF_000745895.1	Stenoxybacter acetivorans DSM 19021
@@ -63,10 +70,12 @@ GCF_001885095.1	Streptococcus bovimastitidis
 GCF_000379985.1	Streptococcus caballi DSM 19004
 GCF_943193075.1	Streptococcus caecimuris
 GCF_042656225.1	Streptococcus caledonicus
+GCF_053207365.1	Streptococcus cameli
 GCF_900636575.1	Streptococcus canis
 GCF_042649745.1	Streptococcus caprae
 GCF_000425025.1	Streptococcus castoreus DSM 17536
 GCF_011421425.1	Streptococcus catagoni
+GCF_053207205.1	Streptococcus caviae
 GCF_003086355.1	Streptococcus chenjunshii
 GCF_003626515.1	Streptococcus chosunensis
 GCF_016725005.1	Streptococcus constellatus
@@ -77,6 +86,8 @@ GCF_007859195.1	Streptococcus cuniculipharyngis
 GCF_025447695.1	Streptococcus danieliae
 GCF_034137685.1	Streptococcus dentalis
 GCF_042649885.1	Streptococcus dentapri
+GCF_053206945.1	Streptococcus dentasini
+GCF_053206925.1	Streptococcus dentiloxodontae
 GCF_000423725.1	Streptococcus devriesei DSM 19639
 GCF_000380005.1	Streptococcus didelphis DSM 15616
 GCF_900459175.1	Streptococcus downei MFe28
@@ -84,9 +95,10 @@ GCF_004353325.1	Streptococcus downii
 GCF_016128095.1	Streptococcus dysgalactiae
 GCF_000380025.1	Streptococcus entericus DSM 14446
 GCF_015689395.1	Streptococcus equi subsp. zooepidemicus
-GCF_900102715.1	Streptococcus equinus
+GCF_049393805.1	Streptococcus equinus
 GCF_040888305.1	Streptococcus fermentans
 GCF_900475025.1	Streptococcus ferus
+GCF_053206505.1	Streptococcus fryi
 GCF_040545695.1	Streptococcus gallinaceus
 GCF_013267695.1	Streptococcus gallolyticus
 GCF_035544715.1	Streptococcus gingivalis
@@ -102,6 +114,7 @@ GCF_041081565.1	Streptococcus hillyeri
 GCF_001708305.1	Streptococcus himalayensis
 GCF_020089495.2	Streptococcus hohhotensis
 GCF_014287335.1	Streptococcus hominis
+GCF_053206145.1	Streptococcus hongkongensis
 GCF_040930515.1	Streptococcus huangxiaojuni
 GCF_019448275.1	Streptococcus humanilactis
 GCF_050314295.1	Streptococcus hyointestinalis
@@ -128,12 +141,12 @@ GCF_900459365.1	Streptococcus massiliensis
 GCF_900187085.1	Streptococcus merionis
 GCF_000377005.1	Streptococcus minor DSM 17118
 GCF_001281025.1	Streptococcus mitis
-GCF_030812835.1	Streptococcus moroccensis
+GCF_053204445.1	Streptococcus moroccensis
 GCF_019048645.1	Streptococcus mutans
 GCF_042140045.1	Streptococcus nidrosiense
 GCF_900637025.1	Streptococcus oralis ATCC 35037
 GCF_017883985.1	Streptococcus oricebi
-GCF_001431045.1	Streptococcus orisasini
+GCF_053204245.1	Streptococcus orisasini
 GCF_018137985.1	Streptococcus oriscaviae
 GCF_000380105.1	Streptococcus orisratti DSM 15617
 GCF_000380125.1	Streptococcus ovis DSM 16829
@@ -142,11 +155,12 @@ GCF_016481305.1	Streptococcus pacificus
 GCF_017884005.1	Streptococcus panodentis
 GCF_001642085.1	Streptococcus pantholopis
 GCF_037076355.1	Streptococcus parapneumoniae
+GCF_054785155.1	Streptococcus parasalivarius
 GCF_000164675.2	Streptococcus parasanguinis ATCC 15912
 GCF_021654455.1	Streptococcus parasuis
 GCF_000187935.1	Streptococcus parauberis NCFD 2020
 GCF_004843545.1	Streptococcus pasteurianus
-GCF_965139625.1	Streptococcus penaeicida
+GCF_053204055.1	Streptococcus penaeicida
 GCF_003963555.1	Streptococcus periodonticum
 GCF_000187585.1	Streptococcus peroris ATCC 700780
 GCF_001302265.1	Streptococcus phocae
@@ -155,13 +169,14 @@ GCF_000423745.1	Streptococcus plurextorum DSM 22810
 GCF_001457635.1	Streptococcus pneumoniae
 GCF_000423765.1	Streptococcus porci DSM 23759
 GCF_900475415.1	Streptococcus porcinus
-GCF_040545265.1	Streptococcus porcorum
+GCF_053203725.1	Streptococcus porcorum
 GCF_000221985.1	Streptococcus pseudopneumoniae IS7493
 GCF_900637075.1	Streptococcus pseudoporcinus
 GCF_900475035.1	Streptococcus pyogenes
 GCF_030284685.1	Streptococcus raffinosi
 GCF_008803015.1	Streptococcus ratti
 GCF_003595525.1	Streptococcus respiraculi
+GCF_053203525.1	Streptococcus rifensis
 GCF_004785935.1	Streptococcus rubneri
 GCF_003609975.1	Streptococcus ruminantium
 GCF_011387195.1	Streptococcus ruminicola
@@ -176,14 +191,15 @@ GCF_003172995.1	Streptococcus sobrinus
 GCF_000026745.1	Streptococcus suis BM407
 GCF_032594915.1	Streptococcus suivaginalis
 GCF_006385165.1	Streptococcus symci
-GCF_011038795.1	Streptococcus tangpeifui
+GCF_044503215.1	Streptococcus tangpeifui
 GCF_029948085.1	Streptococcus taonis
+GCF_029589235.1	Streptococcus taoyuanensis
 GCF_903645285.1	Streptococcus thalassemiae
 GCF_903886475.1	Streptococcus thermophilus
 GCF_000380145.1	Streptococcus thoraltensis DSM 12221
 GCF_900095845.1	Streptococcus timonensis
 GCF_024346585.1	Streptococcus toyakuensis
-GCF_002355215.1	Streptococcus troglodytae
+GCF_053203225.1	Streptococcus troglodytae
 GCF_900475595.1	Streptococcus uberis
 GCF_900636885.1	Streptococcus urinalis
 GCF_017315345.1	Streptococcus vaginalis
@@ -195,7 +211,7 @@ GCF_040888245.1	Streptococcus wuxiensis
 GCF_006385805.1	Streptococcus xiaochunlingii
 GCF_016481285.1	Streptococcus zalophi
 GCF_017639855.1	Streptococcus zhangguiae
-GCF_040649515.1	Streptodolium elevatio
+GCF_053592165.1	Streptodolium elevatio
 GCF_003201605.1	Streptohalobacillus salinus
 GCF_000826685.1	Streptomonospora alba
 GCF_039531585.1	Streptomonospora arabica
@@ -204,6 +220,7 @@ GCF_004323735.1	Streptomonospora litoralis
 GCF_027604915.1	Streptomonospora mangrovi
 GCF_013410565.1	Streptomonospora nanhaiensis
 GCF_014204715.1	Streptomonospora salina
+GCF_054778995.1	Streptomonospora sediminis
 GCF_031845375.1	Streptomonospora wellingtoniae
 GCF_014648775.1	Streptomyces abikoensis
 GCF_001751365.1	Streptomyces abyssalis
@@ -211,7 +228,7 @@ GCF_008974245.1	Streptomyces abyssomicinicus
 GCF_037892235.1	Streptomyces achmelvichensis
 GCF_045160875.1	Streptomyces achromogenes
 GCF_009377235.1	Streptomyces acidicola
-GCF_020010905.1	Streptomyces acidiscabies
+GCF_051172935.1	Streptomyces acidiscabies
 GCF_016741775.1	Streptomyces actinomycinicus
 GCF_016921115.1	Streptomyces actuosus
 GCF_020400605.1	Streptomyces aculeolatus
@@ -244,6 +261,7 @@ GCF_018141485.1	Streptomyces alfalfae
 GCF_014141535.1	Streptomyces alkaliphilus
 GCF_013618545.1	Streptomyces alkaliterrae
 GCF_045276965.1	Streptomyces althioticus
+GCF_053591575.1	Streptomyces altiplanensis
 GCF_039532665.1	Streptomyces amakusaensis
 GCF_001267885.1	Streptomyces ambofaciens ATCC 23877
 GCF_001953875.1	Streptomyces amritsarensis
@@ -253,7 +271,8 @@ GCF_042651645.1	Streptomyces andamanensis
 GCF_019933235.1	Streptomyces angustmyceticus
 GCF_026627255.1	Streptomyces antarcticus
 GCF_035917655.1	Streptomyces anthocyanicus
-GCF_026340665.1	Streptomyces antibioticus
+GCF_049310305.1	Streptomyces anthophorae
+GCF_043202155.1	Streptomyces antibioticus
 GCF_020532625.1	Streptomyces antimicrobicus
 GCF_045161845.1	Streptomyces antimycoticus
 GCF_000968685.2	Streptomyces antioxidans
@@ -272,11 +291,11 @@ GCF_016860545.1	Streptomyces asoensis
 GCF_046614805.1	Streptomyces atacamensis
 GCF_003330865.1	Streptomyces atratus
 GCF_001418325.1	Streptomyces atriruber
-GCF_000717025.1	Streptomyces atroolivaceus
+GCF_964020845.1	Streptomyces atroolivaceus
 GCF_039533285.1	Streptomyces atrovirens
 GCF_014701115.1	Streptomyces aurantiacus
 GCF_014649375.1	Streptomyces aurantiogriseus
-GCF_000280865.2	Streptomyces auratus AGR0001
+GCF_050433025.1	Streptomyces auratus
 GCF_000720475.1	Streptomyces aureocirculatus
 GCF_042657885.1	Streptomyces aureoversilis
 GCF_039527835.1	Streptomyces aureus
@@ -334,11 +353,12 @@ GCF_014646115.1	Streptomyces camponoticapitis
 GCF_014650735.1	Streptomyces canarius
 GCF_014655855.1	Streptomyces candidus
 GCF_036178885.1	Streptomyces caniferus
-GCF_014852565.2	Streptomyces caniscabiei
+GCF_051171815.1	Streptomyces caniscabiei
 GCF_036177905.1	Streptomyces canus
 GCF_007829875.1	Streptomyces capillispiralis
 GCF_002214185.1	Streptomyces capitiformicae
 GCF_014654935.1	Streptomyces capoamus
+GCF_054782095.1	Streptomyces capparidis
 GCF_002794255.1	Streptomyces carminius
 GCF_025133285.1	Streptomyces carpaticus
 GCF_002154505.1	Streptomyces carpinensis
@@ -403,7 +423,9 @@ GCF_004028635.1	Streptomyces cyaneus
 GCF_017526105.1	Streptomyces cyanogenus
 GCF_022698165.1	Streptomyces cylindrosporus
 GCF_025642135.1	Streptomyces cynarae
+GCF_052663305.1	Streptomyces cyslabdanicus
 GCF_020521275.1	Streptomyces daghestanicus
+GCF_054782395.1	Streptomyces daliensis
 GCF_003675325.1	Streptomyces dangxiongensis
 GCF_014645895.1	Streptomyces daqingensis
 GCF_000349325.1	Streptomyces davaonensis JCM 4913
@@ -412,6 +434,7 @@ GCF_045208505.1	Streptomyces decoyicus
 GCF_030803745.1	Streptomyces demainii
 GCF_002946835.1	Streptomyces dengpaensis
 GCF_042681365.1	Streptomyces desertarenae
+GCF_054782695.1	Streptomyces deserti
 GCF_003323715.1	Streptomyces diacarni
 GCF_014648935.1	Streptomyces diastaticus subsp. diastaticus
 GCF_002242805.1	Streptomyces diastatochromogenes
@@ -470,7 +493,7 @@ GCF_014651055.1	Streptomyces fructofermentans
 GCF_013409565.1	Streptomyces fulvorobeus
 GCF_000718165.1	Streptomyces fulvoviolaceus
 GCF_014655295.1	Streptomyces fumanus
-GCF_020783575.1	Streptomyces fungicidicus
+GCF_003665435.1	Streptomyces fungicidicus
 GCF_014645815.1	Streptomyces fuscichromogenes
 GCF_021556455.1	Streptomyces fuscigenes
 GCF_030262575.1	Streptomyces fuscus
@@ -503,6 +526,7 @@ GCF_031845845.1	Streptomyces gottesmaniae
 GCF_045039555.1	Streptomyces gougerotii
 GCF_039533385.1	Streptomyces graminearus
 GCF_046718965.1	Streptomyces gramineus
+GCF_052828665.1	Streptomyces graminifolii
 GCF_001418565.1	Streptomyces graminilatus
 GCF_030294945.1	Streptomyces graminofaciens
 GCF_014534645.1	Streptomyces griseicoloratus
@@ -516,7 +540,7 @@ GCF_014650015.1	Streptomyces griseoloalbus
 GCF_000721185.1	Streptomyces griseolus
 GCF_014656035.1	Streptomyces griseoluteus
 GCF_014649595.1	Streptomyces griseomycini
-GCF_041276375.1	Streptomyces griseorubens
+GCF_051201135.1	Streptomyces griseorubens
 GCF_001514205.1	Streptomyces griseoruber
 GCF_003595235.1	Streptomyces griseorubiginosus
 GCF_014656055.1	Streptomyces griseosporeus
@@ -529,8 +553,9 @@ GCF_023277745.1	Streptomyces halobius
 GCF_045207185.1	Streptomyces halstedii
 GCF_013364095.1	Streptomyces harbinensis
 GCF_004803895.1	Streptomyces hawaiiensis
+GCF_052543575.1	Streptomyces hayashii
 GCF_031845485.1	Streptomyces hazeniae
-GCF_039527935.1	Streptomyces hebeiensis
+GCF_052983195.1	Streptomyces hebeiensis
 GCF_028401405.1	Streptomyces heilongjiangensis
 GCF_042431345.1	Streptomyces heliomycini
 GCF_032656585.1	Streptomyces herbicida
@@ -543,6 +568,7 @@ GCF_014650335.1	Streptomyces hiroshimensis
 GCF_035918035.1	Streptomyces hirsutus
 GCF_000376565.1	Streptomyces hokutonensis
 GCF_003626535.1	Streptomyces hoynatensis
+GCF_050871185.1	Streptomyces huangiella
 GCF_021028635.1	Streptomyces huasconensis
 GCF_020037025.1	Streptomyces huiliensis
 GCF_001005085.2	Streptomyces humi
@@ -553,6 +579,7 @@ GCF_002217755.1	Streptomyces hyaluromycini
 GCF_020404845.1	Streptomyces hyderabadensis
 GCF_040684435.1	Streptomyces hydrogenans
 GCF_037126205.1	Streptomyces hygroscopicus subsp. hygroscopicus
+GCF_052934925.1	Streptomyces hypolithicus
 GCF_036287475.1	Streptomyces iakyrus
 GCF_028657195.3	Streptomyces iconiensis
 GCF_042656345.1	Streptomyces incanus
@@ -561,7 +588,7 @@ GCF_021474405.1	Streptomyces indiaensis
 GCF_900100315.1	Streptomyces indicus
 GCF_022221585.1	Streptomyces inhibens
 GCF_014651115.1	Streptomyces inusitatus
-GCF_006547165.1	Streptomyces ipomoeae
+GCF_051122705.1	Streptomyces ipomoeae
 GCF_042466515.1	Streptomyces iranensis
 GCF_039525925.1	Streptomyces javensis
 GCF_001642995.1	Streptomyces jeddahensis
@@ -580,6 +607,7 @@ GCF_003626645.1	Streptomyces klenkii
 GCF_018604545.1	Streptomyces koelreuteriae
 GCF_003428925.1	Streptomyces koyangensis
 GCF_014646275.1	Streptomyces kronopolitis
+GCF_032248675.1	Streptomyces kroppenstedtii
 GCF_050018475.1	Streptomyces krungchingensis
 GCF_039533535.1	Streptomyces kunmingensis
 GCF_040677245.1	Streptomyces kurssanovii
@@ -598,7 +626,7 @@ GCF_040635425.1	Streptomyces laurentii
 GCF_014649735.1	Streptomyces lavendofoliae
 GCF_002803845.1	Streptomyces lavendulae subsp. lavendulae
 GCF_000718625.1	Streptomyces lavenduligriseus
-GCF_039532745.1	Streptomyces lavendulocolor
+GCF_049538775.1	Streptomyces lavendulocolor
 GCF_001013905.1	Streptomyces leeuwenhoekii
 GCF_039533405.1	Streptomyces levis
 GCF_011694815.1	Streptomyces liangshanensis
@@ -637,7 +665,7 @@ GCF_001984445.1	Streptomyces lydicus
 GCF_023887685.1	Streptomyces macrolidinus
 GCF_039533145.1	Streptomyces macrosporus
 GCF_000980885.2	Streptomyces malaysiense
-GCF_040653035.1	Streptomyces malaysiensis
+GCF_040653035.1	Streptomyces malaysiensis subsp. malaysiensis
 GCF_042654005.1	Streptomyces mangrovi
 GCF_000974985.2	Streptomyces mangrovisoli
 GCF_049570255.1	Streptomyces manipurensis
@@ -651,6 +679,8 @@ GCF_039539045.1	Streptomyces marokkonensis
 GCF_014654785.1	Streptomyces mashuensis
 GCF_014648995.1	Streptomyces massasporeus
 GCF_039532965.1	Streptomyces mauvecolor
+GCF_018982965.1	Streptomyces mayonensis
+GCF_054783955.1	Streptomyces mayteni
 GCF_000718985.1	Streptomyces megasporus
 GCF_014649795.1	Streptomyces melanogenes
 GCF_900105695.1	Streptomyces melanosporofaciens
@@ -664,6 +694,7 @@ GCF_006334995.2	Streptomyces mimosae
 GCF_014650875.1	Streptomyces minutiscleroticus
 GCF_036073155.1	Streptomyces mirabilis
 GCF_900104815.1	Streptomyces misionensis
+GCF_053555975.1	Streptomyces mitragynae
 GCF_020099395.1	Streptomyces mobaraensis
 GCF_001866665.1	Streptomyces monashensis
 GCF_000715845.1	Streptomyces monomycini
@@ -686,6 +717,7 @@ GCF_014649015.1	Streptomyces narbonensis
 GCF_000935125.1	Streptomyces natalensis ATCC 27448
 GCF_037414505.1	Streptomyces netropsis
 GCF_028863365.1	Streptomyces neyagawaensis
+GCF_050106155.1	Streptomyces nidicola
 GCF_000718305.1	Streptomyces niger
 GCF_003074055.1	Streptomyces nigra
 GCF_027626975.1	Streptomyces nigrescens
@@ -769,6 +801,7 @@ GCF_037860615.1	Streptomyces pratisoli
 GCF_014070435.1	Streptomyces pristinaespiralis
 GCF_020740535.1	Streptomyces profundus
 GCF_045162825.1	Streptomyces prunicolor
+GCF_054783935.1	Streptomyces pseudoechinosporeus
 GCF_014649895.1	Streptomyces pseudogriseolus
 GCF_036345035.1	Streptomyces pseudovenezuelae
 GCF_039533575.1	Streptomyces pulveraceus
@@ -800,6 +833,7 @@ GCF_025399795.1	Streptomyces rhizosphaerihabitans
 GCF_000331185.2	Streptomyces rimosus subsp. rimosus ATCC 10970
 GCF_003112535.1	Streptomyces rishiriensis
 GCF_030863865.1	Streptomyces rochei
+GCF_052936015.1	Streptomyces rosealbus
 GCF_004117935.1	Streptomyces roseicoloratus
 GCF_001445655.1	Streptomyces roseifaciens
 GCF_014489635.1	Streptomyces roseirectus
@@ -825,11 +859,12 @@ GCF_039536205.1	Streptomyces sannanensis
 GCF_039543485.1	Streptomyces sanyensis
 GCF_032656605.1	Streptomyces sasae
 GCF_011045015.1	Streptomyces scabichelini
-GCF_000091305.1	Streptomyces scabiei 87.22
+GCF_051172975.1	Streptomyces scabiei
 GCF_040907265.1	Streptomyces sclerotialus
 GCF_035917595.1	Streptomyces scopuliridis
+GCF_040782645.1	Streptomyces secundicynarae
 GCF_006335015.1	Streptomyces sedi
-GCF_047049315.1	Streptomyces sediminimaris
+GCF_047049295.1	Streptomyces sediminimaris
 GCF_019890635.1	Streptomyces sennicomposti
 GCF_004328625.1	Streptomyces seoulensis
 GCF_039537145.1	Streptomyces shaanxiensis
@@ -849,13 +884,15 @@ GCF_009604385.1	Streptomyces smaragdinus
 GCF_017676345.1	Streptomyces smyrnaeus
 GCF_039529215.1	Streptomyces sodiiphilus
 GCF_020312315.1	Streptomyces solaniscabiei
+GCF_003999195.1	Streptomyces soli
 GCF_045348655.1	Streptomyces solicamelliae
 GCF_033343995.1	Streptomyces solicathayae
 GCF_029968095.1	Streptomyces solicavernae
 GCF_002982015.1	Streptomyces solincola
 GCF_049239045.1	Streptomyces soliscabiei
 GCF_024349285.1	Streptomyces somaliensis DSM 40738
-GCF_001704635.1	Streptomyces sparsogenes
+GCF_044903365.1	Streptomyces sparsogenes
+GCF_054776295.1	Streptomyces sparsus
 GCF_001493375.1	Streptomyces specialis
 GCF_008704795.1	Streptomyces spectabilis
 GCF_021441825.1	Streptomyces spinosirectus
@@ -879,6 +916,7 @@ GCF_008704535.1	Streptomyces subrutilus
 GCF_023614315.1	Streptomyces sudanensis
 GCF_014656295.1	Streptomyces sulfonofaciens
 GCF_000381025.1	Streptomyces sulphureus DSM 40104
+GCF_054602395.1	Streptomyces sundarbansensis
 GCF_000154965.1	Streptomyces sviceus ATCC 29083
 GCF_002148965.1	Streptomyces swartbergensis
 GCF_039531005.1	Streptomyces synnematoformans
@@ -979,6 +1017,7 @@ GCF_039535415.1	Streptomyces yanii
 GCF_018069625.1	Streptomyces yatensis
 GCF_000716805.1	Streptomyces yerevanensis
 GCF_001514035.1	Streptomyces yokosukanensis
+GCF_039543425.1	Streptomyces youssoufiensis
 GCF_029011865.1	Streptomyces yunnanensis
 GCF_032248645.1	Streptomyces zaehneri
 GCF_014203645.1	Streptomyces zagrosensis
@@ -995,6 +1034,7 @@ GCF_030811595.1	Streptosporangium brasiliense
 GCF_900113865.1	Streptosporangium canum
 GCF_027922005.1	Streptosporangium carneum
 GCF_039534445.1	Streptosporangium fragile
+GCF_051390675.1	Streptosporangium heterodermiicola
 GCF_042650425.1	Streptosporangium jomthongense
 GCF_039534895.1	Streptosporangium longisporum
 GCF_030811455.1	Streptosporangium lutulentum
@@ -1004,7 +1044,8 @@ GCF_039537505.1	Streptosporangium oxazolinicum
 GCF_014648055.1	Streptosporangium pseudovulgare
 GCF_000024865.1	Streptosporangium roseum DSM 43021
 GCF_014203715.1	Streptosporangium saharense
-GCF_013409935.1	Streptosporangium sandarakinum
+GCF_050942225.1	Streptosporangium sandarakinum
+GCF_022213955.1	Streptosporangium soli
 GCF_900188345.1	Streptosporangium subroseum
 GCF_042428775.1	Streptosporangium vulgare
 GCF_047456005.1	Streptoverticillium reticulum
@@ -1065,15 +1106,6 @@ GCF_000622385.1	Sulfitobacter noctilucicola
 GCF_030159975.1	Sulfitobacter pacificus
 GCF_040790665.1	Sulfitobacter pontiacus
 GCF_042661425.1	Sulfitobacter profundi
+GCF_041281685.2	Sulfitobacter rhodophyticola
 GCF_005887615.1	Sulfitobacter sabulilitoris
 GCF_010667575.1	Sulfitobacter sediminilitoris
-GCF_040811725.1	Sulfitobacter sediminis
-GCF_042611115.2	Sulfitobacter sediminivivens
-GCF_014196805.1	Sulfitobacter undariae
-GCF_022606465.1	Sulfoacidibacillus ferrooxidans
-GCF_003144315.1	Sulfoacidibacillus thermotolerans
-GCF_012933365.1	Sulfobacillus harzensis
-GCF_900176145.1	Sulfobacillus thermosulfidooxidans DSM 9293
-GCF_039623705.1	Sulfobacillus thermotolerans
-GCF_039645985.1	Sulfonitrofixus jiaomeiensis
-GCF_016097415.1	sulfur-oxidizing endosymbiont_of_Gigantopelta aegis
