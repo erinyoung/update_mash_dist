@@ -1,3 +1,11 @@
+GCF_900660635.1	Mycoplasmopsis gallopavonis
+GCF_900660605.1	Mycoplasmopsis glycophila
+GCF_045276885.1	Mycoplasmopsis hyopharyngis
+GCF_000701805.1	Mycoplasmopsis iners ATCC 19705
+GCF_000686585.1	Mycoplasmopsis lipofaciens ATCC 35015
+GCF_045276895.1	Mycoplasmopsis lipophila
+GCF_900660665.1	Mycoplasmopsis maculosa
+GCF_900660695.1	Mycoplasmopsis meleagridis
 GCF_006546935.1	Mycoplasmopsis mucosicanis
 GCF_004365095.1	Mycoplasmopsis mustelae
 GCF_000712185.1	Mycoplasmopsis opalescens ATCC 27921
@@ -24,7 +32,7 @@ GCF_000833025.1	Myroides profundi
 GCF_010091945.1	Myxacorys almedinensis A
 GCF_024198235.1	Myxococcus dinghuensis
 GCF_010894455.1	Myxococcus eversor
-GCF_050039175.1	Myxococcus faecalis
+GCF_050039385.1	Myxococcus faecalis
 GCF_900111765.1	Myxococcus fulvus
 GCF_024198255.1	Myxococcus guangdongensis
 GCF_017301635.1	Myxococcus landrumensis
@@ -32,7 +40,7 @@ GCF_006636215.1	Myxococcus llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogog
 GCF_024198215.1	Myxococcus qinghaiensis
 GCF_000331735.1	Myxococcus stipitatus DSM 14675
 GCF_010894475.1	Myxococcus vastator
-GCF_900101905.1	Myxococcus virescens
+GCF_051058955.1	Myxococcus virescens
 GCF_000012685.1	Myxococcus xanthus DK 1622
 GCF_030296595.1	Naasia aerilata
 GCF_004801885.1	Naasia lichenicola
@@ -54,7 +62,7 @@ GCF_046557775.1	Nanhaiella sioensis
 GCF_028368995.1	Nannocystis bainbridge
 GCF_002343915.1	Nannocystis exedens
 GCF_026965555.1	Nannocystis punicea
-GCF_026626665.1	Nannocystis pusilla
+GCF_049337375.1	Nannocystis pusilla
 GCF_028369095.1	Nannocystis radixulma
 GCF_000020005.1	Natranaerobius thermophilus JW/NM-WN-LF
 GCF_002216005.1	Natranaerobius trueperi
@@ -80,8 +88,9 @@ GCF_004768465.1	Natronospirillum operosum
 GCF_016925615.1	Natronosporangium hydrolyticum
 GCF_013408305.1	Naumannella cuiyingiana
 GCF_004364645.1	Naumannella halotolerans
+GCF_054073625.1	Naumannella huperziae
+GCF_054656815.1	Nautilia lithotrophica
 GCF_000021725.1	Nautilia profundicola AmH
-GCF_900120375.1	Ndongobacter massiliensis
 GCF_000827595.2	Necropsobacter massiliensis
 GCF_964241405.1	Necropsobacter rosorum
 GCF_042652345.1	Negadavirga shengliensis
@@ -139,6 +148,7 @@ GCF_008180155.1	Neoaquamicrobium microcysteis
 GCF_040970315.1	Neoaquamicrobium sediminum
 GCF_002005465.1	Neoasaia chiangmaiensis
 GCF_000307875.1	Neobacillus bataviensis LMG 21833
+GCF_047237705.1	Neobacillus canaveralius
 GCF_018343545.2	Neobacillus citreus
 GCF_016908975.1	Neobacillus cucumis
 GCF_000612665.1	Neobacillus dielmonensis
@@ -157,6 +167,7 @@ GCF_003515685.1	Neobacillus notoginsengisoli
 GCF_001636395.1	Neobacillus novalis
 GCF_046237595.1	Neobacillus oceani
 GCF_016765675.1	Neobacillus paridis
+GCF_047302305.1	Neobacillus phoenicis
 GCF_003362805.1	Neobacillus piezotolerans
 GCF_018343535.1	Neobacillus rhizophilus
 GCF_937468385.1	Neobacillus rhizosphaerae
@@ -191,6 +202,7 @@ GCF_037477945.1	Neomoorella humiferrea
 GCF_002995805.1	Neomoorella stamsii
 GCF_024733845.1	Neomoorella sulfitireducens
 GCF_001267435.1	Neomoorella thermoacetica
+GCF_002750855.1	Neopararhizobium haloflavum
 GCF_029218125.1	Neopoerus faecalis
 GCF_011388195.1	Neopusillimonas aestuarii
 GCF_030344915.1	Neopusillimonas aromaticivorans
@@ -201,10 +213,11 @@ GCF_002968575.1	Neorhizobium huautlense
 GCF_004053875.1	Neorhizobium lilium
 GCF_029854435.1	Neorhizobium petrolearium
 GCF_040066075.1	Neorhizobium phenanthreniclasticum
-GCF_002968815.1	Neorhizobium tomejilense
+GCF_019430945.1	Neorhizobium populisoli
+GCF_964254135.1	Neorhizobium tomejilense
+GCF_039631515.1	Neorhizobium tunisiense
 GCF_023223505.1	Neorhizobium turbinariae
 GCF_000732195.1	Neorhizobium vignae
-GCF_020531965.1	Neorhizobium xiangyangii
 GCF_900182915.1	Neorhodopirellula lusitana
 GCF_007859915.1	Neorhodopirellula pilleata
 GCF_009856525.1	Neorickettsia findlayensis
@@ -268,11 +281,13 @@ GCF_005771525.1	Nesterenkonia salmonea
 GCF_013410215.1	Nesterenkonia sandarakina
 GCF_012641515.1	Nesterenkonia sedimenti
 GCF_005771565.1	Nesterenkonia sphaerica
+GCF_054782935.1	Nesterenkonia suensis
 GCF_013410745.1	Nesterenkonia xinjiangensis
 GCF_000420645.1	Nevskia ramosa DSM 11499
 GCF_000711955.1	Nevskia soli DSM 19509
 GCF_038719015.1	Nguyenibacter vanlangensis
 GCF_021538615.1	Niabella agricola
+GCF_054779315.1	Niabella aquatica
 GCF_000374125.1	Niabella aurantiaca DSM 17617
 GCF_020034665.1	Niabella beijingensis
 GCF_036409055.1	Niabella digestorum
@@ -284,6 +299,7 @@ GCF_051201075.1	Niabella hirudinis
 GCF_039652435.2	Niabella insulamsoli
 GCF_021044425.1	Niabella pedocola
 GCF_000243115.2	Niabella soli DSM 19437
+GCF_054783135.1	Niabella terrae
 GCF_034424215.1	Niabella yanshanensis
 GCF_012933555.1	Niallia alba
 GCF_013267435.1	Niallia circulans
@@ -309,6 +325,7 @@ GCF_004345745.1	Nicoletella semolina
 GCF_037546185.1	Nicoliella lavandulae
 GCF_023380205.1	Nicoliella spurrieriana
 GCF_000826085.1	Nigerium massiliense
+GCF_028401415.2	Ningiella algicola
 GCF_004798935.1	Ningiella ruwaisensis
 GCF_050896395.1	Nioella aestuarii
 GCF_003428585.1	Nioella halotolerans
@@ -346,6 +363,7 @@ GCF_009821115.1	Nitrincola alkalisediminis
 GCF_008727795.1	Nitrincola iocasae
 GCF_000691225.1	Nitrincola lacisaponensis
 GCF_000585235.1	Nitrincola nitratireducens
+GCF_046271865.1	Nitrincola salilacus
 GCF_008973715.1	Nitrincola schmidtii
 GCF_008368715.1	Nitrincola tapanii
 GCF_003284585.1	Nitrincola tibetensis
@@ -382,19 +400,26 @@ GCF_000196355.1	Nitrosospira multiformis ATCC 25196
 GCF_900109785.1	Nitrosovibrio tenuis
 GCF_000341545.2	Nitrospina gracilis 3/211
 GCF_946900835.1	Nitrospina watsonii
+GCF_976986435.1	Nitrospira calida
 GCF_905220995.1	Nitrospira defluvii
 GCF_900169565.1	Nitrospira japonica
 GCF_900403705.1	Nitrospira lenta
 GCF_001273775.1	Nitrospira moscoviensis
 GCF_947241125.1	Nitrospira tepida
 GCF_029594735.1	Nitrospirillum amazonense
+GCF_007828025.1	Nitrospirillum bahiense
+GCF_034427435.1	Nitrospirillum goiasense
+GCF_034653355.1	Nitrospirillum guanabarense
+GCF_034653275.1	Nitrospirillum guaranorum
 GCF_014205765.1	Nitrospirillum iridis
+GCF_036348415.1	Nitrospirillum karajorum
+GCF_007827955.1	Nitrospirillum pindoramense
 GCF_000730165.1	Nitrospirillum viridazoti CBAmc
 GCF_017161445.1	Niveibacterium microcysteis
 GCF_048213115.1	Niveibacterium terrae
 GCF_014197015.1	Niveibacterium umoris
 GCF_002868735.1	Niveispirillum cyanobacteriorum
-GCF_048066175.1	Niveispirillum fermenti
+GCF_052474395.1	Niveispirillum fermenti
 GCF_000429645.1	Niveispirillum irakense DSM 11586
 GCF_002251795.1	Niveispirillum lacus
 GCF_020731305.1	Nocardia abscessus
@@ -448,9 +473,10 @@ GCF_001618425.1	Nocardia fusca NBRC 14340
 GCF_001612985.1	Nocardia gamkensis NBRC 108242
 GCF_021183645.1	Nocardia gipuzkoensis
 GCF_017875645.1	Nocardia goodfellowii
-GCF_001613445.1	Nocardia grenadensis NBRC 108939
+GCF_050942415.1	Nocardia grenadensis
 GCF_042650145.1	Nocardia halotolerans
 GCF_001612885.1	Nocardia harenae NBRC 108248
+GCF_054782115.1	Nocardia heshunensis
 GCF_000308595.1	Nocardia higoensis NBRC 100133
 GCF_013744875.1	Nocardia huaxiensis
 GCF_004362495.1	Nocardia ignorata
@@ -481,7 +507,7 @@ GCF_003598715.1	Nocardia panacis
 GCF_000308675.1	Nocardia paucivorans NBRC 100373
 GCF_000308755.1	Nocardia pneumoniae NBRC 100136
 GCF_003350585.1	Nocardia pseudobrasiliensis
-GCF_001613225.1	Nocardia pseudovaccinii NBRC 100343
+GCF_050942345.1	Nocardia pseudovaccinii
 GCF_023740755.1	Nocardia pulmonis
 GCF_036051655.1	Nocardia puris
 GCF_001613485.1	Nocardia rhamnosiphila NBRC 108938
@@ -501,11 +527,12 @@ GCF_003696265.1	Nocardia stercoris
 GCF_900269665.1	Nocardia suismassiliense
 GCF_000308695.1	Nocardia takedensis NBRC 100417
 GCF_003202065.1	Nocardia tenerifensis
-GCF_040655195.1	Nocardia tengchongensis
+GCF_042753685.1	Nocardia tengchongensis
 GCF_002568625.1	Nocardia terpenica
 GCF_009760405.1	Nocardia terrae
 GCF_000308775.1	Nocardia testacea NBRC 100365
 GCF_000308795.1	Nocardia thailandica NBRC 100428
+GCF_054782435.1	Nocardia thraciensis
 GCF_014203315.1	Nocardia transvalensis
 GCF_001613345.1	Nocardia uniformis NBRC 13702
 GCF_001613305.1	Nocardia vaccinii NBRC 15922
@@ -542,7 +569,7 @@ GCF_003945325.1	Nocardioides baekrokdamisoli
 GCF_039531755.1	Nocardioides bigeumensis
 GCF_034661235.1	Nocardioides bizhenqiangii
 GCF_023554635.1	Nocardioides bruguierae
-GCF_004912195.1	Nocardioides caeni
+GCF_042676665.1	Nocardioides caeni
 GCF_008087345.1	Nocardioides caldifontis
 GCF_013624435.2	Nocardioides campestrisoli
 GCF_024614185.1	Nocardioides carbamazepini
@@ -561,6 +588,7 @@ GCF_039537735.1	Nocardioides daeguensis
 GCF_003194585.1	Nocardioides daejeonensis
 GCF_014635145.1	Nocardioides daphniae
 GCF_014646035.1	Nocardioides deserti
+GCF_054779555.1	Nocardioides dilutus
 GCF_001653335.1	Nocardioides dokdonensis FR1436
 GCF_014842875.1	Nocardioides donggukensis
 GCF_014127485.1	Nocardioides dongkuii
@@ -569,6 +597,7 @@ GCF_039528155.1	Nocardioides dubius
 GCF_004785795.1	Nocardioides eburneiflavus
 GCF_040838215.1	Nocardioides eburneus
 GCF_039543845.1	Nocardioides endophyticus
+GCF_037936805.1	Nocardioides epinepheli
 GCF_004564375.1	Nocardioides euryhalodurans
 GCF_900105585.1	Nocardioides exalbidus
 GCF_018388425.1	Nocardioides faecalis
@@ -580,6 +609,7 @@ GCF_021083185.1	Nocardioides furvisabuli
 GCF_004137235.1	Nocardioides ganghwensis
 GCF_003076135.1	Nocardioides gansuensis
 GCF_003194605.1	Nocardioides gilvus
+GCF_054781275.1	Nocardioides ginkgobilobae
 GCF_014138045.1	Nocardioides ginsengisegetis
 GCF_039537225.1	Nocardioides ginsengisoli
 GCF_004137245.1	Nocardioides glacieisoli
@@ -587,8 +617,9 @@ GCF_004519545.1	Nocardioides guangzhouensis
 GCF_000422805.1	Nocardioides halotolerans DSM 19273
 GCF_042658885.1	Nocardioides hankookensis
 GCF_003333285.1	Nocardioides houyundeii
-GCF_006494775.1	Nocardioides humi
+GCF_039530585.1	Nocardioides humi
 GCF_008373755.1	Nocardioides humilatus
+GCF_054782915.1	Nocardioides hungaricus
 GCF_014779665.1	Nocardioides hwasunensis
 GCF_032378595.1	Nocardioides imazamoxiresistens
 GCF_003515065.1	Nocardioides immobilis
@@ -601,8 +632,10 @@ GCF_019679455.1	Nocardioides jiangsuensis
 GCF_030580915.1	Nocardioides jiangxiensis
 GCF_005217835.1	Nocardioides jishulii
 GCF_013409625.1	Nocardioides kongjuensis
+GCF_054778395.1	Nocardioides korecus
 GCF_039531775.1	Nocardioides koreensis
 GCF_015070375.1	Nocardioides kribbensis
+GCF_029873215.1	Nocardioides lacus
 GCF_020102855.1	Nocardioides lacusdianchii
 GCF_039529515.1	Nocardioides lentus
 GCF_900101465.1	Nocardioides lianchengensis
@@ -614,15 +647,18 @@ GCF_014212315.1	Nocardioides luti
 GCF_015070385.1	Nocardioides malaquae
 GCF_020073815.1	Nocardioides mangrovi
 GCF_003674065.1	Nocardioides mangrovicus
+GCF_054777115.1	Nocardioides maradonensis
 GCF_013409965.1	Nocardioides marinisabuli
 GCF_039543705.1	Nocardioides marinquilinus
 GCF_013408145.1	Nocardioides marinus
+GCF_054777915.1	Nocardioides marmoraquaticus
 GCF_031458325.1	Nocardioides marmoribigeumensis
 GCF_003725695.1	Nocardioides marmoriginsengisoli
 GCF_003725775.1	Nocardioides marmorisolisilvae
 GCF_013177455.1	Nocardioides marmotae
 GCF_030811215.1	Nocardioides massiliensis
 GCF_014395785.1	Nocardioides mesophilus
+GCF_054782655.1	Nocardioides montaniterrae
 GCF_039542785.1	Nocardioides nanhaiensis
 GCF_020216525.1	Nocardioides nematodiphilus
 GCF_016907515.1	Nocardioides nitrophenolicus
@@ -630,6 +666,8 @@ GCF_030412965.1	Nocardioides oceani
 GCF_011420305.2	Nocardioides ochotonae
 GCF_020991065.1	Nocardioides okcheonensis
 GCF_004137255.1	Nocardioides oleivorans
+GCF_054775955.1	Nocardioides pacificus
+GCF_054781215.1	Nocardioides pakistanensis
 GCF_018275325.1	Nocardioides palaemonis
 GCF_039530925.1	Nocardioides panacihumi
 GCF_019039255.1	Nocardioides panacis
@@ -646,13 +684,16 @@ GCF_011300215.1	Nocardioides piscis
 GCF_006346395.1	Nocardioides plantarum
 GCF_003725535.1	Nocardioides pocheonensis
 GCF_021648885.1	Nocardioides potassii
+GCF_051280635.1	Nocardioides proteolyticus
 GCF_007992415.1	Nocardioides psychrotolerans
 GCF_034661175.1	Nocardioides renjunii
 GCF_019931675.1	Nocardioides rotundus
 GCF_008087085.1	Nocardioides rubriscoriae
 GCF_016907435.1	Nocardioides salarius
+GCF_054783655.1	Nocardioides salsibiostraticola
 GCF_006494815.1	Nocardioides sambongensis
 GCF_900104965.1	Nocardioides scoriae
+GCF_039939255.1	Nocardioides secundeburneus
 GCF_003047295.1	Nocardioides sediminis
 GCF_004683965.1	Nocardioides seonyuensis
 GCF_003160695.1	Nocardioides silvaticus
@@ -668,7 +709,9 @@ GCF_031656915.1	Nocardioides terrisoli
 GCF_013410655.1	Nocardioides thalensis
 GCF_011045035.1	Nocardioides turkmenicus
 GCF_040045055.1	Nocardioides tweenelious
+GCF_054777895.1	Nocardioides ultimimeridianus
 GCF_013466985.1	Nocardioides ungokensis
+GCF_051280745.1	Nocardioides ureilyticus
 GCF_042655845.1	Nocardioides vastitatis
 GCF_017916385.1	Nocardioides xinjiangensis
 GCF_004014875.1	Nocardioides yefusunii
@@ -688,7 +731,8 @@ GCF_000341185.1	Nocardiopsis chromatogenes YIM 90109
 GCF_036327455.1	Nocardiopsis codii
 GCF_014200805.1	Nocardiopsis composta
 GCF_014892575.1	Nocardiopsis coralli
-GCF_900638215.1	Nocardiopsis dassonvillei
+GCF_054779695.1	Nocardiopsis coralliicola
+GCF_964273245.1	Nocardiopsis dassonvillei
 GCF_008638355.1	Nocardiopsis deserti
 GCF_027706725.1	Nocardiopsis endophytica
 GCF_965344335.1	Nocardiopsis eucommiae
@@ -705,9 +749,12 @@ GCF_000341125.1	Nocardiopsis lucentensis DSM 44048
 GCF_042653925.1	Nocardiopsis mangrovi
 GCF_014201115.1	Nocardiopsis metallicus
 GCF_014201195.1	Nocardiopsis mwathae
+GCF_054778635.1	Nocardiopsis nanhaiensis
+GCF_054777395.1	Nocardiopsis oceani
+GCF_048595525.1	Nocardiopsis oceanisediminis
 GCF_000341105.1	Nocardiopsis potens DSM 45234
 GCF_000341265.1	Nocardiopsis prasina DSM 43845
-GCF_045446685.1	Nocardiopsis protaetiae
+GCF_045446735.1	Nocardiopsis protaetiae
 GCF_008638365.1	Nocardiopsis quinghaiensis
 GCF_039530945.1	Nocardiopsis rhodophaea
 GCF_000341025.1	Nocardiopsis salina YIM 90010
@@ -796,10 +843,11 @@ GCF_013761175.1	Nonomuraea soli
 GCF_014648435.1	Nonomuraea spiralis
 GCF_044465245.1	Nonomuraea terrae
 GCF_024172165.1	Nonomuraea thailandensis
+GCF_030718205.1	Nonomuraea turcica
 GCF_005889735.1	Nonomuraea turkmeniaca
 GCF_009760925.1	Nonomuraea typhae
 GCF_900111685.1	Nonomuraea wenchangensis
-GCF_005889725.1	Nonomuraea zeae
+GCF_042650445.1	Nonomuraea zeae
 GCF_019357495.1	Nosocomiicoccus ampullae
 GCF_000438455.1	Nosocomiicoccus massiliensis
 GCF_003113895.1	Nostoc commune NIES-4072
@@ -829,6 +877,7 @@ GCF_002906255.1	Novacetimonas maltaceti
 GCF_003207955.1	Novacetimonas pomaceti
 GCF_002005165.1	Novibacillus thermophilus
 GCF_008929045.1	Noviherbaspirillum aerium
+GCF_054780595.1	Noviherbaspirillum agri
 GCF_035916955.1	Noviherbaspirillum album
 GCF_019656455.1	Noviherbaspirillum aridicola
 GCF_000818395.1	Noviherbaspirillum autotrophicum
@@ -839,6 +888,7 @@ GCF_900188095.1	Noviherbaspirillum humi
 GCF_015352985.1	Noviherbaspirillum malthae
 GCF_000312045.1	Noviherbaspirillum massiliense JC206
 GCF_016632335.1	Noviherbaspirillum pedocola
+GCF_047237965.1	Noviherbaspirillum phoenicis
 GCF_003591035.1	Noviherbaspirillum saxi
 GCF_003590835.1	Noviherbaspirillum sedimenti
 GCF_015352955.1	Noviherbaspirillum soli
@@ -873,9 +923,9 @@ GCF_000013325.1	Novosphingobium aromaticivorans DSM 12444
 GCF_014652615.1	Novosphingobium arvoryzae
 GCF_015865035.1	Novosphingobium aureum
 GCF_001046635.1	Novosphingobium barchaimii LL02
-GCF_022832375.1	Novosphingobium beihaiensis
+GCF_022832375.1	Novosphingobium beihaiense
 GCF_042646485.1	Novosphingobium bradum
-GCF_001598375.1	Novosphingobium capsulatum NBRC 12533
+GCF_034424435.1	Novosphingobium capsulatum
 GCF_014204535.1	Novosphingobium chloroacetimidivorans
 GCF_026420865.1	Novosphingobium clariflavum
 GCF_014652555.1	Novosphingobium colocasiae
@@ -899,6 +949,8 @@ GCF_002813245.1	Novosphingobium kunmingense
 GCF_001590965.1	Novosphingobium lentum NBRC 107847
 GCF_000445125.1	Novosphingobium lindaniclasticum LE124
 GCF_000802225.1	Novosphingobium malaysiense
+GCF_022818885.1	Novosphingobium mangrovi
+GCF_025153475.1	Novosphingobium mangrovisedimenti
 GCF_014640055.1	Novosphingobium marinum
 GCF_900168325.1	Novosphingobium mathurense
 GCF_003171715.1	Novosphingobium meiothermophilum
@@ -929,7 +981,6 @@ GCF_017163935.1	Novosphingobium terrae
 GCF_004005905.1	Novosphingobium umbonatum
 GCF_000420305.1	Novosphingopyxis baekryungensis DSM 16222
 GCF_014334095.1	Novosphingopyxis iocasae
-GCF_003313335.1	Nubsella zeaxanthinifaciens
 GCF_016464385.1	Nucisporomicrobium flavum
 GCF_001375555.1	Numidum massiliense
 GCF_000980985.1	Obesumbacterium proteus
@@ -1006,6 +1057,7 @@ GCF_000724085.1	Oceanobacillus manasiensis
 GCF_000285495.1	Oceanobacillus massiliensis str. Ndiop
 GCF_014645515.1	Oceanobacillus neutriphilus
 GCF_039521805.1	Oceanobacillus oncorhynchi subsp. oncorhynchi
+GCF_047238145.1	Oceanobacillus phoenicis
 GCF_000612865.1	Oceanobacillus picturae
 GCF_003665065.1	Oceanobacillus piezotolerans
 GCF_008304605.1	Oceanobacillus polygoni
@@ -1064,6 +1116,7 @@ GCF_042676245.1	Ohtaekwangia kribbensis
 GCF_030813365.1	Oikeobacillus pervagus
 GCF_003838225.1	Okeania hirsuta
 GCF_038050375.1	Okeanomitos corallinicola TIOX110
+GCF_054780075.1	Okibacterium endophyticum
 GCF_900167575.1	Okibacterium fritillariae
 GCF_900608495.1	Olavius algarvensis spirochete endosymbiont
 GCF_900078545.1	Olegusella massiliensis
@@ -1085,26 +1138,3 @@ GCF_039542865.1	Olivibacter ginsenosidimutans
 GCF_900607235.1	Olivibacter jilunii
 GCF_042432805.1	Olivibacter oleidegradans
 GCF_000427965.1	Olivibacter sitiensis DSM 17696
-GCF_003259525.1	Olleya aquimaris
-GCF_000518485.1	Olleya marilimosa CAM030
-GCF_900114005.1	Olleya namhaensis
-GCF_016785945.1	Olleya sediminilitoris
-GCF_004801285.1	Ollibium composti
-GCF_036408855.1	Olsenella absiana
-GCF_023276655.1	Olsenella intestinalis
-GCF_036408795.1	Olsenella kribbiana
-GCF_001457795.1	Olsenella massiliensis
-GCF_048189965.1	Olsenella phocaeensis
-GCF_009695875.1	Olsenella porci
-GCF_030811115.1	Olsenella profusa DSM 13989
-GCF_900119915.1	Olsenella timonensis
-GCF_000143845.1	Olsenella uli DSM 7084
-GCF_900155635.1	Olsenella urininfantis
-GCF_004798965.1	Onishia niordana
-GCF_900100755.1	Onishia taeanensis
-GCF_048282545.1	Opacimonas immobilis
-GCF_024199005.1	Opacimonas viscosa
-GCF_000019965.1	Opitutus terrae PB90-1
-GCF_003634275.1	Orbus hercynius
-GCF_036251205.1	Orbus mooreae
-GCF_039542345.1	Orbus sasakiae
