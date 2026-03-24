@@ -1,3 +1,25 @@
+GCF_000382125.1	Eudoraea adriatica DSM 19308
+GCF_050589645.1	Eudoraea algarum
+GCF_029360665.1	Eudoraea chungangensis
+GCF_007904085.1	Euhalothece natronophila Z-M001
+GCF_963930865.1	Eupransor demetentiae
+GCF_000412185.1	Euryhalocaulis caribicus
+GCF_003344865.1	Euzebya pacifica
+GCF_003073135.1	Euzebya rosea
+GCF_003074135.1	Euzebya tangerina
+GCF_003687485.1	Euzebyella marina
+GCF_014855495.1	Euzebyella saccharophila
+GCF_019042735.1	Evansella alkalicola
+GCF_000177235.2	Evansella cellulosilytica DSM 2522
+GCF_002019695.1	Evansella clarkii
+GCF_002335745.1	Evansella halocellulosilytica
+GCF_019042215.1	Evansella tamaricis
+GCF_030813435.1	Evansella vedderi
+GCF_008121455.1	Evtepia gabavorous
+GCF_044430645.1	Ewingella allii
+GCF_008693045.1	Ewingella americana
+GCF_040419245.1	Ewingella docleensis
+GCF_029577735.1	Exercitatus varius
 GCF_015645365.1	Exiguobacterium abrahamii
 GCF_018604565.1	Exiguobacterium acetylicum
 GCF_042663205.1	Exiguobacterium aestuarii
@@ -17,6 +39,7 @@ GCF_042652865.1	Exiguobacterium profundum
 GCF_018617855.1	Exiguobacterium qingdaonense
 GCF_000620805.1	Exiguobacterium undae DSM 14481
 GCF_007004655.1	Exilibacterium tricleocarpae
+GCF_055389015.1	Exilispira thermophila
 GCF_005747095.1	Exobacillus caeni
 GCF_007655255.1	Extensimonas perlucida
 GCF_029211265.1	Extensimonas soli
@@ -196,7 +219,7 @@ GCF_003584165.1	Flagellimonas aequoris
 GCF_040513375.1	Flagellimonas algarum
 GCF_049629585.1	Flagellimonas algicida
 GCF_005937185.1	Flagellimonas algicola
-GCF_042134605.1	Flagellimonas alginolytica
+GCF_042134605.1	Flagellimonas alginilytica
 GCF_004296335.1	Flagellimonas allohymeniacidonis
 GCF_965248585.1	Flagellimonas alvinocaridis
 GCF_003058265.1	Flagellimonas amoyensis
@@ -297,6 +320,7 @@ GCF_020911885.1	Flavobacterium acetivorans
 GCF_003268855.1	Flavobacterium aciduliphilum
 GCF_040045115.1	Flavobacterium adhaerens
 GCF_048282555.1	Flavobacterium adiutor
+GCF_013294025.1	Flavobacterium aeripolare
 GCF_030766725.1	Flavobacterium aerium
 GCF_026870175.2	Flavobacterium aestivum
 GCF_040049115.1	Flavobacterium aestuarii
@@ -423,6 +447,7 @@ GCF_048158585.1	Flavobacterium galactosi
 GCF_020911945.1	Flavobacterium galactosidilyticum
 GCF_007097265.1	Flavobacterium gawalongense
 GCF_027111295.1	Flavobacterium gelatinilyticum
+GCF_013294005.1	Flavobacterium gelidicaeli
 GCF_000422685.1	Flavobacterium gelidilacus DSM 15343
 GCF_017948595.1	Flavobacterium geliluteum
 GCF_900107635.1	Flavobacterium gillisiae
@@ -494,9 +519,10 @@ GCF_039581425.1	Flavobacterium movens
 GCF_014305155.1	Flavobacterium muglaense
 GCF_042677265.1	Flavobacterium myungsuense
 GCF_004355225.1	Flavobacterium nackdongense
-GCF_031326205.1	Flavobacterium nakdongensis
+GCF_031326205.1	Flavobacterium nakdongense
 GCF_029625335.1	Flavobacterium nitratireducens
 GCF_008369745.1	Flavobacterium nitrogenifigens
+GCF_055231775.1	Flavobacterium niveum
 GCF_900100375.1	Flavobacterium noncentrifugens
 GCF_042686225.1	Flavobacterium notoginsengisoli
 GCF_025499515.1	Flavobacterium odoriferum
@@ -506,6 +532,8 @@ GCF_900099915.1	Flavobacterium omnivorum
 GCF_002217355.1	Flavobacterium oncorhynchi
 GCF_002204835.1	Flavobacterium oreochromis
 GCF_014638005.1	Flavobacterium orientale
+GCF_034058155.1	Flavobacterium oryzagri
+GCF_028736155.1	Flavobacterium oryzicola
 GCF_040703125.1	Flavobacterium ovatum
 GCF_003097535.1	Flavobacterium pallidum
 GCF_014639535.1	Flavobacterium palustre
@@ -534,6 +562,7 @@ GCF_026810365.1	Flavobacterium praedii
 GCF_042431625.1	Flavobacterium procerum
 GCF_006491645.1	Flavobacterium profundi
 GCF_015223105.1	Flavobacterium proteolyticum
+GCF_025960985.1	Flavobacterium psychraerolatum
 GCF_034497725.1	Flavobacterium psychraquaticum
 GCF_003312425.1	Flavobacterium psychrolimnae
 GCF_000754405.1	Flavobacterium psychrophilum FPG3
@@ -552,6 +581,7 @@ GCF_048286515.1	Flavobacterium rhamnosi
 GCF_004349195.1	Flavobacterium rhamnosiphilum
 GCF_046000485.1	Flavobacterium rhizophilum
 GCF_046000445.1	Flavobacterium rhizosphaerae
+GCF_055231795.1	Flavobacterium riviphilum
 GCF_000378485.1	Flavobacterium rivuli WB 3.3-2 = DSM 21788
 GCF_030643905.1	Flavobacterium rivulicola
 GCF_900142735.1	Flavobacterium saccharophilum
@@ -686,6 +716,7 @@ GCF_006542395.2	Formicincola oecophyllae
 GCF_900115065.1	Formivibrio citricus
 GCF_000723205.1	Formosa agariphila KMM 3901
 GCF_017872935.1	Formosa algae
+GCF_051016085.1	Formosa bonchosmolovskayae
 GCF_001685485.1	Formosa haliotis
 GCF_008084905.1	Formosa maritima
 GCF_007197735.1	Formosa sediminum
@@ -776,9 +807,12 @@ GCF_016860625.1	Fructobacillus tropaeoli
 GCF_023227765.1	Fuchsiella alkaliacetigena
 GCF_001983935.1	Fuerstiella marisgermanici
 GCF_020539485.1	Fulverythrobacter ferritrahens
+GCF_037154085.1	Fulverythrobacter fulvus
 GCF_003403015.1	Fulvimarina endophytica
+GCF_039652615.1	Fulvimarina fulva
 GCF_900176465.1	Fulvimarina manganoxydans
 GCF_000153705.1	Fulvimarina pelagi HTCC2506
+GCF_040239565.1	Fulvimarina thalattae
 GCF_034321785.1	Fulvimarina uroteuthidis
 GCF_003148905.1	Fulvimonas soli
 GCF_037137055.1	Fulvimonas yonginensis
@@ -815,6 +849,7 @@ GCF_029953595.1	Fuscovulum ytuae
 GCF_030053595.1	Fusibacillus kribbianus
 GCF_029914245.1	Fusibacter bizertensis
 GCF_015352425.1	Fusibacter ferrireducens
+GCF_055378735.1	Fusibacter fontis
 GCF_018390735.1	Fusibacter paucivorans
 GCF_016908355.1	Fusibacter tunisiensis
 GCF_020686945.1	Fusicatenibacter faecihominis
@@ -878,8 +913,12 @@ GCF_038095605.1	Gaopeijia maritima
 GCF_049347105.1	Gaoshiqia hydrogeniformans
 GCF_025907915.1	Gaoshiqia sediminis
 GCF_900167305.1	Garciella nitratireducens DSM 15102
+GCF_000263655.1	Gardnerella bretellae
 GCF_029207615.1	Gardnerella greenwoodii
+GCF_048545055.1	Gardnerella lacydonensis
 GCF_003293675.1	Gardnerella leopoldii
+GCF_940796375.1	Gardnerella massiliensis
+GCF_048545075.1	Gardnerella phocaeensis
 GCF_029226345.1	Gardnerella pickettii
 GCF_049815665.1	Gardnerella piotii
 GCF_023277705.1	Gardnerella swidsinskii
@@ -897,6 +936,8 @@ GCF_000423005.1	Gelidibacter mesophilus DSM 14095
 GCF_017581925.1	Gelidibacter pelagius
 GCF_007997285.1	Gelidibacter salicanalis
 GCF_004364975.1	Gelidibacter sediminis
+GCF_055694065.1	Gelidimonas denitrificans
+GCF_055694025.1	Gelidimonas diazotrophica
 GCF_014197145.1	Gellertiella hungarica
 GCF_000469465.1	Gemella bergeri ATCC 700627
 GCF_000425665.1	Gemella cuniculi DSM 15828
@@ -1051,6 +1092,7 @@ GCF_000744415.1	Ghiorsea bivora
 GCF_039539505.1	Gibbsiella dentisursi
 GCF_002291425.1	Gibbsiella quercinecans
 GCF_900111115.1	Giesbergeria anulus
+GCF_054779375.1	Giesbergeria giesbergeri
 GCF_042652905.1	Giesbergeria sinuosa
 GCF_000599985.1	Gilliamella apicola
 GCF_030758635.1	Gilliamella apis
@@ -1096,25 +1138,3 @@ GCF_004310685.1	Glaciihabitans arcticus
 GCF_003003265.1	Glaciihabitans tibetensis
 GCF_011947285.1	Glaciimonas immobilis
 GCF_009497155.1	Glaciimonas soli
-GCF_003260095.1	Glaesserella australis
-GCF_017352235.1	Glaesserella parasuis
-GCF_000159015.1	Gleimia coleocanis DSM 15436
-GCF_002871995.2	Gleimia europaea
-GCF_032085515.1	Gleimia hominis
-GCF_002847845.2	Globicatella sanguinis
-GCF_900167405.1	Globicatella sulfidifaciens DSM 15739
-GCF_000484535.1	Gloeobacter kilaueensis JS1
-GCF_021018745.1	Gloeobacter morelensis MG652769
-GCF_000011385.1	Gloeobacter violaceus PCC 7421
-GCF_015207655.1	Gloeocapsopsis crepidinum LEGE 06123
-GCF_032163395.1	Gloeocapsopsis dulcis
-GCF_001870225.1	Gloeomargarita lithophora Alchichica-D10
-GCF_000021825.1	Gloeothece citriformis PCC 7424
-GCF_000147335.1	Gloeothece verrucosa PCC 7822
-GCF_014174395.1	Gluconacetobacter aggeris
-GCF_014174375.1	Gluconacetobacter asukensis
-GCF_014174355.1	Gluconacetobacter azotocaptans
-GCF_000021325.1	Gluconacetobacter diazotrophicus PA1 5
-GCF_014174165.1	Gluconacetobacter dulcium
-GCF_013155425.1	Gluconacetobacter entanii
-GCF_025994435.1	Gluconacetobacter johannae DSM 13595

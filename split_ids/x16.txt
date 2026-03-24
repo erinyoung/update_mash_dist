@@ -1,3 +1,15 @@
+GCF_004138125.1	Seramator thermalis
+GCF_004786095.1	Serinibacter arcticus
+GCF_002563925.1	Serinibacter salmoneus
+GCF_006337125.1	Serinicoccus chungangensis
+GCF_001685415.1	Serinicoccus hydrothermalis
+GCF_008919445.1	Serinicoccus kebangsaanensis
+GCF_000421245.1	Serinicoccus marinus DSM 15273
+GCF_000224715.1	Serinicoccus profundi MCCC 1A05965
+GCF_004153545.1	Serinicoccus sediminis
+GCF_045032955.1	Serinicoccus shuyuelongi
+GCF_014836765.1	Serpens gallinarum
+GCF_018141405.1	Serpentinicella alkaliphila
 GCF_000696225.1	Serpentinimonas barnesii
 GCF_000828915.1	Serpentinimonas maccroryi
 GCF_000828895.1	Serpentinimonas raichei
@@ -146,6 +158,7 @@ GCF_022511585.1	Shimazuella soli
 GCF_003014475.1	Shimia abyssi
 GCF_900114635.1	Shimia aestuarii
 GCF_016888515.1	Shimia biformata
+GCF_040225985.1	Shimia fortis
 GCF_900142085.1	Shimia gijangensis
 GCF_900114415.1	Shimia haliotis
 GCF_004346865.1	Shimia isoporae
@@ -229,6 +242,10 @@ GCF_022760965.1	Simplicispira sedimenti
 GCF_003008595.1	Simplicispira suum
 GCF_018128545.1	Sinanaerobacter chloroacetimidivorans
 GCF_000242455.2	Singulisphaera acidiphila DSM 18658
+GCF_049331405.1	Singulisphaera chitinilytica
+GCF_045290345.1	Singulisphaera photorubra
+GCF_054877945.1	Singulisphaera rosea
+GCF_005047655.1	Sinimarinibacterium arenosum
 GCF_003201205.1	Sinimarinibacterium flocculans
 GCF_040327995.1	Sinimarinibacterium thermocellulolyticum
 GCF_027923545.1	Sinisalibacter aestuarii
@@ -484,7 +501,6 @@ GCF_037154135.1	Sphingobium aquiterrae
 GCF_037154075.1	Sphingobium aromaticiconvertens
 GCF_037154195.1	Sphingobium aromaticivastans
 GCF_029167225.1	Sphingobium arseniciresistens
-GCF_001046655.1	Sphingobium baderi LL03
 GCF_000412635.1	Sphingobium bisphenolivorans
 GCF_014199215.1	Sphingobium boeckii
 GCF_000722875.1	Sphingobium chlorophenolicum
@@ -493,6 +509,7 @@ GCF_001005725.1	Sphingobium chungbukense
 GCF_002355855.1	Sphingobium cloacae
 GCF_001046645.1	Sphingobium cupriresistens LL01
 GCF_030580935.1	Sphingobium cyanobacteriorum
+GCF_035989265.1	Sphingobium erigeronicola
 GCF_008692605.1	Sphingobium estronivorans
 GCF_004122115.1	Sphingobium fluviale
 GCF_014196635.1	Sphingobium fontiphilum
@@ -520,7 +537,8 @@ GCF_003591655.1	Sphingobium terrigena
 GCF_042654265.1	Sphingobium tyrosinilyticum
 GCF_000447205.1	Sphingobium ummariense RL-3
 GCF_011762025.1	Sphingobium vermicomposti
-GCF_007830065.1	Sphingobium wenxiniae
+GCF_001046655.1	Sphingobium wenxiniae LL03
+GCF_035818615.1	Sphingobium wonjuense
 GCF_019737615.1	Sphingobium xanthum
 GCF_002288285.1	Sphingobium xenophagum
 GCF_002504085.1	Sphingobium yanoikuyae
@@ -558,6 +576,7 @@ GCF_016924655.1	Sphingomonas arenae
 GCF_026013565.1	Sphingomonas arvum
 GCF_001598355.1	Sphingomonas asaccharolytica NBRC 15499
 GCF_000711715.1	Sphingomonas astaxanthinifaciens DSM 22298
+GCF_051400615.1	Sphingomonas astragali
 GCF_003050705.1	Sphingomonas aurantiaca
 GCF_030678875.1	Sphingomonas aurea
 GCF_002091475.1	Sphingomonas azotifigens NBRC 15497
@@ -632,9 +651,11 @@ GCF_014196745.1	Sphingomonas kyeonggiensis
 GCF_037120395.1	Sphingomonas kyungheensis
 GCF_012979535.1	Sphingomonas lacunae
 GCF_022664395.1	Sphingomonas lacusdianchii
+GCF_051400595.1	Sphingomonas larreae
 GCF_011761945.1	Sphingomonas leidyi
 GCF_002288825.1	Sphingomonas lenta
 GCF_039537965.1	Sphingomonas limnosediminicola
+GCF_035593985.1	Sphingomonas lindongxini
 GCF_024211255.1	Sphingomonas liriopis
 GCF_016892685.1	Sphingomonas longa
 GCF_021497585.1	Sphingomonas lutea
@@ -682,6 +703,7 @@ GCF_002796605.1	Sphingomonas psychrotolerans
 GCF_039614825.1	Sphingomonas qilianensis
 GCF_024496245.1	Sphingomonas qomolangmaensis
 GCF_018863195.1	Sphingomonas quercus
+GCF_051400635.1	Sphingomonas radicis
 GCF_020866845.1	Sphingomonas radiodurans
 GCF_036663615.1	Sphingomonas rhamnosi
 GCF_014396585.1	Sphingomonas rhizophila
@@ -812,6 +834,7 @@ GCF_964019625.1	Spiroplasma endosymbiont_of_Diplazon laetatorius
 GCF_964031155.1	Spiroplasma endosymbiont_of_Dromius quadrimaculatus
 GCF_964019525.1	Spiroplasma endosymbiont_of_Eupeodes luniger
 GCF_049669535.1	Spiroplasma endosymbiont_of_Glossina fuscipes fuscipes
+GCF_978018445.1	Spiroplasma endosymbiont_of_Halictus nicosiae
 GCF_964019845.1	Spiroplasma endosymbiont_of_Labia minor
 GCF_023846195.1	Spiroplasma endosymbiont_of_Lariophagus distinguendus
 GCF_964020065.1	Spiroplasma endosymbiont_of_Lasioglossum malachurum
@@ -838,6 +861,7 @@ GCF_964019595.1	Spiroplasma endosymbiont_of_Sarcophaga carnaria
 GCF_965178695.1	Spiroplasma endosymbiont_of_Sarcophaga variegata
 GCF_964020235.1	Spiroplasma endosymbiont_of_Seladonia tumulorum
 GCF_964031205.1	Spiroplasma endosymbiont_of_Stenodema calcarata
+GCF_054963775.1	Spiroplasma endosymbiont_of_Tabanus sp.
 GCF_964019735.1	Spiroplasma endosymbiont_of_Thecophora atra
 GCF_964020225.1	Spiroplasma endosymbiont_of_Tiphia femorata
 GCF_964264785.1	Spiroplasma endosymbiont_of_Tipula paludosa
@@ -952,6 +976,7 @@ GCF_900102435.1	Sporolituus thermophilus DSM 23256
 GCF_002257695.2	Sporomusa acidovorans DSM 3132
 GCF_041428895.1	Sporomusa aerivorans
 GCF_041428575.1	Sporomusa carbonis
+GCF_055383785.1	Sporomusa intestinalis
 GCF_041428715.1	Sporomusa malonica
 GCF_000445445.2	Sporomusa ovata DSM 2662
 GCF_041428605.1	Sporomusa paucivorans
@@ -1071,6 +1096,7 @@ GCF_900458755.1	Staphylococcus xylosus
 GCF_003856495.1	Staphylospora marina
 GCF_014050225.1	Stappia albiluteola
 GCF_009789575.1	Stappia indica
+GCF_014252955.1	Stappia quadratibracata
 GCF_009826895.1	Stappia sediminis
 GCF_000423705.1	Stappia stellulata DSM 5886
 GCF_014635285.1	Stappia taiwanensis
@@ -1090,14 +1116,3 @@ GCF_001431505.1	Stenotrophomonas daejeonensis
 GCF_028752115.1	Stenotrophomonas forensis
 GCF_034508895.1	Stenotrophomonas geniculata
 GCF_001431485.1	Stenotrophomonas ginsengisoli
-GCF_000382065.1	Stenotrophomonas hibiscicola ATCC 19867
-GCF_001431415.1	Stenotrophomonas humi
-GCF_004551575.1	Stenotrophomonas indicatrix
-GCF_001431525.1	Stenotrophomonas koreensis
-GCF_041956365.1	Stenotrophomonas lactitubi
-GCF_014836545.1	Stenotrophomonas lacuserhaii
-GCF_020641395.2	Stenotrophomonas maltophilia
-GCF_023556335.1	Stenotrophomonas mori
-GCF_052751275.1	Stenotrophomonas muris
-GCF_009467805.1	Stenotrophomonas nematodicola
-GCF_017304535.1	Stenotrophomonas nitritireducens

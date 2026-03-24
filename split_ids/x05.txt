@@ -1,9 +1,17 @@
+GCF_039532525.1	Dactylosporangium salmoneum
+GCF_016862795.1	Dactylosporangium siamense
+GCF_014647515.1	Dactylosporangium sucinum
+GCF_019904175.1	Dactylosporangium vinaceum
+GCF_042653845.1	Daeguia caeni
 GCF_900168015.1	Daejeonella lutea
 GCF_000422945.1	Daejeonella oryzae DSM 19973
 GCF_900103545.1	Daejeonella rubra
 GCF_001182045.1	Dakarella massiliensis
 GCF_004355005.1	Dankookia rubra
 GCF_041060425.1	Danxiaibacter flavus
+GCF_050015995.1	Dapis brunnea BLCC-M229
+GCF_050016015.1	Dapis hubbardiae BLCC-M172
+GCF_050015975.1	Dapis purpurea BLCC-M126
 GCF_000373485.1	Dasania marina DSM 21967
 GCF_026891035.1	Dasania phycosphaerae
 GCF_018598175.1	Dawidia cretensis
@@ -94,6 +102,7 @@ GCF_020166415.1	Deinococcus multiflagellatus
 GCF_000482805.1	Deinococcus murrayi DSM 11303
 GCF_042653905.1	Deinococcus navajonensis
 GCF_042431605.1	Deinococcus oregonensis
+GCF_045062605.1	Deinococcus pantiae
 GCF_000317835.1	Deinococcus peraridilitoris DSM 19664
 GCF_042656085.1	Deinococcus petrolearius
 GCF_000599865.1	Deinococcus phoenicis
@@ -163,6 +172,7 @@ GCF_000376825.1	Demetria terragena DSM 11295
 GCF_003412455.1	Deminuibacter soli
 GCF_016056275.1	Dendronalium phyllosphericum CENA369
 GCF_900104455.1	Dendrosporobacter quercicolus
+GCF_048158365.1	Denitraticella aggregata
 GCF_037203605.1	Denitratimonas tolerans
 GCF_902813185.1	Denitratisoma oestradiolicum
 GCF_000421765.1	Denitrificimonas caeni DSM 24390
@@ -209,6 +219,7 @@ GCF_000021905.1	Desulfatibacillum aliphaticivorans
 GCF_900142135.1	Desulfatibacillum alkenivorans DSM 16219
 GCF_054657895.1	Desulfatiferula olefinivorans
 GCF_000422285.1	Desulfatiglans anilini DSM 4660
+GCF_055394735.1	Desulfatiglans parachlorophenolica
 GCF_000429925.1	Desulfatirhabdium butyrativorans DSM 18734
 GCF_022968795.1	Desulfatitalea alkaliphila
 GCF_001293685.1	Desulfatitalea tepidiphila
@@ -217,6 +228,7 @@ GCF_050433185.1	Desulfitispora alkaliphila
 GCF_900143285.1	Desulfitobacterium chlororespirans DSM 11544
 GCF_000243155.2	Desulfitobacterium dehalogenans ATCC 51507
 GCF_000243135.2	Desulfitobacterium dichloroeliminans LMG P-21439
+GCF_055378975.1	Desulfitobacterium elongatum
 GCF_000021925.1	Desulfitobacterium hafniense DCB-2
 GCF_000231405.2	Desulfitobacterium metallireducens DSM 15288
 GCF_049860565.1	Desulfitobacterium nosdiversum
@@ -245,8 +257,10 @@ GCF_054657295.1	Desulfocastanea catecholica
 GCF_054657595.1	Desulfocicer niacini
 GCF_900176365.1	Desulfocicer vacuolatum DSM 3385
 GCF_001854245.1	Desulfococcus multivorans
+GCF_055382125.1	Desulfoconvexum algidum
 GCF_002933875.1	Desulfocucumis palustris
 GCF_000212675.2	Desulfocurvibacter africanus subsp. africanus str. Walvis Bay
+GCF_055390965.1	Desulfocurvus thunnarius
 GCF_000519125.1	Desulfocurvus vexinensis DSM 17965
 GCF_000711975.1	Desulfofalx alkaliphila DSM 12257
 GCF_000024205.1	Desulfofarcimen acetoxidans DSM 771
@@ -262,6 +276,7 @@ GCF_900142025.1	Desulfofundulus thermosubterraneus DSM 16057
 GCF_900130015.1	Desulfofustis glycolicus DSM 9705
 GCF_023169885.1	Desulfofustis limnaeus
 GCF_005377625.1	Desulfoglaeba alkanexedens ALDC
+GCF_055398265.1	Desulfogranum aggregans
 GCF_000429945.1	Desulfogranum japonicum DSM 18378
 GCF_963675105.2	Desulfogranum marinum
 GCF_000429965.1	Desulfogranum mediterraneum DSM 13871
@@ -275,12 +290,14 @@ GCF_902498735.1	Desulfoluna spongiiphila
 GCF_013376455.1	Desulfolutivibrio sulfodismutans DSM 3696
 GCF_013376475.1	Desulfolutivibrio sulfoxidireducens
 GCF_019703855.1	Desulfomarina profundi
+GCF_055385525.1	Desulfomicrobium aestuarii
 GCF_900114115.1	Desulfomicrobium apsheronum
 GCF_000023225.1	Desulfomicrobium baculatum DSM 4028
 GCF_000428825.1	Desulfomicrobium escambiense DSM 10707
 GCF_014873765.1	Desulfomicrobium macestii
 GCF_900114595.1	Desulfomicrobium norvegicum
 GCF_001553625.1	Desulfomicrobium orale DSM 12838
+GCF_054657795.1	Desulfomicrobium salsuginis
 GCF_000266945.1	Desulfomonile tiedjei DSM 6799
 GCF_000174435.1	Desulfonatronospira thiodismutans ASO3-1
 GCF_000686525.1	Desulfonatronovibrio hydrogenovorans DSM 9292
@@ -290,6 +307,7 @@ GCF_054656975.1	Desulfonatronum parangueonense
 GCF_000934745.1	Desulfonatronum thioautotrophicum
 GCF_000717475.1	Desulfonatronum thiodismutans
 GCF_900104215.1	Desulfonatronum thiosulfatophilum
+GCF_055381725.1	Desulfonauticus autotrophicus
 GCF_900104045.1	Desulfonauticus submarinus
 GCF_003851005.1	Desulfonema ishimotonii
 GCF_017377355.1	Desulfonema limicola
@@ -324,7 +342,9 @@ GCF_000233715.2	Desulfoscipio gibsoniae DSM 7213
 GCF_005116655.2	Desulfosediminicola flagellatus
 GCF_005116675.2	Desulfosediminicola ganghwensis
 GCF_003751385.1	Desulfosoma caldarium
+GCF_055387865.1	Desulfosoma profundi
 GCF_000420085.1	Desulfospira joergensenii DSM 10085
+GCF_055380075.1	Desulfosporomusa polytropa
 GCF_001029285.1	Desulfosporosinus acididurans
 GCF_000255115.2	Desulfosporosinus acidiphilus SJ4
 GCF_054657535.1	Desulfosporosinus burensis
@@ -350,8 +370,10 @@ GCF_054657375.1	Desulfotomaculum defluvii
 GCF_000214435.1	Desulfotomaculum nigrificans CO-1-SRB
 GCF_000430885.1	Desulfotruncus alcoholivorax DSM 16058
 GCF_900113335.1	Desulfotruncus arcticus DSM 17038
+GCF_055391705.1	Desulfovectis peckii
 GCF_000620765.1	Desulfovermiculus halophilus DSM 18834
-GCF_047716005.1	Desulfovibrio aminophilus
+GCF_000422565.1	Desulfovibrio aminophilus DSM 12254
+GCF_055388615.1	Desulfovibrio biadhensis
 GCF_000430005.1	Desulfovibrio cuneatus DSM 11391
 GCF_017815575.1	Desulfovibrio desulfuricans
 GCF_001553605.1	Desulfovibrio fairfieldensis
@@ -367,6 +389,7 @@ GCF_000375485.1	Desulfovibrio oxyclinae DSM 11498
 GCF_937907355.1	Desulfovibrio piger
 GCF_009696265.1	Desulfovibrio porci
 GCF_013340305.1	Desulfovibrio psychrotolerans
+GCF_055387835.1	Desulfovibrio simplex
 GCF_027558435.1	Desulfovibrio subterraneus
 GCF_000429345.1	Desulfovirgula thermocuniculi DSM 16036
 GCF_018704065.1	Desulfovulcanus ferrireducens
@@ -375,10 +398,13 @@ GCF_900101285.1	Desulfurella multipotens
 GCF_001730225.1	Desulfuribacillus alkaliarsenatis
 GCF_001742305.1	Desulfuribacillus stibiiarsenatis
 GCF_014203025.1	Desulfurispira natronophila
+GCF_055378285.1	Desulfurispirillum alkaliphilum
 GCF_000177635.2	Desulfurispirillum indicum S5
 GCF_000376385.1	Desulfurispora thermophila DSM 16022
 GCF_000092205.1	Desulfurivibrio alkaliphilus AHT 2
 GCF_029210385.1	Desulfurivibrio dismutans
+GCF_044068625.1	Desulfurivibrio modestus
+GCF_044068515.1	Desulfurivibrio nitratireducens
 GCF_900188395.1	Desulfurobacterium atlanticum
 GCF_054656775.1	Desulfurobacterium crinifex
 GCF_001968985.1	Desulfurobacterium indicum
@@ -387,8 +413,10 @@ GCF_000191045.1	Desulfurobacterium thermolithotrophum DSM 11699
 GCF_000167355.1	Desulfuromonas acetoxidans DSM 684
 GCF_054658035.1	Desulfuromonas carbonis
 GCF_001278055.1	Desulfuromonas soudanensis
+GCF_055389415.1	Desulfuromonas svalbardensis
 GCF_963662975.1	Desulfuromonas thiophila
 GCF_019704135.1	Desulfuromonas versatilis
+GCF_055389805.1	Desulfuromusa ferrireducens
 GCF_900107645.1	Desulfuromusa kysingii
 GCF_000174415.1	Dethiobacter alkaliphilus AHT 1
 GCF_000931935.2	Dethiosulfatarculus sandiegensis
@@ -518,6 +546,7 @@ GCF_012516395.1	Dolichospermum flos-aquae CCAP 1403/13F
 GCF_024584745.1	Dolichospermum heterosporum TAC447
 GCF_028330815.1	Dolichospermum lemmermannii CS-548
 GCF_005402965.1	Dolichospermum planctonicum
+GCF_022213955.1	Dolomitihabitans soli
 GCF_900100125.1	Dolosicoccus paucivorans
 GCF_000245815.1	Dolosigranulum pigrum ATCC 51524
 GCF_039830095.1	Dolosigranulum savutiense
@@ -678,6 +707,7 @@ GCF_046533135.1	Ectobacillus funiculus
 GCF_000430785.1	Ectobacillus panaciterrae DSM 19096
 GCF_048159605.1	Ectobacillus polymachus
 GCF_024294785.1	Ectobacillus ponti
+GCF_042610425.1	Ectobacillus soli
 GCF_033842905.1	Ectopseudomonas alcaliphila
 GCF_017905455.1	Ectopseudomonas chengduensis
 GCF_900115475.1	Ectopseudomonas composti
@@ -787,6 +817,7 @@ GCF_014192375.1	Endobacter medicaginis
 GCF_009617585.1	Endobacterium cereale
 GCF_050847465.1	Endobacterium panacihumi
 GCF_001027545.1	Endomicrobium proavitum
+GCF_050589245.1	Endoryza foliicola
 GCF_024515975.1	Endosaccharibacter trunci
 GCF_001584725.1	endosymbiont TC1 of Trimyema compressum
 GCF_003546845.1	endosymbiont GvMRE of Glomus versiforme
@@ -1002,13 +1033,16 @@ GCF_000428485.1	Epilithonimonas tenax DSM 16811
 GCF_003860525.1	Epilithonimonas vandammei
 GCF_004365655.1	Epilithonimonas xixisoli
 GCF_900141765.1	Epilithonimonas zeae
+GCF_900002895.1	Ercella succinigenes
 GCF_003096195.1	Ereboglobus luteus
 GCF_000183205.1	Eremococcus coleocola ACS-139-V-Col8
 GCF_041224955.1	Erwinia aeris
 GCF_043228865.1	Erwinia amylovora
 GCF_037149315.1	Erwinia aphidicola
+GCF_051400835.1	Erwinia artemisiae
 GCF_000196615.1	Erwinia billingiae Eb661
 GCF_009295515.1	Erwinia endophytica
+GCF_039023495.1	Erwinia magellanica
 GCF_000590885.1	Erwinia mallotivora
 GCF_000770305.1	Erwinia oleae
 GCF_019844095.1	Erwinia persicina
@@ -1016,6 +1050,7 @@ GCF_019132875.1	Erwinia phyllosphaerae
 GCF_001050515.1	Erwinia piriflorinigrans CFBP 5888
 GCF_043420595.1	Erwinia plantamica
 GCF_003846135.1	Erwinia psidii
+GCF_039023475.1	Erwinia psychrophila
 GCF_030758455.1	Erwinia pyri
 GCF_002952315.1	Erwinia pyrifoliae
 GCF_020683125.1	Erwinia rhapontici
@@ -1081,25 +1116,3 @@ GCF_014287775.1	Eubacterium segne
 GCF_900167115.1	Eubacterium uniforme
 GCF_003475105.1	Eubacterium ventriosum
 GCF_000518685.1	Eubacterium xylanophilum ATCC 35991
-GCF_000382125.1	Eudoraea adriatica DSM 19308
-GCF_050589645.1	Eudoraea algarum
-GCF_029360665.1	Eudoraea chungangensis
-GCF_007904085.1	Euhalothece natronophila Z-M001
-GCF_963930865.1	Eupransor demetentiae
-GCF_000412185.1	Euryhalocaulis caribicus
-GCF_003344865.1	Euzebya pacifica
-GCF_003073135.1	Euzebya rosea
-GCF_003074135.1	Euzebya tangerina
-GCF_003687485.1	Euzebyella marina
-GCF_014855495.1	Euzebyella saccharophila
-GCF_019042735.1	Evansella alkalicola
-GCF_000177235.2	Evansella cellulosilytica DSM 2522
-GCF_002019695.1	Evansella clarkii
-GCF_002335745.1	Evansella halocellulosilytica
-GCF_019042215.1	Evansella tamaricis
-GCF_030813435.1	Evansella vedderi
-GCF_008121455.1	Evtepia gabavorous
-GCF_044430645.1	Ewingella allii
-GCF_008693045.1	Ewingella americana
-GCF_040419245.1	Ewingella docleensis
-GCF_029577735.1	Exercitatus varius

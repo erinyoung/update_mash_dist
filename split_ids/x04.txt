@@ -1,6 +1,8 @@
+GCF_022489035.1	Christiangramia lutea
 GCF_048285865.1	Christiangramia marina
 GCF_022570735.2	Christiangramia oceanisediminis
 GCF_000423045.1	Christiangramia portivictoriae DSM 23547
+GCF_048381525.1	Christiangramia qingdaonensis
 GCF_007050985.1	Christiangramia sabulilitoris
 GCF_001889005.1	Christiangramia salexigens
 GCF_031344135.1	Christiangramia sediminicola
@@ -46,6 +48,7 @@ GCF_001684975.1	Chryseobacterium artocarpi
 GCF_003020585.1	Chryseobacterium aurantiacum
 GCF_003971235.1	Chryseobacterium aureum
 GCF_003815995.1	Chryseobacterium balustinum
+GCF_042849955.1	Chryseobacterium barbadense
 GCF_003815975.1	Chryseobacterium bernardetii
 GCF_007474545.1	Chryseobacterium binzhouense
 GCF_002770595.1	Chryseobacterium camelliae
@@ -86,6 +89,7 @@ GCF_000430845.1	Chryseobacterium gregarium DSM 19109
 GCF_021311115.1	Chryseobacterium gwangjuense
 GCF_007991455.1	Chryseobacterium hagamense
 GCF_025154075.1	Chryseobacterium herbae
+GCF_051400735.1	Chryseobacterium hilariae
 GCF_000708615.2	Chryseobacterium hispalense DSM 25574
 GCF_021504595.1	Chryseobacterium indicum
 GCF_900460995.1	Chryseobacterium indologenes
@@ -143,6 +147,7 @@ GCF_003815615.1	Chryseobacterium shandongense
 GCF_900156575.1	Chryseobacterium shigense
 GCF_900100115.1	Chryseobacterium soldanellicola
 GCF_000737705.1	Chryseobacterium soli
+GCF_055762745.1	Chryseobacterium subflavum
 GCF_022811685.1	Chryseobacterium suipulveris
 GCF_900099685.1	Chryseobacterium taeanense
 GCF_016735585.2	Chryseobacterium tagetis
@@ -237,7 +242,6 @@ GCF_003860565.1	Cloacibacterium normanense
 GCF_014645495.1	Cloacibacterium rupense
 GCF_000620125.1	Clostridiisalibacter paucivorans DSM 22131
 GCF_018885085.1	Clostridioides difficile
-GCF_001042715.1	Clostridium aceticum
 GCF_001758365.1	Clostridium acetireducens DSM 10703
 GCF_000218855.1	Clostridium acetobutylicum DSM 1731
 GCF_900176305.1	Clostridium acidisoli DSM 12555
@@ -261,9 +265,10 @@ GCF_000577895.1	Clostridium bornimense
 GCF_000063585.1	Clostridium botulinum A str. ATCC 3502
 GCF_020176155.1	Clostridium bowmanii
 GCF_026738875.1	Clostridium brassicae
+GCF_055396605.1	Clostridium budayi
 GCF_014131795.1	Clostridium butyricum
+GCF_900290265.1	Clostridium caccae
 GCF_020911725.1	Clostridium cadaveris
-GCF_900290265.1	Clostridium cagae
 GCF_023806125.1	Clostridium caldaquaticum
 GCF_001038625.1	Clostridium carboxidivorans P7
 GCF_054657435.1	Clostridium carnis
@@ -276,7 +281,6 @@ GCF_003575225.1	Clostridium chromiireducens
 GCF_015234215.1	Clostridium chrysemydis
 GCF_014836335.1	Clostridium cibarium
 GCF_900187165.1	Clostridium cochlearium
-GCF_001593985.1	Clostridium colicanis DSM 13634
 GCF_900130005.1	Clostridium collagenovorans DSM 3089
 GCF_002749945.1	Clostridium combesii
 GCF_000821305.1	Clostridium culturomicium
@@ -293,7 +297,6 @@ GCF_002006355.2	Clostridium felsineum DSM 794
 GCF_003600355.1	Clostridium fermenticellae
 GCF_027698965.1	Clostridium fessum
 GCF_024341905.1	Clostridium folliculivorans
-GCF_002080475.1	Clostridium formicaceticum
 GCF_900111985.1	Clostridium frigidicarnis
 GCF_036541405.1	Clostridium frigoriphilum
 GCF_018861865.1	Clostridium frigoris
@@ -338,7 +341,7 @@ GCF_900465025.1	Clostridium neonatale
 GCF_045310695.1	Clostridium neuense
 GCF_001243045.1	Clostridium niameyense
 GCF_900086595.1	Clostridium nigeriense
-GCF_039521545.1	Clostridium nitritogenes
+GCF_055391695.1	Clostridium nitrophenolicum
 GCF_003614235.1	Clostridium novyi
 GCF_039521385.1	Clostridium oceanicum
 GCF_026012015.1	Clostridium omnivorum
@@ -433,6 +436,16 @@ GCF_004804355.1	Cognatitamlana onchidii
 GCF_041103235.1	Cognatiyoonia denitrificans
 GCF_900109295.1	Cognatiyoonia koreensis
 GCF_900129845.1	Cognatiyoonia sediminum
+GCF_014699135.1	Cognatundibacterium aquatile
+GCF_010078235.1	Cognatundibacterium crateris
+GCF_014284235.1	Cognatundibacterium curvum
+GCF_014284195.1	Cognatundibacterium griseum
+GCF_014284255.1	Cognatundibacterium jejuense
+GCF_018139685.1	Cognatundibacterium luofuense
+GCF_013377855.1	Cognatundibacterium oligocarboniphilum
+GCF_018139565.1	Cognatundibacterium rivi
+GCF_014284365.1	Cognatundibacterium rugosum
+GCF_014652435.1	Cognatundibacterium squillarum
 GCF_002866925.1	Cohaesibacter celericrescens
 GCF_900215605.1	Cohaesibacter gelatinilyticus
 GCF_003574655.1	Cohaesibacter haloalkalitolerans
@@ -440,6 +453,7 @@ GCF_003324485.1	Cohaesibacter intestini
 GCF_963665895.2	Cohaesibacter marisflavi
 GCF_004295585.1	Cohnella abietis
 GCF_016937515.1	Cohnella algarum
+GCF_041684065.1	Cohnella baijiui
 GCF_042651945.1	Cohnella boryungensis
 GCF_029360585.1	Cohnella caldifontis
 GCF_003713065.1	Cohnella candida
@@ -685,6 +699,7 @@ GCF_900232865.1	Corynebacterium dentalis
 GCF_001277995.1	Corynebacterium deserti GIMN1.010
 GCF_001457455.1	Corynebacterium diphtheriae
 GCF_000767055.1	Corynebacterium doosanense CAU 212 = DSM 45436
+GCF_041224285.1	Corynebacterium drakensteinense
 GCF_030408675.1	Corynebacterium durum
 GCF_000011305.1	Corynebacterium efficiens YS-314
 GCF_004795735.1	Corynebacterium endometrii
@@ -722,7 +737,7 @@ GCF_000819445.1	Corynebacterium humireducens NBRC 106098 = DSM 45392
 GCF_003955685.1	Corynebacterium hylobatis
 GCF_028609825.1	Corynebacterium ihumii
 GCF_900187215.1	Corynebacterium imitans
-GCF_014217255.1	Corynebacterium incognita
+GCF_014217255.1	Corynebacterium incognitum
 GCF_023574125.1	Corynebacterium intestinale
 GCF_046097395.1	Corynebacterium jamesii
 GCF_028609865.1	Corynebacterium jeddahense
@@ -868,6 +883,7 @@ GCF_001008165.2	Croceibacterium atlanticum
 GCF_003660445.1	Croceibacterium ferulae
 GCF_000802385.1	Croceibacterium mercuriale
 GCF_009827435.1	Croceibacterium salegens
+GCF_011320115.1	Croceibacterium segetis
 GCF_018599195.1	Croceibacterium selenioxidans
 GCF_009828065.1	Croceibacterium soli
 GCF_009827305.1	Croceibacterium xixiisoli
@@ -1019,6 +1035,8 @@ GCF_019704575.2	Cutibacterium modestum
 GCF_001642025.1	Cutibacterium namnetense
 GCF_009696315.1	Cutibacterium porci
 GCF_000317675.1	Cyanobacterium aponinum PCC 10605
+GCF_055476195.1	cyanobacterium endosymbiont 22EEL08 SB of Rhopalodia sp. T74185-1
+GCF_055476215.1	cyanobacterium endosymbiont 22MatA01 SB of Rhopalodia sp. T74185-1
 GCF_029919255.1	cyanobacterium endosymbiont_of_Epithemia clementina EcSB
 GCF_000829235.1	cyanobacterium endosymbiont_of_Epithemia turgida isolate EtSB Lake Yunoko
 GCF_003574135.1	cyanobacterium endosymbiont_of_Rhopalodia gibberula
@@ -1073,10 +1091,4 @@ GCF_042653625.1	Dactylosporangium cerinum
 GCF_039537565.1	Dactylosporangium darangshiense
 GCF_025137375.1	Dactylosporangium fulvum
 GCF_039531485.1	Dactylosporangium maewongense
-GCF_027922405.1	Dactylosporangium matsuzakiense
 GCF_025264685.1	Dactylosporangium roseum
-GCF_039532525.1	Dactylosporangium salmoneum
-GCF_016862795.1	Dactylosporangium siamense
-GCF_014647515.1	Dactylosporangium sucinum
-GCF_019904175.1	Dactylosporangium vinaceum
-GCF_042653845.1	Daeguia caeni

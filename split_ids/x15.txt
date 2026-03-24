@@ -1,3 +1,25 @@
+GCF_014207075.1	Rhizobium soli
+GCF_013087515.1	Rhizobium sophorae
+GCF_025200795.1	Rhizobium sophoriradicis
+GCF_007004135.1	Rhizobium straminoryzae
+GCF_900220975.1	Rhizobium subbaraonis
+GCF_025200715.1	Rhizobium sullae
+GCF_003425685.1	Rhizobium terrae
+GCF_012927355.1	Rhizobium terricola
+GCF_900108425.1	Rhizobium tibeticum
+GCF_000330885.1	Rhizobium tropici CIAT 899
+GCF_003240585.1	Rhizobium tubonense
+GCF_003240565.2	Rhizobium tumorigenes
+GCF_003985155.1	Rhizobium vallis
+GCF_014873945.1	Rhizobium viscosum
+GCF_014201355.1	Rhizobium wenxiniae
+GCF_977109285.1	Rhizobium yanglingense
+GCF_016862955.1	Rhizocola hellebori
+GCF_025996515.1	Rhizohabitans arisaemae
+GCF_011762045.1	Rhizomicrobium electricum
+GCF_011761565.1	Rhizomicrobium palustre
+GCF_018397995.1	Rhizomonospora bruguierae
+GCF_049889055.1	Rhizorhabdus antheiae
 GCF_037861105.1	Rhizorhabdus argentea
 GCF_002355275.1	Rhizorhabdus dicambivorans
 GCF_900167915.1	Rhizorhabdus histidinilytica
@@ -481,6 +503,7 @@ GCF_007741475.1	Rosistilla ulvae
 GCF_001648555.1	Rossellomorea aquimaris TF-12
 GCF_904424705.1	Rossellomorea arthrocnemi
 GCF_022170785.1	Rossellomorea marisflavi
+GCF_019334305.1	Rossellomorea orangium
 GCF_045897515.1	Rossellomorea oryzaecorticis
 GCF_016908495.1	Rossellomorea pakistanensis
 GCF_046237645.1	Rossellomorea sedimentorum
@@ -613,6 +636,8 @@ GCF_039543385.1	Rugosimonospora acidiphila
 GCF_016862975.1	Rugosimonospora africana
 GCF_001579845.1	Rugositalea oryzae
 GCF_040536845.1	Ruicaihuangia caeni
+GCF_011751885.2	Ruicaihuangia jiafui
+GCF_011751685.1	Ruicaihuangia ninglii
 GCF_031432425.1	Ruixingdingia sedimenti
 GCF_000621505.1	Ruminiclostridium cellobioparum DSM 1351 = ATCC 15832
 GCF_000022065.1	Ruminiclostridium cellulolyticum H10
@@ -624,7 +649,6 @@ GCF_003208175.1	Ruminiclostridium sufflavum DSM 19573
 GCF_900115655.1	Ruminobacter amylophilus
 GCF_040095935.1	Ruminococcoides intestinale
 GCF_040096285.1	Ruminococcoides intestinihominis
-GCF_000179635.2	Ruminococcus albus 7 = DSM 20455
 GCF_005601135.1	Ruminococcus bovis
 GCF_928721825.1	Ruminococcus bromii
 GCF_049562855.1	Ruminococcus callidus
@@ -634,6 +658,7 @@ GCF_000518765.1	Ruminococcus flavefaciens ATCC 19208
 GCF_025151995.1	Ruminococcus gauvreauii
 GCF_014287355.1	Ruminococcus hominis
 GCF_014288065.1	Ruminococcus intestinalis
+GCF_054655175.1	Ruminococcus sporogenes
 GCF_020687545.1	Ruminococcus turbiniformis
 GCF_002884495.1	Rummeliibacillus pycnus
 GCF_007988965.1	Rummeliibacillus stabekisii
@@ -665,7 +690,6 @@ GCF_947489045.1	Saccharicrinis aurantiacus
 GCF_900182605.1	Saccharicrinis carchari
 GCF_000517085.1	Saccharicrinis fermentans DSM 9555 = JCM 21142
 GCF_003063625.1	Saccharobesus litoralis
-GCF_019272935.1	Saccharococcus caldoxylosilyticus
 GCF_011761475.1	Saccharococcus thermophilus
 GCF_011761185.1	Saccharomonospora amisosensis
 GCF_050942245.1	Saccharomonospora azurea
@@ -721,6 +745,7 @@ GCF_003367315.1	Saccharospirillum mangrovi
 GCF_014651855.1	Saccharospirillum salsuginis
 GCF_016907655.1	Saccharothrix algeriensis
 GCF_003634935.1	Saccharothrix australiensis
+GCF_040744945.1	Saccharothrix camelliae
 GCF_003014735.1	Saccharothrix carnea
 GCF_017876325.1	Saccharothrix coeruleofusca
 GCF_009769385.1	Saccharothrix deserti
@@ -733,6 +758,7 @@ GCF_042658445.1	Saccharothrix lopnurensis
 GCF_020859565.1	Saccharothrix luteola
 GCF_039521145.1	Saccharothrix mutabilis subsp. mutabilis
 GCF_019375475.1	Saccharothrix obliqua
+GCF_051756985.1	Saccharothrix sabaoui
 GCF_006716745.1	Saccharothrix saharensis
 GCF_054781895.1	Saccharothrix stipae
 GCF_009498035.1	Saccharothrix syringae
@@ -741,7 +767,6 @@ GCF_003752005.1	Saccharothrix texasensis
 GCF_003634995.1	Saccharothrix variisporea
 GCF_014203755.1	Saccharothrix violaceirubra
 GCF_039527585.1	Saccharothrix xinjiangensis
-GCF_030852425.1	Saccharothrix yanglingensis
 GCF_963921665.1	Saezia sanguinis
 GCF_014196795.1	Sagittula marina
 GCF_017813235.1	Sagittula salina
@@ -825,9 +850,11 @@ GCF_003206135.1	Salinicola salarius
 GCF_003206115.1	Salinicola socius
 GCF_003006155.1	Salinicola tamaricis
 GCF_050789285.1	Saliniferula longa
+GCF_054782015.1	Salinifilum aidingensis
 GCF_054491345.1	Salinifilum ghardaiensis
 GCF_900110425.1	Salinihabitans flavidus
 GCF_041228405.1	Salinilacustrithrix flava
+GCF_035607535.1	Salinimicrobium aquimaris
 GCF_900102915.1	Salinimicrobium catena
 GCF_042684505.1	Salinimicrobium flavum
 GCF_042676025.1	Salinimicrobium gaetbulicola
@@ -1017,6 +1044,8 @@ GCF_900156915.1	Sediminibacillus massiliensis
 GCF_009602435.1	Sediminibacillus terrae
 GCF_900167075.1	Sediminibacterium ginsengisoli
 GCF_004361915.1	Sediminibacterium goheungense
+GCF_040362915.1	Sediminibacterium longum
+GCF_025997995.1	Sediminibacterium planctonicum
 GCF_009939005.1	Sediminibacterium roseum
 GCF_000511175.1	Sediminibacterium salmoneum NBRC 103935
 GCF_009939225.1	Sediminibacterium soli
@@ -1087,14 +1116,3 @@ GCF_008056315.1	Seonamhaeicola maritimus
 GCF_004358095.2	Seonamhaeicola sediminis
 GCF_003457605.1	Seongchinamella sediminis
 GCF_004354085.1	Seongchinamella unica
-GCF_004138125.1	Seramator thermalis
-GCF_004786095.1	Serinibacter arcticus
-GCF_002563925.1	Serinibacter salmoneus
-GCF_006337125.1	Serinicoccus chungangensis
-GCF_001685415.1	Serinicoccus hydrothermalis
-GCF_008919445.1	Serinicoccus kebangsaanensis
-GCF_000421245.1	Serinicoccus marinus DSM 15273
-GCF_000224715.1	Serinicoccus profundi MCCC 1A05965
-GCF_004153545.1	Serinicoccus sediminis
-GCF_014836765.1	Serpens gallinarum
-GCF_018141405.1	Serpentinicella alkaliphila

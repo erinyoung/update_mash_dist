@@ -1,3 +1,11 @@
+GCF_001544575.2	Caballeronia cordobensis
+GCF_047608185.1	Caballeronia eucalypticola
+GCF_001544835.2	Caballeronia fortuita
+GCF_000751215.2	Caballeronia glathei
+GCF_001545035.1	Caballeronia glebae
+GCF_022879615.1	Caballeronia grimmiae
+GCF_001544475.1	Caballeronia humi
+GCF_001544875.2	Caballeronia hypogeia
 GCF_000402035.1	Caballeronia insecticola
 GCF_046030135.1	Caballeronia jiangsuensis
 GCF_001028175.1	Caballeronia mineralivorans PML1(12)
@@ -13,7 +21,6 @@ GCF_022879815.1	Caballeronia zhejiangensis
 GCF_019239235.1	Caecibacteroides pullorum
 GCF_002803295.2	Caedibacter taeniospiralis
 GCF_002003465.1	Caenibacillus caldisaponilyticus
-GCF_037154085.1	Caenibius fulvus
 GCF_003860345.1	Caenibius tardaugens NBRC 16725
 GCF_025943965.1	Caenicola nitritireducens
 GCF_015831345.1	Caenimonas aquaedulcis
@@ -50,6 +57,7 @@ GCF_900115765.1	Caldicoprobacter faecalis
 GCF_016908415.1	Caldicoprobacter guelmensis
 GCF_039654145.1	Caldifermentibacillus hisashii
 GCF_000281175.1	Caldilinea aerophila DSM 14535 = NBRC 104270
+GCF_055387525.1	Caldilinea tarbellica
 GCF_001548275.1	Caldimicrobium thiodismutans
 GCF_026013905.1	Caldimonas aquatica
 GCF_001017435.1	Caldimonas brevitalea
@@ -163,6 +171,7 @@ GCF_003953955.1	Candidatus Aquarickettsia rohweri
 GCF_910589745.1	Candidatus Arcticimaribacter forsetii
 GCF_001534665.1	Candidatus Arsenophonus lipoptenae
 GCF_045346035.1	Candidatus Arsenophonus nilaparvatae
+GCF_056113345.1	Candidatus Arsenophonus phytopathogenicus
 GCF_001640365.1	Candidatus Arsenophonus triatominarum
 GCF_000025125.1	Candidatus Atelocyanobacterium thalassa isolate ALOHA
 GCF_002159705.1	Candidatus Avelusimicrobium gallicola
@@ -278,6 +287,7 @@ GCF_029867005.1	Candidatus Haliotispira prima
 GCF_003333265.1	Candidatus Halocynthiibacter alkanivorans
 GCF_000021705.1	Candidatus Hamiltonella defensa 5AT (Acyrthosiphon pisum)
 GCF_020541205.1	Candidatus Hartigia pinicola
+GCF_055505085.1	Candidatus Hepatincolaceae symbiont of Strigamia maritima
 GCF_000742475.1	Candidatus Hepatobacter penaei
 GCF_000582535.1	Candidatus Hepatoplasma crinochetorum Av
 GCF_900044015.1	Candidatus Hoaglandella endobia
@@ -300,6 +310,7 @@ GCF_000014005.1	Candidatus Koribacter versatilis Ellin345
 GCF_001458555.1	Candidatus Kryptobacter tengchongensis
 GCF_001535985.1	Candidatus Kryptonium thompsonii
 GCF_011066545.1	Candidatus Kuenenia stuttgartensis
+GCF_055378745.1	Candidatus Kurthia intestinigallinarum
 GCF_964019805.1	Candidatus Lariskella endosymbiont_of_Epinotia ramella
 GCF_964020185.1	Candidatus Lariskella endosymbiont_of_Hedychridium roseum
 GCF_010367455.1	Candidatus Laterigemmans baculatus
@@ -350,7 +361,6 @@ GCF_001645765.1	Candidatus Mycoplasma haematobovis
 GCF_902712995.1	Candidatus Mycoplasma haematohominis
 GCF_000319365.1	Candidatus Mycoplasma haematominutum Birmingham 1
 GCF_030550815.1	Candidatus Mycoplasma mahonii
-GCF_054170725.1	Candidatus Mycoplasma pogonae
 GCF_025273655.1	Candidatus Mycosynbacter amalyticus
 GCF_004151455.1	Candidatus Nanogingivalis gingivitcus
 GCF_002288305.1	Candidatus Nanopelagicus abundans
@@ -466,6 +476,7 @@ GCF_022760755.1	Candidatus Rhodoblastus alkanivorans
 GCF_001854225.1	Candidatus Rhodoluna planktonica
 GCF_003664375.1	Candidatus Rickettsia colombianensi
 GCF_045865205.1	Candidatus Rickettsia kedanie
+GCF_056135685.1	Candidatus Rickettsia senegalensis
 GCF_001881495.1	Candidatus Rickettsiella isopodorum
 GCF_003966755.1	Candidatus Rickettsiella viridis
 GCF_000093065.1	Candidatus Riesia pediculicola USDA
@@ -604,6 +615,8 @@ GCF_052442865.1	Caproiciproducens puteiluti
 GCF_003574315.2	Capsulimonas corticalis
 GCF_001543895.1	Carbonactinospora thermoautotrophica
 GCF_039592655.1	Carbonatibacter coralli
+GCF_050157065.1	Carbonicoccus niuqiaonis
+GCF_050157055.1	Carbonicoccus zhangzhihongae
 GCF_035593305.1	Carboxydichorda subterranea
 GCF_900167165.1	Carboxydocella sporoproducens DSM 16521
 GCF_000427565.1	Carboxydothermus ferrireducens DSM 11255
@@ -833,7 +846,7 @@ GCF_011317445.1	Chelativorans multitrophicus
 GCF_011317505.1	Chelativorans oligotrophicus
 GCF_025398195.1	Chelativorans petroleitrophicus
 GCF_025336525.1	Chelativorans salis
-GCF_009812055.1	Chelativorans xinjiangense
+GCF_009812055.1	Chelativorans xinjiangensis
 GCF_030067675.1	Chelatococcus albus
 GCF_018398275.1	Chelatococcus asaccharovorans
 GCF_014196925.1	Chelatococcus caeni
@@ -867,6 +880,7 @@ GCF_030409555.1	Chitinimonas viridis
 GCF_042140075.1	Chitiniphilus eburneus
 GCF_025642115.1	Chitiniphilus purpureus
 GCF_000374805.1	Chitiniphilus shinanonensis DSM 23277
+GCF_052230655.1	Chitinirhabdus sediminis
 GCF_000474745.1	Chitinivibrio alkaliphilus ACht1
 GCF_014202905.1	Chitinivorax tropicus
 GCF_024437655.1	Chitinolyticbacter albus
@@ -973,4 +987,3 @@ GCF_001951155.1	Christiangramia flava JLT2011
 GCF_000060345.1	Christiangramia forsetii KT0803
 GCF_003024155.1	Christiangramia fulva
 GCF_003054225.1	Christiangramia gaetbulicola
-GCF_022489035.1	Christiangramia lutea

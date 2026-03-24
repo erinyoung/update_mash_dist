@@ -1,3 +1,16 @@
+GCF_900239935.1	Pseudoalteromonas carrageenovora IAM 12662
+GCF_000238375.3	Pseudoalteromonas citrea
+GCF_900112265.1	Pseudoalteromonas denitrificans DSM 6059
+GCF_005877035.1	Pseudoalteromonas distincta
+GCF_002221525.1	Pseudoalteromonas espejiana DSM 9414
+GCF_042643375.1	Pseudoalteromonas fenneropenaei
+GCF_000690055.1	Pseudoalteromonas fuliginea
+GCF_005886105.2	Pseudoalteromonas galatheae
+GCF_001641615.1	Pseudoalteromonas gelatinilytica
+GCF_945859885.1	Pseudoalteromonas haloplanktis
+GCF_945859825.1	Pseudoalteromonas holothuriae
+GCF_002310795.1	Pseudoalteromonas issachenkonii
+GCF_003515105.1	Pseudoalteromonas lipolytica
 GCF_006704145.1	Pseudoalteromonas luteoviolacea
 GCF_024746855.1	Pseudoalteromonas maricaloris
 GCF_900141965.1	Pseudoalteromonas marina
@@ -240,6 +253,7 @@ GCF_052697045.1	Pseudomonas ceruminis
 GCF_015712105.2	Pseudomonas chaetocerotis
 GCF_036689615.1	Pseudomonas chlororaphis subsp. chlororaphis
 GCF_018343775.1	Pseudomonas cichorii
+GCF_049331905.1	Pseudomonas cimarronensis
 GCF_025336485.1	Pseudomonas citri
 GCF_001586155.1	Pseudomonas citronellolis
 GCF_030580855.1	Pseudomonas citrulli
@@ -265,6 +279,7 @@ GCF_019145435.1	Pseudomonas ekonensis
 GCF_001411475.1	Pseudomonas endophytica
 GCF_000026105.1	Pseudomonas entomophila L48
 GCF_013374995.1	Pseudomonas eucalypticola
+GCF_023544715.1	Pseudomonas eutrophicaquae
 GCF_900102035.1	Pseudomonas extremaustralis
 GCF_024584605.1	Pseudomonas extremorientalis
 GCF_019139895.1	Pseudomonas fakonensis
@@ -385,6 +400,7 @@ GCF_015461845.1	Pseudomonas mucoides
 GCF_012971725.1	Pseudomonas multiresinivorans
 GCF_019139535.1	Pseudomonas muyukensis
 GCF_004682045.1	Pseudomonas nabeulensis
+GCF_020025155.1	Pseudomonas nanhaiensis
 GCF_015461835.1	Pseudomonas neuropathica
 GCF_003797945.1	Pseudomonas neustonica
 GCF_005877905.1	Pseudomonas nicosulfuronedens
@@ -416,6 +432,7 @@ GCF_904067025.1	Pseudomonas paraversuta
 GCF_900099645.1	Pseudomonas peli
 GCF_014268935.2	Pseudomonas peradeniyensis
 GCF_024112395.2	Pseudomonas pergaminensis
+GCF_900291015.1	Pseudomonas persica
 GCF_021728295.1	Pseudomonas petrae
 GCF_045037875.1	Pseudomonas petroselini
 GCF_021602345.1	Pseudomonas pharyngis
@@ -447,6 +464,7 @@ GCF_043496865.1	Pseudomonas retamae
 GCF_051828235.1	Pseudomonas rhizophila
 GCF_005250615.1	Pseudomonas rhizoryzae
 GCF_000761155.1	Pseudomonas rhizosphaerae
+GCF_031583775.1	Pseudomonas rhizozeae
 GCF_013285305.1	Pseudomonas rhodesiae
 GCF_039888995.1	Pseudomonas rossensis
 GCF_028657115.1	Pseudomonas rubra
@@ -483,6 +501,7 @@ GCF_054788395.1	Pseudomonas sp. microsymbiont 2
 GCF_009724245.1	Pseudomonas spelaei
 GCF_034653255.1	Pseudomonas spirodelae
 GCF_021603585.1	Pseudomonas sputi
+GCF_048595745.1	Pseudomonas stagnisoli
 GCF_023823685.1	Pseudomonas subflava
 GCF_030053115.1	Pseudomonas svalbardensis
 GCF_901482615.1	Pseudomonas synxantha
@@ -519,9 +538,11 @@ GCF_900105825.1	Pseudomonas vancouverensis
 GCF_014268755.2	Pseudomonas vanderleydeniana
 GCF_002028325.1	Pseudomonas veronii
 GCF_001294575.1	Pseudomonas versuta
+GCF_038048985.1	Pseudomonas vesperimontis
 GCF_004786035.1	Pseudomonas viciae
 GCF_023072615.1	Pseudomonas violetae
 GCF_900184295.1	Pseudomonas viridiflava
+GCF_038096165.1	Pseudomonas viridinivis
 GCF_014269035.2	Pseudomonas vlassakiae
 GCF_040438935.1	Pseudomonas vranovensis
 GCF_024749185.1	Pseudomonas wadenswilerensis
@@ -548,6 +569,7 @@ GCF_039531635.1	Pseudonocardia ailaonensis
 GCF_022524485.1	Pseudonocardia alaniniphila
 GCF_013408715.1	Pseudonocardia alni
 GCF_900115005.1	Pseudonocardia ammonioxydans
+GCF_054901235.1	Pseudonocardia artemisiae
 GCF_000423625.1	Pseudonocardia asaccharolytica DSM 44247 = NBRC 16224
 GCF_039526725.1	Pseudonocardia aurantiaca
 GCF_003945385.1	Pseudonocardia autotrophica
@@ -569,6 +591,7 @@ GCF_021283305.1	Pseudonocardia kujensis
 GCF_006716445.1	Pseudonocardia kunmingensis
 GCF_018531445.1	Pseudonocardia lacus
 GCF_042658055.1	Pseudonocardia lutea
+GCF_018531475.2	Pseudonocardia mahuensis
 GCF_046546495.1	Pseudonocardia nantongensis
 GCF_040105385.1	Pseudonocardia nematodicida
 GCF_019396355.1	Pseudonocardia nigra
@@ -667,6 +690,7 @@ GCF_000504085.1	Pseudothermotoga elfii DSM 9442 = NBRC 107921
 GCF_000504105.1	Pseudothermotoga hypogea DSM 11164 = NBRC 106472
 GCF_000017865.1	Pseudothermotoga lettingae TMO
 GCF_000217815.1	Pseudothermotoga thermarum DSM 5069
+GCF_033100795.1	Pseudothioclava alba
 GCF_002358085.1	Pseudothioclava arenosa
 GCF_029210495.1	Pseudothioclava nitratireducens
 GCF_900114245.1	Pseudovibrio ascidiaceicola
@@ -702,6 +726,7 @@ GCF_030322905.1	Pseudoxanthomonas winnipegensis
 GCF_900215535.1	Pseudoxanthomonas wuyuanensis
 GCF_010093345.1	Pseudoxanthomonas yeongjuensis
 GCF_900141855.1	Pseudozobellia thermophila
+GCF_042646465.1	Pseudundibacterium arcticum
 GCF_003585965.1	Psittacicella gerlachiana
 GCF_003585935.1	Psittacicella hinzii
 GCF_003585925.1	Psittacicella melopsittaci
@@ -744,6 +769,7 @@ GCF_904846305.1	Psychrobacter lutiphocae
 GCF_029953575.1	Psychrobacter maritimus
 GCF_904846355.1	Psychrobacter namhaensis
 GCF_043419765.1	Psychrobacter nivimaris
+GCF_014770435.1	Psychrobacter noctis
 GCF_965638355.1	Psychrobacter okhotskensis
 GCF_018336615.1	Psychrobacter pacificensis
 GCF_900162815.1	Psychrobacter pasteurii
@@ -778,6 +804,7 @@ GCF_000153485.2	Psychroflexus torquis ATCC 700755
 GCF_000378765.1	Psychroflexus tropicus DSM 15496
 GCF_029168315.1	Psychromarinibacter halotolerans
 GCF_029168335.1	Psychromarinibacter sediminicola
+GCF_043789415.1	Psychromicrobium ferritrahens
 GCF_000950575.1	Psychromicrobium lacuslunae
 GCF_013408295.1	Psychromicrobium silvestre
 GCF_030271165.1	Psychromicrobium xiongbiense
@@ -819,6 +846,7 @@ GCF_002760615.1	Puniceibacterium antarcticum
 GCF_007923445.1	Puniceibacterium confluentis
 GCF_900188035.1	Puniceibacterium sediminis
 GCF_014230055.1	Puniceicoccus vermicola
+GCF_055380425.1	Puribacter membranae
 GCF_018408705.1	Pusillibacter faecalis
 GCF_003545815.1	Pusillimonas caeni
 GCF_014237865.1	Pusillimonas minor
@@ -842,6 +870,7 @@ GCF_014385105.1	Qingrenia yutianensis
 GCF_007855645.1	Qingshengfaniella alkalisoli
 GCF_019711535.1	Qipengyuania aestuarii
 GCF_009828025.1	Qipengyuania algicida
+GCF_042492175.1	Qipengyuania algicola
 GCF_009827445.1	Qipengyuania aquimaris
 GCF_013370205.1	Qipengyuania atrilutea
 GCF_019711375.1	Qipengyuania aurantiaca
@@ -866,6 +895,7 @@ GCF_030717945.1	Qipengyuania profundimaris
 GCF_019711565.1	Qipengyuania proteolytica
 GCF_019711355.1	Qipengyuania psychrotolerans
 GCF_019711515.1	Qipengyuania qiaonensis
+GCF_042493225.1	Qipengyuania rhodophyticola
 GCF_004358425.1	Qipengyuania sediminis
 GCF_002795865.1	Qipengyuania seohaensis
 GCF_015529805.1	Qipengyuania soli
@@ -882,6 +912,9 @@ GCF_052643595.1	Quadrisphaera oryzae
 GCF_008041935.1	Quadrisphaera setariae
 GCF_020510525.1	Quatrionicoccus australiensis
 GCF_014202215.1	Quisquiliibacterium transsilvanicum
+GCF_042436675.1	Quyinboa ferrireducens
+GCF_042219825.1	Quyinboa mangrovi
+GCF_042219855.1	Quyinboa sediminis
 GCF_030657355.1	Radicibacter daui
 GCF_007301515.1	Radiobacillus deserti
 GCF_021049245.1	Radiobacillus kanasensis
@@ -940,11 +973,6 @@ GCF_009758015.1	Ramlibacter pinisoli
 GCF_004681965.1	Ramlibacter rhizophilus
 GCF_054783415.1	Ramlibacter solisilvae
 GCF_000215705.1	Ramlibacter tataouinensis TTB310
-GCF_036561965.2	Raoultella lignicola
-GCF_030505655.1	Raoultella ornithinolytica
-GCF_000783935.2	Raoultella planticola
-GCF_036561945.1	Raoultella scottii
-GCF_012029655.1	Raoultella terrigena
 GCF_900199545.1	Raoultibacter massiliensis
 GCF_901411515.1	Raoultibacter phocaeensis
 GCF_022845715.1	Raoultibacter timonensis
@@ -968,6 +996,7 @@ GCF_014770185.1	Rathayibacter toxicus
 GCF_001641005.1	Rathayibacter tritici
 GCF_039540405.1	Ravibacter arvi
 GCF_009768935.1	Rectinema subterraneum
+GCF_052828705.1	Reella acinonychis
 GCF_014202935.1	Rehaibacterium terrae
 GCF_900142205.1	Reichenbachiella agariperforans
 GCF_025502585.1	Reichenbachiella agarivorans
@@ -993,6 +1022,7 @@ GCF_016583795.1	Rhabdochromatium marinum
 GCF_013415485.1	Rhabdonatronobacter sediminivivens
 GCF_021246445.1	Rhabdothermincola salaria
 GCF_014805525.1	Rhabdothermincola sediminis
+GCF_055382915.1	Rhabdothermus arcticus
 GCF_039523055.1	Rheinheimera aquimaris
 GCF_030731985.1	Rheinheimera baltica
 GCF_021290965.1	Rheinheimera faecalis
@@ -1023,6 +1053,7 @@ GCF_025941625.1	Rhizobium acaciae
 GCF_002531755.2	Rhizobium acidisoli
 GCF_900094625.1	Rhizobium aethiopicum
 GCF_021555155.1	Rhizobium alarense
+GCF_003122325.1	Rhizobium album
 GCF_001542405.1	Rhizobium altiplani
 GCF_030551875.1	Rhizobium alvei
 GCF_024346605.1	Rhizobium anhuiense bv. trifolii
@@ -1036,6 +1067,7 @@ GCF_051124245.1	Rhizobium binae
 GCF_028994275.1	Rhizobium binxianense
 GCF_000769405.2	Rhizobium brockwellii
 GCF_030272695.1	Rhizobium calliandrae
+GCF_977018625.1	Rhizobium capsici
 GCF_019511525.1	Rhizobium cauense
 GCF_013087625.1	Rhizobium changzhiense
 GCF_002531935.1	Rhizobium chutanense
@@ -1063,6 +1095,7 @@ GCF_005862305.2	Rhizobium indicum
 GCF_034554815.1	Rhizobium indigoferae
 GCF_003627755.1	Rhizobium jaguaris
 GCF_000009265.1	Rhizobium johnstonii 3841
+GCF_977018605.1	Rhizobium kunmingense
 GCF_019778565.1	Rhizobium laguerreae
 GCF_004306555.1	Rhizobium leguminosarum
 GCF_022968395.1	Rhizobium lemnae
@@ -1093,25 +1126,3 @@ GCF_004912135.1	Rhizobium rosettiformans W3
 GCF_017357285.1	Rhizobium ruizarguesonis
 GCF_016722925.1	Rhizobium setariae
 GCF_023757665.1	Rhizobium skierniewicense Ch11
-GCF_014207075.1	Rhizobium soli
-GCF_013087515.1	Rhizobium sophorae
-GCF_025200795.1	Rhizobium sophoriradicis
-GCF_007004135.1	Rhizobium straminoryzae
-GCF_900220975.1	Rhizobium subbaraonis
-GCF_025200715.1	Rhizobium sullae
-GCF_003425685.1	Rhizobium terrae
-GCF_012927355.1	Rhizobium terricola
-GCF_900108425.1	Rhizobium tibeticum
-GCF_000330885.1	Rhizobium tropici CIAT 899
-GCF_003240585.1	Rhizobium tubonense
-GCF_003240565.2	Rhizobium tumorigenes
-GCF_003985155.1	Rhizobium vallis
-GCF_014873945.1	Rhizobium viscosum
-GCF_014201355.1	Rhizobium wenxiniae
-GCF_977109285.1	Rhizobium yanglingense
-GCF_016862955.1	Rhizocola hellebori
-GCF_025996515.1	Rhizohabitans arisaemae
-GCF_011762045.1	Rhizomicrobium electricum
-GCF_011761565.1	Rhizomicrobium palustre
-GCF_018397995.1	Rhizomonospora bruguierae
-GCF_049889055.1	Rhizorhabdus antheiae
