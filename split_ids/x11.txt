@@ -1,3 +1,24 @@
+GCF_001547975.1	Mycoplasmopsis arginini
+GCF_900660525.1	Mycoplasmopsis bovigenitalium
+GCF_900660515.1	Mycoplasmopsis bovirhinis
+GCF_000183385.1	Mycoplasmopsis bovis PG45
+GCF_000695835.1	Mycoplasmopsis californica
+GCF_001553195.1	Mycoplasmopsis canis PG 14
+GCF_024498215.1	Mycoplasmopsis caviae
+GCF_036350065.1	Mycoplasmopsis ciconiae
+GCF_900660645.1	Mycoplasmopsis citelli
+GCF_900660685.1	Mycoplasmopsis columbina
+GCF_900660705.1	Mycoplasmopsis columbinasalis
+GCF_900660675.1	Mycoplasmopsis columboralis
+GCF_000526955.1	Mycoplasmopsis cricetuli ATCC 35279
+GCF_000328725.1	Mycoplasmopsis cynos C142
+GCF_900476105.1	Mycoplasmopsis edwardii
+GCF_024498255.1	Mycoplasmopsis equigenitalium
+GCF_000687775.1	Mycoplasmopsis felifaucium ATCC 43428
+GCF_034647055.2	Mycoplasmopsis felis
+GCF_000186005.1	Mycoplasmopsis fermentans M64
+GCF_900660495.1	Mycoplasmopsis gallinacea
+GCF_000621085.1	Mycoplasmopsis gallinarum DSM 19816
 GCF_900660635.1	Mycoplasmopsis gallopavonis
 GCF_900660605.1	Mycoplasmopsis glycophila
 GCF_045276885.1	Mycoplasmopsis hyopharyngis
@@ -76,6 +97,7 @@ GCF_900100845.1	Natronincola ferrireducens
 GCF_900111615.1	Natronincola peptidivorans
 GCF_026805325.1	Natronobacillus azotifigens
 GCF_024170285.1	Natronocella acetinitrilica
+GCF_030913385.1	Natronocytophaga cellulosiphila
 GCF_004345615.1	Natronoflexus pectinivorans
 GCF_016925535.1	Natronoglycomyces albus
 GCF_017921895.1	Natronogracilivirga saccharolytica
@@ -86,9 +108,11 @@ GCF_034931365.1	Natronospira elongata
 GCF_024170465.1	Natronospira proteinivora
 GCF_004768465.1	Natronospirillum operosum
 GCF_016925615.1	Natronosporangium hydrolyticum
+GCF_055379935.1	Natronotalea proteinilytica
 GCF_013408305.1	Naumannella cuiyingiana
 GCF_004364645.1	Naumannella halotolerans
 GCF_054073625.1	Naumannella huperziae
+GCF_055388085.1	Nautilia abyssi
 GCF_054656815.1	Nautilia lithotrophica
 GCF_000021725.1	Nautilia profundicola AmH
 GCF_000827595.2	Necropsobacter massiliensis
@@ -173,7 +197,9 @@ GCF_018343535.1	Neobacillus rhizophilus
 GCF_937468385.1	Neobacillus rhizosphaerae
 GCF_010614825.1	Neobacillus sedimentimangrovi
 GCF_002335815.1	Neobacillus soli
+GCF_051233465.1	Neobacillus solisequens
 GCF_011393025.1	Neobacillus terrae
+GCF_051233475.1	Neobacillus terrisolis
 GCF_010975035.1	Neobacillus thermocopriae
 GCF_001026695.1	Neobacillus vireti
 GCF_024299005.1	Neoehrlichia mikurensis
@@ -208,6 +234,7 @@ GCF_011388195.1	Neopusillimonas aestuarii
 GCF_030344915.1	Neopusillimonas aromaticivorans
 GCF_003576595.1	Neopusillimonas maritima
 GCF_002968635.1	Neorhizobium alkalisoli
+GCF_051400715.1	Neorhizobium descurainiae
 GCF_000731315.1	Neorhizobium galegae bv. orientalis str. HAMBI 540
 GCF_002968575.1	Neorhizobium huautlense
 GCF_004053875.1	Neorhizobium lilium
@@ -237,6 +264,7 @@ GCF_020523925.1	Neotamlana laminarinivorans
 GCF_000943555.1	Neotamlana nanhaiensis
 GCF_020523965.1	Neotamlana sargassicola
 GCF_000943565.1	Neotamlana sedimentorum
+GCF_003955735.1	Neoundibacterium parvum
 GCF_014270035.1	Neptunicella marina
 GCF_047922965.1	Neptunicella plasticusilytica
 GCF_014643735.1	Neptunicoccus cionae
@@ -270,6 +298,7 @@ GCF_014874065.1	Nesterenkonia halotolerans
 GCF_014138825.1	Nesterenkonia jeotgali
 GCF_017876395.1	Nesterenkonia lacusekhoensis
 GCF_014873955.1	Nesterenkonia lutea
+GCF_051262655.1	Nesterenkonia maliinae
 GCF_025420485.1	Nesterenkonia marinintestina
 GCF_000455245.1	Nesterenkonia massiliensis
 GCF_003600155.1	Nesterenkonia muleiensis
@@ -433,6 +462,7 @@ GCF_001612685.1	Nocardia altamirensis NBRC 108246
 GCF_001612745.1	Nocardia amamiensis NBRC 102102
 GCF_900215415.1	Nocardia amikacinitolerans
 GCF_001612725.1	Nocardia anaemiae NBRC 100462
+GCF_029675105.1	Nocardia anocheti
 GCF_000308375.1	Nocardia aobensis NBRC 100429
 GCF_000308435.1	Nocardia araoensis NBRC 100135
 GCF_001618405.1	Nocardia arizonensis
@@ -684,8 +714,9 @@ GCF_011300215.1	Nocardioides piscis
 GCF_006346395.1	Nocardioides plantarum
 GCF_003725535.1	Nocardioides pocheonensis
 GCF_021648885.1	Nocardioides potassii
-GCF_051280635.1	Nocardioides proteolyticus
+GCF_051280635.2	Nocardioides proteolyticus
 GCF_007992415.1	Nocardioides psychrotolerans
+GCF_054653575.1	Nocardioides pyridinolyticus
 GCF_034661175.1	Nocardioides renjunii
 GCF_019931675.1	Nocardioides rotundus
 GCF_008087085.1	Nocardioides rubriscoriae
@@ -984,6 +1015,8 @@ GCF_014334095.1	Novosphingopyxis iocasae
 GCF_016464385.1	Nucisporomicrobium flavum
 GCF_001375555.1	Numidum massiliense
 GCF_000980985.1	Obesumbacterium proteus
+GCF_039994875.1	Occallatibacter bavaricus
+GCF_001449115.1	Occallatibacter gabretensis
 GCF_025264625.1	Occallatibacter riparius
 GCF_003131205.1	Occallatibacter savannae
 GCF_902703175.1	Occultella aeris
@@ -1009,6 +1042,7 @@ GCF_002751875.1	Oceaniglobus indicus
 GCF_002869745.1	Oceaniglobus roseus
 GCF_020529025.1	Oceaniglobus trochenteri
 GCF_003337215.1	Oceanihabitans sediminis
+GCF_030732065.1	Oceanimonas aquatica
 GCF_004365405.1	Oceanimonas baumannii
 GCF_002242685.1	Oceanimonas doudoroffii
 GCF_003049725.1	Oceanimonas marisflavi
@@ -1118,23 +1152,3 @@ GCF_003838225.1	Okeania hirsuta
 GCF_038050375.1	Okeanomitos corallinicola TIOX110
 GCF_054780075.1	Okibacterium endophyticum
 GCF_900167575.1	Okibacterium fritillariae
-GCF_900608495.1	Olavius algarvensis spirochete endosymbiont
-GCF_900078545.1	Olegusella massiliensis
-GCF_012395255.1	Oleiagrimonas citrea
-GCF_014201555.1	Oleiagrimonas soli
-GCF_000012665.1	Oleidesulfovibrio alaskensis G20
-GCF_004118375.1	Oleiharenicola lentus
-GCF_002162375.1	Oleiphilus messinensis
-GCF_003336875.1	Oleisolibacter albus
-GCF_027864655.1	Oleispirillum naphthae
-GCF_003590945.1	Oleomonas cavernae
-GCF_016028735.1	Oligella ureolytica
-GCF_900454345.1	Oligella urethralis
-GCF_001748245.1	Oligoflexus tunisiensis
-GCF_030814695.1	Oligosphaera ethanolica
-GCF_009696065.1	Oliverpabstia intestinalis
-GCF_900109575.1	Olivibacter domesticus
-GCF_039542865.1	Olivibacter ginsenosidimutans
-GCF_900607235.1	Olivibacter jilunii
-GCF_042432805.1	Olivibacter oleidegradans
-GCF_000427965.1	Olivibacter sitiensis DSM 17696

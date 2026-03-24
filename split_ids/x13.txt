@@ -1,7 +1,24 @@
+GCF_000803315.1	Pectobacterium actinidiae
+GCF_003382565.3	Pectobacterium aquaticum
+GCF_037076465.1	Pectobacterium araliae
+GCF_015689195.1	Pectobacterium aroidearum
+GCF_000740965.1	Pectobacterium atrosepticum
+GCF_000749845.1	Pectobacterium betavasculorum
+GCF_009873295.1	Pectobacterium brasiliense
+GCF_036885195.1	Pectobacterium cacticida
+GCF_013488025.1	Pectobacterium carotovorum
+GCF_020181655.1	Pectobacterium colocasium
+GCF_000803215.1	Pectobacterium fontis
+GCF_026800125.1	Pectobacterium jejuense
+GCF_009931295.1	Pectobacterium odoriferum
+GCF_001742145.1	Pectobacterium parmentieri
+GCF_020971565.1	Pectobacterium parvum
+GCF_003312355.2	Pectobacterium peruviense
 GCF_002288545.1	Pectobacterium polaris
 GCF_005497185.1	Pectobacterium polonicum
 GCF_012427845.1	Pectobacterium punjabense
 GCF_014946775.2	Pectobacterium quasiaquaticum
+GCF_051468635.1	Pectobacterium sinaloense
 GCF_003932035.1	Pectobacterium versatile
 GCF_001742185.1	Pectobacterium wasabiae CFBP 3304
 GCF_004137795.1	Pectobacterium zantedeschiae
@@ -303,6 +320,7 @@ GCF_007993045.1	Phaeodactylibacter luteus
 GCF_965229835.1	Phaeodactylibacter xiamenensis
 GCF_042683125.1	Phaeospirillum tilakii
 GCF_014861485.1	Phaeovibrio sulfidiphilus
+GCF_023544865.1	Phaeovulum molybdatiresistens
 GCF_004363195.1	Phaeovulum veldkampii DSM 11550
 GCF_900217755.1	Phaeovulum vinaykumarii
 GCF_003945365.1	Phascolarctobacterium faecium
@@ -486,6 +504,7 @@ GCF_004327355.1	Phytopseudomonas dryadis
 GCF_900142655.1	Phytopseudomonas punonensis
 GCF_900102335.1	Phytopseudomonas seleniipraecipitans
 GCF_900112645.1	Phytopseudomonas straminea
+GCF_055386745.1	Piezobacter thermophilus
 GCF_009792895.1	Pigmentibacter ruber
 GCF_008119665.1	Pigmentiphaga aceris
 GCF_039523035.1	Pigmentiphaga daeguensis
@@ -507,6 +526,7 @@ GCF_019160155.1	Pinisolibacter aquiterrae
 GCF_007750855.1	Pirellulimonas nuda
 GCF_900110685.1	Piscibacillus halophilus
 GCF_042685285.1	Piscibacillus salipiscarius
+GCF_055383505.1	Piscibacter tructae
 GCF_001515525.1	Piscicoccus intestinalis NBRC 104926
 GCF_900113675.1	Pisciglobus halotolerans
 GCF_004011805.1	Piscinibacter defluvii
@@ -520,7 +540,11 @@ GCF_009708955.1	Piscirickettsia salmonis
 GCF_007954585.1	Pistricoccus aurantiacus
 GCF_030622045.1	Planctellipticum variicoloris
 GCF_020687805.1	Planctobacterium marinum
+GCF_051466325.1	Planctomicrobium aquicomposti
+GCF_051465645.1	Planctomicrobium limosum
+GCF_051466335.1	Planctomicrobium mucosum
 GCF_900113665.1	Planctomicrobium piriforme
+GCF_051465655.1	Planctomicrobium stercoris
 GCF_003067705.1	Planctomonas deserti
 GCF_008642235.1	Planctomonas psychrotolerans
 GCF_007752345.1	Planctopirus ephydatiae
@@ -550,6 +574,7 @@ GCF_016820615.1	Planococcus beijingensis
 GCF_042681545.1	Planococcus chinensis
 GCF_020023385.1	Planococcus circulans
 GCF_003664125.1	Planococcus citreus
+GCF_049262615.1	Planococcus daihaiensis
 GCF_042654465.1	Planococcus dechangensis
 GCF_001687665.2	Planococcus donghaensis
 GCF_002009235.1	Planococcus faecalis
@@ -614,6 +639,8 @@ GCF_025753815.1	Plectonema radiosum NIES-515
 GCF_031198435.1	Pleionea litopenaei
 GCF_003148745.1	Pleionea mediterranea
 GCF_007570825.1	Pleionea sediminis
+GCF_055395745.1	Pleomorphochaeta caudata
+GCF_055396005.1	Pleomorphochaeta naphthae
 GCF_002770725.1	Pleomorphomonas carboxyditropha
 GCF_900114935.1	Pleomorphomonas diazotrophica
 GCF_000425185.1	Pleomorphomonas koreensis DSM 23070
@@ -824,6 +851,7 @@ GCF_030160415.1	Portibacter lacus
 GCF_021533195.1	Portibacter marinus
 GCF_000744735.1	Porticoccus hydrocarbonoclasticus MCTG13d
 GCF_030676955.1	Porticoccus litoralis
+GCF_000332175.1	Portococcus stanieri PCC 6802
 GCF_003667345.1	Poseidonibacter antarcticus
 GCF_013283835.1	Poseidonibacter lekithochrous
 GCF_009208055.1	Poseidonibacter ostreae
@@ -1032,6 +1060,7 @@ GCF_029910235.1	Pseudanabaena galeata CCNP1313
 GCF_051131155.1	Pseudanabaena minima str. Chao 2107
 GCF_030323025.1	Pseudanabaena mucicola str. Chao 1806
 GCF_012863495.1	Pseudanabaena yagii GIHE-NHR1
+GCF_000317085.1	Pseudanabaenococcus habilitatus PCC 7502
 GCF_038066595.1	Pseudaquabacterium inlustre
 GCF_005403045.1	Pseudaquabacterium pictum
 GCF_038066575.1	Pseudaquabacterium rugosum
@@ -1082,6 +1111,7 @@ GCF_004214835.1	Pseudidiomarina tainanensis
 GCF_003987435.1	Pseudidiomarina taiwanensis
 GCF_030466375.1	Pseudidiomarina terrestris
 GCF_001418345.1	Pseudidiomarina woesei
+GCF_052541995.1	Pseudidiomarina xizangensis
 GCF_024518735.1	Pseudoalteromonas agarivorans
 GCF_001999225.1	Pseudoalteromonas aliena
 GCF_001854605.1	Pseudoalteromonas amylolytica
@@ -1093,16 +1123,3 @@ GCF_007988745.1	Pseudoalteromonas atlantica
 GCF_014858725.1	Pseudoalteromonas aurantia 208
 GCF_001854475.1	Pseudoalteromonas byunsanensis
 GCF_013140855.1	Pseudoalteromonas caenipelagi
-GCF_900239935.1	Pseudoalteromonas carrageenovora IAM 12662
-GCF_000238375.3	Pseudoalteromonas citrea
-GCF_900112265.1	Pseudoalteromonas denitrificans DSM 6059
-GCF_005877035.1	Pseudoalteromonas distincta
-GCF_002221525.1	Pseudoalteromonas espejiana DSM 9414
-GCF_042643375.1	Pseudoalteromonas fenneropenaei
-GCF_000690055.1	Pseudoalteromonas fuliginea
-GCF_005886105.2	Pseudoalteromonas galatheae
-GCF_001641615.1	Pseudoalteromonas gelatinilytica
-GCF_945859885.1	Pseudoalteromonas haloplanktis
-GCF_945859825.1	Pseudoalteromonas holothuriae
-GCF_002310795.1	Pseudoalteromonas issachenkonii
-GCF_003515105.1	Pseudoalteromonas lipolytica

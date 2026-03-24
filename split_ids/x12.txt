@@ -1,3 +1,24 @@
+GCF_900608495.1	Olavius algarvensis spirochete endosymbiont
+GCF_900078545.1	Olegusella massiliensis
+GCF_012395255.1	Oleiagrimonas citrea
+GCF_014201555.1	Oleiagrimonas soli
+GCF_000012665.1	Oleidesulfovibrio alaskensis G20
+GCF_055388115.1	Oleidesulfovibrio vietnamensis
+GCF_004118375.1	Oleiharenicola lentus
+GCF_002162375.1	Oleiphilus messinensis
+GCF_003336875.1	Oleisolibacter albus
+GCF_027864655.1	Oleispirillum naphthae
+GCF_003590945.1	Oleomonas cavernae
+GCF_016028735.1	Oligella ureolytica
+GCF_900454345.1	Oligella urethralis
+GCF_001748245.1	Oligoflexus tunisiensis
+GCF_030814695.1	Oligosphaera ethanolica
+GCF_009696065.1	Oliverpabstia intestinalis
+GCF_900109575.1	Olivibacter domesticus
+GCF_039542865.1	Olivibacter ginsenosidimutans
+GCF_900607235.1	Olivibacter jilunii
+GCF_042432805.1	Olivibacter oleidegradans
+GCF_000427965.1	Olivibacter sitiensis DSM 17696
 GCF_003259525.1	Olleya aquimaris
 GCF_000518485.1	Olleya marilimosa CAM030
 GCF_900114005.1	Olleya namhaensis
@@ -59,6 +80,7 @@ GCF_023923205.1	Ornithinimicrobium cryptoxanthini
 GCF_023923225.1	Ornithinimicrobium faecis
 GCF_004526345.1	Ornithinimicrobium flavum
 GCF_006716885.1	Ornithinimicrobium humiphilum
+GCF_045032595.1	Ornithinimicrobium jinqii
 GCF_006519705.1	Ornithinimicrobium kibberense
 GCF_003352835.1	Ornithinimicrobium murale
 GCF_052073805.1	Ornithinimicrobium panacihumi
@@ -73,7 +95,7 @@ GCF_900089455.2	Orrella dioscoreae
 GCF_003058465.1	Orrella marina
 GCF_021864535.1	Oryzibacter oryziterrae
 GCF_014534685.1	Oryzicola mucosus
-GCF_037199735.1	Oryzifoliimicrobium ureilyticus
+GCF_037199735.1	Oryzifoliimicrobium ureilyticum
 GCF_006716205.1	Oryzihumus leptocrescens
 GCF_900103645.1	Oryzisolibacter propanilivorax
 GCF_046764005.1	Oryzobacter faecalis
@@ -271,6 +293,7 @@ GCF_034055775.1	Paenibacillus hunanensis
 GCF_002741055.1	Paenibacillus ihbetae
 GCF_001368795.1	Paenibacillus ihuae
 GCF_001403875.1	Paenibacillus ihumii
+GCF_043195395.1	Paenibacillus ilasis
 GCF_004000925.1	Paenibacillus illinoisensis NBRC 15959
 GCF_001477135.1	Paenibacillus jamilae
 GCF_047238105.1	Paenibacillus jepli
@@ -288,6 +311,7 @@ GCF_004000945.1	Paenibacillus lautus NBRC 15380
 GCF_012933385.1	Paenibacillus lemnae
 GCF_003931855.1	Paenibacillus lentus
 GCF_017942085.1	Paenibacillus lignilyticus
+GCF_046244365.1	Paenibacillus litoralis
 GCF_011761355.1	Paenibacillus lupini
 GCF_006542765.1	Paenibacillus luteus
 GCF_003991425.1	Paenibacillus lutimineralis
@@ -355,6 +379,7 @@ GCF_030263935.1	Paenibacillus polygoni
 GCF_022811565.1	Paenibacillus polymyxa ATCC 842
 GCF_900102085.1	Paenibacillus polysaccharolyticus
 GCF_000315235.1	Paenibacillus popilliae ATCC 14706
+GCF_049725345.1	Paenibacillus praedii
 GCF_021369635.1	Paenibacillus profundus
 GCF_003337375.1	Paenibacillus prosopidis
 GCF_004135365.1	Paenibacillus protaetiae
@@ -379,6 +404,7 @@ GCF_001486505.1	Paenibacillus rubinfantis
 GCF_000612505.1	Paenibacillus sabinae T27
 GCF_014705605.1	Paenibacillus sabuli
 GCF_016908255.1	Paenibacillus sacheonensis
+GCF_051307165.1	Paenibacillus salivarius
 GCF_003233845.1	Paenibacillus sambharensis
 GCF_036864765.1	Paenibacillus sanfengchensis
 GCF_000374825.1	Paenibacillus sanguinis 2301083 = DSM 16941
@@ -711,6 +737,7 @@ GCF_013177695.1	Paraburkholderia solitsugae
 GCF_001865575.2	Paraburkholderia sprentiae WSM5005
 GCF_900100565.1	Paraburkholderia steynii
 GCF_031456815.1	Paraburkholderia strydomiana
+GCF_040812055.1	Paraburkholderia suaedae
 GCF_900177725.1	Paraburkholderia susongensis
 GCF_022213065.1	Paraburkholderia tagetis
 GCF_002902925.1	Paraburkholderia terrae
@@ -812,6 +839,7 @@ GCF_003591515.1	Paracoccus onubensis
 GCF_042680785.1	Paracoccus pacificus
 GCF_042435015.1	Paracoccus panacisoli
 GCF_008824185.1	Paracoccus pantotrophus
+GCF_029027965.1	Paracoccus qomolangmaensis
 GCF_004522175.1	Paracoccus ravus
 GCF_042649245.1	Paracoccus rhizosphaerae
 GCF_002287065.1	Paracoccus salipaludis
@@ -897,6 +925,7 @@ GCF_003060865.1	Paragemmobacter aquarius
 GCF_011059185.1	Paragemmobacter kunshanensis
 GCF_009908315.1	Paragemmobacter ruber
 GCF_014243445.1	Paragemmobacter straminiformis
+GCF_019272935.1	Parageobacillus caldoxylosilyticus
 GCF_002217735.1	Parageobacillus galactosidasius
 GCF_900111865.1	Parageobacillus thermantarcticus
 GCF_001700985.1	Parageobacillus thermoglucosidasius
@@ -946,6 +975,7 @@ GCF_019900845.1	Paraneptunicella aestuarii
 GCF_003259935.1	Paranoxybacillus vitaminiphilus
 GCF_900105445.1	Paraoerskovia marina
 GCF_030296575.1	Paraoerskovia sediminicola
+GCF_051400755.1	Parapedobacter brassicae
 GCF_900112315.1	Parapedobacter composti
 GCF_014642075.1	Parapedobacter defluvii
 GCF_042646065.1	Parapedobacter deserti
@@ -1039,6 +1069,7 @@ GCF_005434975.1	Parerythrobacter lutipelagi
 GCF_008367235.1	Pareuzebyella sediminis
 GCF_005887635.2	Paroceanicella profunda
 GCF_003966955.1	Parolsenella catena
+GCF_014636315.1	Parundibacterium terreum
 GCF_003725335.1	Parvibacter caecicola
 GCF_011762095.1	Parvibaculum indicum
 GCF_000017565.1	Parvibaculum lavamentivorans DS-1
@@ -1091,19 +1122,3 @@ GCF_004341685.1	Pectinatus cerevisiiphilus
 GCF_014076555.1	Pectinatus frisingensis
 GCF_050916305.1	Pectinatus haikarae
 GCF_015732155.1	Pectinatus sottacetonis
-GCF_000803315.1	Pectobacterium actinidiae
-GCF_003382565.3	Pectobacterium aquaticum
-GCF_037076465.1	Pectobacterium araliae
-GCF_015689195.1	Pectobacterium aroidearum
-GCF_000740965.1	Pectobacterium atrosepticum
-GCF_000749845.1	Pectobacterium betavasculorum
-GCF_009873295.1	Pectobacterium brasiliense
-GCF_036885195.1	Pectobacterium cacticida
-GCF_013488025.1	Pectobacterium carotovorum
-GCF_020181655.1	Pectobacterium colocasium
-GCF_000803215.1	Pectobacterium fontis
-GCF_026800125.1	Pectobacterium jejuense
-GCF_009931295.1	Pectobacterium odoriferum
-GCF_001742145.1	Pectobacterium parmentieri
-GCF_020971565.1	Pectobacterium parvum
-GCF_003312355.2	Pectobacterium peruviense

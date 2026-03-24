@@ -1,3 +1,13 @@
+GCF_018904615.1	Verticiella alkaliphila
+GCF_007558815.1	Verticiella sediminum
+GCF_018408575.1	Vescimonas coprocola
+GCF_018326305.1	Vescimonas fastidiosa
+GCF_049060325.1	Vescimonas sanitatis
+GCF_013377275.1	Vespertiliibacter pulmonis
+GCF_024346755.1	Vibrio aerogenes
+GCF_028858425.1	Vibrio aestuarianus
+GCF_012641465.1	Vibrio agarilyticus
+GCF_030400295.1	Vibrio agarivorans
 GCF_003144035.1	Vibrio albus
 GCF_019670485.1	Vibrio alfacsensis
 GCF_028204155.1	Vibrio algarum
@@ -137,6 +147,7 @@ GCF_003350325.1	Vibrio rhodolitus
 GCF_002214395.1	Vibrio rotiferianus
 GCF_024347115.1	Vibrio ruber
 GCF_002218045.2	Vibrio rumoiensis
+GCF_055391395.1	Vibrio sabulosilitoris
 GCF_007990935.1	Vibrio sagamiensis NBRC 104589
 GCF_002811245.1	Vibrio salilacus
 GCF_021272385.1	Vibrio salinus
@@ -173,6 +184,7 @@ GCF_007993035.1	Vicingus serpentipes
 GCF_009695545.1	Victivallis lenta
 GCF_003096415.1	Victivallis vadensis
 GCF_008039615.1	Vineibacter terrae
+GCF_010994035.1	Virgibacillus aidingensis
 GCF_054781035.1	Virgibacillus ainsalahensis
 GCF_017874635.1	Virgibacillus alimentarius
 GCF_042675965.1	Virgibacillus byunsanensis
@@ -225,10 +237,12 @@ GCF_028548455.1	Vogesella aquatica
 GCF_042648525.1	Vogesella facilis
 GCF_014652335.1	Vogesella fluminis
 GCF_003633895.1	Vogesella indigofera
+GCF_979366295.1	Vogesella lacus
 GCF_028548475.1	Vogesella margarita
 GCF_007644035.1	Vogesella mureinivorans
 GCF_902829295.1	Vogesella oryzae
 GCF_040148885.1	Vogesella oryzagri
+GCF_979366545.1	Vogesella perlucida
 GCF_007644045.2	Vogesella urethralis
 GCF_029783845.1	Volucribacter amazonae
 GCF_004339025.1	Volucribacter psittacicida
@@ -276,6 +290,7 @@ GCF_008033445.1	Vulcaniibacterium gelatinicum
 GCF_003814555.1	Vulcaniibacterium tengchongense
 GCF_007923255.1	Vulcaniibacterium thermophilum
 GCF_027923555.1	Vulcanimicrobium alpinum
+GCF_055385885.1	Vulcanithermus mediatlanticus
 GCF_002252705.1	Vulcanococcus limneticus LL
 GCF_001263175.1	Vulgatibacter incomptus
 GCF_000092785.1	Waddlia chondrophila WSU 86-1044
@@ -324,6 +339,7 @@ GCF_010499265.1	Wenzhouxiangella limi
 GCF_001187785.1	Wenzhouxiangella marina
 GCF_042310375.1	Wenzhouxiangella psychrophila
 GCF_003410055.1	Wenzhouxiangella sediminis
+GCF_039581715.1	Whupella caenivorax
 GCF_022354465.1	Wielerella bovis
 GCF_000247565.1	Wigglesworthia glossinidia endosymbiont_of_Glossina morsitans morsitans (Yale colony)
 GCF_024171765.1	Williamsia deligens
@@ -613,8 +629,7 @@ GCF_008245065.1	Wolbachia endosymbiont_of_Chrysomya megacephala
 GCF_000829315.1	Wolbachia endosymbiont_of_Cimex lectularius
 GCF_020995475.1	Wolbachia endosymbiont_of_Corcyra cephalonica
 GCF_013365475.1	Wolbachia endosymbiont_of_Cruorifilaria tuberocauda
-GCF_012277315.1	Wolbachia endosymbiont_of_Ctenocephalides felis wCfeJ
-GCF_012277295.1	Wolbachia endosymbiont_of_Ctenocephalides felis wCfeT
+GCF_012277315.1	Wolbachia endosymbiont_of_Ctenocephalides felis
 GCF_000073005.1	Wolbachia endosymbiont_of_Culex quinquefasciatus Pel
 GCF_003344345.1	Wolbachia endosymbiont_of_Cylisticus convexus
 GCF_977011065.1	Wolbachia endosymbiont_of_Dactylopius coccus
@@ -653,6 +668,7 @@ GCF_018555315.1	Wolbachia endosymbiont_of_Erebia cassioides
 GCF_001931755.2	Wolbachia endosymbiont_of_Folsomia candida
 GCF_029856955.1	Wolbachia endosymbiont_of_Frankliniella intonsa
 GCF_000689175.1	Wolbachia endosymbiont_of_Glossina morsitans morsitans
+GCF_978021855.1	Wolbachia endosymbiont_of_Halictus nicosiae
 GCF_025021925.1	Wolbachia endosymbiont_of_Howardula sp.
 GCF_051602725.1	Wolbachia endosymbiont_of_Kerria lacca
 GCF_016031645.1	Wolbachia endosymbiont_of_Kradibia gibbosae
@@ -942,6 +958,7 @@ GCF_015330125.1	Zobellia nedashkovskayae
 GCF_015330165.1	Zobellia roscoffensis
 GCF_044597075.1	Zobellia russellii
 GCF_900156625.1	Zobellia uliginosa
+GCF_038739695.1	Zongyangia acetica
 GCF_014385095.1	Zongyangia hominis
 GCF_012927165.1	Zoogloea dura
 GCF_008107625.1	Zoogloea oleivorans

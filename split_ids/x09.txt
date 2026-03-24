@@ -1,3 +1,28 @@
+GCF_014836425.1	Limosilactobacillus avistercoris
+GCF_947381485.1	Limosilactobacillus avium
+GCF_014145615.1	Limosilactobacillus balticus
+GCF_900156885.1	Limosilactobacillus caccae
+GCF_943192935.1	Limosilactobacillus caecicola
+GCF_014635905.1	Limosilactobacillus caviae
+GCF_055452595.1	Limosilactobacillus coleohominis
+GCF_947387495.1	Limosilactobacillus difficilis
+GCF_001435245.1	Limosilactobacillus equigenerosi DSM 18793 = JCM 14505
+GCF_014145505.1	Limosilactobacillus fastidiosus
+GCF_005341425.1	Limosilactobacillus fermentum
+GCF_008876665.1	Limosilactobacillus frumenti
+GCF_947381495.1	Limosilactobacillus galli
+GCF_001434365.1	Limosilactobacillus gastricus DSM 16045
+GCF_001293735.1	Limosilactobacillus gorillae
+GCF_000312405.1	Limosilactobacillus ingluviei str. Autruche 4
+GCF_026413145.1	Limosilactobacillus kribbianus
+GCF_013423865.1	Limosilactobacillus mucosae
+GCF_025311495.1	Limosilactobacillus oris
+GCF_001435935.1	Limosilactobacillus panis DSM 6035
+GCF_009428965.1	Limosilactobacillus pontis
+GCF_028607025.1	Limosilactobacillus portuensis
+GCF_947381555.1	Limosilactobacillus pulli
+GCF_003703885.1	Limosilactobacillus reuteri
+GCF_014145455.1	Limosilactobacillus rudii
 GCF_001437055.1	Limosilactobacillus secaliphilus
 GCF_932750685.1	Limosilactobacillus urinaemulieris
 GCF_025311515.1	Limosilactobacillus vaginalis
@@ -50,6 +75,7 @@ GCF_002019645.1	Litchfieldia alkalitelluris
 GCF_014982515.1	Litchfieldia luteola
 GCF_900104555.1	Litchfieldia salsa
 GCF_900156865.1	Litchfieldia sinesaloumensis
+GCF_014837155.1	Litchfieldia stipae
 GCF_900107015.1	Litoreibacter albidus
 GCF_000442275.2	Litoreibacter arenae DSM 19593
 GCF_900129235.1	Litoreibacter ascidiaceicola
@@ -58,6 +84,7 @@ GCF_900111945.1	Litoreibacter janthinus
 GCF_003663885.1	Litoreibacter meonggei
 GCF_003054285.1	Litoreibacter ponti
 GCF_009811795.1	Litoreibacter roseus
+GCF_046254955.1	Litorerythrobacter xanthomarinus
 GCF_039537985.1	Litoribacillus peritrichatus
 GCF_007483685.1	Litoribacter populi
 GCF_018449405.1	Litoribacter ruber
@@ -97,6 +124,7 @@ GCF_004343035.1	Longibaculum muris
 GCF_018406465.1	Longicatena caecimuris
 GCF_001050235.1	Longilinea arvoryzae
 GCF_014198875.1	Longimicrobium terrae
+GCF_055379825.1	Longimonas haloalkaliphila
 GCF_002554705.1	Longimonas halophila
 GCF_014645795.1	Longimycelium tulufanense
 GCF_004115085.1	Longirhabdus pacifica
@@ -110,8 +138,8 @@ GCF_003515985.1	Lonsdalea britannica
 GCF_002111585.1	Lonsdalea iberica
 GCF_015999465.1	Lonsdalea populi
 GCF_900107885.1	Lonsdalea quercina
+GCF_044789115.1	Lotipaludicoccus stagni
 GCF_002262935.1	Lottiidibacillus patelloidae
-GCF_900476375.1	Lucifera butyrica
 GCF_039528515.1	Luedemannella flava
 GCF_039528415.1	Luedemannella helvata
 GCF_042660285.1	Luethyella okanaganae
@@ -124,6 +152,7 @@ GCF_000390185.1	Lunatimonas lonarensis
 GCF_017811155.1	Lunatimonas salinarum
 GCF_014384745.1	Luoshenia tenuis
 GCF_050053475.1	Lusitaniella coriacea LEGE 07167
+GCF_055387725.1	Lutaonella thermophila
 GCF_023078475.1	Luteibacter aegosomaticola
 GCF_023078455.1	Luteibacter aegosomatis
 GCF_023078495.1	Luteibacter aegosomatissinici
@@ -288,6 +317,7 @@ GCF_900167055.1	Lysobacter spongiicola DSM 21749
 GCF_030053425.1	Lysobacter stagni
 GCF_054782215.1	Lysobacter terrae
 GCF_054779815.1	Lysobacter tyrosinilyticus
+GCF_047159895.1	Lysobacter xanthus
 GCF_031199375.1	Lysobacter yananisis
 GCF_042655745.1	Lysobacter yangpyeongensis
 GCF_046638635.1	Lysobacter zhanggongensis
@@ -378,6 +408,7 @@ GCF_046267875.1	Mannheimia glucosida
 GCF_000621105.1	Mannheimia granulomatis DSM 19156
 GCF_002285575.1	Mannheimia haemolytica
 GCF_036880405.1	Mannheimia indoligenes
+GCF_041807845.1	Mannheimia kashgarensis
 GCF_000940515.1	Mannheimia massilioguelmaensis
 GCF_013377995.1	Mannheimia pernigra
 GCF_013377235.1	Mannheimia varigena
@@ -439,6 +470,7 @@ GCF_900101105.1	Maridesulfovibrio ferrireducens
 GCF_000711735.1	Maridesulfovibrio frigidus DSM 17176
 GCF_000331025.1	Maridesulfovibrio hydrothermalis AM13 = DSM 14728
 GCF_000023445.1	Maridesulfovibrio salexigens DSM 2638
+GCF_055394525.1	Maridesulfovibrio salinus
 GCF_000425265.1	Maridesulfovibrio zosterae DSM 11974
 GCF_007828725.1	Marihabitans asiaticum
 GCF_006546775.1	Marilutibacter aestuarii
@@ -498,6 +530,7 @@ GCF_054780035.1	Mariniluteicoccus endophyticus
 GCF_054776655.1	Mariniluteicoccus flavus
 GCF_000423345.1	Marinimicrobium agarilyticum DSM 16975
 GCF_003259155.1	Marinimicrobium alkaliphilum
+GCF_030848505.1	Marinimicrobium hydrolyticum
 GCF_003762925.1	Marinimicrobium koreense
 GCF_039822625.1	Marinimicrobium locisalis
 GCF_029211145.1	Marinimicrococcus flavescens
@@ -518,6 +551,7 @@ GCF_054657315.1	Marinitoga arctica
 GCF_900129175.1	Marinitoga hydrogenitolerans DSM 16785
 GCF_004135675.1	Marinitoga lauensis
 GCF_016908145.1	Marinitoga litoralis
+GCF_055387075.1	Marinitoga okinawensis
 GCF_000255135.1	Marinitoga piezophila KA3
 GCF_029814805.1	Marinivivus vitaminiproducens
 GCF_018972165.1	Marinobacter adhaerens
@@ -618,6 +652,8 @@ GCF_014641945.1	Marinobacterium zhoushanense
 GCF_900166605.1	Marinococcus halophilus
 GCF_000420725.1	Marinococcus halotolerans DSM 16375
 GCF_900106595.1	Marinococcus luteus
+GCF_054971365.1	Marinococcus salis
+GCF_054971385.1	Marinococcus tarijensis
 GCF_003208215.1	Marinomonas alcarazii
 GCF_020532605.1	Marinomonas algarum
 GCF_014805825.1	Marinomonas algicola
@@ -656,6 +692,7 @@ GCF_003259175.1	Marinomonas shanghaiensis
 GCF_900089775.1	Marinomonas spartinae
 GCF_016463975.1	Marinomonas transparens
 GCF_000521805.1	Marinomonas ushuaiensis DSM 15871
+GCF_055388305.1	Marinomonas vaga
 GCF_018145875.1	Marinomonas vulgaris
 GCF_003386095.1	Marinoscillum furvescens DSM 4134
 GCF_044005705.1	Marinoscillum luteum
@@ -786,6 +823,7 @@ GCF_943193195.1	Mediterraneibacter agrestimuris
 GCF_003574295.1	Mediterraneibacter butyricigenes
 GCF_008691045.1	Mediterraneibacter catenae
 GCF_050048615.1	Mediterraneibacter faecis
+GCF_055387595.1	Mediterraneibacter flintii
 GCF_042852765.1	Mediterraneibacter glycyrrhizinilyticus
 GCF_009831375.1	Mediterraneibacter gnavus ATCC 29149
 GCF_014287475.1	Mediterraneibacter hominis
@@ -1028,7 +1066,6 @@ GCF_008807375.1	Metapseudomonas lalkuanensis
 GCF_011397855.1	Metapseudomonas otitidis
 GCF_043392685.1	Metapseudomonas phytobenefica
 GCF_000423545.1	Metapseudomonas resinovorans DSM 21078
-GCF_003122325.1	Metarhizobium album
 GCF_003049645.1	Metasolibacillus fluoroglycofenilyticus
 GCF_003049505.1	Metasolibacillus meyeri
 GCF_016097405.1	methane-oxidizing endosymbiont_of_Gigantopelta aegis
@@ -1070,6 +1107,7 @@ GCF_003574465.1	Methylobacterium crusticola
 GCF_003058325.1	Methylobacterium currus
 GCF_902141855.1	Methylobacterium dankookense
 GCF_003173715.1	Methylobacterium durans
+GCF_050591105.1	Methylobacterium endophyticum
 GCF_025813715.1	Methylobacterium flocculans
 GCF_022179185.1	Methylobacterium frigidaeris
 GCF_014138435.1	Methylobacterium fujisawaense
@@ -1096,28 +1134,3 @@ GCF_022533465.1	Methylobacterium organophilum
 GCF_000757795.1	Methylobacterium oryzae CBMB20
 GCF_004004555.2	Methylobacterium oryzihabitans
 GCF_046557895.1	Methylobacterium oryzisoli
-GCF_007992195.1	Methylobacterium oxalidis
-GCF_022179525.1	Methylobacterium persicinum
-GCF_001936175.1	Methylobacterium phyllosphaerae
-GCF_900103445.1	Methylobacterium phyllostachyos
-GCF_008806345.1	Methylobacterium planeticum
-GCF_001653715.1	Methylobacterium platani
-GCF_900114535.1	Methylobacterium pseudosasicola
-GCF_003173735.1	Methylobacterium radiodurans
-GCF_000019725.1	Methylobacterium radiotolerans JCM 2831
-GCF_004348265.1	Methylobacterium segetis
-GCF_008806385.1	Methylobacterium soli
-GCF_053570685.1	Methylobacterium symbioticum
-GCF_022179585.1	Methylobacterium tardum
-GCF_001043955.1	Methylobacterium tarhaniae
-GCF_003173755.1	Methylobacterium terrae
-GCF_006151805.1	Methylobacterium terricola
-GCF_022179645.1	Methylobacterium thuringiense
-GCF_022179685.1	Methylobacterium trifolii
-GCF_001043975.1	Methylobacterium variabile
-GCF_015904235.1	Methylobrevis albus
-GCF_001720135.1	Methylobrevis pamukkalensis
-GCF_053646815.1	Methylocaldum gracile
-GCF_003584645.1	Methylocaldum marinum
-GCF_949769195.1	Methylocaldum szegediense
-GCF_000427445.1	Methylocapsa acidiphila B2
