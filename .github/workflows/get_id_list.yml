@@ -29,7 +29,7 @@ jobs:
             awk '{print $1 "\t" $2 " " $3 }' data/include_anyway.txt >> ids.txt
           fi
           
-          grep "G" ids.txt > ids_clean.txt
+          grep ^"G" ids.txt > ids_clean.txt
           mv ids_clean.txt ids.txt
 
       - name: Split into 100 Chunks
