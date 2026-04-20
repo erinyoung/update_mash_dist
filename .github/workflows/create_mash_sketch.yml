@@ -1,123 +1,100 @@
 name: Step2 Create Sketches
 
-on: 
+on:
+  workflow_run:
+    workflows: ["Step1 Create Reference"]
+    types: [completed]
   workflow_dispatch:
-    inputs:
-      chunk:
-        description: "chunk of ids.txt to work on [00-19]"
-        required: true
 
-run-name: Create sketch for chunk ${{ github.event.inputs.chunk }}
-
-jobs:          
+jobs:
   download_and_sketch:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk: ["000", "001", "002", "003", "004", "005", "006", "007", "008", "009", "010", "011", "012", "013", "014", "015", "016", "017", "018", "019", "020", "021", "022", "023", "024", "025", "026", "027", "028", "029", "030", "031", "032", "033", "034", "035", "036", "037", "038", "039", "040", "041", "042", "043", "044", "045", "046", "047", "048", "049", "050", "051", "052", "053", "054", "055", "056", "057", "058", "059", "060", "061", "062", "063", "064", "065", "066", "067", "068", "069", "070", "071", "072", "073", "074", "075", "076", "077", "078", "079", "080", "081", "082", "083", "084", "085", "086", "087", "088", "089", "090", "091", "092", "093", "094", "095", "096", "097", "098", "099"]
+    
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@master
+        uses: actions/checkout@main
+
+      - name: Download ID Chunks
+        uses: actions/download-artifact@main
         with:
-          ref: split_ids
-      
-      - name: Download Datasets and Dataformat
+          name: genome-chunks
+          path: chunks/
+
+      - name: Install Dependencies
         run: |
           wget -q https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/datasets
           wget -q https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/dataformat
-          chmod +x datasets dataformat
-
-      - name: Download Mash version 2.3
-        run: |
           wget -q https://github.com/marbl/Mash/releases/download/v2.3/mash-Linux64-v2.3.tar
-          tar -xvf mash-Linux64-v2.3.tar
-          rm -rf mash-Linux64-v2.3.tar
-          mv mash-Linux64-v2.3 mash
+          tar -xf mash-Linux64-v2.3.tar
+          mv mash-Linux64-v2.3/mash .
+          chmod +x datasets dataformat mash
+          echo "$(pwd)" >> $GITHUB_PATH
 
-      - name: Check files
-        run: ls && ls split_ids
-
-      - name: remove old files
+      - name: Sketching Loop with Hard Failure
         run: |
-          mkdir -p split_msh
-          rm -rf split_msh/${{ github.event.inputs.chunk }}.msh
+          mkdir -p tmp_workspace
+          CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
 
-      - name: work some magic
-        run: |
-          export PATH=$(pwd):$(pwd)/mash:$PATH
-          mkdir -p tmp
-          cd tmp
-          
-          while read line
-          do
-            id=$(echo $line | awk '{print $1}')
-            ge=$(echo $line | awk '{print $2}')
-            if [ ! -n "$ge" ] ; then ge="unknown" ; fi
-            sp=$(echo $line | awk '{print $3}')
-            if [ ! -n "$sp" ] ; then sp="unknown" ; fi
+          while read -r line; do
+            id=$(echo "$line" | awk '{print $1}')
+            ge=$(echo "$line" | awk '{print $2}')
+            sp=$(echo "$line" | awk '{print $3}')
+            [ -z "$ge" ] && ge="unknown"
+            [ -z "$sp" ] && sp="unknown"
 
-            wc -l ../split_ids/x${{ github.event.inputs.chunk }}.txt
-            grep -n $id ../split_ids/x${{ github.event.inputs.chunk }}.txt
-            
-            j=0
-            while [ $j -lt 1 ]
-            do
-              date
-              echo "downloading $id $ge $sp genome"
-              if datasets download genome accession $id --no-progressbar
-              then
-                j=2
-              else
-                date
-                echo "Could not download. Sleeping and trying again"
-                sleep 15s
+            # Cleanup previous files
+            rm -f ncbi_dataset.zip
+            rm -rf ncbi_dataset/
+
+            # Download attempt with incremental backoff
+            MAX_RETRIES=10
+            attempt=0
+            success=false
+
+            until [ $attempt -ge $MAX_RETRIES ]; do
+              if datasets download genome accession "$id" --no-progressbar --filename "ncbi_dataset.zip"; then
+                if [ -s "ncbi_dataset.zip" ]; then
+                  success=true
+                  break
+                fi
               fi
+              attempt=$((attempt+1))
+              wait_time=$((attempt * 20))
+              sleep ${wait_time}s
             done
 
-            date
-            echo "download complete!"
-            echo "copying file"
-            unzip ncbi_dataset.zip
-            cp $(ls ncbi_dataset/data/*/*_genomic.fna | head -n 1) ${ge}_${sp}_${id}.fasta
-
-            date
-            if [ ! -f "final.msh" ]
-            then
-              echo "creating initial mash sketch"
-              mash sketch ${ge}_${sp}_${id}.fasta -o final
-            else
-              echo "creating mash sketch"
-              mash sketch ${ge}_${sp}_${id}.fasta -o sample
-              mv final.msh tmp.msh
-
-              date
-              echo "pasting mash sketches"
-              mash paste final tmp.msh sample.msh
-              rm tmp.msh sample.msh
+            if [ "$success" = false ]; then
+              echo "Fatal: Failed to download $id after $MAX_RETRIES attempts."
+              exit 1
             fi
 
-            ls -alh final.msh
+            unzip -q ncbi_dataset.zip
+            GENOME_PATH=$(find ncbi_dataset/data -name "*_genomic.fna" | head -n 1)
+            
+            if [ -n "$GENOME_PATH" ]; then
+              if [ ! -f "chunk_final.msh" ]; then
+                mash sketch "$GENOME_PATH" -o chunk_final -I "${ge}_${sp}_${id}"
+              else
+                mash sketch "$GENOME_PATH" -o single_sample -I "${ge}_${sp}_${id}"
+                mash paste new_combined chunk_final.msh single_sample.msh
+                mv new_combined.msh chunk_final.msh
+              fi
+            else
+              echo "Error: Fasta file missing for $id"
+              exit 1
+            fi
+          done < "$CHUNK_FILE"
 
-            date
-            echo "sketching complete! removing extra files"
-            rm -rf ${ge}_${sp}_${id}.fasta ncbi_dataset/ ncbi_dataset.zip README.md md5sum.txt
-          done < ../split_ids/x${{ github.event.inputs.chunk }}.txt
+          mv chunk_final.msh "${{ matrix.chunk }}.msh"
 
-      - name: add new files
-        run: | 
-          mv tmp/final.msh split_msh/${{ github.event.inputs.chunk }}.msh
-          ls split_msh
-          rm -rf tmp datasets dataformat mash
-          
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@main
+      - name: Upload Chunk Result
+        uses: actions/upload-artifact@main
         with:
-            commit-message: Split msh files
-            title: Splitting new msh files
-            body: |
-              - adding new msh files
-  
-              Auto-generated by [create-pull-request][1]
-  
-              [1]: https://github.com/peter-evans/create-pull-request
-            branch: msh_update_chunk_${{ github.event.inputs.chunk }}
-            base: split_msh
-
-
+          name: msh-results-${{ matrix.chunk }}
+          path: "${{ matrix.chunk }}.msh"
+          retention-days: 1
