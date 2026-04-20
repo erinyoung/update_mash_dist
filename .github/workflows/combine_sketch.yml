@@ -10,9 +10,14 @@ on:
         description: "Override RefSeq version (leave blank for auto-detect)"
         required: false
         default: ''
+      run_id:
+        description: "Step 2 Run ID (Required for manual runs)"
+        required: false
+        default: ''
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  ZENODO_RECORD_ID: "19211013"
 
 jobs:
   pull_together:
@@ -38,7 +43,6 @@ jobs:
             RS_VERSION=$(curl -s https://ftp.ncbi.nlm.nih.gov/refseq/release/RELEASE_NUMBER)
           fi
           echo "VERSION=$RS_VERSION" >> $GITHUB_ENV
-          echo "RefSeq Version detected: $RS_VERSION"
 
       - name: Download all Chunk Artifacts
         uses: actions/download-artifact@v5
@@ -46,20 +50,16 @@ jobs:
           pattern: msh-results-*
           path: all_sketches/
           merge-multiple: true
-          run-id: ${{ github.event.workflow_run.id || github.run_id }}
+          # Logic: Use manual run_id if provided, otherwise use the automated trigger ID
+          run-id: ${{ inputs.run_id || github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Download Master ID List
         uses: actions/download-artifact@v5
         with:
           name: master-id-list
-          # Find where Step 1 was run. If this is an automated run, 
-          # we have to find the Step 1 Run ID. 
-          # To keep it simple, we assume Step 1 succeeded recently.
-          # If triggered by Step 2, github.event.workflow_run.id is Step 2's ID.
-          # We need the ID from the Step 1 run.
           path: data/
-          run-id: ${{ github.event.workflow_run.id || github.run_id }} 
+          run-id: ${{ inputs.run_id || github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
 
@@ -75,60 +75,89 @@ jobs:
         run: |
           mkdir -p data/
           rm -f data/RefSeqSketches*msh*
-          OUTPUT_FILE="RefSeqSketches_${{ env.VERSION }}.msh"
-          ./mash paste "data/${OUTPUT_FILE}" all_sketches/*.msh
-          # We leave the uncompressed file for a moment for the integrity check
-          cp "data/${OUTPUT_FILE}" "data/${OUTPUT_FILE}.bak"
-          gzip -9 "data/${OUTPUT_FILE}"
-          mv "data/${OUTPUT_FILE}.bak" "data/${OUTPUT_FILE}"
+          
+          VERSION_TAG="${{ env.VERSION }}"
+          VERSIONED_NAME="RefSeqSketches_${VERSION_TAG}.msh"
+          LATEST_NAME="RefSeqSketches_latest.msh"
+          
+          mash paste "data/${VERSIONED_NAME}" all_sketches/*.msh
+          cp "data/${VERSIONED_NAME}" "data/integrity_check.msh"
+          cp "data/${VERSIONED_NAME}" "data/${LATEST_NAME}"
+          
+          gzip -9 "data/${VERSIONED_NAME}"
+          gzip -9 "data/${LATEST_NAME}"
+          
+          echo "VERSIONED_FILENAME=${VERSIONED_NAME}.gz" >> $GITHUB_ENV
+          echo "LATEST_FILENAME=${LATEST_NAME}.gz" >> $GITHUB_ENV
 
       - name: Verify Accession Integrity
         run: |
-          # 1. Extract IDs from the source list
-          # We check if ids.txt exists (it might be in data/ if downloaded correctly)
           TARGET_IDS="data/ids.txt"
           if [ ! -f "$TARGET_IDS" ]; then
-             echo "Warning: data/ids.txt not found. Skipping integrity check."
+             echo "### Integrity Check Skipped: ids.txt not found" >> $GITHUB_STEP_SUMMARY
              exit 0
           fi
 
           awk '{print $1}' "$TARGET_IDS" | sort > original_ids.txt
-          
-          # 2. Extract IDs from the master Mash file
-          VERSION_TAG="${{ env.VERSION }}"
-          mash info -l "data/RefSeqSketches_${VERSION_TAG}.msh" | awk -F'_' '{print $NF}' | sort > mash_ids.txt
-          
-          # 3. Compare
+          mash info -l "data/integrity_check.msh" | awk -F'_' '{print $NF}' | sort > mash_ids.txt
           comm -23 original_ids.txt mash_ids.txt > missing_accessions.txt
           
           ORIGINAL_COUNT=$(wc -l < original_ids.txt)
           MASH_COUNT=$(wc -l < mash_ids.txt)
           MISSING_COUNT=$(wc -l < missing_accessions.txt)
           
-          echo "### Genomic Integrity Report" >> $GITHUB_STEP_SUMMARY
-          echo "- Total Accessions Expected: $ORIGINAL_COUNT" >> $GITHUB_STEP_SUMMARY
-          echo "- Total Accessions Sketched: $MASH_COUNT" >> $GITHUB_STEP_SUMMARY
-          echo "- Missing Accessions: $MISSING_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "### Genomic Integrity Report (v${{ env.VERSION }})" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total Accessions Expected:** $ORIGINAL_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total Accessions Sketched:** $MASH_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- **Missing Accessions:** $MISSING_COUNT" >> $GITHUB_STEP_SUMMARY
           
           if [ "$MISSING_COUNT" -gt 0 ]; then
-            echo "#### Missing Accession List (First 50)" >> $GITHUB_STEP_SUMMARY
+            echo "#### Missing Accession Samples (First 50)" >> $GITHUB_STEP_SUMMARY
+            echo '```text' >> $GITHUB_STEP_SUMMARY
             head -n 50 missing_accessions.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
           fi
+          rm data/integrity_check.msh
+
+      - name: Upload to Zenodo
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+        run: |
+          # 1. Start new version
+          NEW_VER_JSON=$(curl -s -X POST "https://zenodo.org/api/deposit/depositions/${{ env.ZENODO_RECORD_ID }}/actions/newversion?access_token=$ZENODO_TOKEN")
+          NEW_DRAFT_URL=$(echo $NEW_VER_JSON | jq -r '.links.latest_draft')
+          NEW_DEP_ID=$(echo $NEW_DRAFT_URL | awk -F/ '{print $NF}')
           
-          # Cleanup the temporary uncompressed file
-          rm "data/RefSeqSketches_${VERSION_TAG}.msh"
+          # 2. Get bucket and upload 'latest' file
+          BUCKET_URL=$(curl -s "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" | jq -r '.links.bucket')
+          curl -S -o /dev/null -T "data/${{ env.LATEST_FILENAME }}" "$BUCKET_URL/RefSeqSketches_latest.msh.gz?access_token=$ZENODO_TOKEN"
+
+          # 3. Update Metadata
+          curl -s -X PUT "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" \
+               -H "Content-Type: application/json" \
+               -d "{
+                 \"metadata\": {
+                   \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
+                   \"upload_type\": \"dataset\",
+                   \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. GitHub: ${{ github.repository }}. Version: ${{ env.VERSION }}\",
+                   \"creators\": [{\"name\": \"RefSeq Mash Automator\"}]
+                 }
+               }"
+
+          # 4. Publish
+          # curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "Update mash reference to RefSeq version ${{ env.VERSION }}"
+          commit-message: "Update mash reference to version ${{ env.VERSION }}"
           title: "Update Master Reference Sketch (v${{ env.VERSION }})"
           branch: "update-master-reference"
           base: main
           add-paths: |
-            data/*.msh.gz
+            data/RefSeqSketches_${{ env.VERSION }}.msh.gz
             .gitattributes
           body: |
             Combined 100 genomic sketch chunks from Step 2.
             - RefSeq Version: ${{ env.VERSION }}
-            - Output: data/RefSeqSketches_${{ env.VERSION }}.msh.gz
+            - Zenodo Update: Completed (RefSeqSketches_latest.msh.gz)
