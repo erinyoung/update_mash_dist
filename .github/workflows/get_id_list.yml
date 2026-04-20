@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download Datasets Tools
         run: |
@@ -38,14 +38,14 @@ jobs:
           echo "Created $(ls x*.txt | wc -l) chunk files."
 
       - name: Upload Master List (Temporary Bridge)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: master-id-list
           path: ids.txt
           retention-days: 1
 
       - name: Upload Chunks (For Step 2)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: genome-chunks
           path: x*.txt
@@ -56,10 +56,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download Master List Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: master-id-list
 
