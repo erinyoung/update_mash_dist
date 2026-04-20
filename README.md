@@ -1,85 +1,109 @@
-# WARNING : STILL A WORK IN PROGRESS
+# RefSeq Prokaryotic Mash Reference
 
-This repo was only made public for the github action limits.
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.19211013.svg)](https://zenodo.org/records/19211013)
 
-# Creating a MASH Reference
+This repository provides an automated, scalable pipeline to generate and distribute updated Mash sketch files for representative prokaryotic (bacterial and archaeal) genomes.
 
-The mash reference that can be downloaded from [the mash documentaion](https://mash.readthedocs.io/en/latest/data.html) is for RefSeq version 70.
+## Status: Automated Updates
+This project was transitioned from a manual process to a high-concurrency GitHub Actions pipeline to bypass local storage limitations and keep pace with RefSeq's quarterly release cycle. The reference is currently tracking the most recent RefSeq release (v220+).
 
-I do not inherently have a problem with RefSeq version 70, but RefSeq is well past version 200 now. 
+## Download
+The final consolidated Mash sketches are available for download via Zenodo:
+**[https://zenodo.org/records/19211013](https://zenodo.org/records/19211013)**
 
-RefSeq updates four times year, and I needed an easy way to create and distribute a mash sketch file of the representative bacterial/prokaryotic genomes.
+## Usage
 
-To replicate the methods:
-## Step 1. Download Datasets and Dataformat
+The sketches are generated using **Mash v2.3**. To use the reference for genomic distance estimation:
+
+### 1. Download and Decompress
 ```bash
-wget https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/datasets
-wget https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/dataformat
+wget https://zenodo.org/records/19211013/files/RefSeqSketches_latest.msh.gz
+gunzip RefSeqSketches_latest.msh.gz
+```
+
+### 2. Estimate Distances
+
+The `-p` flag enables multithreading, which is recommended when querying against a reference of this size. The output consists of five columns: `Query-ID, Reference-ID, Mash-distance, P-value, Matching-hashes`.
+
+```bash
+# Compare a query fasta against the full RefSeq reference
+mash dist -p 8 RefSeqSketches_latest.msh query_genome.fasta > distances.tab
+```
+### 3. Parse Results
+
+The results should be sorted by the third column (Mash distance). A distance of 0 indicates a perfect k-mer match, while a distance of 1 indicates no shared k-mers.
+
+```bash
+# Sort by distance (column 3) to find the closest taxonomic matches
+sort -gk3 distances.tab | head -n 10
+```
+---
+
+## Replication Logic
+
+The automated pipeline consists of three distinct stages within GitHub Actions to maintain data integrity while operating within infrastructure limits.
+
+### Stage 1: ID Generation
+The NCBI Datasets CLI is used to query all representative prokaryotic accessions. This list is cleaned and split into 100 chunks to facilitate parallel processing across a job matrix.
+
+```bash
+# download datasets and dataformat
+wget -q https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/datasets
+wget -q https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/dataformat
 chmod +x datasets dataformat
+
+# get a list of ids
+./datasets summary genome taxon 2 --reference --as-json-lines | \
+  ./dataformat tsv genome --fields accession,organism-name --elide-header | \
+  sed 's/\[//g; s/\]//g; s/["'\'']//g; s/endosymbiont of /endosymbiont_of_/g' | \
+  grep ^"G" > ids.txt       
+
+# used by github actions, but not needed if running locally
+# this splits ids.txt into 100 files so that download can run concurrently.
+split -n l/100 ids.txt -d -a 3 --additional-suffix=.txt x
 ```
 
-## Step 2. Download Mash
-```bash
-wget https://github.com/marbl/Mash/releases/download/v2.3/mash-Linux64-v2.3.tar
-tar -xvf mash-Linux64-v2.3.tar
-```
-
-## Step 3. Get a list of all the genomes
-
-Note: this also changes how some of the names are represented
+### Stage 2. Execution Loop
+The following loop ensures that storage usage remains low by cleaning the workspace after every iteration.
 
 ```bash
-datasets summary genome taxon bacteria --reference --as-json-lines | \
-  dataformat tsv genome --fields accession,organism-name --elide-header | \
-  sed 's/\[//g' | \
-  sed 's/\]//g' | \
-  sed 's/["'\'']//g' | \
-  sed 's/endosymbiont of /endosymbiont_of_/g' > \
-  ids.txt
-```
+# getting the RefSeq version
+version=$(curl -s https://ftp.ncbi.nlm.nih.gov/refseq/release/RELEASE_NUMBER)
 
-## Step 4. Download the reference files and sketch them
+# cycling through ids individually for download
+while read -r line <&3; do
+  id=$(echo "$line" | awk '{print $1}')
+  ge=$(echo "$line" | awk '{print $2}')
+  sp=$(echo "$line" | awk '{print $3}')
+  
+  [ -z "$ge" ] && ge="unknown"
+  [ -z "$sp" ] && sp="unknown"
+  [[ ! "$id" =~ ^G ]] && continue
 
-Note: Since this is done in Github Actions (GA), I need to keep everything below 30G. The best way to do this is to download the process each reference file individually, and then combine it to the whole. This obviously does not need to be followed if not under those same limitations.
-
-```bash
-while read line
-do
-  id=$(echo $line | awk '{print $1}')
-  ge=$(echo $line | awk '{print $2}')
-  if [ ! -n "$ge" ] ; then ge="unknown" ; fi
-  sp=$(echo $line | awk '{print $3}')
-  if [ ! -n "$sp" ] ; then sp="unknown" ; fi
-
-  datasets download genome accession $id
-  unzip ncbi_dataset.zip
-  cp ncbi_dataset/data/*/*_genomic.fna ${ge}_${sp}_${id}.fasta
-  if [ ! -f RefSeqSketches_${version}.msh ]
-  then
-    mash sketch ${ge}_${sp}_${id}.fasta -o RefSeqSketches_${version}
-  else          
-    mash sketch ${ge}_${sp}_${id}.fasta -o ${ge}_${sp}_${id}
-    mv RefSeqSketches_${version}.msh tmp.msh
-    mash paste RefSeqSketches_${version} tmp.msh ${ge}_${sp}_${id}.msh
-    rm tmp.msh ${ge}_${sp}_${id}.msh
-  fi
-
-  rm ${ge}_${sp}_${id}.fasta
+  # iteration cleanup
+  rm -f ncbi_dataset.zip md5sum.txt README.md
   rm -rf ncbi_dataset/
-  rm ncbi_dataset.zip
-  rm README.md
-  rm md5sum.txt
-done < ids.txt
+
+  if ./datasets download genome accession "$id" --no-progressbar --filename "ncbi_dataset.zip" < /dev/null; then
+    unzip -qo ncbi_dataset.zip < /dev/null
+    GENOME_PATH=$(find ncbi_dataset/data -name "*_genomic.fna" | head -n 1)
+    
+    if [ -n "$GENOME_PATH" ]; then
+      if [ ! -f "RefSeqSketches_${version}.msh" ]; then
+        ./mash sketch "$GENOME_PATH" -o "RefSeqSketches_${version}" -I "${ge}_${sp}_${id}"
+      else
+        ./mash sketch "$GENOME_PATH" -o single_sample -I "${ge}_${sp}_${id}"
+        ./mash paste new_combined "RefSeqSketches_${version}.msh" single_sample.msh
+        mv new_combined.msh "RefSeqSketches_${version}.msh"
+        rm -f single_sample.msh
+      fi
+    fi
+  fi
+done 3< ids.txt
 ```
 
-## Step 5. Compress the sketch file
+### 3. Final Compression
+
 ```bash
 gzip RefSeqSketches_${version}.msh
 ```
-
-## Step 6. Use
-
-I did not try to do anything TOO fancy.
-      
-          
-
