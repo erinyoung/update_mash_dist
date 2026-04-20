@@ -5,13 +5,17 @@ on:
     workflows: ["Step1 Create Reference"]
     types: [completed]
   workflow_dispatch:
+    inputs:
+      run_id:
+        description: 'Step 1 Run ID (Find this in the Step 1 URL or Summary)'
+        required: false
+        default: ''
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   download_and_sketch:
-    # Execution occurs only if Step 1 was successful or if manually triggered
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     permissions:
       actions: read
@@ -26,16 +30,13 @@ jobs:
       - name: Check Out Repository
         uses: actions/checkout@v4
 
-      - name: Wait for Artifact Propagation
-        run: sleep 30s
-
       - name: Download ID Chunks
         uses: actions/download-artifact@v5
         with:
           name: genome-chunks
           path: chunks/
-          # Targets the run ID of the triggering Step 1 workflow
-          run-id: ${{ github.event.workflow_run.id || github.run_id }}
+          # Prioritizes manual input 'run_id', falls back to automated trigger ID
+          run-id: ${{ inputs.run_id || github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install Dependencies
@@ -48,47 +49,44 @@ jobs:
           chmod +x datasets dataformat mash
           echo "$(pwd)" >> $GITHUB_PATH
 
-      - name: Sketching Loop with Hard Failure
+      - name: Sketching Loop
         run: |
           mkdir -p tmp_workspace
           CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
-          echo "Processing chunk: ${{ matrix.chunk }}"
 
-          while read -r line; do
+          # Redirecting input to File Descriptor 3 to prevent stdin hijacking
+          while read -r line <&3; do
             id=$(echo "$line" | awk '{print $1}')
             ge=$(echo "$line" | awk '{print $2}')
             sp=$(echo "$line" | awk '{print $3}')
-            [ -z "$ge" ] && ge="unknown"
-            [ -z "$sp" ] && sp="unknown"
+            
+            [[ ! "$id" =~ ^G ]] && continue
 
-            # Disk cleanup per iteration
-            rm -rf ncbi_dataset/ ncbi_dataset.zip README.md md5sum.txt
+            rm -f ncbi_dataset.zip md5sum.txt README.md
+            rm -rf ncbi_dataset/
 
-            # Robust download with incremental backoff
             MAX_RETRIES=10
             attempt=0
             success=false
 
             until [ $attempt -ge $MAX_RETRIES ]; do
-              echo "Downloading $id (Attempt $((attempt+1))/$MAX_RETRIES)..."
-              if datasets download genome accession "$id" --no-progressbar --filename "ncbi_dataset.zip"; then
+              # datasets and unzip redirected to /dev/null to protect the loop
+              if datasets download genome accession "$id" --no-progressbar --filename "ncbi_dataset.zip" < /dev/null; then
                 if [ -s "ncbi_dataset.zip" ]; then
                   success=true
                   break
                 fi
               fi
               attempt=$((attempt+1))
-              wait_time=$((attempt * 25))
-              sleep ${wait_time}s
+              sleep $((attempt * 10))s
             done
 
             if [ "$success" = false ]; then
-              echo "Fatal: Failed to download $id after $MAX_RETRIES attempts."
+              echo "Fatal: Failed to download $id"
               exit 1
             fi
 
-            # Extraction and metadata sketching
-            unzip -q ncbi_dataset.zip
+            unzip -qo ncbi_dataset.zip < /dev/null
             GENOME_PATH=$(find ncbi_dataset/data -name "*_genomic.fna" | head -n 1)
             
             if [ -n "$GENOME_PATH" ]; then
@@ -98,15 +96,14 @@ jobs:
                 mash sketch "$GENOME_PATH" -o single_sample -I "${ge}_${sp}_${id}"
                 mash paste new_combined chunk_final.msh single_sample.msh
                 mv new_combined.msh chunk_final.msh
+                rm single_sample.msh
               fi
-            else
-              echo "Error: Fasta file missing in dataset for $id"
-              exit 1
             fi
-          done < "$CHUNK_FILE"
+          done 3< "$CHUNK_FILE"
 
-          # Rename output for artifact collection
-          mv chunk_final.msh "${{ matrix.chunk }}.msh"
+          if [ -f "chunk_final.msh" ]; then
+            mv chunk_final.msh "${{ matrix.chunk }}.msh"
+          fi
 
       - name: Upload Chunk Result
         uses: actions/upload-artifact@v5
