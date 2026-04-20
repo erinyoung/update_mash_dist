@@ -6,8 +6,12 @@ on:
     types: [completed]
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   download_and_sketch:
+    # Execution occurs only if Step 1 was successful or if manually triggered
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     permissions:
       actions: read
@@ -20,7 +24,7 @@ jobs:
     
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
 
       - name: Wait for Artifact Propagation
         run: sleep 30s
@@ -30,7 +34,8 @@ jobs:
         with:
           name: genome-chunks
           path: chunks/
-          run-id: ${{ github.event.workflow_run.id }}
+          # Targets the run ID of the triggering Step 1 workflow
+          run-id: ${{ github.event.workflow_run.id || github.run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install Dependencies
@@ -47,6 +52,7 @@ jobs:
         run: |
           mkdir -p tmp_workspace
           CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
+          echo "Processing chunk: ${{ matrix.chunk }}"
 
           while read -r line; do
             id=$(echo "$line" | awk '{print $1}')
@@ -55,16 +61,17 @@ jobs:
             [ -z "$ge" ] && ge="unknown"
             [ -z "$sp" ] && sp="unknown"
 
-            # Cleanup previous files
+            # Disk cleanup per iteration
             rm -f ncbi_dataset.zip
             rm -rf ncbi_dataset/
 
-            # Download attempt with incremental backoff
+            # Robust download with incremental backoff
             MAX_RETRIES=10
             attempt=0
             success=false
 
             until [ $attempt -ge $MAX_RETRIES ]; do
+              echo "Downloading $id (Attempt $((attempt+1))/$MAX_RETRIES)..."
               if datasets download genome accession "$id" --no-progressbar --filename "ncbi_dataset.zip"; then
                 if [ -s "ncbi_dataset.zip" ]; then
                   success=true
@@ -72,7 +79,7 @@ jobs:
                 fi
               fi
               attempt=$((attempt+1))
-              wait_time=$((attempt * 20))
+              wait_time=$((attempt * 25))
               sleep ${wait_time}s
             done
 
@@ -81,6 +88,7 @@ jobs:
               exit 1
             fi
 
+            # Extraction and metadata sketching
             unzip -q ncbi_dataset.zip
             GENOME_PATH=$(find ncbi_dataset/data -name "*_genomic.fna" | head -n 1)
             
@@ -93,15 +101,16 @@ jobs:
                 mv new_combined.msh chunk_final.msh
               fi
             else
-              echo "Error: Fasta file missing for $id"
+              echo "Error: Fasta file missing in dataset for $id"
               exit 1
             fi
           done < "$CHUNK_FILE"
 
+          # Rename output for artifact collection
           mv chunk_final.msh "${{ matrix.chunk }}.msh"
 
       - name: Upload Chunk Result
-        uses: actions/upload-artifact@main
+        uses: actions/upload-artifact@v5
         with:
           name: msh-results-${{ matrix.chunk }}
           path: "${{ matrix.chunk }}.msh"
