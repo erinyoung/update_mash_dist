@@ -61,10 +61,15 @@ jobs:
             ge=$(echo "$line" | awk '{print $2}')
             sp=$(echo "$line" | awk '{print $3}')
 
+            # getting values for line
             echo "Looking for reference for"
             echo "Genome accession: $id"
             echo "Genus: $ge"
             echo "Species: $sp"
+
+            # getting approximate line number
+            wc -l $CHUNK_FILE
+            grep -n $id $CHUNK_FILE
             
             [[ ! "$id" =~ ^G ]] && continue
 
