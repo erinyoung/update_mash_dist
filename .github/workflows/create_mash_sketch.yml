@@ -62,8 +62,7 @@ jobs:
             [ -z "$sp" ] && sp="unknown"
 
             # Disk cleanup per iteration
-            rm -f ncbi_dataset.zip
-            rm -rf ncbi_dataset/
+            rm -rf ncbi_dataset/ ncbi_dataset.zip README.md md5sum.txt
 
             # Robust download with incremental backoff
             MAX_RETRIES=10
