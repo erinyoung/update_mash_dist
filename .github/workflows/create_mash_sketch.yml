@@ -51,6 +51,7 @@ jobs:
 
       - name: Sketching Loop
         run: |
+          echo "Working on chunk ${{ matrix.chunk }}"
           mkdir -p tmp_workspace
           CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
 
@@ -59,6 +60,11 @@ jobs:
             id=$(echo "$line" | awk '{print $1}')
             ge=$(echo "$line" | awk '{print $2}')
             sp=$(echo "$line" | awk '{print $3}')
+
+            echo "Looking for reference for"
+            echo "Genome accession: $id"
+            echo "Genus: $ge"
+            echo "Species: $sp"
             
             [[ ! "$id" =~ ^G ]] && continue
 
@@ -70,6 +76,7 @@ jobs:
             success=false
 
             until [ $attempt -ge $MAX_RETRIES ]; do
+              echo "Downloading attempt number $attempt"
               # datasets and unzip redirected to /dev/null to protect the loop
               if datasets download genome accession "$id" --no-progressbar --filename "ncbi_dataset.zip" < /dev/null; then
                 if [ -s "ncbi_dataset.zip" ]; then
