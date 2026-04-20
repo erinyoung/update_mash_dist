@@ -32,13 +32,11 @@ jobs:
       - name: Fetch Current RefSeq Version
         id: refseq
         run: |
-          # Use manual input if provided, otherwise fetch from NCBI
           if [ -n "${{ github.event.inputs.version }}" ]; then
             RS_VERSION="${{ github.event.inputs.version }}"
           else
             RS_VERSION=$(curl -s https://ftp.ncbi.nlm.nih.gov/refseq/release/RELEASE_NUMBER)
           fi
-          
           echo "VERSION=$RS_VERSION" >> $GITHUB_ENV
           echo "RefSeq Version detected: $RS_VERSION"
 
@@ -50,6 +48,20 @@ jobs:
           merge-multiple: true
           run-id: ${{ github.event.workflow_run.id || github.run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Download Master ID List
+        uses: actions/download-artifact@v5
+        with:
+          name: master-id-list
+          # Find where Step 1 was run. If this is an automated run, 
+          # we have to find the Step 1 Run ID. 
+          # To keep it simple, we assume Step 1 succeeded recently.
+          # If triggered by Step 2, github.event.workflow_run.id is Step 2's ID.
+          # We need the ID from the Step 1 run.
+          path: data/
+          run-id: ${{ github.event.workflow_run.id || github.run_id }} 
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
 
       - name: Install Mash v2.3
         run: |
@@ -63,12 +75,48 @@ jobs:
         run: |
           mkdir -p data/
           rm -f data/RefSeqSketches*msh*
-          
-          # Use the environment variable set in the fetch step
           OUTPUT_FILE="RefSeqSketches_${{ env.VERSION }}.msh"
-          
           ./mash paste "data/${OUTPUT_FILE}" all_sketches/*.msh
+          # We leave the uncompressed file for a moment for the integrity check
+          cp "data/${OUTPUT_FILE}" "data/${OUTPUT_FILE}.bak"
           gzip -9 "data/${OUTPUT_FILE}"
+          mv "data/${OUTPUT_FILE}.bak" "data/${OUTPUT_FILE}"
+
+      - name: Verify Accession Integrity
+        run: |
+          # 1. Extract IDs from the source list
+          # We check if ids.txt exists (it might be in data/ if downloaded correctly)
+          TARGET_IDS="data/ids.txt"
+          if [ ! -f "$TARGET_IDS" ]; then
+             echo "Warning: data/ids.txt not found. Skipping integrity check."
+             exit 0
+          fi
+
+          awk '{print $1}' "$TARGET_IDS" | sort > original_ids.txt
+          
+          # 2. Extract IDs from the master Mash file
+          VERSION_TAG="${{ env.VERSION }}"
+          mash info -l "data/RefSeqSketches_${VERSION_TAG}.msh" | awk -F'_' '{print $NF}' | sort > mash_ids.txt
+          
+          # 3. Compare
+          comm -23 original_ids.txt mash_ids.txt > missing_accessions.txt
+          
+          ORIGINAL_COUNT=$(wc -l < original_ids.txt)
+          MASH_COUNT=$(wc -l < mash_ids.txt)
+          MISSING_COUNT=$(wc -l < missing_accessions.txt)
+          
+          echo "### Genomic Integrity Report" >> $GITHUB_STEP_SUMMARY
+          echo "- Total Accessions Expected: $ORIGINAL_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- Total Accessions Sketched: $MASH_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- Missing Accessions: $MISSING_COUNT" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$MISSING_COUNT" -gt 0 ]; then
+            echo "#### Missing Accession List (First 50)" >> $GITHUB_STEP_SUMMARY
+            head -n 50 missing_accessions.txt >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Cleanup the temporary uncompressed file
+          rm "data/RefSeqSketches_${VERSION_TAG}.msh"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
@@ -83,5 +131,4 @@ jobs:
           body: |
             Combined 100 genomic sketch chunks from Step 2.
             - RefSeq Version: ${{ env.VERSION }}
-            - Input: 100 matrix artifacts
             - Output: data/RefSeqSketches_${{ env.VERSION }}.msh.gz
