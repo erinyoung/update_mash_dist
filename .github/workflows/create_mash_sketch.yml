@@ -160,6 +160,8 @@ jobs:
         run: |
           mash info -t ${{ matrix.chunk }}.msh | cut -f 3 | grep .fasta | rev | cut -f 1-2 -d _ | rev | sed 's/.fasta//g' | sort | uniq > final_accessions.txt
           cat ids.txt | grep -vf final_accessions.txt > missing_accessions.txt
+
+          head *.txt
           
           ORIGINAL_COUNT=$(wc -l < ids.txt)
           MASH_COUNT=$(wc -l < final_accessions.txt)
