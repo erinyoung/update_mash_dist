@@ -74,6 +74,7 @@ jobs:
           
           mash paste "data/${VERSIONED_NAME}" all_sketches/*.msh
           cp "data/${VERSIONED_NAME}" "data/${LATEST_NAME}"
+          cp "data/${VERSIONED_NAME}" test.msh
           
           gzip -9 "data/${VERSIONED_NAME}"
           gzip -9 "data/${LATEST_NAME}"
@@ -85,7 +86,7 @@ jobs:
         run: |
           touch initial_accessions.txt final_accessions.txt missing_accessions.txt
           cut -f 1 data/ids.txt | sort | uniq > initial_accessions.txt || true
-          mash info -t data/RefSeqSketches_latest.msh | cut -f 3 | grep G | rev | cut -f 1-2 -d _ | rev | sort | uniq > final_accessions.txt || true
+          mash info -t test.msh | cut -f 3 | grep G | rev | cut -f 1-2 -d _ | rev | sort | uniq > final_accessions.txt || true
           cat initial_accessions.txt | grep -vf final_accessions.txt > missing_accessions.txt || true
           
           ORIGINAL_COUNT=$(wc -l < initial_accessions.txt)
