@@ -74,11 +74,11 @@ jobs:
           LATEST_NAME="RefSeqSketches_latest.msh"
           
           mash paste "data/${VERSIONED_NAME}" all_sketches/*.msh
-          cp "data/${VERSIONED_NAME}" "data/${LATEST_NAME}"
+          cp "data/${VERSIONED_NAME}" "${LATEST_NAME}"
           cp "data/${VERSIONED_NAME}" test.msh
           
           gzip -9 "data/${VERSIONED_NAME}"
-          gzip -9 "data/${LATEST_NAME}"
+          gzip -9 "${LATEST_NAME}"
           
           echo "VERSIONED_FILENAME=${VERSIONED_NAME}.gz" >> $GITHUB_ENV
           echo "LATEST_FILENAME=${LATEST_NAME}.gz" >> $GITHUB_ENV
@@ -124,23 +124,23 @@ jobs:
           NEW_DEP_ID=$(echo $NEW_DRAFT_URL | awk -F/ '{print $NF}')
           
           # 2. Get bucket and upload 'latest' file
-          #BUCKET_URL=$(curl -s "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" | jq -r '.links.bucket')
-          #curl -S -o /dev/null -T "data/${{ env.LATEST_FILENAME }}" "$BUCKET_URL/RefSeqSketches_latest.msh.gz?access_token=$ZENODO_TOKEN"
+          BUCKET_URL=$(curl -s "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" | jq -r '.links.bucket')
+          curl -S -o /dev/null -T "${{ env.LATEST_FILENAME }}" "$BUCKET_URL/RefSeqSketches_latest.msh.gz?access_token=$ZENODO_TOKEN"
 
           # 3. Update Metadata
-          #curl -s -X PUT "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" \
-          #     -H "Content-Type: application/json" \
-          #     -d "{
-           #      \"metadata\": {
-           #        \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
-           #        \"upload_type\": \"dataset\",
-           #        \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. GitHub: ${{ github.repository }}. Version: ${{ env.VERSION }}\",
-           #        \"creators\": [{\"name\": \"RefSeq Mash Automator\"}]
-           #      }
-           #    }"
+          curl -s -X PUT "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" \
+               -H "Content-Type: application/json" \
+               -d "{
+                 \"metadata\": {
+                   \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
+                   \"upload_type\": \"dataset\",
+                   \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. GitHub: ${{ github.repository }}. Version: ${{ env.VERSION }}\",
+                   \"creators\": [{\"name\": \"RefSeq Mash Automator\"}]
+                 }
+               }"
 
           # 4. Publish
-          # curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
+          curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
@@ -150,7 +150,7 @@ jobs:
           branch: "update-master-reference"
           base: main
           add-paths: |
-            data/RefSeqSketches_${{ env.VERSION }}.msh.gz
+            data/*.msh.gz
             .gitattributes
           body: |
             Combined 100 genomic sketch chunks from Step 2.
