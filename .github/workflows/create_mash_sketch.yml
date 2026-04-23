@@ -61,10 +61,6 @@ jobs:
           # dehydrate and rehydrate is more stable
           datasets rehydrate --no-progressbar --directory genomes
 
-          tree
-
-          ls /home/runner/work/update_mash_dist/update_mash_dist/genomes
-
       - name: Sketching Loop
         run: |
           ORIG_WORKSPACE=/home/runner/work/update_mash_dist/update_mash_dist
@@ -158,9 +154,6 @@ jobs:
 
       - name: Verify Accession Integrity
         run: |
-          touch ids.txt final_accessions.txt missing_accessions.txt
-          mash info -t ${{ matrix.chunk }}.msh | head
-          mash info -t ${{ matrix.chunk }}.msh | cut -f 3 | grep G | rev | cut -f 1-2 -d _ | rev | sort | uniq | head
           mash info -t ${{ matrix.chunk }}.msh | cut -f 3 | grep G | rev | cut -f 1-2 -d _ | rev | sort | uniq > final_accessions.txt || true
           cat ids.txt | grep -vf final_accessions.txt > missing_accessions.txt || true
 
@@ -180,6 +173,13 @@ jobs:
             head -n 50 missing_accessions.txt >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
           fi
+
+      - name: Smoke Test
+        run: |
+          wget -q --no-check-certificate https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/048/245/GCF_019048245.1_ASM1904824v1/GCF_019048245.1_ASM1904824v1_genomic.fna.gz
+          gunzip GCF_019048245.1_ASM1904824v1_genomic.fna.gz
+          
+          mash screen -p 4 ${{ matrix.chunk }}.msh GCF_019048245.1_ASM1904824v1_genomic.fna | sort -gr | head
 
       - name: Upload Chunk Result
         uses: actions/upload-artifact@main
