@@ -156,6 +156,26 @@ jobs:
             fi
           done < $CHUNK_FILE
 
+      - name: Verify Accession Integrity
+        run: |
+          mash info -t${{ matrix.chunk }}.msh | cut -f 3 | grep .fasta | rev | cut -f 1-2 -d _ | rev | sed 's/.fasta//g' | sort | uniq > final_accessions.txt
+          cat ids.txt | grep -vf final_accessions.txt > missing_accessions.txt
+          
+          ORIGINAL_COUNT=$(wc -l < ids.txt)
+          MASH_COUNT=$(wc -l < final_accessions.txt)
+          MISSING_COUNT=$(wc -l < missing_accessions.txt)
+          
+          echo "- **Total Accessions Expected:** $ORIGINAL_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total Accessions Sketched:** $MASH_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- **Missing Accessions:** $MISSING_COUNT" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$MISSING_COUNT" -gt 0 ]; then
+            echo "#### Missing Accession Samples (First 50)" >> $GITHUB_STEP_SUMMARY
+            echo '```text' >> $GITHUB_STEP_SUMMARY
+            head -n 50 missing_accessions.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
       - name: Upload Chunk Result
         uses: actions/upload-artifact@main
         with:
