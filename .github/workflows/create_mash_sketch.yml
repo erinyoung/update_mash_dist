@@ -62,9 +62,6 @@ jobs:
           # dehydrate and rehydrate is more stable
           datasets rehydrate --directory genome_data
 
-          rm genomes.zip md5sum.txt README.md
-          # ncbi_dataset not deleted as we cycle through it
-
       - name: Sketching Loop
         run: |
           mkdir -p tmp_mash_workspace tmp_datasets_workspace
