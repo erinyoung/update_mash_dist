@@ -16,7 +16,6 @@ on:
         default: ''
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   ZENODO_RECORD_ID: "19211013"
 
 jobs:
@@ -30,7 +29,7 @@ jobs:
     
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@main
         with:
           # This ensures we have the ids.txt created in Step 1
           ref: 'update-master-ids'
@@ -47,7 +46,7 @@ jobs:
           echo "VERSION=$RS_VERSION" >> $GITHUB_ENV
 
       - name: Download all Chunk Artifacts
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@main
         with:
           pattern: msh-results-*
           path: all_sketches/
@@ -74,7 +73,6 @@ jobs:
           LATEST_NAME="RefSeqSketches_latest.msh"
           
           mash paste "data/${VERSIONED_NAME}" all_sketches/*.msh
-          cp "data/${VERSIONED_NAME}" "data/integrity_check.msh"
           cp "data/${VERSIONED_NAME}" "data/${LATEST_NAME}"
           
           gzip -9 "data/${VERSIONED_NAME}"
@@ -85,19 +83,12 @@ jobs:
 
       - name: Verify Accession Integrity
         run: |
-          # data/ids.txt is already here because of the 'ref: update-master-ids' checkout
-          TARGET_IDS="data/ids.txt"
-          if [ ! -f "$TARGET_IDS" ]; then
-              echo "### Integrity Check Failed: data/ids.txt not found in branch" >> $GITHUB_STEP_SUMMARY
-              exit 1
-          fi
-
-          awk '{print $1}' "$TARGET_IDS" | sort > original_ids.txt
-          mash info -l "data/integrity_check.msh" | awk -F'_' '{print $NF}' | sort > mash_ids.txt
-          comm -23 original_ids.txt mash_ids.txt > missing_accessions.txt
+          cut -f 1 data/ids.txt | sort | uniq > initial_accessions.txt
+          mash info -t data/RefSeqSketches_latest.msh | cut -f 3 | grep .fasta | rev | cut -f 1-2 -d _ | rev | sed 's/.fasta//g' | sort | uniq > final_accessions.txt
+          cat initial_accessions.txt | grep -vf final_accessions.txt > missing_accessions.txt
           
-          ORIGINAL_COUNT=$(wc -l < original_ids.txt)
-          MASH_COUNT=$(wc -l < mash_ids.txt)
+          ORIGINAL_COUNT=$(wc -l < initial_accessions.txt)
+          MASH_COUNT=$(wc -l < final_accessions.txt)
           MISSING_COUNT=$(wc -l < missing_accessions.txt)
           
           echo "### Genomic Integrity Report (v${{ env.VERSION }})" >> $GITHUB_STEP_SUMMARY
