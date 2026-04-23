@@ -57,10 +57,10 @@ jobs:
           echo "Working on chunk ${{ matrix.chunk }}"
 
           datasets download genome accession --no-progressbar --inputfile ids.txt --dehydrated --filename genomes.zip
-          unzip -n genomes.zip -d genome_data
+          unzip -n genomes.zip -d ncbi_dataset
 
           # dehydrate and rehydrate is more stable
-          datasets rehydrate --directory genome_data
+          datasets rehydrate --directory ncbi_dataset
 
       - name: Sketching Loop
         run: |
