@@ -50,9 +50,16 @@ jobs:
 
       - name: Download Batch
         run: |
+          CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
+          cut -f 1 $CHUNK_FILE > ids.txt
+          
           echo "Working on chunk ${{ matrix.chunk }}"
-          datasets download genome accession --no-progressbar --inputfile ids.txt --filename genomes.zip
+
+          datasets download genome accession --no-progressbar --inputfile ids.txt --dehydrated --filename genomes.zip
           unzip genomes.zip
+
+          # dehydrate and rehydrate is more stable
+          datasets rehydrate --directory ncbi_dataset
 
           rm genomes.zip md5sum.txt README.md
           # ncbi_dataset not deleted as we cycle through it
@@ -63,7 +70,6 @@ jobs:
           ORIG_WORKSPACE=$(pwd)
           DATASET_WORKSPACE=$(pwd)/tmp_datasets_workspace
           CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
-          cut -f 1 $CHUNK_FILE > ids.txt
 
           # getting absolute paths for mash files
           NEW_MASH=$(pwd)/new
