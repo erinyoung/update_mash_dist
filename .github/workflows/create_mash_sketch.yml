@@ -60,19 +60,23 @@ jobs:
           unzip -n genomes.zip -d ncbi_dataset
 
           # dehydrate and rehydrate is more stable
-          datasets rehydrate --directory ncbi_dataset
+          datasets rehydrate --no-progressbar --directory ncbi_dataset
+
+          ls /home/runner/work/update_mash_dist/update_mash_dist/ncbi_dataset/data
 
       - name: Sketching Loop
         run: |
-          mkdir -p tmp_mash_workspace tmp_datasets_workspace
-          ORIG_WORKSPACE=$(pwd)
+          ORIG_WORKSPACE=/home/runner/work/update_mash_dist/update_mash_dist
           DATASET_WORKSPACE=$(pwd)/tmp_datasets_workspace
           CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
 
+          cd $ORIG_WORKSPACE
+          mkdir -p tmp_mash_workspace tmp_datasets_workspace
+
           # getting absolute paths for mash files
-          NEW_MASH=$(pwd)/new
-          TEMP_MASH=$(pwd)/temp
-          FINAL_MASH=$(pwd)/${{ matrix.chunk }}
+          NEW_MASH=$ORIG_WORKSPACE/new
+          TEMP_MASH=$ORIG_WORKSPACE/temp
+          FINAL_MASH=$ORIG_WORKSPACE/${{ matrix.chunk }}
          
           while read line
           do
