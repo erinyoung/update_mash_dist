@@ -32,6 +32,8 @@ jobs:
       - name: Check Out Repository
         uses: actions/checkout@v4
         with:
+          # This ensures we have the ids.txt created in Step 1
+          ref: 'update-master-ids'
           lfs: true
 
       - name: Fetch Current RefSeq Version
@@ -50,18 +52,9 @@ jobs:
           pattern: msh-results-*
           path: all_sketches/
           merge-multiple: true
-          # Logic: Use manual run_id if provided, otherwise use the automated trigger ID
+          # Connects to the Step 2 Run ID
           run-id: ${{ inputs.run_id || github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Download Master ID List
-        uses: actions/download-artifact@v5
-        with:
-          name: master-id-list
-          path: data/
-          run-id: ${{ inputs.run_id || github.event.workflow_run.id }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
 
       - name: Install Mash v2.3
         run: |
@@ -92,10 +85,11 @@ jobs:
 
       - name: Verify Accession Integrity
         run: |
+          # data/ids.txt is already here because of the 'ref: update-master-ids' checkout
           TARGET_IDS="data/ids.txt"
           if [ ! -f "$TARGET_IDS" ]; then
-             echo "### Integrity Check Skipped: ids.txt not found" >> $GITHUB_STEP_SUMMARY
-             exit 0
+              echo "### Integrity Check Failed: data/ids.txt not found in branch" >> $GITHUB_STEP_SUMMARY
+              exit 1
           fi
 
           awk '{print $1}' "$TARGET_IDS" | sort > original_ids.txt
@@ -129,20 +123,20 @@ jobs:
           NEW_DEP_ID=$(echo $NEW_DRAFT_URL | awk -F/ '{print $NF}')
           
           # 2. Get bucket and upload 'latest' file
-          BUCKET_URL=$(curl -s "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" | jq -r '.links.bucket')
-          curl -S -o /dev/null -T "data/${{ env.LATEST_FILENAME }}" "$BUCKET_URL/RefSeqSketches_latest.msh.gz?access_token=$ZENODO_TOKEN"
+          #BUCKET_URL=$(curl -s "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" | jq -r '.links.bucket')
+          #curl -S -o /dev/null -T "data/${{ env.LATEST_FILENAME }}" "$BUCKET_URL/RefSeqSketches_latest.msh.gz?access_token=$ZENODO_TOKEN"
 
           # 3. Update Metadata
-          curl -s -X PUT "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" \
-               -H "Content-Type: application/json" \
-               -d "{
-                 \"metadata\": {
-                   \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
-                   \"upload_type\": \"dataset\",
-                   \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. GitHub: ${{ github.repository }}. Version: ${{ env.VERSION }}\",
-                   \"creators\": [{\"name\": \"RefSeq Mash Automator\"}]
-                 }
-               }"
+          #curl -s -X PUT "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" \
+          #     -H "Content-Type: application/json" \
+          #     -d "{
+           #      \"metadata\": {
+           #        \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
+           #        \"upload_type\": \"dataset\",
+           #        \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. GitHub: ${{ github.repository }}. Version: ${{ env.VERSION }}\",
+           #        \"creators\": [{\"name\": \"RefSeq Mash Automator\"}]
+           #      }
+           #    }"
 
           # 4. Publish
           # curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
