@@ -34,6 +34,7 @@ jobs:
           # This ensures we have the ids.txt created in Step 1
           ref: 'update-master-ids'
           lfs: true
+          persist-credentials: false
 
       - name: Fetch Current RefSeq Version
         id: refseq
