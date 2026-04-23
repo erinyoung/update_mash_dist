@@ -83,9 +83,10 @@ jobs:
 
       - name: Verify Accession Integrity
         run: |
-          cut -f 1 data/ids.txt | sort | uniq > initial_accessions.txt
-          mash info -t data/RefSeqSketches_latest.msh | cut -f 3 | grep .fasta | rev | cut -f 1-2 -d _ | rev | sed 's/.fasta//g' | sort | uniq > final_accessions.txt
-          cat initial_accessions.txt | grep -vf final_accessions.txt > missing_accessions.txt
+          touch initial_accessions.txt final_accessions.txt missing_accessions.txt
+          cut -f 1 data/ids.txt | sort | uniq > initial_accessions.txt || true
+          mash info -t data/RefSeqSketches_latest.msh | cut -f 3 | grep G | rev | cut -f 1-2 -d _ | rev | sort | uniq > final_accessions.txt || true
+          cat initial_accessions.txt | grep -vf final_accessions.txt > missing_accessions.txt || true
           
           ORIGINAL_COUNT=$(wc -l < initial_accessions.txt)
           MASH_COUNT=$(wc -l < final_accessions.txt)
@@ -102,7 +103,6 @@ jobs:
             head -n 50 missing_accessions.txt >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
           fi
-          rm data/integrity_check.msh
 
       - name: Upload to Zenodo
         env:
