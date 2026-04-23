@@ -50,7 +50,6 @@ jobs:
 
       - name: Download Batch
         run: |
-          echo $(pwd)
           CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
           cut -f 1 $CHUNK_FILE > ids.txt
           
@@ -62,7 +61,9 @@ jobs:
           # dehydrate and rehydrate is more stable
           datasets rehydrate --no-progressbar --directory ncbi_dataset
 
-          ls /home/runner/work/update_mash_dist/update_mash_dist/ncbi_dataset/data
+          tree
+
+          ls /home/runner/work/update_mash_dist/update_mash_dist
 
       - name: Sketching Loop
         run: |
