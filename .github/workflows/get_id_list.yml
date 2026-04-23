@@ -3,15 +3,12 @@ name: Step1 Create Reference
 on:
   workflow_dispatch:
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   list_reference_genomes:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@main
 
       - name: Download Datasets Tools
         run: |
@@ -38,14 +35,14 @@ jobs:
           echo "Created $(ls x*.txt | wc -l) chunk files."
 
       - name: Upload Master List
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@main
         with:
           name: master-id-list
           path: ids.txt
           retention-days: 1
 
       - name: Upload Chunks
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@main
         with:
           name: genome-chunks
           path: x*.txt
@@ -56,10 +53,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@main
 
       - name: Download Master List Artifact
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@main
         with:
           name: master-id-list
 
@@ -69,7 +66,7 @@ jobs:
           mv ids.txt data/ids.txt
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@main
         with:
           commit-message: "Update master prokaryotic reference list"
           title: "Update Master ID List"
