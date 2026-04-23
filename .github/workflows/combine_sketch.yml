@@ -136,15 +136,21 @@ jobs:
 
           # 3. Update Metadata
           curl -s -X PUT "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" \
-               -H "Content-Type: application/json" \
-               -d "{
-                 \"metadata\": {
-                   \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
-                   \"upload_type\": \"dataset\",
-                   \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. GitHub: ${{ github.repository }}. Version: ${{ env.VERSION }}\",
-                   \"creators\": [{\"name\": \"RefSeq Mash Automator\"}]
-                 }
-               }"
+            -H "Content-Type: application/json" \
+            -d "{
+                   \"metadata\": {
+                     \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
+                     \"version\": \"${{ env.VERSION }}\",
+                     \"upload_type\": \"dataset\",
+                     \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. GitHub: ${{ github.repository }}. Version: ${{ env.VERSION }}\",
+                     \"creators\": [
+                       {
+                         \"name\": \"Young, Erin\",
+                         \"affiliation\": \"Unified Public Health Laboratory, Department of Health and Human Services, State of Utah\"
+                       }
+                     ]
+                   }
+                 }"
 
           # 4. Publish
           curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
