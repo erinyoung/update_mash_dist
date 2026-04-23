@@ -113,6 +113,13 @@ jobs:
             echo "Integrity check passed: All accessions accounted for."
           fi
 
+      - name: Smoke Test
+        run: |
+          wget -q --no-check-certificate https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/048/245/GCF_019048245.1_ASM1904824v1/GCF_019048245.1_ASM1904824v1_genomic.fna.gz
+          gunzip GCF_019048245.1_ASM1904824v1_genomic.fna.gz
+          
+          mash screen -p 4  test.msh GCF_019048245.1_ASM1904824v1_genomic.fna | sort -gr screen.tsv | head
+
       - name: Upload to Zenodo
         if: env.SHOULD_PUBLISH == 'true'
         env:
