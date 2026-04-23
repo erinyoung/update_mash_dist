@@ -48,9 +48,17 @@ jobs:
           chmod +x datasets mash
           echo "$(pwd)" >> $GITHUB_PATH
 
-      - name: Sketching Loop
+      - name: Download Batch
         run: |
           echo "Working on chunk ${{ matrix.chunk }}"
+          datasets download genome accession --no-progressbar --inputfile ids.txt --filename genomes.zip
+          unzip genomes.zip
+
+          rm genomes.zip md5sum.txt README.md
+          # ncbi_dataset not deleted as we cycle through it
+
+      - name: Sketching Loop
+        run: |
           mkdir -p tmp_mash_workspace tmp_datasets_workspace
           ORIG_WORKSPACE=$(pwd)
           DATASET_WORKSPACE=$(pwd)/tmp_datasets_workspace
@@ -61,13 +69,7 @@ jobs:
           NEW_MASH=$(pwd)/new
           TEMP_MASH=$(pwd)/temp
           FINAL_MASH=$(pwd)/${{ matrix.chunk }}
-
-          datasets download genome accession --inputfile ids.txt --filename genomes.zip
-          unzip genomes.zip
-
-          rm -rf genomes.zip md5sum.txt README.md
-          # ncbi_dataset not deleted as we cycle through it
-          
+         
           while read line
           do
             cd $ORIG_WORKSPACE
@@ -109,7 +111,7 @@ jobs:
               until [ $attempt -ge $MAX_RETRIES ]
               do
                 echo "Downloading attempt number $attempt"
-                datasets download genome accession "${id}" --no-progressbar --filename ncbi_dataset.zip < /dev/null
+                datasets download genome accession "${id}" --no-progressbar --no-progressbar --filename ncbi_dataset.zip < /dev/null
                 if [ -f ncbi_dataset.zip ]
                 then
                   unzip ncbi_dataset.zip
