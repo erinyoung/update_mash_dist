@@ -142,10 +142,11 @@ jobs:
                      \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
                      \"version\": \"${{ env.VERSION }}\",
                      \"upload_type\": \"dataset\",
-                     \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. GitHub: ${{ github.repository }}. Version: ${{ env.VERSION }}\",
+                     \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. Methods and source code are at https://github.com/erinyoung/update_mash_dist. Version: ${{ env.VERSION }}\",
                      \"creators\": [
                        {
                          \"name\": \"Young, Erin\",
+                         \"orcid\": \"0000-0002-7535-006X\",
                          \"affiliation\": \"Unified Public Health Laboratory, Department of Health and Human Services, State of Utah\"
                        }
                      ]
