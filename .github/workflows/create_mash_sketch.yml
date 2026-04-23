@@ -11,8 +11,6 @@ on:
         required: false
         default: ''
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   download_and_sketch:
@@ -24,14 +22,16 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        chunk: ["000", "001", "002", "003", "004", "005", "006", "007", "008", "009", "010", "011", "012", "013", "014", "015", "016", "017", "018", "019", "020", "021", "022", "023", "024", "025", "026", "027", "028", "029", "030", "031", "032", "033", "034", "035", "036", "037", "038", "039", "040", "041", "042", "043", "044", "045", "046", "047", "048", "049", "050", "051", "052", "053", "054", "055", "056", "057", "058", "059", "060", "061", "062", "063", "064", "065", "066", "067", "068", "069", "070", "071", "072", "073", "074", "075", "076", "077", "078", "079", "080", "081", "082", "083", "084", "085", "086", "087", "088", "089", "090", "091", "092", "093", "094", "095", "096", "097", "098", "099"]
+        #chunk: ["000", "001", "002", "003", "004", "005", "006", "007", "008", "009", "010", "011", "012", "013", "014", "015", "016", "017", "018", "019", "020", "021", "022", "023", "024", "025", "026", "027", "028", "029", "030", "031", "032", "033", "034", "035", "036", "037", "038", "039", "040", "041", "042", "043", "044", "045", "046", "047", "048", "049", "050", "051", "052", "053", "054", "055", "056", "057", "058", "059", "060", "061", "062", "063", "064", "065", "066", "067", "068", "069", "070", "071", "072", "073", "074", "075", "076", "077", "078", "079", "080", "081", "082", "083", "084", "085", "086", "087", "088", "089", "090", "091", "092", "093", "094", "095", "096", "097", "098", "099"]
+        chunk: ["000", "001", "099"]
+    
     
     steps:
       - name: Check Out Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@main
 
       - name: Download ID Chunks
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@main
         with:
           name: genome-chunks
           path: chunks/
@@ -42,21 +42,37 @@ jobs:
       - name: Install Dependencies
         run: |
           wget -q https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/datasets
-          wget -q https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/dataformat
           wget -q https://github.com/marbl/Mash/releases/download/v2.3/mash-Linux64-v2.3.tar
           tar -xf mash-Linux64-v2.3.tar
           mv mash-Linux64-v2.3/mash .
-          chmod +x datasets dataformat mash
+          chmod +x datasets mash
           echo "$(pwd)" >> $GITHUB_PATH
 
       - name: Sketching Loop
         run: |
           echo "Working on chunk ${{ matrix.chunk }}"
-          mkdir -p tmp_workspace
+          mkdir -p tmp_mash_workspace tmp_datasets_workspace
+          ORIG_WORKSPACE=$(pwd)
+          DATASET_WORKSPACE=$(pwd)/tmp_datasets_workspace
           CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
+          cut -f 1 $CHUNK_FILE > ids.txt
 
-          # Redirecting input to File Descriptor 3 to prevent stdin hijacking
-          while read -r line <&3; do
+          # getting absolute paths for mash files
+          NEW_MASH=$(pwd)/new
+          TEMP_MASH=$(pwd)/temp
+          FINAL_MASH=$(pwd)/${{ matrix.chunk }}
+
+          datasets download genome accession --inputfile ids.txt --filename genomes.zip
+          unzip genomes.zip
+
+          rm -rf genomes.zip md5sum.txt README.md
+          # ncbi_dataset not deleted as we cycle through it
+          
+          while read line
+          do
+            cd $ORIG_WORKSPACE
+            rm -rf $DATASET_WORKSPACE/*
+            
             id=$(echo "$line" | awk '{print $1}')
             ge=$(echo "$line" | awk '{print $2}')
             sp=$(echo "$line" | awk '{print $3}')
@@ -70,56 +86,68 @@ jobs:
             # getting approximate line number
             wc -l $CHUNK_FILE
             grep -n $id $CHUNK_FILE
-            
-            [[ ! "$id" =~ ^G ]] && continue
 
-            rm -f ncbi_dataset.zip md5sum.txt README.md
-            rm -rf ncbi_dataset/
+            GENOME_PATH=""
+            # first looking to see if it downloaded in the batch (common)
+            if [ -d "ncbi_dataset/data/${id}" ]
+            then
+              GENOME_PATH=$(find ncbi_dataset/data/${id} -name "*_genomic.fna" | head -n 1)
+            fi
 
-            MAX_RETRIES=10
-            attempt=0
-            success=false
-
-            until [ $attempt -ge $MAX_RETRIES ]; do
-              echo "Downloading attempt number $attempt"
-              # datasets and unzip redirected to /dev/null to protect the loop
-              if datasets download genome accession "$id" --no-progressbar --filename "ncbi_dataset.zip" < /dev/null; then
-                if [ -s "ncbi_dataset.zip" ]; then
+            # if didn't download as batch, try again as individual
+            if [ ! -n "$GENOME_PATH" ]
+            then
+              cd $DATASET_WORKSPACE
+              rm -rf $DATASET_WORKSPACE/*
+              
+              MAX_RETRIES=10
+              attempt=0
+              success=false
+    
+              echo "Accession $id was not found. Re-attempting download."
+              
+              until [ $attempt -ge $MAX_RETRIES ]
+              do
+                echo "Downloading attempt number $attempt"
+                datasets download genome accession "${id}" --no-progressbar --filename ncbi_dataset.zip < /dev/null
+                if [ -f ncbi_dataset.zip ]
+                then
+                  unzip ncbi_dataset.zip
+                  GENOME_PATH=$(find ncbi_dataset/data -name "*_genomic.fna" | head -n 1)
+                fi
+                
+                if [ -n "$GENOME_PATH" ]
+                then
                   success=true
                   break
+                else
+                  rm -rf $DATASET_WORKSPACE/*
+                  attempt=$((attempt+1))
+                  sleep $((attempt * 10))s
                 fi
-              fi
-              attempt=$((attempt+1))
-              sleep $((attempt * 10))s
-            done
+              done
+            fi
 
-            if [ "$success" = false ]; then
-              echo "Fatal: Failed to download $id"
+            if [ -n "$GENOME_PATH" ]
+            then
+              if [ ! -f "$FINAL_MASH.msh" ]; then
+                mash sketch "$GENOME_PATH" -o $FINAL_MASH -I "${ge}_${sp}_${id}"
+              else
+                mash sketch "$GENOME_PATH" -o $NEW_MASH -I "${ge}_${sp}_${id}"
+                mash paste $TEMP_MASH $FINAL_MASH.msh $NEW_MASH.msh
+                mv $TEMP_MASH.msh $FINAL_MASH.msh
+                rm $NEW_MASH.msh
+              fi
+            else
+              echo "Could not download the genome for $id"
+              echo "FAILURE"
               exit 1
             fi
-
-            unzip -qo ncbi_dataset.zip < /dev/null
-            GENOME_PATH=$(find ncbi_dataset/data -name "*_genomic.fna" | head -n 1)
-            
-            if [ -n "$GENOME_PATH" ]; then
-              if [ ! -f "chunk_final.msh" ]; then
-                mash sketch "$GENOME_PATH" -o chunk_final -I "${ge}_${sp}_${id}"
-              else
-                mash sketch "$GENOME_PATH" -o single_sample -I "${ge}_${sp}_${id}"
-                mash paste new_combined chunk_final.msh single_sample.msh
-                mv new_combined.msh chunk_final.msh
-                rm single_sample.msh
-              fi
-            fi
-          done 3< "$CHUNK_FILE"
-
-          if [ -f "chunk_final.msh" ]; then
-            mv chunk_final.msh "${{ matrix.chunk }}.msh"
-          fi
+          done < $CHUNK_FILE
 
       - name: Upload Chunk Result
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@main
         with:
           name: msh-results-${{ matrix.chunk }}
           path: "${{ matrix.chunk }}.msh"
-          retention-days: 1
+          retention-days: 7
