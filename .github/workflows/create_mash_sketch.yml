@@ -160,7 +160,7 @@ jobs:
         run: |
 
           mash info -t ${{ matrix.chunk }}.msh | head 
-          mash info -t ${{ matrix.chunk }}.msh | cut -f 3 | grep .fasta | rev | cut -f 1-2 -d _ | rev | sed 's/.fasta//g' | sort | uniq > final_accessions.txt
+          mash info -t ${{ matrix.chunk }}.msh | cut -f 3 | grep G | rev | cut -f 1-2 -d _ | rev | sed 's/.fasta//g' | sort | uniq > final_accessions.txt
           cat ids.txt | grep -vf final_accessions.txt > missing_accessions.txt
 
           head *.txt
