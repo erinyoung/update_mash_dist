@@ -50,16 +50,17 @@ jobs:
 
       - name: Download Batch
         run: |
+          echo $(pwd)
           CHUNK_FILE="chunks/x${{ matrix.chunk }}.txt"
           cut -f 1 $CHUNK_FILE > ids.txt
           
           echo "Working on chunk ${{ matrix.chunk }}"
 
           datasets download genome accession --no-progressbar --inputfile ids.txt --dehydrated --filename genomes.zip
-          unzip genomes.zip
+          unzip -n genomes.zip -d genome_data
 
           # dehydrate and rehydrate is more stable
-          datasets rehydrate --directory ncbi_dataset
+          datasets rehydrate --directory genome_data
 
           rm genomes.zip md5sum.txt README.md
           # ncbi_dataset not deleted as we cycle through it
