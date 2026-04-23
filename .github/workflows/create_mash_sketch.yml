@@ -56,14 +56,14 @@ jobs:
           echo "Working on chunk ${{ matrix.chunk }}"
 
           datasets download genome accession --no-progressbar --inputfile ids.txt --dehydrated --filename genomes.zip
-          unzip -n genomes.zip -d ncbi_dataset
+          unzip -n genomes.zip -d genomes
 
           # dehydrate and rehydrate is more stable
-          datasets rehydrate --no-progressbar --directory ncbi_dataset
+          datasets rehydrate --no-progressbar --directory genomes
 
           tree
 
-          ls /home/runner/work/update_mash_dist/update_mash_dist
+          ls /home/runner/work/update_mash_dist/update_mash_dist/genomes
 
       - name: Sketching Loop
         run: |
@@ -100,9 +100,9 @@ jobs:
 
             GENOME_PATH=""
             # first looking to see if it downloaded in the batch (common)
-            if [ -d "ncbi_dataset/data/${id}" ]
+            if [ -d "genomes/ncbi_dataset/data/${id}" ]
             then
-              GENOME_PATH=$(find ncbi_dataset/data/${id} -name "*_genomic.fna" | head -n 1)
+              GENOME_PATH=$(find genomes/ncbi_dataset/data/${id} -name "*_genomic.fna" | head -n 1)
             fi
 
             # if didn't download as batch, try again as individual
