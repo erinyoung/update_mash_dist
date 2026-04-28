@@ -164,7 +164,7 @@ jobs:
                 }"
 
           # Publish to ZENODO
-          curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
+          #curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
 
       - name: Setup Git LFS
         run: |
