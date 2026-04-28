@@ -164,14 +164,21 @@ jobs:
                 }"
 
           # Publish to ZENODO
-          curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
+          #curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
 
       - name: Setup Git LFS
         run: |
           git lfs install
+          # Track the patterns (updates .gitattributes)
           git lfs track "data/*.msh.gz"
           git lfs track "*.msh.gz"
+          
+          # Stage the .gitattributes change
           git add .gitattributes
+          
+          # Stage all changes, including the deletion of the 
+          # old version file and the addition of the new one.
+          git add -A
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
@@ -180,10 +187,8 @@ jobs:
           title: "Update Master Reference Sketch (v${{ env.VERSION }})"
           branch: "update-master-reference"
           base: main
-          add-paths: |
-            data/*.msh.gz
-            .gitattributes
           body: |
             Combined 100 genomic sketch chunks from Step 2.
             - RefSeq Version: ${{ env.VERSION }}
             - Zenodo Update: Completed (RefSeqSketches_latest.msh.gz)
+            - Old version file removed from /data
