@@ -3633,7 +3633,6 @@ GCF_034470605.1	Candidatus Cyrtobacter comes
 GCF_008189285.1	Candidatus Cytomitobacter indipagum
 GCF_951805245.1	Candidatus Cytomitobacter primus
 GCF_014736495.1	Candidatus Dactylopiibacterium carminicum
-GCF_037094495.1	Candidatus Dehalogenimonas loeffleri
 GCF_007993655.1	Candidatus Deianiraea vastatrix
 GCF_001577525.1	Candidatus Desulfofervidus auxilii
 GCF_030954495.1	Candidatus Desulfosporosinus nitrosoreducens
@@ -5528,6 +5527,7 @@ GCF_000011905.1	Dehalococcoides mccartyi 195
 GCF_001466665.1	Dehalogenimonas alkenigignens
 GCF_014672715.2	Dehalogenimonas etheniformans
 GCF_001953175.1	Dehalogenimonas formicexedens
+GCF_037094495.1	Dehalogenimonas loeffleri
 GCF_014202645.1	Deinobacterium chartae
 GCF_001507665.1	Deinococcus actinosclerus
 GCF_002897375.1	Deinococcus aerius
@@ -10366,7 +10366,7 @@ GCF_002109495.1	Magnetofaba australis IT-1
 GCF_054657015.1	Magnetospira thiophila
 GCF_011022235.1	Magnetospirillum aberrantis SpK
 GCF_900108475.1	Magnetospirillum fulvum
-GCF_000513295.1	Magnetospirillum gryphiswaldense MSR-1 v2
+GCF_002995515.1	Magnetospirillum gryphiswaldense MSR-1
 GCF_000294655.1	Magnetospirillum molischianum DSM 120
 GCF_001650635.1	Magnetospirillum moscoviense
 GCF_018224925.1	Magnetospirillum sulfuroxidans
@@ -14448,6 +14448,8 @@ GCF_046237605.1	Paraperibacillus marinus
 GCF_003387535.1	Paraperlucidibaca baekdonensis
 GCF_042677145.1	Paraperlucidibaca wandonensis
 GCF_002216855.1	Paraphotobacterium marinum
+GCF_016863175.1	Paraplanobispora siamensis
+GCF_016863195.1	Paraplanobispora takensis
 GCF_009827635.1	Parapontixanthobacter aurantiacus
 GCF_000233955.1	Paraprevotella clara YIT 11840
 GCF_900683745.1	Paraprevotella xylaniphila YIT 11841
@@ -15148,8 +15150,6 @@ GCF_904830955.1	Planktothrix tepida
 GCF_015354315.1	Planobacterium oryzisoli
 GCF_016863135.1	Planobispora longispora
 GCF_014648175.1	Planobispora rosea
-GCF_016863175.1	Planobispora siamensis
-GCF_016863195.1	Planobispora takensis
 GCF_018283455.1	Planococcus alpniumensis
 GCF_001687565.2	Planococcus antarcticus DSM 14505
 GCF_016820495.1	Planococcus beigongshangi
@@ -15189,8 +15189,7 @@ GCF_039534085.1	Planomonospora alba
 GCF_977012225.1	Planomonospora algeriensis
 GCF_042650625.1	Planomonospora corallina
 GCF_016863215.1	Planomonospora parontospora subsp. parontospora
-GCF_001653075.1	Planomonospora sphaerica
-GCF_014203605.1	Planomonospora venezuelensis
+GCF_001653075.1	Planomonospora parontospora subsp. sphaerica
 GCF_016862875.1	Planosporangium flavigriseum
 GCF_016863255.1	Planosporangium mesophilum
 GCF_049999945.1	Planosporangium spinosum
@@ -15963,7 +15962,7 @@ GCF_018343775.1	Pseudomonas cichorii
 GCF_049331905.1	Pseudomonas cimarronensis
 GCF_025336485.1	Pseudomonas citri
 GCF_001586155.1	Pseudomonas citronellolis
-GCF_030580855.1	Pseudomonas citrulli
+GCF_030580855.1	Pseudomonas citrullilanati
 GCF_900105555.1	Pseudomonas coleopterorum
 GCF_900103225.1	Pseudomonas congelans
 GCF_000156995.2	Pseudomonas coronafaciens pv. oryzae str. 1_6
@@ -17754,7 +17753,6 @@ GCF_014643455.1	Sandarakinorhabdus glacialis
 GCF_000420765.1	Sandarakinorhabdus limnophila DSM 17366
 GCF_009733735.1	Sandarakinorhabdus oryzae
 GCF_010994245.1	Sandarakinorhabdus rubra
-GCF_910574005.1	Sangeribacter muris
 GCF_002564005.1	Sanguibacter antarcticus
 GCF_033798665.1	Sanguibacter biliveldensis
 GCF_900096585.1	Sanguibacter gelidistatuariae
@@ -20831,6 +20829,7 @@ GCF_022760915.1	Thermus thalpophilus
 GCF_004307015.1	Thermus thermamylovorans
 GCF_000091545.1	Thermus thermophilus HB8
 GCF_018224955.1	Thetidibacter halocola
+GCF_014203605.1	Thiemannella venezuelensis
 GCF_003337735.1	Thioalbus denitrificans
 GCF_041197575.1	Thioalkalicoccus limnaeus
 GCF_002000365.1	Thioalkalivibrio denitrificans
