@@ -169,16 +169,21 @@ jobs:
       - name: Setup Git LFS
         run: |
           git lfs install
-          # Track the patterns (updates .gitattributes)
+          
+          # 1. Remove the old files from the Git Index only (--cached)
+          # This stops LFS from looking for files that no longer exist on disk.
+          git rm --cached data/*.msh.gz || true
+          git rm --cached *.msh.gz || true
+
+          # 2. Now track the patterns
           git lfs track "data/*.msh.gz"
           git lfs track "*.msh.gz"
           
-          # Stage the .gitattributes change
+          # 3. Add everything back
+          # This stages the .gitattributes, the deletions, and the new files
           git add .gitattributes
-          
-          # Stage all changes, including the deletion of the 
-          # old version file and the addition of the new one.
-          git add -A
+          git add data/
+          git add *.msh.gz
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
