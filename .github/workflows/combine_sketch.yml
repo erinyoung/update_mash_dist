@@ -176,11 +176,11 @@ jobs:
           tree
       
           # Track only desired files
-          git lfs track "data/*.msh.gz"
+          git lfs track "data/RefSeqSketches_${{ env.VERSION }}.msh.gz"
           
           # Add only what you want
           git add .gitattributes
-          git add data/*.msh.gz
+          git add data/RefSeqSketches_${{ env.VERSION }}.msh.gz
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
