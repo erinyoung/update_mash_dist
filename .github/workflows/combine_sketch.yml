@@ -122,6 +122,7 @@ jobs:
 
       - name: Upload to Zenodo
         if: env.SHOULD_PUBLISH == 'true'
+        continue-on-error: true
         env:
           ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
         run: |
@@ -167,7 +168,6 @@ jobs:
           curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
 
       - name: Setup Git LFS
-        if: always()
         run: |
           git lfs install
 
@@ -183,7 +183,6 @@ jobs:
           git add data/*.msh.gz
 
       - name: Create Pull Request
-        if: always()
         uses: peter-evans/create-pull-request@main
         with:
           commit-message: "Update mash reference to version ${{ env.VERSION }}"
