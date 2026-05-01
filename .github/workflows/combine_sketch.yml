@@ -169,7 +169,11 @@ jobs:
       - name: Setup Git LFS
         run: |
           git lfs install
-      
+
+          rm -rf all_sketches mash mash-* *.fna *.txt test.msh || true
+
+          tree 
+          
           # Stop tracking everything currently in data
           git rm -r --cached data/ || true
       
@@ -183,6 +187,8 @@ jobs:
           git add .gitattributes
           git add .gitignore
           git add data/*.msh.gz
+
+
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
