@@ -2160,6 +2160,7 @@ GCF_054511255.1	Arthrobacter monumenti
 GCF_038405295.1	Arthrobacter nanjingensis
 GCF_045833485.1	Arthrobacter nitrophenolicus
 GCF_003634095.1	Arthrobacter oryzae
+GCF_056782315.1	Arthrobacter paludis
 GCF_039530425.1	Arthrobacter parietis
 GCF_031454935.1	Arthrobacter pascens
 GCF_047238215.1	Arthrobacter phoenicis
@@ -3063,6 +3064,7 @@ GCF_016031635.1	Bradyrhizobium diversitatis
 GCF_023278185.1	Bradyrhizobium elkanii USDA 76
 GCF_001189235.2	Bradyrhizobium embrapense
 GCF_042430365.1	Bradyrhizobium erythrophlei
+GCF_056837965.1	Bradyrhizobium ferriligni
 GCF_002795245.1	Bradyrhizobium forestalis
 GCF_004570865.1	Bradyrhizobium frederickii
 GCF_049949285.1	Bradyrhizobium ganzhouense
@@ -3633,7 +3635,6 @@ GCF_034470605.1	Candidatus Cyrtobacter comes
 GCF_008189285.1	Candidatus Cytomitobacter indipagum
 GCF_951805245.1	Candidatus Cytomitobacter primus
 GCF_014736495.1	Candidatus Dactylopiibacterium carminicum
-GCF_037094495.1	Candidatus Dehalogenimonas loeffleri
 GCF_007993655.1	Candidatus Deianiraea vastatrix
 GCF_001577525.1	Candidatus Desulfofervidus auxilii
 GCF_030954495.1	Candidatus Desulfosporosinus nitrosoreducens
@@ -5528,6 +5529,7 @@ GCF_000011905.1	Dehalococcoides mccartyi 195
 GCF_001466665.1	Dehalogenimonas alkenigignens
 GCF_014672715.2	Dehalogenimonas etheniformans
 GCF_001953175.1	Dehalogenimonas formicexedens
+GCF_037094495.1	Dehalogenimonas loeffleri
 GCF_014202645.1	Deinobacterium chartae
 GCF_001507665.1	Deinococcus actinosclerus
 GCF_002897375.1	Deinococcus aerius
@@ -6341,6 +6343,7 @@ GCF_900186505.1	Enorma phocaeensis
 GCF_009676995.1	Enorma shizhengliae
 GCF_000321165.1	Enorma timonensis
 GCF_000697965.2	Ensifer adhaerens
+GCF_002078505.1	Ensifer aridi
 GCF_017488845.2	Ensifer canadensis
 GCF_013371465.1	Ensifer oleiphilus
 GCF_013283665.1	Ensifer sesbaniae
@@ -7604,6 +7607,7 @@ GCF_018531165.1	Geobacter grbiciae
 GCF_027925345.1	Geobacter hydrogenophilus
 GCF_000012925.1	Geobacter metallireducens GS-15
 GCF_000817955.1	Geobacter pickeringii
+GCF_056821595.1	Geobacter psychrophilus
 GCF_000007985.2	Geobacter sulfurreducens PCA
 GCF_035593265.1	Geochorda subterranea
 GCF_900107105.1	Geodermatophilus africanus
@@ -10366,7 +10370,7 @@ GCF_002109495.1	Magnetofaba australis IT-1
 GCF_054657015.1	Magnetospira thiophila
 GCF_011022235.1	Magnetospirillum aberrantis SpK
 GCF_900108475.1	Magnetospirillum fulvum
-GCF_000513295.1	Magnetospirillum gryphiswaldense MSR-1 v2
+GCF_002995515.1	Magnetospirillum gryphiswaldense MSR-1
 GCF_000294655.1	Magnetospirillum molischianum DSM 120
 GCF_001650635.1	Magnetospirillum moscoviense
 GCF_018224925.1	Magnetospirillum sulfuroxidans
@@ -10657,6 +10661,7 @@ GCF_000428985.1	Marinobacterium litorale DSM 23545
 GCF_900108065.1	Marinobacterium lutimaris
 GCF_004339595.1	Marinobacterium mangrovicola
 GCF_013868415.1	Marinobacterium marinum
+GCF_982447095.1	Marinobacterium marisflavi
 GCF_039523155.1	Marinobacterium maritimum
 GCF_014645375.1	Marinobacterium nitratireducens
 GCF_001528745.1	Marinobacterium profundum
@@ -13748,7 +13753,7 @@ GCF_043195395.1	Paenibacillus ilasis
 GCF_004000925.1	Paenibacillus illinoisensis NBRC 15959
 GCF_001477135.1	Paenibacillus jamilae
 GCF_047238105.1	Paenibacillus jepli
-GCF_046098255.1	Paenibacillus jiagnxiensis
+GCF_046098255.1	Paenibacillus jiangxiensis
 GCF_010450915.1	Paenibacillus jilunlii
 GCF_040719145.1	Paenibacillus kandeliae
 GCF_004000825.1	Paenibacillus kobensis NBRC 15729
@@ -14448,6 +14453,8 @@ GCF_046237605.1	Paraperibacillus marinus
 GCF_003387535.1	Paraperlucidibaca baekdonensis
 GCF_042677145.1	Paraperlucidibaca wandonensis
 GCF_002216855.1	Paraphotobacterium marinum
+GCF_016863175.1	Paraplanobispora siamensis
+GCF_016863195.1	Paraplanobispora takensis
 GCF_009827635.1	Parapontixanthobacter aurantiacus
 GCF_000233955.1	Paraprevotella clara YIT 11840
 GCF_900683745.1	Paraprevotella xylaniphila YIT 11841
@@ -14533,6 +14540,8 @@ GCF_003335215.1	Parvibium lacunae
 GCF_907165195.1	Parvicella tangerina
 GCF_900637905.1	Parvimonas micra
 GCF_045866535.1	Parvimonas parva
+GCF_056863335.1	Parviterribacter kavangonensis
+GCF_056863265.1	Parviterribacter multiflagellatus
 GCF_023371205.1	Parvivirga hydrogeniphila
 GCF_000152825.2	Parvularcula bermudensis HTCC2503
 GCF_014199615.1	Parvularcula dongshanensis
@@ -14701,7 +14710,7 @@ GCF_005925345.2	Pedobacter ureilyticus
 GCF_042684385.1	Pedobacter vanadiisoli
 GCF_900182595.1	Pedobacter westerhofensis
 GCF_900215335.1	Pedobacter xixiisoli
-GCF_003173595.1	Pedobacter yonginense
+GCF_003173595.1	Pedobacter yonginensis
 GCF_003029735.1	Pedobacter yulinensis
 GCF_014641575.1	Pedobacter zeae
 GCF_003313335.1	Pedobacter zeaxanthinifaciens
@@ -15148,8 +15157,6 @@ GCF_904830955.1	Planktothrix tepida
 GCF_015354315.1	Planobacterium oryzisoli
 GCF_016863135.1	Planobispora longispora
 GCF_014648175.1	Planobispora rosea
-GCF_016863175.1	Planobispora siamensis
-GCF_016863195.1	Planobispora takensis
 GCF_018283455.1	Planococcus alpniumensis
 GCF_001687565.2	Planococcus antarcticus DSM 14505
 GCF_016820495.1	Planococcus beigongshangi
@@ -15187,10 +15194,9 @@ GCF_003014655.1	Planomicrobium soli
 GCF_030814955.1	Planomicrobium stackebrandtii
 GCF_039534085.1	Planomonospora alba
 GCF_977012225.1	Planomonospora algeriensis
+GCF_014647955.1	Planomonospora antibiotica
 GCF_042650625.1	Planomonospora corallina
-GCF_016863215.1	Planomonospora parontospora subsp. parontospora
-GCF_001653075.1	Planomonospora sphaerica
-GCF_014203605.1	Planomonospora venezuelensis
+GCF_001653075.1	Planomonospora parontospora subsp. sphaerica
 GCF_016862875.1	Planosporangium flavigriseum
 GCF_016863255.1	Planosporangium mesophilum
 GCF_049999945.1	Planosporangium spinosum
@@ -15963,7 +15969,7 @@ GCF_018343775.1	Pseudomonas cichorii
 GCF_049331905.1	Pseudomonas cimarronensis
 GCF_025336485.1	Pseudomonas citri
 GCF_001586155.1	Pseudomonas citronellolis
-GCF_030580855.1	Pseudomonas citrulli
+GCF_030580855.1	Pseudomonas citrullilanati
 GCF_900105555.1	Pseudomonas coleopterorum
 GCF_900103225.1	Pseudomonas congelans
 GCF_000156995.2	Pseudomonas coronafaciens pv. oryzae str. 1_6
@@ -16280,6 +16286,7 @@ GCF_054901235.1	Pseudonocardia artemisiae
 GCF_000423625.1	Pseudonocardia asaccharolytica DSM 44247 = NBRC 16224
 GCF_039526725.1	Pseudonocardia aurantiaca
 GCF_003945385.1	Pseudonocardia autotrophica
+GCF_054491035.1	Pseudonocardia autotrophica
 GCF_054491365.1	Pseudonocardia bannensis
 GCF_039543945.1	Pseudonocardia benzenivorans
 GCF_013155125.1	Pseudonocardia broussonetiae
@@ -16308,7 +16315,6 @@ GCF_017876315.1	Pseudonocardia parietis
 GCF_014235185.1	Pseudonocardia petroleophila
 GCF_046546475.1	Pseudonocardia phyllosphaerae
 GCF_013870575.1	Pseudonocardia pini
-GCF_054491035.1	Pseudonocardia saturnea
 GCF_004217185.1	Pseudonocardia sediminis
 GCF_054491015.1	Pseudonocardia sichuanensis
 GCF_000429025.1	Pseudonocardia spinosispora DSM 44797
@@ -17229,12 +17235,12 @@ GCF_018494055.1	Rosenbergiella epipactidis
 GCF_018494065.1	Rosenbergiella gaditana
 GCF_022602565.1	Rosenbergiella metrosideri
 GCF_900111105.1	Rosenbergiella nectarea
-GCF_042055075.2	Roseobacter algicola (ex Choi et al. 2025) (nom. illeg.)
 GCF_009811755.1	Roseobacter cerasinus
 GCF_002983865.1	Roseobacter denitrificans
 GCF_014337925.2	Roseobacter fucihabitans
 GCF_019375555.1	Roseobacter insulae
 GCF_000154785.2	Roseobacter litoralis Och 149
+GCF_042055075.2	Roseobacter phycocola
 GCF_012932215.1	Roseobacter ponti
 GCF_025755255.1	Roseobacter sinensis
 GCF_020622345.1	Roseobacter weihaiensis
@@ -17334,7 +17340,7 @@ GCF_000175615.1	Rothia mucilaginosa ATCC 25296
 GCF_042660305.1	Rothia nasimurium
 GCF_928381405.1	Rothia nasisuis
 GCF_024199905.1	Rothia santali
-GCF_029850985.2	Rothia similmucilaginosa
+GCF_029850985.2	Rothia similimucilaginosa
 GCF_014705925.2	Rothia terrae
 GCF_004137765.1	Rothia uropygialis
 GCF_004136585.1	Rothia uropygioeca
@@ -17754,7 +17760,6 @@ GCF_014643455.1	Sandarakinorhabdus glacialis
 GCF_000420765.1	Sandarakinorhabdus limnophila DSM 17366
 GCF_009733735.1	Sandarakinorhabdus oryzae
 GCF_010994245.1	Sandarakinorhabdus rubra
-GCF_910574005.1	Sangeribacter muris
 GCF_002564005.1	Sanguibacter antarcticus
 GCF_033798665.1	Sanguibacter biliveldensis
 GCF_900096585.1	Sanguibacter gelidistatuariae
@@ -18207,7 +18212,6 @@ GCF_034931225.1	Sinomonas terricola
 GCF_008932245.1	Sinorhizobium alkalisoli
 GCF_001889105.1	Sinorhizobium americanum
 GCF_000427465.1	Sinorhizobium arboris LMG 14919
-GCF_002078505.1	Sinorhizobium aridi
 GCF_036488675.1	Sinorhizobium chiapasense
 GCF_003177055.1	Sinorhizobium fredii CCBAU 25509
 GCF_029892065.1	Sinorhizobium garamanticum
@@ -18617,7 +18621,7 @@ GCF_007859635.1	Sphingomonas panacisoli
 GCF_036890205.1	Sphingomonas panaciterrae
 GCF_022664435.1	Sphingomonas panni
 GCF_000787715.1	Sphingomonas parapaucimobilis NBRC 15100
-GCF_004564275.1	Sphingomonas parva
+GCF_004564275.1	Sphingomonas parva (ex Maeng et al. 2020)
 GCF_016027095.1	Sphingomonas paucimobilis
 GCF_047238005.1	Sphingomonas phoenicis
 GCF_000427645.1	Sphingomonas phyllosphaerae FA2
@@ -20058,8 +20062,8 @@ GCF_039532845.1	Streptomyces violaceolatus
 GCF_033406955.1	Streptomyces violaceoruber
 GCF_000717995.1	Streptomyces violaceorubidus
 GCF_036014075.1	Streptomyces violaceus
+GCF_014650255.1	Streptomyces violaceus subsp. violarus
 GCF_039532925.1	Streptomyces violaceusniger
-GCF_014650255.1	Streptomyces violarus
 GCF_020521295.1	Streptomyces violascens
 GCF_000717745.1	Streptomyces violens
 GCF_039533845.1	Streptomyces virens
@@ -20831,6 +20835,7 @@ GCF_022760915.1	Thermus thalpophilus
 GCF_004307015.1	Thermus thermamylovorans
 GCF_000091545.1	Thermus thermophilus HB8
 GCF_018224955.1	Thetidibacter halocola
+GCF_014203605.1	Thiemannella venezuelensis
 GCF_003337735.1	Thioalbus denitrificans
 GCF_041197575.1	Thioalkalicoccus limnaeus
 GCF_002000365.1	Thioalkalivibrio denitrificans
