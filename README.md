@@ -190,6 +190,27 @@ mash screen -p 4 ${{ matrix.chunk }}.msh GCF_019048245.1_ASM1904824v1_genomic.fn
 head test.txt
 ```
 
+The output should look something like this
+
+```bash
+Loading test.msh...
+   15766794 distinct hashes.
+Streaming from GCF_019048245.1_ASM1904824v1_genomic.fna...
+   Estimated distinct k-mers in mixture: 4900608
+Summing shared...
+Computing coverage medians...
+Writing output...
+1	1000/1000	1	0	Enterobacter_hormaechei_GCF_019048245.1	[3 seqs] NZ_CP077308.1 Enterobacter hormaechei strain FDAARGOS 1433 chromosome, complete genome [...]
+0.94428	300/1000	1	0	Enterobacter_intestinihominis_GCF_048568405.1	[3 seqs] NZ_CP183772.1 Enterobacter intestinihominis strain JNQH618 chromosome, complete genome [...]
+0.939555	270/1000	1	0	Enterobacter_quasihormaechei_GCF_004331385.1	[51 seqs] NZ_SJON01000001.1 Enterobacter quasihormaechei strain WCHEQ120003 1, whole genome shotgun sequence [...]
+0.920851	177/1000	1	0	Enterobacter_pasteurii_GCF_014930725.1	[48 seqs] NZ_JADBRO010000001.1 Enterobacter pasteurii strain P40RS contig_0001, whole genome shotgun sequence [...]
+0.908727	134/1000	1	0	Enterobacter_chuandaensis_GCF_039718975.1	[2 seqs] NZ_CP097173.1 Enterobacter chuandaensis strain E20191216 chromosome, complete genome [...]
+0.906747	128/1000	1	0	Enterobacter_quasimori_GCF_018597345.1	[30 seqs] NZ_JAHEVU010000001.1 Enterobacter quasimori strain 120130 contig00001, whole genome shotgun sequence [...]
+0.906409	127/1000	1	0	Enterobacter_nematophilus_GCF_026344075.1	[19 seqs] NZ_JAPKNE010000001.1 Enterobacter nematophilus strain E-TC7 Strain6_1a_1, whole genome shotgun sequence [...]
+0.906067	126/1000	1	0	Enterobacter_bugandensis_GCF_900324475.1	NZ_LT992502.1 Enterobacter bugandensis isolate EB-247 chromosome I
+0.903965	120/1000	1	0	Enterobacter_oligotrophicus_GCF_009176645.1	NZ_AP019007.1 Enterobacter oligotrophicus strain CCA6 chromosome, complete genome
+0.901759	114/1000	1	0	Enterobacter_vonholyi_GCF_040834095.1	[2 seqs] NZ_CP162152.1 Enterobacter vonholyi strain STK80-C chromosome, complete genome [...]
+```
 
 
 ---
