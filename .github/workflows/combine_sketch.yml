@@ -177,13 +177,11 @@ jobs:
 
           # 2. Now track the patterns
           git lfs track "data/*.msh.gz"
-          git lfs track "*.msh.gz"
           
           # 3. Add everything back
           # This stages the .gitattributes, the deletions, and the new files
           git add .gitattributes
           git add data/
-          git add *.msh.gz
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
@@ -196,4 +194,3 @@ jobs:
             Combined 100 genomic sketch chunks from Step 2.
             - RefSeq Version: ${{ env.VERSION }}
             - Zenodo Update: Completed (RefSeqSketches_latest.msh.gz)
-            - Old version file removed from /data
