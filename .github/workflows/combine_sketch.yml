@@ -126,45 +126,45 @@ jobs:
           ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
         run: |
           # Start new version
-          #NEW_VER_JSON=$(curl -s -X POST "https://zenodo.org/api/deposit/depositions/${{ env.ZENODO_RECORD_ID }}/actions/newversion?access_token=$ZENODO_TOKEN")
-          #NEW_DRAFT_URL=$(echo $NEW_VER_JSON | jq -r '.links.latest_draft')
-          #NEW_DEP_ID=$(echo $NEW_DRAFT_URL | awk -F/ '{print $NF}')
+          NEW_VER_JSON=$(curl -s -X POST "https://zenodo.org/api/deposit/depositions/${{ env.ZENODO_RECORD_ID }}/actions/newversion?access_token=$ZENODO_TOKEN")
+          NEW_DRAFT_URL=$(echo $NEW_VER_JSON | jq -r '.links.latest_draft')
+          NEW_DEP_ID=$(echo $NEW_DRAFT_URL | awk -F/ '{print $NF}')
           
           # Get draft details and bucket URL
-          #DRAFT_DETAILS=$(curl -s "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN")
-          #BUCKET_URL=$(echo $DRAFT_DETAILS | jq -r '.links.bucket')
+          DRAFT_DETAILS=$(curl -s "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN")
+          BUCKET_URL=$(echo $DRAFT_DETAILS | jq -r '.links.bucket')
 
           # Clean up the draft: Delete the old versioned file cloned from the previous release
           # Keep the 'latest' file for now as it will be overwritten
-          #echo "$DRAFT_DETAILS" | jq -r '.files[] | select(.filename | contains("latest") | not) | .links.self' | while read file_url; do
-          #  curl -s -X DELETE "$file_url?access_token=$ZENODO_TOKEN"
-          #done
+          echo "$DRAFT_DETAILS" | jq -r '.files[] | select(.filename | contains("latest") | not) | .links.self' | while read file_url; do
+            curl -s -X DELETE "$file_url?access_token=$ZENODO_TOKEN"
+          done
 
           # Upload BOTH the versioned file and the 'latest' pointer
-          #curl -S -o /dev/null -T "data/${{ env.VERSIONED_FILENAME }}" "$BUCKET_URL/${{ env.VERSIONED_FILENAME }}?access_token=$ZENODO_TOKEN"
-          #curl -S -o /dev/null -T "${{ env.LATEST_FILENAME }}" "$BUCKET_URL/RefSeqSketches_latest.msh.gz?access_token=$ZENODO_TOKEN"
+          curl -S -o /dev/null -T "data/${{ env.VERSIONED_FILENAME }}" "$BUCKET_URL/${{ env.VERSIONED_FILENAME }}?access_token=$ZENODO_TOKEN"
+          curl -S -o /dev/null -T "${{ env.LATEST_FILENAME }}" "$BUCKET_URL/RefSeqSketches_latest.msh.gz?access_token=$ZENODO_TOKEN"
 
           # Update Metadata
-          #curl -s -X PUT "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" \
-          #  -H "Content-Type: application/json" \
-          #  -d "{
-          #        \"metadata\": {
-          #          \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
-          #          \"version\": \"${{ env.VERSION }}\",
-          #          \"upload_type\": \"dataset\",
-          #          \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. Methods and source code at https://github.com/erinyoung/update_mash_dist. Version: ${{ env.VERSION }}\",
-          #          \"creators\": [
-          #            {
-          #              \"name\": \"Young, Erin\",
-          #              \"orcid\": \"0000-0002-7535-006X\",
-          #              \"affiliation\": \"Unified Public Health Laboratory, Department of Health and Human Services, State of Utah\"
-          #            }
-          #          ]
-          #        }
-          #      }"
+          curl -s -X PUT "$NEW_DRAFT_URL?access_token=$ZENODO_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{
+                  \"metadata\": {
+                    \"title\": \"RefSeq Prokaryotic Mash Reference (v${{ env.VERSION }})\",
+                    \"version\": \"${{ env.VERSION }}\",
+                    \"upload_type\": \"dataset\",
+                    \"description\": \"Automated Mash sketch of RefSeq prokaryotic representative genomes. Methods and source code at https://github.com/erinyoung/update_mash_dist. Version: ${{ env.VERSION }}\",
+                    \"creators\": [
+                      {
+                        \"name\": \"Young, Erin\",
+                        \"orcid\": \"0000-0002-7535-006X\",
+                        \"affiliation\": \"Unified Public Health Laboratory, Department of Health and Human Services, State of Utah\"
+                      }
+                    ]
+                  }
+                }"
 
           # Publish to ZENODO
-          #curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
+          curl -s -X POST "https://zenodo.org/api/deposit/depositions/$NEW_DEP_ID/actions/publish?access_token=$ZENODO_TOKEN"
 
       - name: Setup Git LFS
         run: |
