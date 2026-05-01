@@ -170,25 +170,16 @@ jobs:
         run: |
           git lfs install
 
-          rm -rf all_sketches mash mash-* *.fna *.txt test.msh || true
+          rm -rf all_sketches mash mash-* *.fna *.txt test.msh RefSeqSketches_latest.msh.gz || true
 
-          tree 
-          
-          # Stop tracking everything currently in data
-          git rm -r --cached data/ || true
+          tree
       
           # Track only desired files
           git lfs track "data/*.msh.gz"
-      
-          # Respect .gitignore (recommended)
-          echo -e "data/*\n!data/*.msh.gz" >> .gitignore
-      
+          
           # Add only what you want
           git add .gitattributes
-          git add .gitignore
           git add data/*.msh.gz
-
-
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@main
