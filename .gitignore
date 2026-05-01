@@ -1,0 +1,4 @@
+data/*
+!data/*.msh.gz
+RefSeqSketches_latest.msh*
+all_sketches/*
