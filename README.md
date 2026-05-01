@@ -59,7 +59,9 @@ The logic follows these core bash routines.
 ```
 
 ### Stage 2: Download Genomes
-This repository uses GitHub accessions to split ids.txt into several files, which are processed in parallel.
+
+This repository uses GitHub accessions to split ids.txt into several files, which are processed in parallel. This is what it would behave like if not split.
+
 ```bash
 cut -f 1 ids.txt > accessions.txt
 datasets download genome accession --no-progressbar --inputfile accessions.txt --dehydrated --filename genomes.zip
@@ -69,32 +71,126 @@ datasets rehydrate --no-progressbar --directory genomes
 ```
 
 ### Stage 3: Add mash sketches
-```bash
-NEW_MASH=new
-TEMP_MASH=temp
-FINAL_MASH=final
 
+This repository uses GitHub accessions to split ids.txt into several files, which are processed in parallel. This is what it would behave like if not split.
+
+```bash
+ORIG_WORKSPACE=$(pwd)
+DATASET_WORKSPACE=$(pwd)/tmp_datasets_workspace
+CHUNK_FILE="ids.txt"
+
+cd $ORIG_WORKSPACE
+mkdir -p tmp_mash_workspace tmp_datasets_workspace
+
+# getting absolute paths for mash files
+NEW_MASH=$ORIG_WORKSPACE/new
+TEMP_MASH=$ORIG_WORKSPACE/temp
+FINAL_MASH=$ORIG_WORKSPACE/fin
+         
 while read line
 do
+  cd $ORIG_WORKSPACE
+  rm -rf $DATASET_WORKSPACE/*
+            
   id=$(echo "$line" | awk '{print $1}')
   ge=$(echo "$line" | awk '{print $2}')
   sp=$(echo "$line" | awk '{print $3}')
-  GENOME_PATH=$(find genomes/ncbi_dataset/data/${id} -name "*_genomic.fna" | head -n 1)
+
+  # getting values for line
+  echo "Looking for reference for"
+  echo "Genome accession: $id"
+  echo "Genus: $ge"
+  echo "Species: $sp"
+
+  # getting approximate line number for sanity
+  wc -l $CHUNK_FILE
+  grep -n $id $CHUNK_FILE
+
+  GENOME_PATH=""
+  # first looking to see if it downloaded in the batch (common)
+  if [ -d "genomes/ncbi_dataset/data/${id}" ]
+  then
+    GENOME_PATH=$(find genomes/ncbi_dataset/data/${id} -name "*_genomic.fna" | head -n 1)
+  fi
+
+  # if didn't download as batch, try again as individual
+  if [ ! -n "$GENOME_PATH" ]
+  then
+    cd $DATASET_WORKSPACE
+    rm -rf $DATASET_WORKSPACE/*
+             
+    MAX_RETRIES=10
+    attempt=0
+    success=false
+    echo "Accession $id was not found. Re-attempting download."
+              
+    until [ $attempt -ge $MAX_RETRIES ]
+    do
+      echo "Downloading attempt number $attempt"
+      datasets download genome accession "${id}" --no-progressbar --no-progressbar --filename ncbi_dataset.zip < /dev/null
+      if [ -f ncbi_dataset.zip ]
+      then
+        unzip ncbi_dataset.zip
+        GENOME_PATH=$(find ncbi_dataset/data -name "*_genomic.fna" | head -n 1)
+      fi
+                
+      if [ -n "$GENOME_PATH" ]
+      then
+        success=true
+        break
+      else
+        rm -rf $DATASET_WORKSPACE/*
+        attempt=$((attempt+1))
+        sleep $((attempt * 10))s
+      fi
+    done
+  fi
+
   if [ -n "$GENOME_PATH" ]
   then
     if [ ! -f "$FINAL_MASH.msh" ]
     then
       mash sketch "$GENOME_PATH" -o $FINAL_MASH -I "${ge}_${sp}_${id}"
+    else
+      mash sketch "$GENOME_PATH" -o $NEW_MASH -I "${ge}_${sp}_${id}"
+      mash paste $TEMP_MASH $FINAL_MASH.msh $NEW_MASH.msh
+      mv $TEMP_MASH.msh $FINAL_MASH.msh
+      rm $NEW_MASH.msh
     fi
   else
-    mash sketch "$GENOME_PATH" -o $NEW_MASH -I "${ge}_${sp}_${id}"
-    mash paste $TEMP_MASH $FINAL_MASH.msh $NEW_MASH.msh
-    mv $TEMP_MASH.msh $FINAL_MASH.msh
-    rm $NEW_MASH.msh
+    echo "Could not download the genome for $id"
+    echo "FAILURE"
+    # comment out the exit to press on
+    exit 1
   fi
-done < ids.txt
+done < $CHUNK_FILE
 ```
-Since the sketches are split and done in parallel, this repository will then paste the split msh into one final file.
+
+### Step 4. Verification
+```bash
+mash info -t fin.msh | cut -f 3 | grep G | rev | cut -f 1-2 -d _ | rev | sort | uniq > final_accessions.txt
+cat ids.txt | grep -vf final_accessions.txt > missing_accessions.txt
+          
+ORIGINAL_COUNT=$(wc -l < ids.txt)
+MASH_COUNT=$(wc -l < final_accessions.txt)
+MISSING_COUNT=$(wc -l < missing_accessions.txt)
+          
+echo "- **Total Accessions Expected:** $ORIGINAL_COUNT"
+echo "- **Total Accessions Sketched:** $MASH_COUNT"
+echo "- **Missing Accessions:** $MISSING_COUNT"
+```
+
+
+## Testing
+
+```bash
+wget -q --no-check-certificate https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/019/048/245/GCF_019048245.1_ASM1904824v1/GCF_019048245.1_ASM1904824v1_genomic.fna.gz
+gunzip GCF_019048245.1_ASM1904824v1_genomic.fna.gz
+mash screen -p 4 ${{ matrix.chunk }}.msh GCF_019048245.1_ASM1904824v1_genomic.fna | sort -gr > test.txt
+head test.txt
+```
+
+
 
 ---
 
